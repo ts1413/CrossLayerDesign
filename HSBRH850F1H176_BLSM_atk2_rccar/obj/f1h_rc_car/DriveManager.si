@@ -1,0 +1,4090 @@
+--Driver Command: ccrh850 -c -ansi -preprocess_assembly_files -srec -kanji=euc
+--		-noobj -no_callt -prepare_dispose -registermode=32 -keeptempfiles
+--		--no_commons -dual_debug -G -sda=all -reserve_r2 -large_sda
+--		-cpu=rh850g3m -mhard-float -DTOPPERS_USE_HFLOAT -Ospeed -Omax
+--		-Olink -Ointerproc --prototype_warnings -Wimplicit-int -Wshadow
+--		-Wundef -Wtrigraphs --assembler_warnings -linker_warnings
+--		--diag_suppress 174,188,191,767,177,826 -g -DTOPPERS_LABEL_ASM
+--		-D__v850e3v5__ -I. -I../../include -I../../arch -I../..
+--		-I../../target/rh850f1h_pb_ghs -I../../target/rh850f1h_pb_gcc
+--		-I../../arch/v850_ghs -I../../arch/v850_gcc -I../../arch/ghs
+--		DriveManager.c
+--Source File:   DriveManager.c
+--Directory:     
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
+--Compile Date:  Thu Sep 07 16:15:29 2017
+--Host OS:       Win32
+--Version:       C-RH850 2013.5.5 RELEASE VERSION
+--Release:       MULTI v2013.5.5-P13 v800
+--Custom Stamp:  BTO-1906 compiler interrupt routines did not save FPSR and
+--		FPEPC
+--Revision Date: Tue Mar 04 22:02:14 2014
+--Release Date:  Wed Mar 05 18:09:29 2014
+-- ecom  -g -w -OLM
+	.text
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+	.align	2
+..gh.f.f.1.e.0:
+	.type	..gh.f.f.1.e.0,@object
+	.size	..gh.f.f.1.e.0,0
+	.global	_blsm_motor_init
+_blsm_motor_init:
+--	    .bf
+.LDW01:
+	ld.hu	4290839556[zero],r17
+	andi	49055,r17,r18
+	st.h	r18,4290839556[zero]
+	ld.hu	4290839300[zero],r16
+	andi	49055,r16,r18
+	st.h	r18,4290839300[zero]
+	ld.hu	4290839560[zero],r15
+	movea	360,zero,r16
+	andi	65491,r15,r18
+	st.h	r18,4290839560[zero]
+	ld.hu	4290839304[zero],r14
+	movea	2049,zero,r15
+	andi	65491,r14,r18
+	st.h	r18,4290839304[zero]
+	ld.hu	4290839376[zero],r13
+	movea	1033,zero,r14
+	ori	18,r13,r18
+	st.h	r18,4290839376[zero]
+	ld.hu	4290854992[zero],r12
+	ori	18,r12,r18
+	st.h	r18,4290854992[zero]
+	ld.hu	4290839332[zero],r11
+	movea	20,zero,r12
+	ori	18,r11,r18
+	st.h	r18,4290839332[zero]
+	ld.hu	4290854948[zero],r10
+	ori	4,r10,r18
+	st.h	r18,4290854948[zero]
+	ld.hu	4290839296[zero],r9
+	movea	21,zero,r10
+	andi	64767,r9,r18
+	st.h	r18,4290839296[zero]
+	ld.hu	4290841088[zero],r8
+	andi	64767,r8,r18
+	st.h	r18,4290841088[zero]
+	ld.hu	4290840064[zero],r7
+	ori	768,r7,r18
+	st.h	r18,4290840064[zero]
+	ld.hu	4290839808[zero],r6
+	ori	768,r6,r18
+	st.h	r18,4290839808[zero]
+	ld.hu	4290839552[zero],r19
+	ori	768,r19,r18
+	st.h	r18,4290839552[zero]
+	st.h	zero,4293067328[zero]
+	movea	960,zero,r18
+	st.h	r18,4293066752[zero]
+	st.h	r18,4293066768[zero]
+	st.h	r16,4293066760[zero]
+	st.h	r15,4293067264[zero]
+	st.b	zero,4293066944[zero]
+	st.h	r14,4293067272[zero]
+	st.b	zero,4293066952[zero]
+	st.h	r14,4293067280[zero]
+	st.b	zero,4293066960[zero]
+	st.b	r12,4293066844[zero]
+	st.b	r12,4293067336[zero]
+	st.b	zero,4293067340[zero]
+	st.b	zero,4293066816[zero]
+	st.b	r10,4293067360[zero]
+	st.b	zero,4293067364[zero]
+--	    .ef
+.LDW11:
+	jmp	[lp]
+	.global	___ghs_eofn_blsm_motor_init
+___ghs_eofn_blsm_motor_init:
+	.type	_blsm_motor_init,@function
+	.size	_blsm_motor_init,.-_blsm_motor_init
+	.align	2
+--_wk	r18	local
+
+	.section ".bss","awb"
+.L1082:
+	.type	.L1082,@object
+	.size	.L1082,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.1:
+	.type	..gh.f.f.1.e.1,@object
+	.size	..gh.f.f.1.e.1,0
+	.global	_blsm_motor_start
+_blsm_motor_start:
+--	    .bf
+.LDW21:
+	movea	21,zero,r18
+	st.b	r18,4293067204[zero]
+--	    .ef
+.LDW31:
+	jmp	[lp]
+	.global	___ghs_eofn_blsm_motor_start
+___ghs_eofn_blsm_motor_start:
+	.type	_blsm_motor_start,@function
+	.size	_blsm_motor_start,.-_blsm_motor_start
+	.align	2
+
+	.section ".bss","awb"
+.L1287:
+	.type	.L1287,@object
+	.size	.L1287,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.2:
+	.type	..gh.f.f.1.e.2,@object
+	.size	..gh.f.f.1.e.2,0
+	.global	_blsm_motor_stop
+_blsm_motor_stop:
+--	    .bf
+.LDW41:
+	ld.hu	4290838572[zero],r17
+	movea	21,zero,r14
+	andi	65283,r17,r18
+	st.h	r18,4290838572[zero]
+	ld.hu	4290838532[zero],r16
+	andi	49055,r16,r18
+	st.h	r18,4290838532[zero]
+	ld.hu	4290838536[zero],r15
+	andi	65475,r15,r18
+	st.h	r18,4290838536[zero]
+	st.b	r14,4293067208[zero]
+--	    .ef
+.LDW51:
+	jmp	[lp]
+	.global	___ghs_eofn_blsm_motor_stop
+___ghs_eofn_blsm_motor_stop:
+	.type	_blsm_motor_stop,@function
+	.size	_blsm_motor_stop,.-_blsm_motor_stop
+	.align	2
+--_wk	r18	local
+
+	.section ".bss","awb"
+.L1394:
+	.type	.L1394,@object
+	.size	.L1394,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.3:
+	.type	..gh.f.f.1.e.3,@object
+	.size	..gh.f.f.1.e.3,0
+	.global	_SteerInit
+_SteerInit:
+--	    .bf
+.LDW61:
+	movea	20000,zero,r6
+	movea	1570,zero,r7
+	mov	0,r8
+	jr	_pwm_diag_init
+--	    .ef
+.LDW71:
+	.global	___ghs_eofn_SteerInit
+___ghs_eofn_SteerInit:
+	.type	_SteerInit,@function
+	.size	_SteerInit,.-_SteerInit
+	.align	2
+
+	.section ".bss","awb"
+.L1463:
+	.type	.L1463,@object
+	.size	.L1463,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.4:
+	.type	..gh.f.f.1.e.4,@object
+	.size	..gh.f.f.1.e.4,0
+	.global	_SetSteerAngle
+_SetSteerAngle:
+	sxb	r6
+--	    .bf
+.LDW81:
+	addi	63,r6,r17
+	addi	-128,r17,zero
+	bl	.L1487
+--line270
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.1::
+.LDWlin1:
+	movea	6400,zero,r16
+	cmp	zero,r6
+	blt	.L1492
+--line271
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.2::
+.LDWlin2:
+	ori	37000,zero,r19
+	movea	1570,zero,r18
+	mul	r6,r19,zero
+	divq	r16,r19,zero
+	sub	r19,r18
+	mov	r18,r6
+	jr	_pwm_diag_change_servo_duty
+.L1492:
+--line274
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.3::
+.LDWlin3:
+	mulhi	30000,r6,r18
+	subr	zero,r18
+	divq	r16,r18,zero
+	addi	1570,r18,r6
+	jr	_pwm_diag_change_servo_duty
+.L1487:
+--	    .ef
+.LDW91:
+--line279
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.4::
+.LDWlin4:
+	jmp	[lp]
+	.global	___ghs_eofn_SetSteerAngle
+___ghs_eofn_SetSteerAngle:
+	.type	_SetSteerAngle,@function
+	.size	_SetSteerAngle,.-_SetSteerAngle
+	.align	2
+--_servo_pwm	r18	local
+
+--_angle_val	r6	param
+
+	.section ".bss","awb"
+.L1582:
+	.type	.L1582,@object
+	.size	.L1582,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.5:
+	.type	..gh.f.f.1.e.5,@object
+	.size	..gh.f.f.1.e.5,0
+	.global	_DriveInit
+_DriveInit:
+	prepare	{r31},0
+--	    .bf
+.LDW02:
+	jarl	_SteerInit,lp
+--line288
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.5::
+.LDWlin5:
+	jarl	_blsm_motor_init,lp
+--line289
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.6::
+.LDWlin6:
+	jarl	_blsm_motor_start,lp
+--	    .ef
+.LDW12:
+--line290
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.7::
+.LDWlin7:
+	dispose	0,{r31},[lp]
+	.global	___ghs_eofn_DriveInit
+___ghs_eofn_DriveInit:
+	.type	_DriveInit,@function
+	.size	_DriveInit,.-_DriveInit
+	.align	2
+
+	.section ".bss","awb"
+.L1687:
+	.type	.L1687,@object
+	.size	.L1687,0
+	.data
+	.text
+	.align	2
+	.align	2
+	.align	2
+..gh.f.f.1.e.6:
+	.type	..gh.f.f.1.e.6,@object
+	.size	..gh.f.f.1.e.6,0
+	.global	_DrivingControl
+_DrivingControl:
+	prepare	{r31},0
+--	    .bf
+.LDW22:
+	ld.b	sdaoff23(_g_contcmd+2)[gp],r19
+	cmp	1,r19
+	bl	.L1877
+	be	.L1714
+	cmp	3,r19
+	bl	.L1715
+	bnh	.L1718
+.L1877:
+	ld.b	sdaoff23(_steer_neutral)[gp],r18
+	ld.b	sdaoff23(_g_contcmd)[gp],r6
+	add	r18,r6
+	sxb	r6
+	jarl	_SetSteerAngle,lp
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r19
+	ld.bu	sdaoff23(_g_contcmd+3)[gp],r18
+	mulhi	200,r19,r17
+	cmp	zero,r18
+	be	.L1722
+	br	.L1723
+.L1714:
+--line307
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.8::
+.LDWlin8:
+	ld.b	sdaoff23(_g_contcmd)[gp],r6
+	mov	8,r14
+	st.b	zero,sdaoff23(_steer_neutral)[gp]
+	st.b	r14,sdaoff23(___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	jarl	_SetSteerAngle,lp
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r19
+	ld.bu	sdaoff23(_g_contcmd+3)[gp],r18
+	mulhi	200,r19,r17
+	cmp	zero,r18
+	be	.L1722
+	br	.L1723
+.L1715:
+--line310
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.9::
+.LDWlin9:
+	ld.b	sdaoff23(_steer_neutral)[gp],r18
+	addi	32,r18,zero
+	ble	.L1716
+--line311
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.10::
+.LDWlin10:
+	add	-1,r18
+	st.b	r18,sdaoff23(_steer_neutral)[gp]
+.L1716:
+	ld.b	sdaoff23(_g_contcmd)[gp],r6
+	mov	8,r13
+	st.b	r13,sdaoff23(___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	add	r18,r6
+	sxb	r6
+	jarl	_SetSteerAngle,lp
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r19
+	ld.bu	sdaoff23(_g_contcmd+3)[gp],r18
+	mulhi	200,r19,r17
+	cmp	zero,r18
+	be	.L1722
+	br	.L1723
+.L1718:
+--line317
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.11::
+.LDWlin11:
+	ld.b	sdaoff23(_steer_neutral)[gp],r18
+	addi	-32,r18,zero
+	bge	.L1719
+--line318
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.12::
+.LDWlin12:
+	add	1,r18
+	st.b	r18,sdaoff23(_steer_neutral)[gp]
+.L1719:
+	ld.b	sdaoff23(_g_contcmd)[gp],r6
+	mov	8,r12
+	st.b	r12,sdaoff23(___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	add	r18,r6
+	sxb	r6
+	jarl	_SetSteerAngle,lp
+--line331
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.13::
+.LDWlin13:
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r19
+	ld.bu	sdaoff23(_g_contcmd+3)[gp],r18
+	mulhi	200,r19,r17
+	cmp	zero,r18
+	be	.L1722
+.L1723:
+--line335
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.14::
+.LDWlin14:
+	addi	499,r17,r18
+	addi	-999,r18,zero
+	bnl	.L1742
+--line336
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.15::
+.LDWlin15:
+	cmp	zero,r17
+	ble	.L1728
+--line336
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.16::
+.LDWlin16:
+	addi	-500,r17,r17
+	st.h	r17,sdaoff23(_blsm_speed)[gp]
+	st.w	r17,sdaoff23(.L2123)[gp]
+	dispose	0,{r31},[lp]
+.L1728:
+--line337
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.17::
+.LDWlin17:
+	addi	500,r17,r17
+	st.h	r17,sdaoff23(_blsm_speed)[gp]
+	st.w	r17,sdaoff23(.L2123)[gp]
+	dispose	0,{r31},[lp]
+.L1722:
+--line341
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.18::
+.LDWlin18:
+	ld.w	sdaoff23(.L2123)[gp],r16
+	mov	r17,r15
+	sub	r16,r15
+	addi	-100,r15,zero
+	ble	.L1732
+--line342
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.19::
+.LDWlin19:
+	addi	99,r16,r17
+	addi	-99,r17,zero
+	bnl	.L1742
+--line343
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.20::
+.LDWlin20:
+	addi	100,r16,r17
+	st.h	r17,sdaoff23(_blsm_speed)[gp]
+	st.w	r17,sdaoff23(.L2123)[gp]
+	dispose	0,{r31},[lp]
+.L1732:
+--line345
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.21::
+.LDWlin21:
+	addi	100,r15,zero
+	bge	.L1731
+--line346
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.22::
+.LDWlin22:
+	addi	-1,r16,r15
+	addi	-99,r15,zero
+	bl	.L1741
+.L1742:
+--line346
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.23::
+.LDWlin23:
+	st.h	zero,sdaoff23(_blsm_speed)[gp]
+	st.w	zero,sdaoff23(.L2123)[gp]
+	dispose	0,{r31},[lp]
+.L1741:
+--line347
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.24::
+.LDWlin24:
+	addi	-100,r16,r17
+.L1731:
+	st.h	r17,sdaoff23(_blsm_speed)[gp]
+	st.w	r17,sdaoff23(.L2123)[gp]
+--	    .ef
+.LDW32:
+	dispose	0,{r31},[lp]
+	.global	___ghs_eofn_DrivingControl
+___ghs_eofn_DrivingControl:
+	.type	_DrivingControl,@function
+	.size	_DrivingControl,.-_DrivingControl
+	.align	2
+--_pre_speed	sdaoff23(.L2123)	static
+--_speed	r17	local
+
+	.section ".bss","awb"
+.L2040:
+	.type	.L2040,@object
+	.size	.L2040,0
+	.section ".sdata","aw"
+	.align	4
+.L2123:
+	.global	_pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0
+_pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0:
+	.type	_pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0,@object
+	.size	_pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0,4
+	.byte	0,0,0,0
+	.type	.L2123,@object
+	.size	.L2123,4
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.7:
+	.type	..gh.f.f.1.e.7,@object
+	.size	..gh.f.f.1.e.7,0
+	.global	_BodyControl
+_BodyControl:
+--	    .bf
+.LDW42:
+	ld.bu	sdaoff23(.L3499)[gp],r16
+	addi	-151,r16,zero
+	bl	.L2287
+--line380
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.25::
+.LDWlin25:
+	mov	r16,r10
+	movea	25,zero,r8
+	divq	r8,r10,zero
+	shr	1,r10
+	bl	.L2289
+	addi	-150,r16,zero
+	be	.L2289
+--line386
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.26::
+.LDWlin26:
+	mov	1,r13
+	mov	3,r6
+	mov	sdaoff23(_g_bodycmd),ep
+	sst.b	r13,0[ep]
+	addi	1,r16,r19
+	sst.b	r13,1[ep]
+	sst.b	r13,2[ep]
+	sst.b	r13,3[ep]
+	sst.b	r6,4[ep]
+	sst.b	r13,5[ep]
+	st.b	r19,sdaoff23(.L3499)[gp]
+	jmp	[lp]
+.L2289:
+--line396
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.27::
+.LDWlin27:
+	mov	sdaoff23(_g_bodycmd),ep
+	sst.b	zero,0[ep]
+	addi	1,r16,r19
+	sst.b	zero,1[ep]
+	sst.b	zero,2[ep]
+	sst.b	zero,3[ep]
+	sst.b	zero,4[ep]
+	sst.b	zero,5[ep]
+	st.b	r19,sdaoff23(.L3499)[gp]
+	jmp	[lp]
+.L2287:
+--line405
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.28::
+.LDWlin28:
+	ld.bu	sdaoff23(.L3505)[gp],r18
+	cmp	zero,r18
+	bne	.L2845
+	ld.bu	sdaoff23(_g_contcmd+4)[gp],r17
+	cmp	1,r17
+	be	.L2295
+.L2845:
+	ld.bu	sdaoff23(.L3506)[gp],r15
+	ld.bu	sdaoff23(.L3500)[gp],r12
+	cmp	zero,r15
+	bne	.L2843
+	br	.L2299
+.L2295:
+--line406
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.29::
+.LDWlin29:
+	ld.bu	sdaoff23(.L3500)[gp],r16
+	ld.bu	sdaoff23(.L3506)[gp],r15
+	cmp	zero,r16
+	setfe	r12
+	cmp	zero,r15
+	st.b	r12,sdaoff23(.L3500)[gp]
+	bne	.L2843
+.L2299:
+	ld.bu	sdaoff23(_g_contcmd+5)[gp],r14
+	cmp	1,r14
+	be	.L2298
+.L2843:
+	ld.bu	sdaoff23(.L3507)[gp],r10
+	ld.bu	sdaoff23(.L3501)[gp],r11
+	cmp	zero,r10
+	bne	.L2300
+	br	.L2302
+.L2298:
+--line409
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.30::
+.LDWlin30:
+	ld.bu	sdaoff23(.L3501)[gp],r13
+	ld.bu	sdaoff23(.L3507)[gp],r10
+	cmp	zero,r13
+	setfe	r11
+	cmp	zero,r10
+	st.b	r11,sdaoff23(.L3501)[gp]
+	bne	.L2300
+.L2302:
+	ld.bu	sdaoff23(_g_contcmd+8)[gp],r9
+	cmp	1,r9
+	bne	.L2300
+--line412
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.31::
+.LDWlin31:
+	ld.bu	sdaoff23(.L3502)[gp],r7
+	cmp	zero,r7
+	setfe	r8
+	st.b	r8,sdaoff23(.L3502)[gp]
+.L2300:
+	ld.bu	sdaoff23(.L3508)[gp],r6
+	cmp	zero,r6
+	bne	.L2303
+	ld.bu	sdaoff23(_g_contcmd+7)[gp],r19
+	cmp	1,r19
+	bne	.L2303
+--line415
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.32::
+.LDWlin32:
+	ld.bu	sdaoff23(.L3503)[gp],r17
+	cmp	zero,r17
+	setfe	r18
+	st.b	r18,sdaoff23(.L3503)[gp]
+.L2303:
+	ld.bu	sdaoff23(.L3509)[gp],r16
+	cmp	zero,r16
+	bne	.L2306
+	ld.bu	sdaoff23(_g_contcmd+6)[gp],r15
+	cmp	1,r15
+	bne	.L2306
+--line418
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.33::
+.LDWlin33:
+	ld.bu	sdaoff23(.L3504)[gp],r13
+	cmp	zero,r13
+	setfe	r14
+	st.b	r14,sdaoff23(.L3504)[gp]
+.L2306:
+	cmp	1,r12
+	setfe	r18
+	cmp	1,r11
+	mov	sdaoff23(_g_bodycmd),ep
+	sst.b	r18,0[ep]
+	setfe	r17
+	sst.b	r17,1[ep]
+	ld.bu	sdaoff23(_g_contcmd+3)[gp],r12
+	ld.bu	sdaoff23(___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp],r15
+	cmp	1,r12
+	setfe	r16
+	sst.b	r16,2[ep]
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r9
+	shr	31,r9
+	cmp	zero,r15
+	sst.b	r9,3[ep]
+	bne	.L2326
+	ld.bu	sdaoff23(___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp],r18
+	cmp	zero,r18
+	bne	.L2331
+	ld.bu	sdaoff23(___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp],r17
+	cmp	zero,r17
+	bne	.L2336
+--line476
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.34::
+.LDWlin34:
+	ld.bu	sdaoff23(.L3502)[gp],r11
+	cmp	1,r11
+	be	.L2339
+	ld.bu	sdaoff23(.L3503)[gp],r10
+	ld.bu	sdaoff23(.L3504)[gp],r8
+	cmp	1,r10
+	bne	.L2343
+	cmp	1,r8
+	bne	.L2344
+.L2339:
+--line478
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.35::
+.LDWlin35:
+	mov	6,r14
+	st.b	r14,sdaoff23(_g_bodycmd+4)[gp]
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r6
+	cmp	zero,r6
+	cmovlt	2,zero,r7
+	br	.L2351
+.L2326:
+--line462
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.36::
+.LDWlin36:
+	add	-1,r15
+	ld.bu	sdaoff23(___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp],r18
+	zxb	r15
+	cmp	zero,r15
+	cmovne	3,zero,r6
+	st.b	r15,sdaoff23(___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	st.b	r6,sdaoff23(_g_bodycmd+4)[gp]
+	cmp	zero,r18
+	be	.L2330
+.L2331:
+--line466
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.37::
+.LDWlin37:
+	add	-1,r18
+	zxb	r18
+	cmp	zero,r18
+	cmovne	2,zero,r19
+	st.b	r18,sdaoff23(___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	st.b	r19,sdaoff23(_g_bodycmd+4)[gp]
+.L2330:
+	ld.bu	sdaoff23(___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp],r17
+	cmp	zero,r17
+	be	.L2337
+.L2336:
+--line470
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.38::
+.LDWlin38:
+	add	-1,r17
+	zxb	r17
+	cmp	zero,r17
+	setfne	r14
+	st.b	r14,sdaoff23(_g_bodycmd+4)[gp]
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r6
+	st.b	r17,sdaoff23(___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf)[gp]
+	cmp	zero,r6
+	cmovlt	2,zero,r7
+	br	.L2351
+.L2344:
+--line482
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.39::
+.LDWlin39:
+	mov	5,r14
+	st.b	r14,sdaoff23(_g_bodycmd+4)[gp]
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r6
+	cmp	zero,r6
+	cmovlt	2,zero,r7
+	br	.L2351
+.L2343:
+--line485
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.40::
+.LDWlin40:
+	cmp	1,r8
+	cmove	4,zero,r14
+	st.b	r14,sdaoff23(_g_bodycmd+4)[gp]
+.L2337:
+	ld.b	sdaoff23(_g_contcmd+1)[gp],r6
+	cmp	zero,r6
+	cmovlt	2,zero,r7
+.L2351:
+	st.b	r7,sdaoff23(_g_bodycmd+5)[gp]
+	mov	sdaoff23(_g_contcmd),ep
+	sld.bu	4[ep],r19
+	sld.bu	5[ep],r18
+	sld.bu	8[ep],r17
+	sld.bu	7[ep],r16
+	sld.bu	6[ep],r15
+	st.b	r19,sdaoff23(.L3505)[gp]
+	st.b	r18,sdaoff23(.L3506)[gp]
+	st.b	r17,sdaoff23(.L3507)[gp]
+	st.b	r16,sdaoff23(.L3508)[gp]
+	st.b	r15,sdaoff23(.L3509)[gp]
+--	    .ef
+.LDW52:
+	jmp	[lp]
+	.global	___ghs_eofn_BodyControl
+___ghs_eofn_BodyControl:
+	.type	_BodyControl,@function
+	.size	_BodyControl,.-_BodyControl
+	.align	2
+--_start_cnt	sdaoff23(.L3499)	static
+--_toggle_headlamp	sdaoff23(.L3500)	static
+--_toggle_foglamp	sdaoff23(.L3501)	static
+--_toggle_hazard	sdaoff23(.L3502)	static
+--_toggle_winker_r	sdaoff23(.L3503)	static
+--_toggle_winker_l	sdaoff23(.L3504)	static
+--_pre_headlamp	sdaoff23(.L3505)	static
+--_pre_foglamp	sdaoff23(.L3506)	static
+--_pre_hazard	sdaoff23(.L3507)	static
+--_pre_winker_r	sdaoff23(.L3508)	static
+--_pre_winker_l	sdaoff23(.L3509)	static
+
+	.section ".bss","awb"
+.L3352:
+	.type	.L3352,@object
+	.size	.L3352,0
+	.section ".sdata","aw"
+.L3499:
+	.global	_start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1
+_start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1:
+	.type	_start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1,@object
+	.size	_start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1,1
+	.byte	0
+	.type	.L3499,@object
+	.size	.L3499,1
+.L3500:
+	.global	_toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2
+_toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2:
+	.type	_toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2,@object
+	.size	_toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2,1
+	.byte	0
+	.type	.L3500,@object
+	.size	.L3500,1
+.L3501:
+	.global	_toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3
+_toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3:
+	.type	_toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3,@object
+	.size	_toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3,1
+	.byte	0
+	.type	.L3501,@object
+	.size	.L3501,1
+.L3502:
+	.global	_toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4
+_toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4:
+	.type	_toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4,@object
+	.size	_toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4,1
+	.byte	0
+	.type	.L3502,@object
+	.size	.L3502,1
+.L3503:
+	.global	_toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5
+_toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5:
+	.type	_toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5,@object
+	.size	_toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5,1
+	.byte	0
+	.type	.L3503,@object
+	.size	.L3503,1
+.L3504:
+	.global	_toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6
+_toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6:
+	.type	_toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6,@object
+	.size	_toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6,1
+	.byte	0
+	.type	.L3504,@object
+	.size	.L3504,1
+.L3505:
+	.global	_pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7
+_pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7:
+	.type	_pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7,@object
+	.size	_pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7,1
+	.byte	0
+	.type	.L3505,@object
+	.size	.L3505,1
+.L3506:
+	.global	_pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8
+_pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8:
+	.type	_pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8,@object
+	.size	_pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8,1
+	.byte	0
+	.type	.L3506,@object
+	.size	.L3506,1
+.L3507:
+	.global	_pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9
+_pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9:
+	.type	_pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9,@object
+	.size	_pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9,1
+	.byte	0
+	.type	.L3507,@object
+	.size	.L3507,1
+.L3508:
+	.global	_pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10
+_pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10:
+	.type	_pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10,@object
+	.size	_pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10,1
+	.byte	0
+	.type	.L3508,@object
+	.size	.L3508,1
+.L3509:
+	.global	_pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11
+_pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11:
+	.type	_pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11,@object
+	.size	_pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11,1
+	.byte	0
+	.type	.L3509,@object
+	.size	.L3509,1
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.8:
+	.type	..gh.f.f.1.e.8,@object
+	.size	..gh.f.f.1.e.8,0
+	.global	_TaskMainDriveManagerTask
+_TaskMainDriveManagerTask:
+	prepare	{r31},0
+--	    .bf
+.LDW62:
+	ld.bu	sdaoff23(.L3862)[gp],r18
+	cmp	zero,r18
+	bne	.L3782
+--line525
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.41::
+.LDWlin41:
+	mov	6,r6
+	mov	rosdaoff23(.L3863),r7
+	jarl	_syslog,lp
+--line526
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.42::
+.LDWlin42:
+	mov	1,r17
+	st.b	r17,sdaoff23(.L3862)[gp]
+.L3782:
+	jarl	_DrivingControl,lp
+--line533
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.43::
+.LDWlin43:
+	jarl	_BodyControl,lp
+--line535
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.44::
+.LDWlin44:
+	jarl	_TerminateTask,lp
+--	    .ef
+.LDW72:
+--line536
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager.45::
+.LDWlin45:
+	dispose	0,{r31},[lp]
+	.global	___ghs_eofn_TaskMainDriveManagerTask
+___ghs_eofn_TaskMainDriveManagerTask:
+	.type	_TaskMainDriveManagerTask,@function
+	.size	_TaskMainDriveManagerTask,.-_TaskMainDriveManagerTask
+	.align	2
+--_executed	sdaoff23(.L3862)	static
+--.L3844	rosdaoff23(.L3863)	static
+
+	.section ".bss","awb"
+.L3843:
+	.type	.L3843,@object
+	.size	.L3843,0
+	.section ".sdata","aw"
+.L3862:
+	.global	_executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12
+_executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12:
+	.type	_executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12,@object
+	.size	_executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12,1
+	.byte	0
+	.type	.L3862,@object
+	.size	.L3862,1
+	.section ".rosdata","a"
+	.align	4
+.L3863:--	"DriveManagerTask : Start!"
+	.byte	68,114,105,118
+	.byte	101,77,97,110
+	.byte	97,103,101,114
+	.byte	84,97,115,107
+	.byte	32,58,32,83
+	.byte	116,97,114,116
+	.byte	33,0
+	.space	2
+	.type	.L3863,@object
+	.size	.L3863,28
+	.data
+	.text
+	.align	2
+--_g_bodycmd	sdaoff23(_g_bodycmd)	import
+--_g_contcmd	sdaoff23(_g_contcmd)	import
+--_blsm_speed	sdaoff23(_blsm_speed)	import
+
+	.section ".sdata","aw"
+	.global	_steer_neutral
+_steer_neutral:	.byte	0
+	.type	_steer_neutral,@object
+	.size	_steer_neutral,1
+	.global	___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf:	.byte	0
+	.type	___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,@object
+	.size	___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,1
+	.global	___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf:	.byte	0
+	.type	___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,@object
+	.size	___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,1
+	.global	___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf:	.byte	0
+	.type	___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,@object
+	.size	___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf,1
+	.data
+	.ghsnote version,14
+	.ghsnote tools,3
+	.ghsnote options,144
+	.text
+	.align	2
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+	.section	.debug_info
+.Ldw_begin:
+	.word	.Ldw_end-.Ldw_begin-4
+	.byte	2,0
+	.word	.Ldw_abbr_begin
+	.byte	4
+	.section	.debug_abbrev
+.Ldw_abbr_begin:
+	.section	.debug_info
+	.byte	1
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
+	.strz	"DriveManager.c"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"GHS C 2013.5.5 [dual]"
+	.byte	1,0
+	.word	.Ldw_line_begin
+	.word	.Ldw_macinfo_begin
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	1
+	.byte	17
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	3,8
+	.byte	27,8
+	.byte	37,8
+	.byte	19,5
+	.byte	16,6
+	.byte	67,6
+	.byte	66,11
+	.byte	0,0
+
+	.section	.debug_line
+.Ldw_line_begin:
+	.word	.Ldw_line_end-.Ldw_line_begin-4
+	.byte	2,0
+	.word	.Ldw_lpro_end-.Ldw_lpro_begin
+.Ldw_lpro_begin:
+	.byte	1
+	.byte	0
+	.byte	0
+	.byte	4
+	.byte	10
+	.byte	0,1,1
+	.byte	1,1,0
+	.byte	0,0,1
+	.byte	0
+	.strz	"DriveManager.c"
+	.byte	0,0,0
+	.strz	"../../include/Os.h"
+	.byte	0,0,0
+	.strz	"../../include/Std_Types.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/Platform_Types.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\stdint.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler_Cfg.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\limits.h"
+	.byte	0,0,0
+	.strz	"../../include/MemMap.h"
+	.byte	0,0,0
+	.strz	"../../include/Rte_Os_Type.h"
+	.byte	0,0,0
+	.strz	".\\Rte_Type.h"
+	.byte	0,0,0
+	.strz	".\\Os_Cfg.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_kernel.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/rh850f1h_pb.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/rh850_f1h.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/v850.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_kernel.h"
+	.byte	0,0,0
+	.strz	".\\Os_Lcfg.h"
+	.byte	0,0,0
+	.strz	"ModelCarControl.h"
+	.byte	0,0,0
+	.strz	"../../include/t_syslog.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_sysmod.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_sil.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_ghs/prc_insn.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\include\\v800\\v800_ghs.h"
+	.byte	0,0,0
+	.byte	0
+.Ldw_lpro_end:
+	.section	.debug_macinfo
+.Ldw_macinfo_begin:
+	.section	.debug_frame
+.LDW_36ad5c0:
+	.word	.LDW_unq_2-.LDW_unq_1
+.LDW_unq_1:
+	.byte	255,255,255,255
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	31
+	.byte	12
+	.byte	3
+	.byte	0
+	.byte	7
+	.byte	0
+	.byte	7
+	.byte	1
+	.byte	7
+	.byte	2
+	.byte	7
+	.byte	3
+	.byte	7
+	.byte	4
+	.byte	7
+	.byte	5
+	.byte	7
+	.byte	6
+	.byte	7
+	.byte	7
+	.byte	7
+	.byte	8
+	.byte	7
+	.byte	9
+	.byte	7
+	.byte	10
+	.byte	7
+	.byte	11
+	.byte	7
+	.byte	12
+	.byte	7
+	.byte	13
+	.byte	7
+	.byte	14
+	.byte	7
+	.byte	15
+	.byte	7
+	.byte	16
+	.byte	7
+	.byte	17
+	.byte	7
+	.byte	18
+	.byte	7
+	.byte	19
+	.byte	8
+	.byte	20
+	.byte	8
+	.byte	21
+	.byte	8
+	.byte	22
+	.byte	8
+	.byte	23
+	.byte	8
+	.byte	24
+	.byte	8
+	.byte	25
+	.byte	8
+	.byte	26
+	.byte	8
+	.byte	27
+	.byte	8
+	.byte	28
+	.byte	8
+	.byte	29
+	.byte	7
+	.byte	30
+	.byte	8
+	.byte	31
+	.byte	7
+	.byte	32
+	.byte	7
+	.byte	33
+	.byte	7
+	.byte	34
+	.byte	7
+	.byte	35
+	.byte	7
+	.byte	36
+	.byte	7
+	.byte	37
+	.byte	7
+	.byte	38
+	.byte	7
+	.byte	39
+	.byte	7
+	.byte	40
+	.byte	7
+	.byte	41
+	.byte	7
+	.byte	42
+	.byte	7
+	.byte	43
+	.byte	7
+	.byte	44
+	.byte	7
+	.byte	45
+	.byte	7
+	.byte	46
+	.byte	7
+	.byte	47
+	.byte	7
+	.byte	48
+	.byte	7
+	.byte	49
+	.byte	7
+	.byte	50
+	.byte	7
+	.byte	51
+	.byte	7
+	.byte	52
+	.byte	7
+	.byte	53
+	.byte	7
+	.byte	54
+	.byte	7
+	.byte	55
+	.byte	7
+	.byte	56
+	.byte	7
+	.byte	57
+	.byte	7
+	.byte	58
+	.byte	7
+	.byte	59
+	.byte	7
+	.byte	60
+	.byte	7
+	.byte	61
+	.byte	7
+	.byte	62
+	.byte	7
+	.byte	63
+.LDW_unq_2:
+	.section	.debug_info
+.LDW_353a1c8:
+	.byte	37
+	.strz	"unsigned int"
+	.byte	7
+	.byte	4
+
+	.section	.debug_abbrev
+	.byte	37
+	.byte	36
+	.byte	0
+	.byte	3,8
+	.byte	62,11
+	.byte	11,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_353a3f8:
+	.byte	37
+	.strz	"void*"
+	.byte	1
+	.byte	4
+
+.LDW_353a4d8:
+	.byte	66
+	.word	.LDW_35f0780
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	66
+	.byte	21
+	.byte	1
+	.byte	73,16
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_353a580:
+	.byte	37
+	.strz	"unsigned short"
+	.byte	7
+	.byte	2
+
+.LDW_353a6d0:
+	.byte	37
+	.strz	"unsigned char"
+	.byte	8
+	.byte	1
+
+.LDW_353a820:
+	.byte	67
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	67
+	.byte	21
+	.byte	1
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f44b8:
+	.byte	18
+	.word	.LDW_353a3f8
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	18
+	.byte	5
+	.byte	0
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f44e8:
+	.byte	18
+	.word	.LDW_35f9220
+	.byte	0
+
+	.byte	0
+
+.LDW_353a858:
+	.byte	66
+	.word	.LDW_35f8ef0
+	.byte	1
+
+.LDW_35f4548:
+	.byte	18
+	.word	.LDW_353a3f8
+	.byte	0
+
+	.byte	0
+
+.LDW_353a890:
+	.byte	67
+	.byte	1
+
+.LDW_35f45a8:
+	.byte	18
+	.word	.LDW_353a3f8
+	.byte	0
+
+.LDW_35f45d8:
+	.byte	18
+	.word	.LDW_35f8ef0
+	.byte	0
+
+	.byte	0
+
+.LDW_35f93e0:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f9418:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f9450:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f9488:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f94f8:
+	.byte	37
+	.strz	"signed char"
+	.byte	6
+	.byte	1
+
+.LDW_35f94c0:
+	.byte	67
+	.byte	1
+
+.LDW_3627148:
+	.byte	18
+	.word	.LDW_35f9c18
+	.byte	0
+
+	.byte	0
+
+.LDW_35f9530:
+	.byte	37
+	.strz	"int"
+	.byte	5
+	.byte	4
+
+.LDW_35f9568:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f95a0:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f95d8:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f9610:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35f9648:
+	.byte	37
+	.strz	"int"
+	.byte	5
+	.byte	4
+
+.LDW_363a9a0:
+	.byte	56
+	.byte	0
+	.byte	6
+	.word	.LDW_35f9220
+
+	.section	.debug_abbrev
+	.byte	56
+	.byte	1
+	.byte	1
+	.byte	9,11
+	.byte	11,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	48
+	.word	.LDW_35f9648
+	.byte	4
+	.byte	0
+	.byte	5
+
+	.section	.debug_abbrev
+	.byte	48
+	.byte	33
+	.byte	0
+	.byte	73,16
+	.byte	11,15
+	.byte	34,13
+	.byte	47,13
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_35f9680:
+	.byte	37
+	.strz	"short"
+	.byte	5
+	.byte	2
+
+.LDW_35f9798:
+	.byte	37
+	.strz	"char"
+	.byte	6
+	.byte	1
+
+.LDW_363c020:
+	.byte	41
+	.word	.LDW_3533880
+
+	.section	.debug_abbrev
+	.byte	41
+	.byte	38
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f9a00:
+	.byte	45
+	.word	.LDW_363c020
+
+	.section	.debug_abbrev
+	.byte	45
+	.byte	15
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_363c078:
+	.byte	42
+	.word	.LDW_363a7f8
+
+	.section	.debug_abbrev
+	.byte	42
+	.byte	53
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_363c0d0:
+	.byte	42
+	.word	.LDW_35f91c8
+
+.LDW_363c128:
+	.byte	42
+	.word	.LDW_363bf70
+
+.LDW_35f5120:
+	.byte	66
+	.word	.LDW_3639a38
+	.byte	1
+
+	.byte	0
+
+.LDW_3643038:
+	.byte	67
+	.byte	1
+
+.LDW_3640390:
+	.byte	18
+	.word	.LDW_35f0780
+	.byte	0
+
+.LDW_36403c0:
+	.byte	18
+	.word	.LDW_35f9a00
+	.byte	0
+
+	.byte	68
+
+	.section	.debug_abbrev
+	.byte	68
+	.byte	24
+	.byte	0
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_363c390:
+	.byte	40
+	.strz	"__ghs_c_int__"
+	.byte	0
+	.byte	0
+	.byte	1
+	.word	.LDW_35f9648
+
+	.section	.debug_abbrev
+	.byte	40
+	.byte	22
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_3648038:
+	.byte	66
+	.word	.LDW_353a1c8
+	.byte	1
+
+.LDW_3643f20:
+	.byte	18
+	.word	.LDW_363c390
+	.byte	0
+
+.LDW_3643f50:
+	.byte	18
+	.word	.LDW_363c390
+	.byte	0
+
+	.byte	0
+
+.LDW_36483f0:
+	.byte	66
+	.word	.LDW_35f9648
+	.byte	0
+
+	.byte	0
+
+.LDW_3648428:
+	.byte	66
+	.word	.LDW_35f9648
+	.byte	0
+
+	.byte	0
+
+.LDW_35f91c8:
+	.byte	40
+	.strz	"boolean"
+	.byte	101
+	.byte	23
+	.byte	4
+	.word	.LDW_353a6d0
+
+.LDW_3533880:
+	.byte	40
+	.strz	"char8"
+	.byte	103
+	.byte	17
+	.byte	4
+	.word	.LDW_35f9798
+
+.LDW_35f9220:
+	.byte	40
+	.strz	"uint8"
+	.byte	104
+	.byte	24
+	.byte	4
+	.word	.LDW_353a6d0
+
+.LDW_35f9c18:
+	.byte	40
+	.strz	"sint8"
+	.byte	105
+	.byte	23
+	.byte	4
+	.word	.LDW_35f94f8
+
+.LDW_35f8ef0:
+	.byte	40
+	.strz	"uint16"
+	.byte	106
+	.byte	25
+	.byte	4
+	.word	.LDW_353a580
+
+.LDW_35338d8:
+	.byte	40
+	.strz	"sint16"
+	.byte	107
+	.byte	23
+	.byte	4
+	.word	.LDW_35f9680
+
+.LDW_35f0780:
+	.byte	40
+	.strz	"uint32"
+	.byte	108
+	.byte	23
+	.byte	4
+	.word	.LDW_353a1c8
+
+.LDW_3627860:
+	.byte	40
+	.strz	"sint32"
+	.byte	109
+	.byte	22
+	.byte	4
+	.word	.LDW_35f9530
+
+.LDW_3639a38:
+	.byte	40
+	.strz	"StatusType"
+	.byte	102
+	.byte	23
+	.byte	3
+	.word	.LDW_353a6d0
+
+.LDW_363a7a0:
+	.byte	63
+	.byte	166,1
+	.byte	16
+	.byte	19
+	.byte	6
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	63
+	.byte	19
+	.byte	1
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	11,15
+	.byte	50,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_363b718:
+	.byte	35
+	.strz	"headlamp"
+	.byte	167,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	35
+	.byte	13
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	56,10
+	.byte	50,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_363b760:
+	.byte	35
+	.strz	"foglamp"
+	.byte	168,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	1
+	.byte	1
+
+.LDW_363b7a8:
+	.byte	35
+	.strz	"brakelamp"
+	.byte	169,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	2
+	.byte	1
+
+.LDW_363b7f0:
+	.byte	35
+	.strz	"backlamp"
+	.byte	170,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	3
+	.byte	1
+
+.LDW_363b838:
+	.byte	35
+	.strz	"winker"
+	.byte	171,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f9220
+	.byte	2,35
+	.byte	4
+	.byte	1
+
+.LDW_363b880:
+	.byte	35
+	.strz	"buzzer"
+	.byte	172,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f9220
+	.byte	2,35
+	.byte	5
+	.byte	1
+
+	.byte	0
+
+.LDW_363a7f8:
+	.byte	40
+	.strz	"BODYCMD"
+	.byte	173,1
+	.byte	2
+	.byte	19
+	.word	.LDW_363a7a0
+
+.LDW_363a850:
+	.byte	63
+	.byte	193,1
+	.byte	16
+	.byte	19
+	.byte	9
+	.byte	1
+
+.LDW_363b8c8:
+	.byte	35
+	.strz	"angle"
+	.byte	194,1
+	.byte	8
+	.byte	19
+	.word	.LDW_35f9c18
+	.byte	2,35
+	.byte	0
+	.byte	1
+
+.LDW_363b910:
+	.byte	35
+	.strz	"speed"
+	.byte	195,1
+	.byte	8
+	.byte	19
+	.word	.LDW_35f9c18
+	.byte	2,35
+	.byte	1
+	.byte	1
+
+.LDW_363b958:
+	.byte	35
+	.strz	"steern"
+	.byte	196,1
+	.byte	8
+	.byte	19
+	.word	.LDW_35f9c18
+	.byte	2,35
+	.byte	2
+	.byte	1
+
+.LDW_363b9a0:
+	.byte	35
+	.strz	"brake"
+	.byte	198,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	3
+	.byte	1
+
+.LDW_363b9e8:
+	.byte	35
+	.strz	"headlamp"
+	.byte	199,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	4
+	.byte	1
+
+.LDW_363ba30:
+	.byte	35
+	.strz	"foglamp"
+	.byte	200,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	5
+	.byte	1
+
+.LDW_363ba78:
+	.byte	35
+	.strz	"winker_l"
+	.byte	201,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	6
+	.byte	1
+
+.LDW_363bac0:
+	.byte	35
+	.strz	"winker_r"
+	.byte	202,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	7
+	.byte	1
+
+.LDW_363bb08:
+	.byte	35
+	.strz	"hazard"
+	.byte	203,1
+	.byte	10
+	.byte	19
+	.word	.LDW_35f91c8
+	.byte	2,35
+	.byte	8
+	.byte	1
+
+	.byte	0
+
+.LDW_363bf70:
+	.byte	40
+	.strz	"CONTCMD"
+	.byte	204,1
+	.byte	2
+	.byte	19
+	.word	.LDW_363a850
+
+.LDW_35f6680:
+	.byte	5
+	.strz	"g_bodycmd"
+	.byte	178,1
+	.byte	25
+	.byte	19
+	.word	.LDW_363c078
+	.byte	1
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	5
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f6720:
+	.byte	5
+	.strz	"g_contcmd"
+	.byte	228,1
+	.byte	25
+	.byte	19
+	.word	.LDW_363c128
+	.byte	1
+	.byte	1
+
+.LDW_35f68b0:
+	.byte	5
+	.strz	"blsm_speed"
+	.byte	55
+	.byte	15
+	.byte	1
+	.word	.LDW_35338d8
+	.byte	1
+	.byte	1
+
+.LDW_35f6900:
+	.byte	4
+	.strz	"steer_neutral"
+	.byte	60
+	.byte	7
+	.byte	1
+	.word	.LDW_35f9c18
+	.byte	1
+	.byte	0
+	.byte	5,3
+	.word	_steer_neutral
+
+	.section	.debug_abbrev
+	.byte	4
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f6950:
+	.byte	4
+	.strz	"acklr_cnt"
+	.byte	71
+	.byte	14
+	.byte	1
+	.word	.LDW_35f9220
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+
+.LDW_35f69a0:
+	.byte	4
+	.strz	"ackr_cnt"
+	.byte	72
+	.byte	14
+	.byte	1
+	.word	.LDW_35f9220
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+
+.LDW_35f69f0:
+	.byte	4
+	.strz	"ackl_cnt"
+	.byte	73
+	.byte	14
+	.byte	1
+	.word	.LDW_35f9220
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
+
+.LDW_3610638:
+	.byte	22
+	.strz	"TerminateTask"
+	.byte	246,1
+	.byte	19
+	.byte	2
+	.word	.LDW_3639a38
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	22
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3642360:
+	.byte	21
+	.strz	"syslog"
+	.byte	239,1
+	.byte	13
+	.byte	20
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	21
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3644780:
+	.byte	22
+	.strz	"__STSR"
+	.byte	108
+	.byte	14
+	.byte	24
+	.word	.LDW_353a1c8
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_35f8db0:
+	.byte	22
+	.strz	"current_psw"
+	.byte	111
+	.byte	1
+	.byte	23
+	.word	.LDW_35f0780
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35f4128:
+	.byte	32
+
+	.section	.debug_abbrev
+	.byte	32
+	.byte	11
+	.byte	1
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+	.byte	0
+
+.LDW_360f238:
+	.byte	21
+	.strz	"sil_wrb_mem"
+	.byte	91
+	.byte	1
+	.byte	22
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35f1bb8:
+	.byte	16
+	.strz	"mem"
+	.byte	91
+	.byte	19
+	.byte	22
+	.word	.LDW_353a3f8
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	16
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f1c08:
+	.byte	16
+	.strz	"data"
+	.byte	91
+	.byte	30
+	.byte	22
+	.word	.LDW_35f9220
+	.byte	0
+
+.LDW_35f4518:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360f2d8:
+	.byte	22
+	.strz	"sil_reh_mem"
+	.byte	100
+	.byte	1
+	.byte	22
+	.word	.LDW_35f8ef0
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35f1c58:
+	.byte	16
+	.strz	"mem"
+	.byte	100
+	.byte	19
+	.byte	22
+	.word	.LDW_353a3f8
+	.byte	0
+
+.LDW_35f4578:
+	.byte	32
+
+.LDW_35f1ca8:
+	.byte	5
+	.strz	"data"
+	.byte	102
+	.byte	9
+	.byte	22
+	.word	.LDW_35f8ef0
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360f378:
+	.byte	21
+	.strz	"sil_wrh_mem"
+	.byte	109
+	.byte	1
+	.byte	22
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35f1cf8:
+	.byte	16
+	.strz	"mem"
+	.byte	109
+	.byte	19
+	.byte	22
+	.word	.LDW_353a3f8
+	.byte	0
+
+.LDW_35f1d48:
+	.byte	16
+	.strz	"data"
+	.byte	109
+	.byte	31
+	.byte	22
+	.word	.LDW_35f8ef0
+	.byte	0
+
+.LDW_35f4608:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360f878:
+	.byte	19
+	.strz	"blsm_motor_init"
+	.byte	110
+	.byte	6
+	.byte	1
+	.word	_blsm_motor_init
+	.word	___ghs_eofn_blsm_motor_init
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	19
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	17,1
+	.byte	18,1
+	.byte	64,10
+	.byte	131,65
+	.byte	15
+	.byte	135,65
+	.byte	13
+	.byte	133,65
+	.byte	15
+	.byte	134,65
+	.byte	13
+	.byte	146,65
+	.byte	15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_frame
+.LDW_36ee828:
+	.word	.LDW_unq_4-.LDW_unq_3
+.LDW_unq_3:
+	.word	.LDW_36ad5c0
+	.word	_blsm_motor_init
+	.word	___ghs_eofn_blsm_motor_init-_blsm_motor_init
+	.byte	1
+	.word	.LDW11
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_4:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_blsm_motor_init
+	.byte	6
+	.byte	3
+	.byte	250,0
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	52
+	.byte	37
+	.byte	52
+	.byte	37
+	.byte	3
+	.byte	199,0
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	187,127
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	37
+	.byte	3
+	.byte	196,0
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	190,127
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	3
+	.byte	9
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	60
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	70
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	37
+	.byte	52
+	.byte	37
+	.byte	3
+	.byte	56
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	74
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	37
+	.byte	52
+	.byte	3
+	.byte	8
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	46
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	84
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	37
+	.byte	52
+	.byte	37
+	.byte	52
+	.byte	37
+	.byte	52
+	.byte	37
+	.byte	52
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	36
+	.byte	51
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	18
+	.byte	1
+	.byte	61
+	.byte	36
+	.byte	35
+	.byte	61
+	.byte	35
+	.byte	35
+	.byte	61
+	.byte	35
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3626fc8:
+	.byte	29
+	.word	.LDW01
+	.word	.LDW11
+
+	.section	.debug_abbrev
+	.byte	29
+	.byte	11
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35f5f00:
+	.byte	4
+	.strz	"wk"
+	.byte	112
+	.byte	9
+	.byte	1
+	.word	.LDW_35f8ef0
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360f918:
+	.byte	19
+	.strz	"blsm_motor_start"
+	.byte	224,1
+	.byte	6
+	.byte	1
+	.word	_blsm_motor_start
+	.word	___ghs_eofn_blsm_motor_start
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_36ee928:
+	.word	.LDW_unq_6-.LDW_unq_5
+.LDW_unq_5:
+	.word	.LDW_36ad5c0
+	.word	_blsm_motor_start
+	.word	___ghs_eofn_blsm_motor_start-_blsm_motor_start
+	.byte	1
+	.word	.LDW31
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_6:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_blsm_motor_start
+	.byte	6
+	.byte	3
+	.byte	225,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	51
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3626ff8:
+	.byte	29
+	.word	.LDW21
+	.word	.LDW31
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360f9b8:
+	.byte	19
+	.strz	"blsm_motor_stop"
+	.byte	229,1
+	.byte	6
+	.byte	1
+	.word	_blsm_motor_stop
+	.word	___ghs_eofn_blsm_motor_stop
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_36eec68:
+	.word	.LDW_unq_8-.LDW_unq_7
+.LDW_unq_7:
+	.word	.LDW_36ad5c0
+	.word	_blsm_motor_stop
+	.word	___ghs_eofn_blsm_motor_stop-_blsm_motor_stop
+	.byte	1
+	.word	.LDW51
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_8:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_blsm_motor_stop
+	.byte	6
+	.byte	3
+	.byte	232,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	12
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	118
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	36
+	.byte	52
+	.byte	36
+	.byte	52
+	.byte	61
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3627028:
+	.byte	29
+	.word	.LDW41
+	.word	.LDW51
+
+.LDW_35f5f50:
+	.byte	4
+	.strz	"wk"
+	.byte	231,1
+	.byte	9
+	.byte	1
+	.word	.LDW_35f8ef0
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360fa58:
+	.byte	19
+	.strz	"SteerInit"
+	.byte	253,1
+	.byte	1
+	.byte	1
+	.word	_SteerInit
+	.word	___ghs_eofn_SteerInit
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_36eed68:
+	.word	.LDW_unq_a-.LDW_unq_9
+.LDW_unq_9:
+	.word	.LDW_36ad5c0
+	.word	_SteerInit
+	.word	___ghs_eofn_SteerInit-_SteerInit
+	.byte	1
+	.word	.LDW71
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_a:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_SteerInit
+	.byte	6
+	.byte	3
+	.byte	254,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	14
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3627118:
+	.byte	29
+	.word	.LDW61
+	.word	.LDW71
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3645180:
+	.byte	22
+	.strz	"pwm_diag_init"
+	.byte	255,1
+	.byte	3
+	.byte	1
+	.word	.LDW_35f9648
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+.LDW_360faf8:
+	.byte	19
+	.strz	"SetSteerAngle"
+	.byte	134,2
+	.byte	1
+	.byte	1
+	.word	_SetSteerAngle
+	.word	___ghs_eofn_SetSteerAngle
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_36eee68:
+	.word	.LDW_unq_c-.LDW_unq_b
+.LDW_unq_b:
+	.word	.LDW_36ad5c0
+	.word	_SetSteerAngle
+	.word	___ghs_eofn_SetSteerAngle-_SetSteerAngle
+	.byte	1
+	.word	.LDW91
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_c:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_SetSteerAngle
+	.byte	3
+	.byte	134,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	2
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin1
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin2
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin3
+	.byte	11
+	.byte	11
+	.byte	11
+	.byte	67
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin4
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35f5fa0:
+	.byte	15
+	.strz	"angle_val"
+	.byte	134,2
+	.byte	21
+	.byte	1
+	.word	.LDW_35f9c18
+	.byte	0
+	.byte	1,86
+
+	.section	.debug_abbrev
+	.byte	15
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_3627178:
+	.byte	29
+	.word	.LDW81
+	.word	.LDW91
+
+.LDW_35f5ff0:
+	.byte	4
+	.strz	"servo_pwm"
+	.byte	136,2
+	.byte	17
+	.byte	1
+	.word	.LDW_3627860
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3645220:
+	.byte	22
+	.strz	"pwm_diag_change_servo_duty"
+	.byte	149,2
+	.byte	5
+	.byte	1
+	.word	.LDW_35f9648
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+.LDW_360fb98:
+	.byte	19
+	.strz	"DriveInit"
+	.byte	157,2
+	.byte	1
+	.byte	1
+	.word	_DriveInit
+	.word	___ghs_eofn_DriveInit
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_372a160:
+	.word	.LDW_unq_e-.LDW_unq_d
+.LDW_unq_d:
+	.word	.LDW_36ad5c0
+	.word	_DriveInit
+	.word	___ghs_eofn_DriveInit-_DriveInit
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW12
+	.byte	68
+	.byte	223
+	.byte	0
+	.byte	0
+.LDW_unq_e:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_DriveInit
+	.byte	3
+	.byte	157,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	27
+	.byte	0,5,2
+	.word	.LDWlin5
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin6
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin7
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_36271a8:
+	.byte	29
+	.word	.LDW02
+	.word	.LDW12
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360fc38:
+	.byte	19
+	.strz	"DrivingControl"
+	.byte	168,2
+	.byte	1
+	.byte	1
+	.word	_DrivingControl
+	.word	___ghs_eofn_DrivingControl
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_372a260:
+	.word	.LDW_unq_10-.LDW_unq_f
+.LDW_unq_f:
+	.word	.LDW_36ad5c0
+	.word	_DrivingControl
+	.word	___ghs_eofn_DrivingControl-_DrivingControl
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW32
+.LDW_unq_10:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_DrivingControl
+	.byte	3
+	.byte	168,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin8
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin9
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	0,5,2
+	.word	.LDWlin10
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	45
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin11
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	0,5,2
+	.word	.LDWlin12
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	45
+	.byte	11
+	.byte	12
+	.byte	11
+	.byte	13
+	.byte	3
+	.byte	119
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin13
+	.byte	3
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	36
+	.byte	0,5,2
+	.word	.LDWlin14
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin15
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	0,5,2
+	.word	.LDWlin16
+	.byte	2
+	.byte	0
+	.byte	0,5,2
+	.word	.LDWlin17
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin18
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	127
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	11
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin19
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin20
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin21
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	0,5,2
+	.word	.LDWlin22
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	6
+	.byte	0,5,2
+	.word	.LDWlin23
+	.byte	3
+	.byte	117
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	7
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin24
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	125
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	35
+	.byte	35
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_36271d8:
+	.byte	29
+	.word	.LDW22
+	.word	.LDW32
+
+.LDW_35f6040:
+	.byte	4
+	.strz	"speed"
+	.byte	171,2
+	.byte	9
+	.byte	1
+	.word	.LDW_3627860
+	.byte	0
+	.byte	0
+	.byte	1,97
+
+.LDW_35f6090:
+	.byte	4
+	.strz	"pre_speed"
+	.byte	172,2
+	.byte	16
+	.byte	1
+	.word	.LDW_3627860
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360fcd8:
+	.byte	19
+	.strz	"BodyControl"
+	.byte	234,2
+	.byte	1
+	.byte	1
+	.word	_BodyControl
+	.word	___ghs_eofn_BodyControl
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_372a360:
+	.word	.LDW_unq_12-.LDW_unq_11
+.LDW_unq_11:
+	.word	.LDW_36ad5c0
+	.word	_BodyControl
+	.word	___ghs_eofn_BodyControl-_BodyControl
+	.byte	1
+	.word	.LDW52
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_12:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_BodyControl
+	.byte	6
+	.byte	3
+	.byte	249,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin25
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin26
+	.byte	11
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	27
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	19
+	.byte	0,5,2
+	.word	.LDWlin27
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	11
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	36
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	118
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	9
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	13
+	.byte	6
+	.byte	3
+	.byte	120
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	19
+	.byte	19
+	.byte	19
+	.byte	0,5,2
+	.word	.LDWlin28
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	12
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin29
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	35
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin30
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	35
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin31
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	83
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin32
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	83
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin33
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	91
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	18
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	3
+	.byte	13
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	114
+	.byte	2
+	.byte	12
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin34
+	.byte	3
+	.byte	23
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	11
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin35
+	.byte	11
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin36
+	.byte	3
+	.byte	110
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	20
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin37
+	.byte	12
+	.byte	11
+	.byte	27
+	.byte	83
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin38
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	27
+	.byte	0,5,2
+	.word	.LDWlin39
+	.byte	3
+	.byte	8
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	12
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin40
+	.byte	11
+	.byte	12
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	6
+	.byte	12
+	.byte	12
+	.byte	11
+	.byte	35
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	122
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	124
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	8
+	.byte	11
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	67
+	.byte	19
+	.byte	19
+	.byte	19
+	.byte	139
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3627208:
+	.byte	29
+	.word	.LDW42
+	.word	.LDW52
+
+.LDW_35f60e0:
+	.byte	4
+	.strz	"start_cnt"
+	.byte	236,2
+	.byte	15
+	.byte	1
+	.word	.LDW_35f9220
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1
+
+.LDW_35f6130:
+	.byte	4
+	.strz	"toggle_headlamp"
+	.byte	237,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2
+
+.LDW_35f6180:
+	.byte	4
+	.strz	"toggle_foglamp"
+	.byte	238,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3
+
+.LDW_35f61d0:
+	.byte	4
+	.strz	"toggle_hazard"
+	.byte	239,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4
+
+.LDW_35f6220:
+	.byte	4
+	.strz	"toggle_winker_r"
+	.byte	240,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5
+
+.LDW_35f6270:
+	.byte	4
+	.strz	"toggle_winker_l"
+	.byte	241,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6
+
+.LDW_35f62c0:
+	.byte	4
+	.strz	"pre_headlamp"
+	.byte	242,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7
+
+.LDW_35f6310:
+	.byte	4
+	.strz	"pre_foglamp"
+	.byte	243,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8
+
+.LDW_35f6360:
+	.byte	4
+	.strz	"pre_hazard"
+	.byte	244,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9
+
+.LDW_35f63b0:
+	.byte	4
+	.strz	"pre_winker_r"
+	.byte	245,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10
+
+.LDW_35f6400:
+	.byte	4
+	.strz	"pre_winker_l"
+	.byte	246,2
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11
+
+.LDW_35f6450:
+	.byte	5
+	.strz	"canmsg_snd_cycle"
+	.byte	247,2
+	.byte	16
+	.byte	1
+	.word	.LDW_35f0780
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_360fd78:
+	.byte	19
+	.strz	"TaskMainDriveManagerTask"
+	.byte	133,4
+	.byte	1
+	.byte	1
+	.word	_TaskMainDriveManagerTask
+	.word	___ghs_eofn_TaskMainDriveManagerTask
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_372a460:
+	.word	.LDW_unq_14-.LDW_unq_13
+.LDW_unq_13:
+	.word	.LDW_36ad5c0
+	.word	_TaskMainDriveManagerTask
+	.word	___ghs_eofn_TaskMainDriveManagerTask-_TaskMainDriveManagerTask
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW72
+.LDW_unq_14:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_TaskMainDriveManagerTask
+	.byte	3
+	.byte	133,4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin41
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin42
+	.byte	11
+	.byte	43
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin43
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin44
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin45
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3627238:
+	.byte	29
+	.word	.LDW62
+	.word	.LDW72
+
+.LDW_35f64a0:
+	.byte	5
+	.strz	"can_rx_data"
+	.byte	136,4
+	.byte	8
+	.byte	1
+	.word	.LDW_363a9a0
+	.byte	0
+	.byte	0
+
+.LDW_35f64f0:
+	.byte	5
+	.strz	"can_rx_size"
+	.byte	137,4
+	.byte	8
+	.byte	1
+	.word	.LDW_35f9220
+	.byte	0
+	.byte	0
+
+.LDW_35f6540:
+	.byte	4
+	.strz	"executed"
+	.byte	135,4
+	.byte	17
+	.byte	1
+	.word	.LDW_35f91c8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	_executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12
+
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+	.section	.debug_line
+.Ldw_line_end:
+	.section	.debug_macinfo
+	.byte	1
+	.byte	0
+	.strz	"__GNU_ASM_SUPPORT__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__PROTOTYPES__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ATTRIBUTES 1"
+	.byte	1
+	.byte	0
+	.strz	"__EDG__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ghs__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CORE_V850E3V5__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2R__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2V3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CHAR_BIT 8"
+	.byte	1
+	.byte	0
+	.strz	"__SHRT_BIT 16"
+	.byte	1
+	.byte	0
+	.strz	"__INT_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LONG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__WCHAR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__PTR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LLONG_BIT 64"
+	.byte	1
+	.byte	0
+	.strz	"__REG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__v850e3v5__ 1"
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	50
+	.byte	2
+	.byte	3
+	.byte	78
+	.byte	3
+	.byte	3
+	.byte	75
+	.byte	4
+	.byte	1
+	.byte	75
+	.strz	"TRUE UINT_C(1)"
+	.byte	1
+	.byte	79
+	.strz	"FALSE UINT_C(0)"
+	.byte	3
+	.byte	99
+	.byte	5
+	.byte	1
+	.byte	134,1
+	.strz	"___FAST32 long"
+	.byte	1
+	.byte	135,1
+	.strz	"___FAST32_BIT __REG_BIT"
+	.byte	1
+	.byte	239,1
+	.strz	"___IL48BIT __LLONG_BIT"
+	.byte	1
+	.byte	143,2
+	.strz	"___IL64BIT __LLONG_BIT"
+	.byte	1
+	.byte	242,2
+	.strz	"___IMBIT __LLONG_BIT"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	76
+	.byte	6
+	.byte	3
+	.byte	61
+	.byte	7
+	.byte	1
+	.byte	61
+	.strz	"UINT_C(val) (val ## U)"
+	.byte	4
+	.byte	1
+	.byte	79
+	.strz	"LOCAL_INLINE static __inline__"
+	.byte	1
+	.byte	81
+	.strz	"Asm asm"
+	.byte	3
+	.byte	88
+	.byte	8
+	.byte	1
+	.byte	36
+	.strz	"CHAR_BIT __CHAR_BIT"
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	79
+	.byte	9
+	.byte	4
+	.byte	3
+	.byte	80
+	.byte	10
+	.byte	3
+	.byte	64
+	.byte	11
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	83
+	.byte	12
+	.byte	1
+	.byte	18
+	.strz	"CFG_USE_STARTUPHOOK "
+	.byte	4
+	.byte	3
+	.byte	89
+	.byte	13
+	.byte	3
+	.byte	64
+	.byte	14
+	.byte	3
+	.byte	52
+	.byte	15
+	.byte	1
+	.byte	53
+	.strz	"_RH850G3M_ "
+	.byte	1
+	.byte	151,1
+	.strz	"PORT_BASE UINT_C(0xffc10000)"
+	.byte	1
+	.byte	154,1
+	.strz	"PMC(n) ((PORT_BASE) +0x0400 + (n * 0x04U))"
+	.byte	1
+	.byte	157,1
+	.strz	"PM(n) ((PORT_BASE) +0x0300 + (n * 0x04U))"
+	.byte	1
+	.byte	159,1
+	.strz	"PIBC(n) ((PORT_BASE) +0x4000 + (n * 0x04U))"
+	.byte	1
+	.byte	160,1
+	.strz	"PFC(n) ((PORT_BASE) +0x0500 + (n * 0x04U))"
+	.byte	1
+	.byte	161,1
+	.strz	"PFCE(n) ((PORT_BASE) +0x0600 + (n * 0x04U))"
+	.byte	1
+	.byte	162,1
+	.strz	"PFCAE(n) ((PORT_BASE) +0x0A00 + (n * 0x04U))"
+	.byte	1
+	.byte	167,1
+	.strz	"P(n) ((PORT_BASE) +0x0000 + (n * 0x04U))"
+	.byte	3
+	.byte	136,3
+	.byte	16
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	93
+	.byte	17
+	.byte	4
+	.byte	4
+	.byte	1
+	.byte	163,1
+	.strz	"TASK(TaskName) void TaskMain ## TaskName(void)"
+	.byte	1
+	.byte	164,1
+	.strz	"ISR(ISRName) void ISRMain ## ISRName(void)"
+	.byte	1
+	.byte	169,1
+	.strz	"ALARMCALLBACK(AlarmCallBackName) void AlarmMain ## AlarmCallBackName(void)"
+	.byte	1
+	.byte	176,1
+	.strz	"TOPPERS_STK_T sintptr"
+	.byte	3
+	.byte	252,2
+	.byte	18
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	51
+	.byte	19
+	.byte	1
+	.byte	62
+	.strz	"STEER_NEUTRAL_INIT 0"
+	.byte	1
+	.byte	64
+	.strz	"PWM_CYCLE_US 20000"
+	.byte	1
+	.byte	69
+	.strz	"SERVO_N_US 1570"
+	.byte	1
+	.byte	70
+	.strz	"SERVO_RMAX_US 1870"
+	.byte	1
+	.byte	71
+	.strz	"SERVO_LMAX_US 1200"
+	.byte	1
+	.byte	78
+	.strz	"STEER_ANGLE_MAX 64"
+	.byte	1
+	.byte	79
+	.strz	"STEER_ANGLE_MIN -63"
+	.byte	1
+	.byte	84
+	.strz	"STEER_NEUTRAL_MIN -32"
+	.byte	1
+	.byte	85
+	.strz	"STEER_NEUTRAL_MAX 32"
+	.byte	1
+	.byte	95
+	.strz	"DRIVEMANAGER_TASK_CYCLE_MS 20"
+	.byte	1
+	.byte	101
+	.strz	"INIT_BODY_BLINK_COUNT 3"
+	.byte	1
+	.byte	102
+	.strz	"INIT_BODY_BLINK_CYCLE_MS 500"
+	.byte	1
+	.byte	127
+	.strz	"BUZZER_OFF 0U"
+	.byte	1
+	.byte	128,1
+	.strz	"BUZZER_ON 1U"
+	.byte	1
+	.byte	129,1
+	.strz	"BUZZER_INTERVAL_ON 2U"
+	.byte	1
+	.byte	134,1
+	.strz	"WINKER_OFF 0U"
+	.byte	1
+	.byte	135,1
+	.strz	"WINKER_L_ON 1U"
+	.byte	1
+	.byte	136,1
+	.strz	"WINKER_R_ON 2U"
+	.byte	1
+	.byte	137,1
+	.strz	"WINKER_LR_ON 3U"
+	.byte	1
+	.byte	138,1
+	.strz	"WINKER_L_BLINK 4U"
+	.byte	1
+	.byte	139,1
+	.strz	"WINKER_R_BLINK 5U"
+	.byte	1
+	.byte	140,1
+	.strz	"WINKER_LR_BLINK 6U"
+	.byte	1
+	.byte	209,1
+	.strz	"CONTCMD_STEERN_I 1U"
+	.byte	1
+	.byte	210,1
+	.strz	"CONTCMD_STEERN_R 2U"
+	.byte	1
+	.byte	211,1
+	.strz	"CONTCMD_STEERN_L 3U"
+	.byte	4
+	.byte	3
+	.byte	52
+	.byte	20
+	.byte	1
+	.byte	120
+	.strz	"LOG_INFO UINT_C(6)"
+	.byte	1
+	.byte	135,1
+	.strz	"TMAX_LOGINFO UINT_C(6)"
+	.byte	4
+	.byte	3
+	.byte	53
+	.byte	21
+	.byte	3
+	.byte	64
+	.byte	22
+	.byte	3
+	.byte	57
+	.byte	23
+	.byte	3
+	.byte	62
+	.byte	24
+	.byte	1
+	.byte	12
+	.strz	"__ATTRIBUTE(x) __attribute__(x)"
+	.byte	1
+	.byte	141,1
+	.strz	"__GETSP_macro() asm (\"mov sp, %0\" : \"=r\" (result));"
+	.byte	4
+	.byte	1
+	.byte	78
+	.strz	"V850_MEMORY_CHANGED v850_memory_changed();"
+	.byte	4
+	.byte	1
+	.byte	62
+	.strz	"PSW_ID_BITPTN (1U << 5)"
+	.byte	4
+	.byte	4
+	.byte	1
+	.byte	66
+	.strz	"ACK_CNT_MAX 8U"
+	.byte	1
+	.byte	78
+	.strz	"BRAKE_STEP_SIZE 500"
+	.byte	1
+	.byte	79
+	.strz	"SPEED_STEP_SIZE 100"
+	.byte	1
+	.byte	84
+	.strz	"TAUB_BASE(n) ((uint32) (0xffe30000U + (n * 0x1000U)))"
+	.byte	1
+	.byte	85
+	.strz	"TAUB_TPS(n) (TAUB_BASE(n) + 0x240U)"
+	.byte	1
+	.byte	86
+	.strz	"TAUB_CDR(n,m) (TAUB_BASE(n) + 0x00U + (m * 0x04U))"
+	.byte	1
+	.byte	88
+	.strz	"TAUB_CMOR(n,m) (TAUB_BASE(n) + 0x200U + (m * 0x04U))"
+	.byte	1
+	.byte	89
+	.strz	"TAUB_CMUR(n,m) (TAUB_BASE(n) + 0xc0U + (m * 0x04U))"
+	.byte	1
+	.byte	92
+	.strz	"TAUB_TS(n) (TAUB_BASE(n) + 0x1c4U)"
+	.byte	1
+	.byte	94
+	.strz	"TAUB_TT(n) (TAUB_BASE(n) + 0x1c8U)"
+	.byte	1
+	.byte	95
+	.strz	"TAUB_TOE(n) (TAUB_BASE(n) + 0x5CU)"
+	.byte	1
+	.byte	97
+	.strz	"TAUB_TOM(n) (TAUB_BASE(n) + 0x248U)"
+	.byte	1
+	.byte	98
+	.strz	"TAUB_TOC(n) (TAUB_BASE(n) + 0x24cU)"
+	.byte	1
+	.byte	99
+	.strz	"TAUB_TOL(n) (TAUB_BASE(n) + 0x040U)"
+	.byte	1
+	.byte	102
+	.strz	"TAUB_RDE(n) (TAUB_BASE(n) + 0x260U)"
+	.byte	1
+	.byte	103
+	.strz	"TAUB_RDM(n) (TAUB_BASE(n) + 0x264U)"
+	.byte	1
+	.byte	231,2
+	.strz	"START_CNT_MAX (INIT_BODY_BLINK_CYCLE_MS*INIT_BODY_BLINK_COUNT*2)/DRIVEMANAGER_TASK_CYCLE_MS"
+	.byte	4
+	.byte	0
+	.section	.debug_abbrev
+	.byte	0
+	.section	.debug_info
+.Ldw_end:
+.rh850_flags REGMODE32,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

@@ -1,0 +1,5 @@
+BlsmControlModelディレクトリ:ブラシレスモータ制御モデル関連のデータを保存
+
+BlsmControl.slx:ブラシレスモータ制御モデル
+BlsmControl_color.slx:ブラシレスモータ制御モデル（コア割当により色付け）
+BlsmControl.png:モデルをデータフローで表したグラフ（コア割当により色付け）

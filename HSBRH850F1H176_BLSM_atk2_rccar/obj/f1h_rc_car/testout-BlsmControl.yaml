@@ -1,0 +1,126 @@
+Ecuc:
+  Os:
+    OsInclude:
+      OsIncludeFileName: BlsmControl-app.h
+    OsOS:
+      OsNumberOfCores: 2
+    BlsmControl_AppMode:
+      DefinitionRef: OsAppMode
+    BlsmControl_WakeupEvent:
+      DefinitionRef: OsEvent
+    BlsmControl_InputEvent:
+      DefinitionRef: OsEvent
+    BlsmControl_OutputEvent:
+      DefinitionRef: OsEvent
+    BlsmControl_CompleteEvent:
+      DefinitionRef: OsEvent
+    BlsmControl_Core0_1_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: BlsmControl_Core0_1_0_Task_Priority
+      OsTaskStackSize: BlsmControl_Core0_1_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/BlsmControl_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/BlsmControl_WakeupEvent
+        - /Ecuc/Os/BlsmControl_InputEvent
+        - /Ecuc/Os/BlsmControl_OutputEvent
+        - /Ecuc/Os/BlsmControl_CompleteEvent
+    BlsmControl_Core1_1_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: BlsmControl_Core1_1_0_Task_Priority
+      OsTaskStackSize: BlsmControl_Core1_1_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/BlsmControl_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/BlsmControl_WakeupEvent
+        - /Ecuc/Os/BlsmControl_InputEvent
+        - /Ecuc/Os/BlsmControl_OutputEvent
+        - /Ecuc/Os/BlsmControl_CompleteEvent
+    BlsmControl_Core0_100_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: BlsmControl_Core0_100_0_Task_Priority
+      OsTaskStackSize: BlsmControl_Core0_100_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/BlsmControl_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/BlsmControl_WakeupEvent
+        - /Ecuc/Os/BlsmControl_InputEvent
+        - /Ecuc/Os/BlsmControl_OutputEvent
+        - /Ecuc/Os/BlsmControl_CompleteEvent
+    BlsmControl_Core1_100_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: BlsmControl_Core1_100_0_Task_Priority
+      OsTaskStackSize: BlsmControl_Core1_100_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/BlsmControl_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/BlsmControl_WakeupEvent
+        - /Ecuc/Os/BlsmControl_InputEvent
+        - /Ecuc/Os/BlsmControl_OutputEvent
+        - /Ecuc/Os/BlsmControl_CompleteEvent
+    BlsmControl_Core0_1_0_Alarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/BlsmControl_Core0_1_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/BlsmControl_WakeupEvent
+    BlsmControl_Core1_1_0_Alarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/BlsmControl_Core1_1_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/BlsmControl_WakeupEvent
+    BlsmControl_Core0_100_0_Alarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/BlsmControl_Core0_100_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/BlsmControl_WakeupEvent
+    BlsmControl_Core1_100_0_Alarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/BlsmControl_Core1_100_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/BlsmControl_WakeupEvent
+    BlsmControl_OSAP_CORE0:
+      DefinitionRef: OsApplication
+      OsApplicationCoreAssignment: 0
+      OsAppTaskRef:
+        - /Ecuc/Os/BlsmControl_Core0_1_0_Task
+        - /Ecuc/Os/BlsmControl_Core0_100_0_Task
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAppAlarmRef:
+        - /Ecuc/Os/BlsmControl_Core0_1_0_Alarm
+        - /Ecuc/Os/BlsmControl_Core0_100_0_Alarm
+        - /Ecuc/Os/BlsmControl_Core1_1_0_Alarm
+        - /Ecuc/Os/BlsmControl_Core1_100_0_Alarm
+      OsApplicationHooks:
+        OsAppErrorHook: false
+        OsAppShutdownHook: false
+        OsAppStartupHook: false
+    BlsmControl_OSAP_CORE1:
+      DefinitionRef: OsApplication
+      OsApplicationCoreAssignment: 1
+      OsAppTaskRef:
+        - /Ecuc/Os/BlsmControl_Core1_1_0_Task
+        - /Ecuc/Os/BlsmControl_Core1_100_0_Task
+      OsApplicationHooks:
+        OsAppErrorHook: false
+        OsAppShutdownHook: false
+        OsAppStartupHook: false

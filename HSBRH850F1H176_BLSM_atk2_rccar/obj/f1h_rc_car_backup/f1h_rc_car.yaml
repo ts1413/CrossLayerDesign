@@ -1,0 +1,119 @@
+Ecuc:
+  Os:
+    OsOS:
+      #OsNumberOfCores: 2
+      OsStackMonitoring: true
+      OsUseGetServiceId: true
+      OsUseParameterAccess: true
+      OsStatus: EXTENDED
+      OsScalabilityClass: SC1
+      OsHooks:
+        OsErrorHook: false
+        OsPostTaskHook: false
+        OsPreTaskHook: false
+        OsProtectionHook: false
+        OsShutdownHook: false
+        OsStartupHook: true
+      OsHookStack:
+        OsHookStackSize: 512
+        OsHookStackCoreAssignment: 0
+      OsOsStack:
+        OsOsStackSize: 0x950
+        OsOsStackCoreAssignment: 0
+    a_controller_AppMode:
+      DefinitionRef: OsAppMode
+    debug_AppMode:
+      DefinitionRef: OsAppMode
+
+    OperationManagerTask:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: 2
+      OsTaskStackSize: 0x800
+      OsTaskSchedule: FULL
+    OperationManagerCycAlarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmActivateTask:
+          OsAlarmActivateTaskRef: /Ecu_CBO/Os/OperationManagerTask
+      OsAlarmAutostart:
+        OsAlarmAlarmTime: TICK_FOR_10MS
+        OsAlarmCycleTime: TICK_FOR_10MS
+        OsAlarmAutostartType: ABSOLUTE
+        OsAlarmAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+
+    DriveManagerTask:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: 3
+      OsTaskStackSize: 0x800
+      OsTaskSchedule: FULL
+    DriveManagerCycAlarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmActivateTask:
+          OsAlarmActivateTaskRef: /Ecu_CBO/Os/DriveManagerTask
+      OsAlarmAutostart:
+        OsAlarmAlarmTime: TICK_FOR_10MS*2
+        OsAlarmCycleTime: TICK_FOR_10MS*2
+        OsAlarmAutostartType: ABSOLUTE
+        OsAlarmAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+
+    BodyControlTask:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: 2
+      OsTaskStackSize: 0x800
+      OsTaskSchedule: FULL
+    BodyControlCycAlarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmActivateTask:
+          OsAlarmActivateTaskRef: /Ecu_CBO/Os/BodyControlTask
+      OsAlarmAutostart:
+        OsAlarmAlarmTime: TICK_FOR_10MS*10
+        OsAlarmCycleTime: TICK_FOR_10MS*10
+        OsAlarmAutostartType: ABSOLUTE
+        OsAlarmAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          #- /Ecuc/Os/debug_AppMode
+
+    BuzzerControlCycAlarm:
+      DefinitionRef: OsAlarm
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmCallback:
+          OsAlarmCallbackName: BuzzerControlCycAlarmCb
+      OsAlarmAutostart:
+        OsAlarmAlarmTime: TICK_FOR_10MS/80
+        OsAlarmCycleTime: TICK_FOR_10MS/80
+        OsAlarmAutostartType: ABSOLUTE
+        OsAlarmAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+
+    blsm_OSAP_CORE0:
+      DefinitionRef: OsApplication
+      OsApplicationCoreAssignment: 0
+      OsAppTaskRef:
+        - /Ecuc/Os/OperationManagerTask
+        - /Ecuc/Os/DriveManagerTask
+        - /Ecuc/Os/BodyControlTask
+      OsAppAlarmRef:
+        - /Ecuc/Os/OperationManagerCycAlarm
+        - /Ecuc/Os/DriveManagerCycAlarm
+        - /Ecuc/Os/BodyControlCycAlarm
+        - /Ecuc/Os/BuzzerControlCycAlarm
+      OsApplicationHooks:
+        OsAppErrorHook: false
+        OsAppShutdownHook: false
+        OsAppStartupHook: false
+      OsAppIsrRef:
+        - /Ecuc/Os/RLIN3x_TX_ISR
+        - /Ecuc/Os/RLIN3x_RX_ISR

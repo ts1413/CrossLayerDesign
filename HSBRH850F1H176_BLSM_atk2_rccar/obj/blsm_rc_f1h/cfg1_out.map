@@ -1,0 +1,201 @@
+Host OS:	Windows 7 Service Pack 1
+ELXR: Copyright (C) 1983-2013 Green Hills Software.  All Rights Reversed.
+Release: MULTI v2013.5.5-P4 v800
+Custom String: BTO-1864 add option to show empty mangled symbols in map
+Build Directory: [Directory] BTOWINBOX:c:/build_2013_5_bto/2013-12-06.0200-2013_5_bto/win32-comp-ecom
+Revision: [VCInfo] http://toolsvc/branches/release-branch-2013-5-bto/src@499466 (built by build)
+Revision Date: Fri Dec 06 10:48:00 2013
+
+Release Date: Fri Dec 06 20:38:06 2013
+
+
+
+
+Load Map Thu Sep 07 10:14:39 2017
+Image Summary
+
+  Section              Base      Size(hex)    Size(dec)  SecOffs
+  .CODEFLASH           00000000  00000000            0   0000000
+  .text                00000000  0000012c          300   00000a0
+  .call_table_data     0000012c  00000000            0   0000000
+  .call_table_text     0000012c  00000000            0   0000000
+  .rosdata             00000130  0000031b          795   00001d0
+  .rodata              0000044c  00000000            0   0000000
+  .data                fef00000  00000000            0   0000000
+  .sdabase             fef00000  00000000            0   0000000
+  .sdata               fef00000  00000000            0   0000000
+  .sbss                fef00000  00000004            4   0000000
+  .bss                 fef00004  00000000            0   0000000
+  .pe2_rom             00800000  00000000            0   0000000
+  .pe1_lram            febd0000  00000000            0   0000000
+  .pe2_lram            fe9d0000  00000000            0   0000000
+  .tdata               fef00004  00000000            0   0000000
+  .comment             00000000  00000000            0   0000000
+  .debug               00000000  00000000            0   0000000
+  .line                00000000  00000000            0   0000000
+  .debug_srcinfo       00000000  00000000            0   0000000
+  .debug_sfnames       00000000  00000000            0   0000000
+  .global              feef8000  00000000            0   0000000
+  .debug_abbrev        00000000  00000138          312   00004eb
+  .debug_info          00000000  00001ab2         6834   0000623
+  .debug_line          00000000  000008b6         2230   00020d5
+  .debug_macinfo       00000000  00001013         4115   000298b
+  .debug_frame         00000000  000000d8          216   000399e
+  .note.renesas        00000000  00000028           40   0003a78
+  .linfix              00000000  00000000            0   0000000
+  .gstackfix           00000000  00000000            0   0000000
+  .secinfo             feef8000  00000000            0   0000000
+
+Load Map Thu Sep 07 10:14:39 2017
+Module Summary
+
+  Origin+Size    Section          Module
+00000000+000126  .text            start.o
+00000000+000024  .debug_abbrev    start.o
+00000000+000184  .debug_info      start.o
+00000000+00029b  .debug_line      start.o
+00000000+000028  .note.renesas    <RENESAS ABI INFO>
+00000126+000006  .text            cfg1_out.o
+00000130+00031b  .rosdata         cfg1_out.o
+fef00000+000004  .sbss            cfg1_out.o
+00000184+00192e  .debug_info      cfg1_out.o
+00000024+000114  .debug_abbrev    cfg1_out.o
+0000029b+00061b  .debug_line      cfg1_out.o
+00000000+001013  .debug_macinfo   cfg1_out.o
+00000000+0000d8  .debug_frame     cfg1_out.o
+
+Load Map Thu Sep 07 10:14:39 2017
+Global Symbols (sorted alphabetically)
+
+ .rosdata         0000044a+000001 _MAGIC_1
+ .rosdata         00000448+000002 _MAGIC_2
+ .rosdata         00000438+000004 _MAGIC_4
+ .rosdata         000001d0+000008 _TOPPERS_cfg_AUTO
+ .rosdata         00000150+000008 _TOPPERS_cfg_CHECK_FUNC_ALIGN
+ .rosdata         00000158+000008 _TOPPERS_cfg_CHECK_FUNC_NONNULL
+ .rosdata         00000160+000008 _TOPPERS_cfg_CHECK_STACK_ALIGN
+ .rosdata         00000168+000008 _TOPPERS_cfg_CHECK_STACK_NONNULL
+ .rosdata         00000148+000008 _TOPPERS_cfg_CHECK_STKSZ_ALIGN
+ .rosdata         00000258+000008 _TOPPERS_cfg_C_KLOCK
+ .rosdata         00000228+000008 _TOPPERS_cfg_DEFAULT_HOOKSTKSZ
+ .rosdata         00000220+000008 _TOPPERS_cfg_DEFAULT_ISRSTKSZ
+ .rosdata         00000230+000008 _TOPPERS_cfg_DEFAULT_OSSTKSZ
+ .rosdata         00000218+000008 _TOPPERS_cfg_DEFAULT_TASKSTKSZ
+ .rosdata         000001c8+000008 _TOPPERS_cfg_DISABLE
+ .rosdata         00000270+000008 _TOPPERS_cfg_EMULATE_SPN
+ .rosdata         000001c0+000008 _TOPPERS_cfg_ENABLE
+ .rosdata         00000250+000008 _TOPPERS_cfg_G_KLOCK
+ .rosdata         00000280+000008 _TOPPERS_cfg_INTPRI_ICI0
+ .rosdata         00000288+000008 _TOPPERS_cfg_INTPRI_ICI1
+ .rosdata         00000210+000008 _TOPPERS_cfg_MINIMUM_OSTKSZ
+ .rosdata         00000268+000008 _TOPPERS_cfg_NATIVE_SPN
+ .rosdata         00000208+000008 _TOPPERS_cfg_OMIT_CHECK_CYCLIC_CHAIN
+ .rosdata         00000238+000008 _TOPPERS_cfg_OMIT_CHECK_DEADLOCK_SPINLOCK
+ .rosdata         000001f8+000008 _TOPPERS_cfg_OMIT_INITIALIZE_INTERRUPT
+ .rosdata         00000298+000008 _TOPPERS_cfg_OS_CORE_ID_0
+ .rosdata         000002a0+000008 _TOPPERS_cfg_OS_CORE_ID_1
+ .rosdata         00000290+000008 _TOPPERS_cfg_OS_CORE_ID_MASTER
+ .rosdata         00000130+000008 _TOPPERS_cfg_SIL_ENDIAN_BIG
+ .rosdata         00000138+000008 _TOPPERS_cfg_SIL_ENDIAN_LITTLE
+ .rosdata         00000140+000008 _TOPPERS_cfg_TARGET_MIN_STKSZ
+ .rosdata         000002b0+000008 _TOPPERS_cfg_TMAX_INTNO
+ .rosdata         00000278+000008 _TOPPERS_cfg_TMAX_NATIVE_SPN
+ .rosdata         000001e0+000008 _TOPPERS_cfg_TMAX_TPRI
+ .rosdata         000001d8+000008 _TOPPERS_cfg_TMIN_TPRI
+ .rosdata         00000240+000008 _TOPPERS_cfg_TNUM_HWCORE
+ .rosdata         000002a8+000008 _TOPPERS_cfg_TNUM_INTPRI
+ .rosdata         000001e8+000008 _TOPPERS_cfg_TNUM_TPRI
+ .rosdata         000001f0+000008 _TOPPERS_cfg_TPRI_MAXTASK
+ .rosdata         00000248+000008 _TOPPERS_cfg_TTYPE_KLOCK
+ .rosdata         00000260+000008 _TOPPERS_cfg_TTYPE_SPN
+ .rosdata         00000200+000008 _TOPPERS_cfg_USE_TSKINICTXB
+ .rosdata         0000043c+000004 _TOPPERS_cfg_magic_number
+ .rosdata         000001a0+000008 _TOPPERS_cfg_offsetof_ALMINIB_action
+ .rosdata         00000330+000008 _TOPPERS_cfg_offsetof_CCB_callevel_stat
+ .rosdata         00000350+000008 _TOPPERS_cfg_offsetof_CCB_current_iintpri
+ .rosdata         00000360+000008 _TOPPERS_cfg_offsetof_CCB_current_intpri
+ .rosdata         00000348+000008 _TOPPERS_cfg_offsetof_CCB_except_nest_cnt
+ .rosdata         00000328+000008 _TOPPERS_cfg_offsetof_CCB_ici_disreqflg
+ .rosdata         00000320+000008 _TOPPERS_cfg_offsetof_CCB_ici_request_map
+ .rosdata         00000318+000008 _TOPPERS_cfg_offsetof_CCB_kerflg
+ .rosdata         00000358+000008 _TOPPERS_cfg_offsetof_CCB_nested_lock_os_int_cnt
+ .rosdata         00000308+000008 _TOPPERS_cfg_offsetof_CCB_p_runisr
+ .rosdata         00000310+000008 _TOPPERS_cfg_offsetof_CCB_p_runosap
+ .rosdata         000002f8+000008 _TOPPERS_cfg_offsetof_CCB_p_runtsk
+ .rosdata         00000300+000008 _TOPPERS_cfg_offsetof_CCB_p_schedtsk
+ .rosdata         00000368+000008 _TOPPERS_cfg_offsetof_CCB_trusted_hook_savedsp
+ .rosdata         000001b8+000008 _TOPPERS_cfg_offsetof_HWCNTINIB_init
+ .rosdata         00000340+000008 _TOPPERS_cfg_offsetof_INTINIB_remain_stksz
+ .rosdata         000002f0+000008 _TOPPERS_cfg_offsetof_ISRCB_p_isrinib
+ .rosdata         00000338+000008 _TOPPERS_cfg_offsetof_ISRINIB_p_intinib
+ .rosdata         000002e8+000008 _TOPPERS_cfg_offsetof_ISRINIB_p_osapinib
+ .rosdata         000002c0+000008 _TOPPERS_cfg_offsetof_TCB_curpri
+ .rosdata         000002b8+000008 _TOPPERS_cfg_offsetof_TCB_p_tinib
+ .rosdata         000002d0+000008 _TOPPERS_cfg_offsetof_TCB_pc
+ .rosdata         000002c8+000008 _TOPPERS_cfg_offsetof_TCB_sp
+ .rosdata         000002d8+000008 _TOPPERS_cfg_offsetof_TINIB_exepri
+ .rosdata         000002e0+000008 _TOPPERS_cfg_offsetof_TINIB_p_osapinib
+ .rosdata         000001b0+000008 _TOPPERS_cfg_offsetof_TINIB_stk
+ .rosdata         000001a8+000008 _TOPPERS_cfg_offsetof_TINIB_task
+ .rosdata         00000198+000008 _TOPPERS_cfg_sizeof_ALMINIB
+ .rosdata         00000178+000008 _TOPPERS_cfg_sizeof_FunctionRefType
+ .rosdata         00000190+000008 _TOPPERS_cfg_sizeof_HWCNTINIB
+ .rosdata         00000188+000008 _TOPPERS_cfg_sizeof_StackType
+ .rosdata         00000180+000008 _TOPPERS_cfg_sizeof_TINIB
+ .rosdata         00000444+000004 _TOPPERS_cfg_sizeof_pointer
+ .rosdata         00000440+000004 _TOPPERS_cfg_sizeof_signed_t
+ .rosdata         00000170+000008 _TOPPERS_cfg_sizeof_void_ptr
+ .rosdata         00000390+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_BodyControlCycAlarm
+ .rosdata         000003a0+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_BuzzerControlCycAlarm
+ .rosdata         00000380+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_DriveManagerCycAlarm
+ .rosdata         00000370+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_OperationManagerCycAlarm
+ .rosdata         00000398+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_BodyControlCycAlarm
+ .rosdata         000003a8+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_BuzzerControlCycAlarm
+ .rosdata         00000388+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_DriveManagerCycAlarm
+ .rosdata         00000378+000008 _TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_OperationManagerCycAlarm
+ .rosdata         00000410+000008 _TOPPERS_cfg_valueof_ISR_INTNO_C2ISR_for_MAIN_HW_COUNTER_CORE0_Os
+ .rosdata         00000420+000008 _TOPPERS_cfg_valueof_ISR_INTNO_C2ISR_for_MAIN_HW_COUNTER_CORE1_Os
+ .rosdata         00000400+000008 _TOPPERS_cfg_valueof_ISR_INTNO_RLIN3x_RX_ISR_Os
+ .rosdata         000003f0+000008 _TOPPERS_cfg_valueof_ISR_INTNO_RLIN3x_TX_ISR_Os
+ .rosdata         00000418+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_C2ISR_for_MAIN_HW_COUNTER_CORE0_Os
+ .rosdata         00000428+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_C2ISR_for_MAIN_HW_COUNTER_CORE1_Os
+ .rosdata         00000408+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_RLIN3x_RX_ISR_Os
+ .rosdata         000003f8+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_RLIN3x_TX_ISR_Os
+ .rosdata         000003d0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_100_0_Task_Os
+ .rosdata         000003b0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_1_0_Task_Os
+ .rosdata         000003e0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_100_0_Task_Os
+ .rosdata         000003c0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_1_0_Task_Os
+ .rosdata         000003d8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_100_0_Task_Os
+ .rosdata         000003b8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_1_0_Task_Os
+ .rosdata         000003e8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_100_0_Task_Os
+ .rosdata         000003c8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_1_0_Task_Os
+                  00000000+000000 ___ghs_eofn__reset
+ .text            0000012a+000000 ___ghs_eofn_main
+ .text            0000012c+000000 ___ghs_eofn_target_hardware_initialize
+                  00000002+000000 ___ghs_log_fee_level
+ .secinfo         feef8000+000000 ___ghsbinfo_bcopy
+ .secinfo         feef8000+000000 ___ghseinfo_bcopy
+ .bss             fef00004+000000 __bss_end
+ .sbss            fef00000+000000 __bss_start
+ .call_table_data 0000012c+000000 __ctbp
+ .data            fef00000+000000 __data_start
+ .tdata           fef00004+000000 __ep
+                  00000000+000000 __ghs_v800_sda_model
+ .sdabase         fef08000+000000 __gp
+                  0000044c+000000 __idata_end
+                  0000044c+000000 __idata_start
+ .rosdata         00000434+000004 __ostkpt
+ .rosdata         00000430+000004 __ostkpt_table
+                  00000000+000004 __reset
+ .text            00000000+000000 __start
+ .text            00000000+000000 __text
+ .rosdata         00008130+000000 __tp
+ .sbss            fef00000+000004 _core_state_table
+ .sdata           fef00000+000000 _edata
+ .text            0000012c+000000 _etext
+ .text            00000126+000004 _main
+ .text            0000012a+000002 _target_hardware_initialize
+                  0000044c+000000 _textend
+                  00000000+000000 hardware_init_hook
+                  00000000+000000 software_init_hook
+                  00000000+000000 software_term_hook

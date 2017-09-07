@@ -1,0 +1,3478 @@
+--Driver Command: ccrh850 -c -ansi -preprocess_assembly_files -srec -kanji=euc
+--		-noobj -no_callt -prepare_dispose -registermode=32 -keeptempfiles
+--		--no_commons -dual_debug -G -sda=all -reserve_r2 -large_sda
+--		-cpu=rh850g3m -mhard-float -DTOPPERS_USE_HFLOAT -Ospeed -Omax
+--		-Olink -Ointerproc --prototype_warnings -Wimplicit-int -Wshadow
+--		-Wundef -Wtrigraphs --assembler_warnings -linker_warnings
+--		--diag_suppress 174,188,191,767,177,826 -g -DTOPPERS_LABEL_ASM
+--		-D__v850e3v5__ -I. -I../../include -I../../arch -I../..
+--		-I../../target/rh850f1h_pb_ghs -I../../target/rh850f1h_pb_gcc
+--		-I../../arch/v850_ghs -I../../arch/v850_gcc -I../../arch/ghs
+--		-DALLFUNC -I../../kernel
+--		../../target/rh850f1h_pb_gcc/target_config.c
+--Source File:   ../../target/rh850f1h_pb_gcc/target_config.c
+--Directory:     
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:58 2017
+--Host OS:       Win32
+--Version:       C-RH850 2013.5.5 RELEASE VERSION
+--Release:       MULTI v2013.5.5-P13 v800
+--Custom Stamp:  BTO-1906 compiler interrupt routines did not save FPSR and
+--		FPEPC
+--Revision Date: Tue Mar 04 22:02:14 2014
+--Release Date:  Wed Mar 05 18:09:29 2014
+-- ecom  -g -w -OLM
+	.text
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+	.align	2
+..gh.f.f.1.e.0:
+	.type	..gh.f.f.1.e.0,@object
+	.size	..gh.f.f.1.e.0,0
+	.global	_target_fput_str
+_target_fput_str:
+	prepare	{r28,r31},0
+	mov	r6,r28
+	ld.b	0[r6],r6
+	cmp	zero,r6
+	be	.L440
+--	    .bf
+.LDW01:
+.L441:
+--line105
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.1::
+.LDWlin1:
+	jarl	_uart_putc,lp
+--line104
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.2::
+.LDWlin2:
+	ld.b	1[r28],r6
+	add	1,r28
+	cmp	zero,r6
+	bne	.L441
+.L440:
+--line108
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.3::
+.LDWlin3:
+	mov	10,r6
+	jarl	_uart_putc,lp
+--	    .ef
+.LDW11:
+--line109
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.4::
+.LDWlin4:
+	dispose	0,{r28,r31},[lp]
+	.global	___ghs_eofn_target_fput_str
+___ghs_eofn_target_fput_str:
+	.type	_target_fput_str,@function
+	.size	_target_fput_str,.-_target_fput_str
+	.align	2
+
+--_c	r28	param
+
+	.section ".bss","awb"
+.L719:
+	.type	.L719,@object
+	.size	.L719,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.1:
+	.type	..gh.f.f.1.e.1,@object
+	.size	..gh.f.f.1.e.1,0
+	.global	_target_port_initialize
+_target_port_initialize:
+--	    .bf
+.LDW21:
+	ld.hu	4290839848[zero],r16
+	ori	1536,r16,r18
+	st.h	r18,4290839848[zero]
+	ld.hu	4290840104[zero],r16
+	andi	63999,r16,r18
+	st.h	r18,4290840104[zero]
+	ld.hu	4290841128[zero],r15
+	andi	63999,r15,r18
+	st.h	r18,4290841128[zero]
+	ld.hu	4290839336[zero],r13
+	andi	63999,r13,r14
+	ori	512,r14,r18
+	st.h	r18,4290839336[zero]
+	ld.hu	4290839592[zero],r12
+	ori	1536,r12,r18
+	st.h	r18,4290839592[zero]
+	ld.hu	4290854952[zero],r11
+	andi	63999,r11,r12
+	ori	512,r12,r18
+	st.h	r18,4290854952[zero]
+	ld.hu	4290839808[zero],r11
+	andi	65487,r11,r18
+	st.h	r18,4290839808[zero]
+	ld.hu	4290840064[zero],r10
+	andi	65487,r10,r18
+	st.h	r18,4290840064[zero]
+	ld.hu	4290841088[zero],r9
+	andi	65487,r9,r18
+	st.h	r18,4290841088[zero]
+	ld.hu	4290839296[zero],r7
+	andi	65487,r7,r8
+	ori	16,r8,r18
+	st.h	r18,4290839296[zero]
+	ld.hu	4290839552[zero],r6
+	ori	48,r6,r18
+	st.h	r18,4290839552[zero]
+	ld.hu	4290854912[zero],r19
+	andi	65487,r19,r6
+	ori	16,r6,r18
+	st.h	r18,4290854912[zero]
+--	    .ef
+.LDW31:
+	jmp	[lp]
+	.global	___ghs_eofn_target_port_initialize
+___ghs_eofn_target_port_initialize:
+	.type	_target_port_initialize,@function
+	.size	_target_port_initialize,.-_target_port_initialize
+	.align	2
+--_wk	r18	local
+
+	.section ".bss","awb"
+.L994:
+	.type	.L994,@object
+	.size	.L994,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.2:
+	.type	..gh.f.f.1.e.2,@object
+	.size	..gh.f.f.1.e.2,0
+	.global	_target_clock_initialize
+_target_clock_initialize:
+	prepare	{r29,r31},3
+--	    .bf
+.LDW41:
+	mov	16000000,r6
+	jarl	_EnableMainOSC,lp
+	cmp	zero,r10
+--line209
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.5::
+.LDWlin5:
+	setfne	r29
+	jarl	_EnablePLL0,lp
+	cmp	zero,r10
+	be	.L1076
+--line214
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.6::
+.LDWlin6:
+	add	1,r29
+.L1076:
+	jarl	_EnablePLL1,lp
+	cmp	zero,r10
+	be	.L1078
+--line219
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.7::
+.LDWlin7:
+	add	1,r29
+.L1078:
+	mov	-481280,r18
+	addi	8,r18,r17
+	mov	sp,ep
+	sst.w	r18,0[ep]
+	mov	1,r8
+	sst.w	r17,4[ep]
+	addi	-1024,r18,r6
+	sst.w	r8,8[ep]
+	addi	-1016,r18,r7
+	mov	2,r9
+	jarl	_SetClockSelection,lp
+	cmp	zero,r10
+	be	.L1080
+--line227
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.8::
+.LDWlin8:
+	add	1,r29
+.L1080:
+	mov	-515584,r16
+	addi	8,r16,r15
+	mov	sp,ep
+	sst.w	r16,0[ep]
+	mov	2,r9
+	sst.w	r15,4[ep]
+	addi	-256,r16,r6
+	sst.w	r9,8[ep]
+	addi	-248,r16,r7
+	mov	0,r8
+	jarl	_SetClockSelection,lp
+	cmp	zero,r10
+	be	.L1082
+--line236
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.9::
+.LDWlin9:
+	add	1,r29
+.L1082:
+	mov	-483072,r14
+	addi	8,r14,r13
+	mov	sp,ep
+	sst.w	r14,0[ep]
+	mov	1,r8
+	sst.w	r13,4[ep]
+	addi	-256,r14,r6
+	sst.w	r8,8[ep]
+	addi	-248,r14,r7
+	mov	3,r9
+	jarl	_SetClockSelection,lp
+	cmp	zero,r10
+	be	.L1084
+--line246
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.10::
+.LDWlin10:
+	add	1,r29
+.L1084:
+	cmp	zero,r29
+	be	.L1072
+--line250
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.11::
+.LDWlin11:
+	jarl	_infinite_loop,lp
+.L1072:
+--	    .ef
+.LDW51:
+--line252
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.12::
+.LDWlin12:
+	dispose	3,{r29,r31},[lp]
+	.global	___ghs_eofn_target_clock_initialize
+___ghs_eofn_target_clock_initialize:
+	.type	_target_clock_initialize,@function
+	.size	_target_clock_initialize,.-_target_clock_initialize
+	.align	2
+--_errcnt	r29	local
+
+	.section ".bss","awb"
+.L1290:
+	.type	.L1290,@object
+	.size	.L1290,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.3:
+	.type	..gh.f.f.1.e.3,@object
+	.size	..gh.f.f.1.e.3,0
+	.global	_target_hardware_initialize
+_target_hardware_initialize:
+	prepare	{r31},0
+--	    .bf
+.LDW61:
+	jarl	_target_clock_initialize,lp
+--line265
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.13::
+.LDWlin13:
+	jarl	_target_port_initialize,lp
+--	    .ef
+.LDW71:
+--line266
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.14::
+.LDWlin14:
+	dispose	0,{r31},[lp]
+	.global	___ghs_eofn_target_hardware_initialize
+___ghs_eofn_target_hardware_initialize:
+	.type	_target_hardware_initialize,@function
+	.size	_target_hardware_initialize,.-_target_hardware_initialize
+	.align	2
+
+	.section ".bss","awb"
+.L1479:
+	.type	.L1479,@object
+	.size	.L1479,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.4:
+	.type	..gh.f.f.1.e.4,@object
+	.size	..gh.f.f.1.e.4,0
+	.global	_hardware_init_hook
+_hardware_init_hook:
+--	    .bf
+.LDW81:
+--	    .ef
+.LDW91:
+	jmp	[lp]
+	.global	___ghs_eofn_hardware_init_hook
+___ghs_eofn_hardware_init_hook:
+	.type	_hardware_init_hook,@function
+	.size	_hardware_init_hook,.-_hardware_init_hook
+	.align	2
+
+	.section ".bss","awb"
+.L1524:
+	.type	.L1524,@object
+	.size	.L1524,0
+	.data
+	.text
+	.align	2
+	.align	2
+	.align	2
+..gh.f.f.1.e.5:
+	.type	..gh.f.f.1.e.5,@object
+	.size	..gh.f.f.1.e.5,0
+	.global	_target_initialize
+_target_initialize:
+	prepare	{r29,r31},0
+--	    .bf
+.LDW02:
+	jarl	_prc_initialize,lp
+--line299
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.15::
+.LDWlin15:
+	stsr	0,r15,2
+	shr	16,r15
+	mov	1,r7
+	andi	3,r15,r14
+	addi	-1,r14,r29
+	zxb	r29
+	mov	r29,r18
+	shl	2,r18
+	mov	rosdaoff23(_target_ici_intno_table),ep
+	add	r18,ep
+	mov	r29,r9
+	sld.w	0[ep],r6
+	add	r5,r18
+	ld.w	rosdaoff23(_target_ici_intpri_table)[r18],r8
+	jarl	_x_config_int,lp
+--line303
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.16::
+.LDWlin16:
+	cmp	zero,r29
+	bne	.L1542
+--line304
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.17::
+.LDWlin17:
+	ld.w	rosdaoff23(_tnum_intno)[r5],r1
+	mov	rosdaoff23(_intinib_table),r18
+	mov	r1,r10
+	shr	3,r10
+	be	.L1636
+	addi	140,r18,r15
+	addi	120,r18,r14
+	addi	100,r18,r13
+	addi	80,r18,r12
+	mov	65538,r17
+	mov	-70912,r16
+	addi	60,r18,r11
+.L1647:
+	ld.bu	12[r18],r8
+	cmp	1,r8
+	bne	.L1652
+	ld.hu	0[r18],ep
+	addi	-32,ep,zero
+	bl	.L1650
+	ld.bu	32[r18],r7
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r7
+	bne	.L1657
+	br	.L1653
+.L1650:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1652:
+	ld.bu	32[r18],r7
+	cmp	1,r7
+	bne	.L1657
+.L1653:
+	ld.hu	20[r18],ep
+	addi	-32,ep,zero
+	bl	.L1655
+	ld.bu	52[r18],r6
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r6
+	bne	.L1662
+	br	.L1658
+.L1655:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1657:
+	ld.bu	52[r18],r6
+	cmp	1,r6
+	bne	.L1662
+.L1658:
+	ld.hu	40[r18],ep
+	addi	-32,ep,zero
+	bl	.L1660
+	ld.bu	72[r18],r19
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r19
+	bne	.L1667
+	br	.L1663
+.L1660:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1662:
+	ld.bu	72[r18],r19
+	cmp	1,r19
+	bne	.L1667
+.L1663:
+	ld.hu	0[r11],ep
+	addi	-32,ep,zero
+	bl	.L1665
+	ld.bu	92[r18],r9
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r9
+	bne	.L1672
+	br	.L1668
+.L1665:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1667:
+	ld.bu	92[r18],r9
+	cmp	1,r9
+	bne	.L1672
+.L1668:
+	ld.hu	0[r12],ep
+	addi	-32,ep,zero
+	bl	.L1670
+	ld.bu	112[r18],r8
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r8
+	bne	.L1677
+	br	.L1673
+.L1670:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1672:
+	ld.bu	112[r18],r8
+	cmp	1,r8
+	bne	.L1677
+.L1673:
+	ld.hu	0[r13],ep
+	addi	-32,ep,zero
+	bl	.L1675
+	ld.bu	132[r18],r7
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r7
+	bne	.L1682
+	br	.L1678
+.L1675:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1677:
+	ld.bu	132[r18],r7
+	cmp	1,r7
+	bne	.L1682
+.L1678:
+	ld.hu	0[r14],ep
+	addi	-32,ep,zero
+	bl	.L1680
+	ld.bu	152[r18],r6
+	shl	2,ep
+	add	r16,ep
+	sst.w	r17,0[ep]
+	cmp	1,r6
+	bne	.L1687
+	br	.L1683
+.L1680:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1682:
+	ld.bu	152[r18],r6
+	cmp	1,r6
+	bne	.L1687
+.L1683:
+	ld.hu	0[r15],ep
+	addi	-32,ep,zero
+	bl	.L1685
+	shl	2,ep
+	addi	160,r15,r15
+	add	r16,ep
+	addi	160,r14,r14
+	addi	160,r13,r13
+	addi	160,r12,r12
+	sst.w	r17,0[ep]
+	addi	160,r11,r11
+	addi	160,r18,r18
+	loop	r10,.L1647
+	br	.L1636
+.L1685:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1687:
+	addi	160,r15,r15
+	addi	160,r14,r14
+	addi	160,r13,r13
+	addi	160,r12,r12
+	addi	160,r11,r11
+	addi	160,r18,r18
+	loop	r10,.L1647
+.L1636:
+	andi	7,r1,r9
+	be	.L1542
+	mov	65538,r17
+	mov	-70912,r16
+.L1639:
+	ld.bu	12[r18],r19
+	cmp	1,r19
+	bne	.L1644
+	ld.hu	0[r18],ep
+	addi	-32,ep,zero
+	bl	.L1642
+	shl	2,ep
+	addi	20,r18,r18
+	add	r16,ep
+	sst.w	r17,0[ep]
+	loop	r9,.L1639
+	dispose	0,{r29,r31},[lp]
+.L1642:
+	shl	2,ep
+	addi	-18432,ep,ep
+	sst.w	r17,0[ep]
+.L1644:
+	addi	20,r18,r18
+	loop	r9,.L1639
+.L1542:
+--	    .ef
+.LDW12:
+--line310
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.18::
+.LDWlin18:
+	dispose	0,{r29,r31},[lp]
+	.global	___ghs_eofn_target_initialize
+___ghs_eofn_target_initialize:
+	.type	_target_initialize,@function
+	.size	_target_initialize,.-_target_initialize
+	.align	2
+--_coreid	r29	local
+--_htcfg0_val	r15	local
+
+	.section ".bss","awb"
+.L3780:
+	.type	.L3780,@object
+	.size	.L3780,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.6:
+	.type	..gh.f.f.1.e.6,@object
+	.size	..gh.f.f.1.e.6,0
+	.global	_target_exit
+_target_exit:
+	prepare	{r31},0
+--	    .bf
+.LDW22:
+	mov	rosdaoff23(.L4350),r6
+	jarl	_target_fput_str,lp
+--line337
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.19::
+.LDWlin19:
+	jarl	_prc_terminate,lp
+--line352
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.20::
+.LDWlin20:
+	jarl	_infinite_loop,lp
+--	    .ef
+.LDW32:
+	.global	___ghs_eofn_target_exit
+___ghs_eofn_target_exit:
+	.type	_target_exit,@function
+	.size	_target_exit,.-_target_exit
+	.align	2
+--.L4338	rosdaoff23(.L4350)	static
+
+	.section ".bss","awb"
+.L4337:
+	.type	.L4337,@object
+	.size	.L4337,0
+	.section ".rosdata","a"
+	.align	4
+.L4350:--	"Kernel Exit..."
+	.byte	75,101,114,110
+	.byte	101,108,32,69
+	.byte	120,105,116,46
+	.byte	46,46
+	.byte	0
+	.space	1
+	.type	.L4350,@object
+	.size	.L4350,16
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.7:
+	.type	..gh.f.f.1.e.7,@object
+	.size	..gh.f.f.1.e.7,0
+	.global	_target_fput_log
+_target_fput_log:
+	prepare	{r28,r31},0
+	mov	r6,r28
+	sxb	r28
+--	    .bf
+.LDW42:
+	cmp	10,r28
+	bne	.L4369
+--line362
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.21::
+.LDWlin21:
+	mov	13,r6
+	jarl	_uart_putc,lp
+.L4369:
+--line364
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.22::
+.LDWlin22:
+	mov	r28,r6
+	jarl	_uart_putc,lp
+--	    .ef
+.LDW52:
+--line365
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config.23::
+.LDWlin23:
+	dispose	0,{r28,r31},[lp]
+	.global	___ghs_eofn_target_fput_log
+___ghs_eofn_target_fput_log:
+	.type	_target_fput_log,@function
+	.size	_target_fput_log,.-_target_fput_log
+	.align	2
+
+--_c	r28	param
+
+	.section ".bss","awb"
+.L4435:
+	.type	.L4435,@object
+	.size	.L4435,0
+	.data
+	.text
+	.align	2
+--_tnum_intno	rosdaoff23(_tnum_intno)	import
+--_intinib_table	rosdaoff23(_intinib_table)	import
+
+	.section ".rosdata","a"
+	.global	_rlin3x_base_table
+_rlin3x_base_table:	.byte	0,32,206,255
+	.byte	64,32,206,255
+	.type	_rlin3x_base_table,@object
+	.size	_rlin3x_base_table,8
+	.global	_target_ici_intno_table
+_target_ici_intno_table:	.byte	0,0,1,0
+	.byte	0,0,2,0
+	.type	_target_ici_intno_table,@object
+	.size	_target_ici_intno_table,8
+	.global	_target_ici_intpri_table
+_target_ici_intpri_table:	.byte	255,255,255,255
+	.byte	255,255,255,255
+	.type	_target_ici_intpri_table,@object
+	.size	_target_ici_intpri_table,8
+	.data
+	.ghsnote version,14
+	.ghsnote tools,3
+	.ghsnote options,144
+	.text
+	.align	2
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+	.section	.debug_info
+.Ldw_begin:
+	.word	.Ldw_end-.Ldw_begin-4
+	.byte	2,0
+	.word	.Ldw_abbr_begin
+	.byte	4
+	.section	.debug_abbrev
+.Ldw_abbr_begin:
+	.section	.debug_info
+	.byte	1
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_config...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.strz	"../../target/rh850f1h_pb_gcc/target_config.c"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
+	.strz	"GHS C 2013.5.5 [dual]"
+	.byte	1,0
+	.word	.Ldw_line_begin
+	.word	.Ldw_macinfo_begin
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	1
+	.byte	17
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	3,8
+	.byte	27,8
+	.byte	37,8
+	.byte	19,5
+	.byte	16,6
+	.byte	67,6
+	.byte	66,11
+	.byte	0,0
+
+	.section	.debug_line
+.Ldw_line_begin:
+	.word	.Ldw_line_end-.Ldw_line_begin-4
+	.byte	2,0
+	.word	.Ldw_lpro_end-.Ldw_lpro_begin
+.Ldw_lpro_begin:
+	.byte	1
+	.byte	0
+	.byte	0
+	.byte	4
+	.byte	10
+	.byte	0,1,1
+	.byte	1,1,0
+	.byte	0,0,1
+	.byte	0
+	.strz	"../../target/rh850f1h_pb_gcc/target_config.c"
+	.byte	0,0,0
+	.strz	"../../kernel/kernel_impl.h"
+	.byte	0,0,0
+	.strz	"../../include/Os.h"
+	.byte	0,0,0
+	.strz	"../../include/Std_Types.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/Platform_Types.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\stdint.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler_Cfg.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\limits.h"
+	.byte	0,0,0
+	.strz	"../../include/MemMap.h"
+	.byte	0,0,0
+	.strz	"../../include/Rte_Os_Type.h"
+	.byte	0,0,0
+	.strz	".\\Rte_Type.h"
+	.byte	0,0,0
+	.strz	".\\Os_Cfg.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_kernel.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/rh850f1h_pb.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/rh850_f1h.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/v850.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_kernel.h"
+	.byte	0,0,0
+	.strz	"../../kernel/ccb.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_ccb.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_ccb.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_ghs/prc_insn.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\include\\v800\\v800_ghs.h"
+	.byte	0,0,0
+	.strz	"../../include/queue.h"
+	.byte	0,0,0
+	.strz	"../../kernel/spinlock.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_config.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_ici.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_ici.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_sil.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_config.h"
+	.byte	0,0,0
+	.strz	"../../kernel/allfunc.h"
+	.byte	0,0,0
+	.strz	"../../kernel/mc.h"
+	.byte	0,0,0
+	.strz	"../../kernel/interrupt.h"
+	.byte	0,0,0
+	.strz	"../../kernel/resource.h"
+	.byte	0,0,0
+	.strz	"../../kernel/osap.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/uart_rlin.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_serial.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_sysmod.h"
+	.byte	0,0,0
+	.byte	0
+.Ldw_lpro_end:
+	.section	.debug_macinfo
+.Ldw_macinfo_begin:
+	.section	.debug_frame
+.LDW_3565c00:
+	.word	.LDW_unq_2-.LDW_unq_1
+.LDW_unq_1:
+	.byte	255,255,255,255
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	31
+	.byte	12
+	.byte	3
+	.byte	0
+	.byte	7
+	.byte	0
+	.byte	7
+	.byte	1
+	.byte	7
+	.byte	2
+	.byte	7
+	.byte	3
+	.byte	7
+	.byte	4
+	.byte	7
+	.byte	5
+	.byte	7
+	.byte	6
+	.byte	7
+	.byte	7
+	.byte	7
+	.byte	8
+	.byte	7
+	.byte	9
+	.byte	7
+	.byte	10
+	.byte	7
+	.byte	11
+	.byte	7
+	.byte	12
+	.byte	7
+	.byte	13
+	.byte	7
+	.byte	14
+	.byte	7
+	.byte	15
+	.byte	7
+	.byte	16
+	.byte	7
+	.byte	17
+	.byte	7
+	.byte	18
+	.byte	7
+	.byte	19
+	.byte	8
+	.byte	20
+	.byte	8
+	.byte	21
+	.byte	8
+	.byte	22
+	.byte	8
+	.byte	23
+	.byte	8
+	.byte	24
+	.byte	8
+	.byte	25
+	.byte	8
+	.byte	26
+	.byte	8
+	.byte	27
+	.byte	8
+	.byte	28
+	.byte	8
+	.byte	29
+	.byte	7
+	.byte	30
+	.byte	8
+	.byte	31
+	.byte	7
+	.byte	32
+	.byte	7
+	.byte	33
+	.byte	7
+	.byte	34
+	.byte	7
+	.byte	35
+	.byte	7
+	.byte	36
+	.byte	7
+	.byte	37
+	.byte	7
+	.byte	38
+	.byte	7
+	.byte	39
+	.byte	7
+	.byte	40
+	.byte	7
+	.byte	41
+	.byte	7
+	.byte	42
+	.byte	7
+	.byte	43
+	.byte	7
+	.byte	44
+	.byte	7
+	.byte	45
+	.byte	7
+	.byte	46
+	.byte	7
+	.byte	47
+	.byte	7
+	.byte	48
+	.byte	7
+	.byte	49
+	.byte	7
+	.byte	50
+	.byte	7
+	.byte	51
+	.byte	7
+	.byte	52
+	.byte	7
+	.byte	53
+	.byte	7
+	.byte	54
+	.byte	7
+	.byte	55
+	.byte	7
+	.byte	56
+	.byte	7
+	.byte	57
+	.byte	7
+	.byte	58
+	.byte	7
+	.byte	59
+	.byte	7
+	.byte	60
+	.byte	7
+	.byte	61
+	.byte	7
+	.byte	62
+	.byte	7
+	.byte	63
+.LDW_unq_2:
+	.section	.debug_info
+.LDW_35864c8:
+	.byte	37
+	.strz	"void*"
+	.byte	1
+	.byte	4
+
+	.section	.debug_abbrev
+	.byte	37
+	.byte	36
+	.byte	0
+	.byte	3,8
+	.byte	62,11
+	.byte	11,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35865a8:
+	.byte	37
+	.strz	"unsigned int"
+	.byte	7
+	.byte	4
+
+.LDW_35865e0:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	66
+	.byte	21
+	.byte	1
+	.byte	73,16
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3586688:
+	.byte	37
+	.strz	"unsigned short"
+	.byte	7
+	.byte	2
+
+.LDW_3586768:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+	.byte	0
+
+.LDW_35867d8:
+	.byte	37
+	.strz	"unsigned char"
+	.byte	8
+	.byte	1
+
+.LDW_35868f0:
+	.byte	66
+	.word	.LDW_3606ee8
+	.byte	1
+
+	.byte	0
+
+.LDW_3620208:
+	.byte	66
+	.word	.LDW_3559900
+	.byte	1
+
+.LDW_35edcc0:
+	.byte	18
+	.word	.LDW_35864c8
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	18
+	.byte	5
+	.byte	0
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3620240:
+	.byte	67
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	67
+	.byte	21
+	.byte	1
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35edd20:
+	.byte	18
+	.word	.LDW_35864c8
+	.byte	0
+
+.LDW_35edd50:
+	.byte	18
+	.word	.LDW_3559900
+	.byte	0
+
+	.byte	0
+
+.LDW_3620278:
+	.byte	67
+	.byte	1
+
+.LDW_35eddb0:
+	.byte	18
+	.word	.LDW_35864c8
+	.byte	0
+
+.LDW_35edde0:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+	.byte	0
+
+.LDW_36268b0:
+	.byte	42
+	.word	.LDW_3559718
+
+	.section	.debug_abbrev
+	.byte	42
+	.byte	53
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_3620668:
+	.byte	37
+	.strz	"int"
+	.byte	5
+	.byte	4
+
+.LDW_364eed8:
+	.byte	37
+	.strz	"int"
+	.byte	5
+	.byte	4
+
+.LDW_364efb8:
+	.byte	37
+	.strz	"char"
+	.byte	6
+	.byte	1
+
+.LDW_35ea5a0:
+	.byte	41
+	.word	.LDW_35ea548
+
+	.section	.debug_abbrev
+	.byte	41
+	.byte	38
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_364eff0:
+	.byte	45
+	.word	.LDW_35ea5a0
+
+	.section	.debug_abbrev
+	.byte	45
+	.byte	15
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_364ef80:
+	.byte	67
+	.byte	1
+
+.LDW_36220b8:
+	.byte	18
+	.word	.LDW_364eff0
+	.byte	0
+
+	.byte	0
+
+.LDW_364f028:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f060:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f098:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f0d0:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f108:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f140:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_364f178:
+	.byte	67
+	.byte	1
+
+.LDW_3556e70:
+	.byte	18
+	.word	.LDW_35ea548
+	.byte	0
+
+	.byte	0
+
+.LDW_3687090:
+	.byte	41
+	.word	.LDW_3686f30
+
+.LDW_3557fa8:
+	.byte	45
+	.word	.LDW_3687090
+
+.LDW_36a55a0:
+	.byte	41
+	.word	.LDW_35ea3e8
+
+.LDW_36a37c8:
+	.byte	57
+	.byte	0
+	.word	.LDW_3687090
+
+	.section	.debug_abbrev
+	.byte	57
+	.byte	1
+	.byte	1
+	.byte	9,11
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	48
+	.word	.LDW_364eed8
+	.byte	4
+	.byte	0
+	.byte	127
+
+	.section	.debug_abbrev
+	.byte	48
+	.byte	33
+	.byte	0
+	.byte	73,16
+	.byte	11,15
+	.byte	34,13
+	.byte	47,13
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_36a5700:
+	.byte	41
+	.word	.LDW_3559718
+
+.LDW_36a3af8:
+	.byte	56
+	.byte	0
+	.byte	8
+	.word	.LDW_36a5700
+
+	.section	.debug_abbrev
+	.byte	56
+	.byte	1
+	.byte	1
+	.byte	9,11
+	.byte	11,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	48
+	.word	.LDW_364eed8
+	.byte	4
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36a3b80:
+	.byte	56
+	.byte	0
+	.byte	8
+	.word	.LDW_36a55a0
+
+	.byte	48
+	.word	.LDW_364eed8
+	.byte	4
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36a5758:
+	.byte	41
+	.word	.LDW_35ea390
+
+.LDW_36a3c08:
+	.byte	56
+	.byte	0
+	.byte	8
+	.word	.LDW_36a5758
+
+	.byte	48
+	.word	.LDW_364eed8
+	.byte	4
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3558168:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+.LDW_3556ed0:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+	.byte	0
+
+.LDW_35581a0:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+	.byte	0
+
+.LDW_35581d8:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+	.byte	0
+
+.LDW_3558210:
+	.byte	66
+	.word	.LDW_3559718
+	.byte	1
+
+.LDW_3556f00:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+.LDW_3556f30:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+.LDW_3556f60:
+	.byte	18
+	.word	.LDW_3606e90
+	.byte	0
+
+.LDW_3556f90:
+	.byte	18
+	.word	.LDW_3559900
+	.byte	0
+
+.LDW_3556fc0:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+.LDW_3556ff0:
+	.byte	18
+	.word	.LDW_3559718
+	.byte	0
+
+.LDW_3557020:
+	.byte	18
+	.word	.LDW_3606e90
+	.byte	0
+
+	.byte	0
+
+.LDW_36a5910:
+	.byte	40
+	.strz	"__ghs_c_int__"
+	.byte	0
+	.byte	0
+	.byte	1
+	.word	.LDW_364eed8
+
+	.section	.debug_abbrev
+	.byte	40
+	.byte	22
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36ad0c0:
+	.byte	66
+	.word	.LDW_35865a8
+	.byte	1
+
+.LDW_36ad708:
+	.byte	18
+	.word	.LDW_36a5910
+	.byte	0
+
+.LDW_36ad738:
+	.byte	18
+	.word	.LDW_36a5910
+	.byte	0
+
+	.byte	0
+
+.LDW_36afde8:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_36afe20:
+	.byte	67
+	.byte	1
+
+.LDW_36ad948:
+	.byte	18
+	.word	.LDW_35ea3e8
+	.byte	0
+
+.LDW_36ad978:
+	.byte	18
+	.word	.LDW_3686698
+	.byte	0
+
+.LDW_36ad9a8:
+	.byte	18
+	.word	.LDW_35ea390
+	.byte	0
+
+.LDW_36ad9d8:
+	.byte	18
+	.word	.LDW_3606ee8
+	.byte	0
+
+	.byte	0
+
+.LDW_36afec8:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_36aff00:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_36b1018:
+	.byte	67
+	.byte	1
+
+.LDW_36b0798:
+	.byte	18
+	.word	.LDW_35ea548
+	.byte	0
+
+	.byte	0
+
+.LDW_35ea548:
+	.byte	40
+	.strz	"char8"
+	.byte	103
+	.byte	17
+	.byte	5
+	.word	.LDW_364efb8
+
+.LDW_3606e90:
+	.byte	40
+	.strz	"uint8"
+	.byte	104
+	.byte	24
+	.byte	5
+	.word	.LDW_35867d8
+
+.LDW_3559900:
+	.byte	40
+	.strz	"uint16"
+	.byte	106
+	.byte	25
+	.byte	5
+	.word	.LDW_3586688
+
+.LDW_3559718:
+	.byte	40
+	.strz	"uint32"
+	.byte	108
+	.byte	23
+	.byte	5
+	.word	.LDW_35865a8
+
+.LDW_35ea338:
+	.byte	40
+	.strz	"sint32"
+	.byte	109
+	.byte	22
+	.byte	5
+	.word	.LDW_3620668
+
+.LDW_3553aa0:
+	.byte	40
+	.strz	"uintptr"
+	.byte	123
+	.byte	16
+	.byte	5
+	.word	.LDW_3559718
+
+.LDW_3554020:
+	.byte	40
+	.strz	"MemorySizeType"
+	.byte	107
+	.byte	17
+	.byte	3
+	.word	.LDW_3553aa0
+
+.LDW_3606ee8:
+	.byte	40
+	.strz	"CoreIdType"
+	.byte	134,1
+	.byte	15
+	.byte	3
+	.word	.LDW_3606e90
+
+.LDW_35ea3e8:
+	.byte	40
+	.strz	"InterruptNumberType"
+	.byte	110
+	.byte	16
+	.byte	2
+	.word	.LDW_3559718
+
+.LDW_3686698:
+	.byte	40
+	.strz	"AttributeType"
+	.byte	111
+	.byte	16
+	.byte	2
+	.word	.LDW_3559718
+
+.LDW_35ea390:
+	.byte	40
+	.strz	"PriorityType"
+	.byte	112
+	.byte	16
+	.byte	2
+	.word	.LDW_35ea338
+
+.LDW_3686ed8:
+	.byte	62
+	.strz	"interrupt_request_initialization_block"
+	.byte	92
+	.byte	16
+	.byte	33
+	.byte	20
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	62
+	.byte	19
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	11,15
+	.byte	50,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36a2f00:
+	.byte	35
+	.strz	"intno"
+	.byte	93
+	.byte	22
+	.byte	33
+	.word	.LDW_35ea3e8
+	.byte	2,35
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	35
+	.byte	13
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	56,10
+	.byte	50,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36a2f48:
+	.byte	35
+	.strz	"intatr"
+	.byte	94
+	.byte	17
+	.byte	33
+	.word	.LDW_3686698
+	.byte	2,35
+	.byte	4
+	.byte	1
+
+.LDW_36a2f90:
+	.byte	35
+	.strz	"intpri"
+	.byte	95
+	.byte	16
+	.byte	33
+	.word	.LDW_35ea390
+	.byte	2,35
+	.byte	8
+	.byte	1
+
+.LDW_36a2fd8:
+	.byte	35
+	.strz	"coreid"
+	.byte	96
+	.byte	15
+	.byte	33
+	.word	.LDW_3606ee8
+	.byte	2,35
+	.byte	12
+	.byte	1
+
+.LDW_36a3020:
+	.byte	35
+	.strz	"remain_stksz"
+	.byte	98
+	.byte	17
+	.byte	33
+	.word	.LDW_3554020
+	.byte	2,35
+	.byte	16
+	.byte	1
+
+	.byte	0
+
+.LDW_3686f30:
+	.byte	40
+	.strz	"INTINIB"
+	.byte	100
+	.byte	3
+	.byte	33
+	.word	.LDW_3686ed8
+
+.LDW_36a8498:
+	.byte	5
+	.strz	"tnum_intno"
+	.byte	112
+	.byte	34
+	.byte	33
+	.word	.LDW_36a55a0
+	.byte	1
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	5
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36a84e8:
+	.byte	5
+	.strz	"intinib_table"
+	.byte	117
+	.byte	25
+	.byte	33
+	.word	.LDW_36a37c8
+	.byte	1
+	.byte	1
+
+.LDW_36a8768:
+	.byte	4
+	.strz	"rlin3x_base_table"
+	.byte	75
+	.byte	14
+	.byte	1
+	.word	.LDW_36a3af8
+	.byte	1
+	.byte	0
+	.byte	5,3
+	.word	_rlin3x_base_table
+
+	.section	.debug_abbrev
+	.byte	4
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36a87b8:
+	.byte	4
+	.strz	"target_ici_intno_table"
+	.byte	84
+	.byte	1
+	.byte	1
+	.word	.LDW_36a3b80
+	.byte	1
+	.byte	0
+	.byte	5,3
+	.word	_target_ici_intno_table
+
+.LDW_36a8808:
+	.byte	4
+	.strz	"target_ici_intpri_table"
+	.byte	93
+	.byte	1
+	.byte	1
+	.word	.LDW_36a3c08
+	.byte	1
+	.byte	0
+	.byte	5,3
+	.word	_target_ici_intpri_table
+
+.LDW_36a08f8:
+	.byte	22
+	.strz	"EnableMainOSC"
+	.byte	250,2
+	.byte	15
+	.byte	16
+	.word	.LDW_3559718
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	22
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_36a0998:
+	.byte	22
+	.strz	"EnablePLL0"
+	.byte	252,2
+	.byte	15
+	.byte	16
+	.word	.LDW_3559718
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36a0a38:
+	.byte	22
+	.strz	"EnablePLL1"
+	.byte	254,2
+	.byte	15
+	.byte	16
+	.word	.LDW_3559718
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36a0ad8:
+	.byte	22
+	.strz	"SetClockSelection"
+	.byte	128,3
+	.byte	15
+	.byte	16
+	.word	.LDW_3559718
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36add38:
+	.byte	22
+	.strz	"__STSR"
+	.byte	108
+	.byte	14
+	.byte	23
+	.word	.LDW_35865a8
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3559770:
+	.byte	22
+	.strz	"current_psw"
+	.byte	111
+	.byte	1
+	.byte	22
+	.word	.LDW_3559718
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_1812c00:
+	.byte	32
+
+	.section	.debug_abbrev
+	.byte	32
+	.byte	11
+	.byte	1
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+	.byte	0
+
+.LDW_35ed518:
+	.byte	22
+	.strz	"current_peid"
+	.byte	177,1
+	.byte	1
+	.byte	22
+	.word	.LDW_3559718
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_1812db0:
+	.byte	32
+
+.LDW_35ed5b8:
+	.byte	5
+	.strz	"htcfg0_val"
+	.byte	179,1
+	.byte	9
+	.byte	22
+	.word	.LDW_3559718
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3606f40:
+	.byte	22
+	.strz	"x_core_id"
+	.byte	112
+	.byte	1
+	.byte	21
+	.word	.LDW_3606ee8
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_1812f30:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36175a8:
+	.byte	22
+	.strz	"sil_reh_mem"
+	.byte	100
+	.byte	1
+	.byte	29
+	.word	.LDW_3559900
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_3606308:
+	.byte	16
+	.strz	"mem"
+	.byte	100
+	.byte	19
+	.byte	29
+	.word	.LDW_35864c8
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	16
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35edcf0:
+	.byte	32
+
+.LDW_3606358:
+	.byte	5
+	.strz	"data"
+	.byte	102
+	.byte	9
+	.byte	29
+	.word	.LDW_3559900
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3617648:
+	.byte	21
+	.strz	"sil_wrh_mem"
+	.byte	109
+	.byte	1
+	.byte	29
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	21
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36063a8:
+	.byte	16
+	.strz	"mem"
+	.byte	109
+	.byte	19
+	.byte	29
+	.word	.LDW_35864c8
+	.byte	0
+
+.LDW_36063f8:
+	.byte	16
+	.strz	"data"
+	.byte	109
+	.byte	31
+	.byte	29
+	.word	.LDW_3559900
+	.byte	0
+
+.LDW_35edd80:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36176e8:
+	.byte	21
+	.strz	"sil_wrw_mem"
+	.byte	118
+	.byte	1
+	.byte	29
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_3606448:
+	.byte	16
+	.strz	"mem"
+	.byte	118
+	.byte	19
+	.byte	29
+	.word	.LDW_35864c8
+	.byte	0
+
+.LDW_3606498:
+	.byte	16
+	.strz	"data"
+	.byte	118
+	.byte	31
+	.byte	29
+	.word	.LDW_3559718
+	.byte	0
+
+.LDW_35ede10:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36aeaf8:
+	.byte	21
+	.strz	"infinite_loop"
+	.byte	137,1
+	.byte	13
+	.byte	30
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36aeb98:
+	.byte	21
+	.strz	"x_config_int"
+	.byte	130,3
+	.byte	13
+	.byte	30
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36aed78:
+	.byte	21
+	.strz	"prc_initialize"
+	.byte	159,3
+	.byte	13
+	.byte	30
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36aee18:
+	.byte	21
+	.strz	"prc_terminate"
+	.byte	164,3
+	.byte	13
+	.byte	30
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_36b2158:
+	.byte	21
+	.strz	"uart_putc"
+	.byte	101
+	.byte	13
+	.byte	36
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3618d68:
+	.byte	19
+	.strz	"target_fput_str"
+	.byte	102
+	.byte	1
+	.byte	1
+	.word	_target_fput_str
+	.word	___ghs_eofn_target_fput_str
+	.byte	1,83
+	.byte	130,128,128,128,9
+	.byte	8
+	.byte	3
+	.byte	8
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	19
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	17,1
+	.byte	18,1
+	.byte	64,10
+	.byte	131,65
+	.byte	15
+	.byte	135,65
+	.byte	13
+	.byte	133,65
+	.byte	15
+	.byte	134,65
+	.byte	13
+	.byte	146,65
+	.byte	15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_frame
+.LDW_35a4270:
+	.word	.LDW_unq_4-.LDW_unq_3
+.LDW_unq_3:
+	.word	.LDW_3565c00
+	.word	_target_fput_str
+	.word	___ghs_eofn_target_fput_str-_target_fput_str
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	64
+	.byte	156
+	.byte	4
+	.byte	1
+	.word	.LDW11
+	.byte	0
+.LDW_unq_4:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_fput_str
+	.byte	3
+	.byte	230,0
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	0,5,2
+	.word	.LDWlin1
+	.byte	11
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin2
+	.byte	3
+	.byte	127
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin3
+	.byte	13
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin4
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_364e120:
+	.byte	15
+	.strz	"c"
+	.byte	102
+	.byte	30
+	.byte	1
+	.word	.LDW_364eff0
+	.byte	0
+	.byte	1,108
+
+	.section	.debug_abbrev
+	.byte	15
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36220e8:
+	.byte	29
+	.word	.LDW01
+	.word	.LDW11
+
+	.section	.debug_abbrev
+	.byte	29
+	.byte	11
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+	.byte	0
+
+.LDW_3618e08:
+	.byte	19
+	.strz	"target_port_initialize"
+	.byte	116
+	.byte	1
+	.byte	1
+	.word	_target_port_initialize
+	.word	___ghs_eofn_target_port_initialize
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37f6850:
+	.word	.LDW_unq_6-.LDW_unq_5
+.LDW_unq_5:
+	.word	.LDW_3565c00
+	.word	_target_port_initialize
+	.word	___ghs_eofn_target_port_initialize-_target_port_initialize
+	.byte	1
+	.word	.LDW31
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_6:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_port_initialize
+	.byte	6
+	.byte	3
+	.byte	251,0
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	69
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	69
+	.byte	3
+	.byte	6
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	69
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	69
+	.byte	35
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3622118:
+	.byte	29
+	.word	.LDW21
+	.word	.LDW31
+
+.LDW_364e170:
+	.byte	4
+	.strz	"wk"
+	.byte	118
+	.byte	9
+	.byte	1
+	.word	.LDW_3559900
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3618ea8:
+	.byte	19
+	.strz	"target_clock_initialize"
+	.byte	203,1
+	.byte	1
+	.byte	1
+	.word	_target_clock_initialize
+	.word	___ghs_eofn_target_clock_initialize
+	.byte	1,83
+	.byte	130,128,128,128,10
+	.byte	8
+	.byte	3
+	.byte	20
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37f6950:
+	.word	.LDW_unq_8-.LDW_unq_7
+.LDW_unq_7:
+	.word	.LDW_3565c00
+	.word	_target_clock_initialize
+	.word	___ghs_eofn_target_clock_initialize-_target_clock_initialize
+	.byte	68
+	.byte	159
+	.byte	9
+	.byte	64
+	.byte	157
+	.byte	13
+	.byte	1
+	.word	.LDW51
+	.byte	0
+.LDW_unq_8:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_clock_initialize
+	.byte	3
+	.byte	203,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin5
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	27
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin6
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	19
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin7
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	19
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin8
+	.byte	13
+	.byte	11
+	.byte	19
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin9
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	11
+	.byte	19
+	.byte	2
+	.byte	0
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin10
+	.byte	13
+	.byte	11
+	.byte	19
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin12
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3622148:
+	.byte	29
+	.word	.LDW41
+	.word	.LDW51
+
+.LDW_364e1c0:
+	.byte	4
+	.strz	"errcnt"
+	.byte	205,1
+	.byte	9
+	.byte	1
+	.word	.LDW_3559718
+	.byte	0
+	.byte	0
+	.byte	1,109
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3618f48:
+	.byte	19
+	.strz	"target_hardware_initialize"
+	.byte	131,2
+	.byte	1
+	.byte	1
+	.word	_target_hardware_initialize
+	.word	___ghs_eofn_target_hardware_initialize
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37f6a50:
+	.word	.LDW_unq_a-.LDW_unq_9
+.LDW_unq_9:
+	.word	.LDW_3565c00
+	.word	_target_hardware_initialize
+	.word	___ghs_eofn_target_hardware_initialize-_target_hardware_initialize
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW71
+	.byte	68
+	.byte	223
+	.byte	0
+	.byte	0
+.LDW_unq_a:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_hardware_initialize
+	.byte	3
+	.byte	131,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	28
+	.byte	0,5,2
+	.word	.LDWlin13
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin14
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3622178:
+	.byte	29
+	.word	.LDW61
+	.word	.LDW71
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36a0498:
+	.byte	19
+	.strz	"hardware_init_hook"
+	.byte	144,2
+	.byte	1
+	.byte	1
+	.word	_hardware_init_hook
+	.word	___ghs_eofn_hardware_init_hook
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37f6b50:
+	.word	.LDW_unq_c-.LDW_unq_b
+.LDW_unq_b:
+	.word	.LDW_3565c00
+	.word	_hardware_init_hook
+	.word	___ghs_eofn_hardware_init_hook-_hardware_init_hook
+	.byte	1
+	.word	.LDW91
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_c:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_hardware_init_hook
+	.byte	6
+	.byte	3
+	.byte	146,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_36221a8:
+	.byte	29
+	.word	.LDW81
+	.word	.LDW91
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36a0538:
+	.byte	19
+	.strz	"target_initialize"
+	.byte	153,2
+	.byte	1
+	.byte	1
+	.word	_target_initialize
+	.word	___ghs_eofn_target_initialize
+	.byte	1,83
+	.byte	130,128,128,128,10
+	.byte	8
+	.byte	3
+	.byte	8
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37715c8:
+	.word	.LDW_unq_e-.LDW_unq_d
+.LDW_unq_d:
+	.word	.LDW_3565c00
+	.word	_target_initialize
+	.word	___ghs_eofn_target_initialize-_target_initialize
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	64
+	.byte	157
+	.byte	4
+	.byte	1
+	.word	.LDW12
+	.byte	0
+.LDW_unq_e:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_initialize
+	.byte	3
+	.byte	153,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	7
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin15
+	.byte	3
+	.byte	10
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	27
+	.byte	0,5,2
+	.word	.LDWlin16
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin17
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin18
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_36221d8:
+	.byte	29
+	.word	.LDW02
+	.word	.LDW12
+
+.LDW_364e210:
+	.byte	4
+	.strz	"coreid"
+	.byte	155,2
+	.byte	12
+	.byte	1
+	.word	.LDW_3559718
+	.byte	0
+	.byte	0
+	.byte	1,109
+
+.LDW_364e260:
+	.byte	5
+	.strz	"j"
+	.byte	156,2
+	.byte	22
+	.byte	1
+	.word	.LDW_35ea3e8
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36a05d8:
+	.byte	19
+	.strz	"target_exit"
+	.byte	188,2
+	.byte	1
+	.byte	1
+	.word	_target_exit
+	.word	___ghs_eofn_target_exit
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37716c8:
+	.word	.LDW_unq_10-.LDW_unq_f
+.LDW_unq_f:
+	.word	.LDW_3565c00
+	.word	_target_exit
+	.word	___ghs_eofn_target_exit-_target_exit
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW32
+.LDW_unq_10:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_exit
+	.byte	3
+	.byte	188,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	12
+	.byte	2
+	.byte	4
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin19
+	.byte	3
+	.byte	8
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin20
+	.byte	3
+	.byte	15
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_3556e40:
+	.byte	29
+	.word	.LDW22
+	.word	.LDW32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36a0678:
+	.byte	19
+	.strz	"target_fput_log"
+	.byte	231,2
+	.byte	1
+	.byte	1
+	.word	_target_fput_log
+	.word	___ghs_eofn_target_fput_log
+	.byte	1,83
+	.byte	130,128,128,128,9
+	.byte	8
+	.byte	3
+	.byte	8
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_37717c8:
+	.word	.LDW_unq_12-.LDW_unq_11
+.LDW_unq_11:
+	.word	.LDW_3565c00
+	.word	_target_fput_log
+	.word	___ghs_eofn_target_fput_log-_target_fput_log
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	64
+	.byte	156
+	.byte	4
+	.byte	1
+	.word	.LDW52
+	.byte	0
+.LDW_unq_12:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_target_fput_log
+	.byte	3
+	.byte	231,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	43
+	.byte	0,5,2
+	.word	.LDWlin21
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin22
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin23
+	.byte	11
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_364e2b0:
+	.byte	15
+	.strz	"c"
+	.byte	231,2
+	.byte	23
+	.byte	1
+	.word	.LDW_35ea548
+	.byte	0
+	.byte	1,108
+
+.LDW_3556ea0:
+	.byte	29
+	.word	.LDW42
+	.word	.LDW52
+
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+	.section	.debug_line
+.Ldw_line_end:
+	.section	.debug_macinfo
+	.byte	1
+	.byte	0
+	.strz	"__GNU_ASM_SUPPORT__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__LINE__"
+	.byte	1
+	.byte	0
+	.strz	"__FILE__"
+	.byte	1
+	.byte	0
+	.strz	"__PROTOTYPES__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ATTRIBUTES 1"
+	.byte	1
+	.byte	0
+	.strz	"__EDG__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ghs__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CORE_V850E3V5__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2R__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2V3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CHAR_BIT 8"
+	.byte	1
+	.byte	0
+	.strz	"__SHRT_BIT 16"
+	.byte	1
+	.byte	0
+	.strz	"__INT_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LONG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__WCHAR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__PTR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LLONG_BIT 64"
+	.byte	1
+	.byte	0
+	.strz	"__REG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__v850e3v5__ 1"
+	.byte	1
+	.byte	0
+	.strz	"ALLFUNC 1"
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	58
+	.byte	2
+	.byte	1
+	.byte	77
+	.strz	"OMIT_INCLUDE_OS_LCFG "
+	.byte	3
+	.byte	78
+	.byte	3
+	.byte	3
+	.byte	78
+	.byte	4
+	.byte	3
+	.byte	75
+	.byte	5
+	.byte	1
+	.byte	75
+	.strz	"TRUE UINT_C(1)"
+	.byte	1
+	.byte	79
+	.strz	"FALSE UINT_C(0)"
+	.byte	3
+	.byte	99
+	.byte	6
+	.byte	1
+	.byte	134,1
+	.strz	"___FAST32 long"
+	.byte	1
+	.byte	135,1
+	.strz	"___FAST32_BIT __REG_BIT"
+	.byte	1
+	.byte	239,1
+	.strz	"___IL48BIT __LLONG_BIT"
+	.byte	1
+	.byte	143,2
+	.strz	"___IL64BIT __LLONG_BIT"
+	.byte	1
+	.byte	242,2
+	.strz	"___IMBIT __LLONG_BIT"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	76
+	.byte	7
+	.byte	3
+	.byte	61
+	.byte	8
+	.byte	1
+	.byte	61
+	.strz	"UINT_C(val) (val ## U)"
+	.byte	4
+	.byte	1
+	.byte	79
+	.strz	"LOCAL_INLINE static __inline__"
+	.byte	1
+	.byte	81
+	.strz	"Asm asm"
+	.byte	1
+	.byte	83
+	.strz	"NoReturn __attribute__((__noreturn__))"
+	.byte	3
+	.byte	88
+	.byte	9
+	.byte	1
+	.byte	36
+	.strz	"CHAR_BIT __CHAR_BIT"
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	79
+	.byte	10
+	.byte	4
+	.byte	3
+	.byte	80
+	.byte	11
+	.byte	3
+	.byte	64
+	.byte	12
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	83
+	.byte	13
+	.byte	1
+	.byte	11
+	.strz	"CFG_USE_STACKMONITORING "
+	.byte	1
+	.byte	18
+	.strz	"CFG_USE_STARTUPHOOK "
+	.byte	1
+	.byte	22
+	.strz	"TotalNumberOfCores 2"
+	.byte	4
+	.byte	3
+	.byte	89
+	.byte	14
+	.byte	3
+	.byte	64
+	.byte	15
+	.byte	3
+	.byte	52
+	.byte	16
+	.byte	1
+	.byte	53
+	.strz	"_RH850G3M_ "
+	.byte	1
+	.byte	56
+	.strz	"TNUM_HWCORE UINT_C(2)"
+	.byte	1
+	.byte	123
+	.strz	"PNO_CtrlProt0 0"
+	.byte	1
+	.byte	124
+	.strz	"PNO_CtrlProt1 1"
+	.byte	1
+	.byte	151,1
+	.strz	"PORT_BASE UINT_C(0xffc10000)"
+	.byte	1
+	.byte	154,1
+	.strz	"PMC(n) ((PORT_BASE) +0x0400 + (n * 0x04U))"
+	.byte	1
+	.byte	157,1
+	.strz	"PM(n) ((PORT_BASE) +0x0300 + (n * 0x04U))"
+	.byte	1
+	.byte	159,1
+	.strz	"PIBC(n) ((PORT_BASE) +0x4000 + (n * 0x04U))"
+	.byte	1
+	.byte	160,1
+	.strz	"PFC(n) ((PORT_BASE) +0x0500 + (n * 0x04U))"
+	.byte	1
+	.byte	161,1
+	.strz	"PFCE(n) ((PORT_BASE) +0x0600 + (n * 0x04U))"
+	.byte	1
+	.byte	162,1
+	.strz	"PFCAE(n) ((PORT_BASE) +0x0A00 + (n * 0x04U))"
+	.byte	1
+	.byte	132,2
+	.strz	"CKSC_CPUCLKS_CTL 0xfff8a000"
+	.byte	1
+	.byte	133,2
+	.strz	"CKSC_CPUCLKS_ACT 0xfff8a008"
+	.byte	1
+	.byte	134,2
+	.strz	"CKSC_CPUCLKD_CTL 0xfff8a100"
+	.byte	1
+	.byte	135,2
+	.strz	"CKSC_CPUCLKD_ACT 0xfff8a108"
+	.byte	1
+	.byte	137,2
+	.strz	"CKSC_ILINS_CTL 0xfff8a400"
+	.byte	1
+	.byte	138,2
+	.strz	"CKSC_ILINS_ACT 0xfff8a408"
+	.byte	1
+	.byte	139,2
+	.strz	"CKSC_ILIND_CTL 0xfff8a800"
+	.byte	1
+	.byte	140,2
+	.strz	"CKSC_ILIND_ACT 0xfff8a808"
+	.byte	1
+	.byte	142,2
+	.strz	"CKSC_ATAUJS_CTL 0xfff82100"
+	.byte	1
+	.byte	143,2
+	.strz	"CKSC_ATAUJS_ACT 0xfff82108"
+	.byte	1
+	.byte	144,2
+	.strz	"CKSC_ATAUJD_CTL 0xfff82200"
+	.byte	1
+	.byte	145,2
+	.strz	"CKSC_ATAUJD_ACT 0xfff82208"
+	.byte	1
+	.byte	147,2
+	.strz	"MHz(n) ((n) * 1000 * 1000)"
+	.byte	1
+	.byte	158,2
+	.strz	"UC_SUCCESS 0"
+	.byte	1
+	.byte	170,2
+	.strz	"RLIN30_BASE 0xffce2000"
+	.byte	1
+	.byte	171,2
+	.strz	"RLIN31_BASE 0xffce2040"
+	.byte	1
+	.byte	192,2
+	.strz	"INTC1_BASE 0xFFFEEA00"
+	.byte	1
+	.byte	193,2
+	.strz	"INTC2_BASE 0xFFFFB000"
+	.byte	1
+	.byte	195,2
+	.strz	"INTC2_EIC 0x040"
+	.byte	1
+	.byte	197,2
+	.strz	"INTC2_INTNO_OFFSET 32"
+	.byte	1
+	.byte	200,2
+	.strz	"EIC_ADDRESS(intno) (intno <= 31) ? (INTC1_BASE + (intno * 2)) : (INTC2_BASE + INTC2_EIC + ((intno - INTC2_INTNO_OFFSET) * 2))"
+	.byte	1
+	.byte	204,2
+	.strz	"IBD_ADDRESS(intno) (intno <= 31) ? (0xFFFEEB00 + (intno * 4)) : (0xFFFFB880 + ((intno - INTC2_INTNO_OFFSET) * 4))"
+	.byte	1
+	.byte	206,2
+	.strz	"TMIN_INTNO UINT_C(0)"
+	.byte	1
+	.byte	207,2
+	.strz	"TMAX_INTNO UINT_C(350)"
+	.byte	1
+	.byte	238,2
+	.strz	"IPIR_CH0 0xfffeec80"
+	.byte	1
+	.byte	243,2
+	.strz	"IPIC_ADDR(ch) (IPIR_CH0 + ch * 4)"
+	.byte	3
+	.byte	136,3
+	.byte	17
+	.byte	1
+	.byte	61
+	.strz	"MAGIC_START UINT_C(0x87654321)"
+	.byte	1
+	.byte	104
+	.strz	"TNUM_INTPRI 16"
+	.byte	4
+	.byte	4
+	.byte	1
+	.byte	57
+	.strz	"MAINOSC_CLOCK_MHZ 16"
+	.byte	1
+	.byte	83
+	.strz	"RLIN30_P10_MASK ((uint16) 0x0600)"
+	.byte	1
+	.byte	84
+	.strz	"RLIN30_PM10_INIT ((uint16) 0x0200)"
+	.byte	1
+	.byte	85
+	.strz	"RLIN30_PFC10_INIT ((uint16) 0x0600)"
+	.byte	1
+	.byte	86
+	.strz	"RLIN30_PFCE10_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	87
+	.strz	"RLIN30_PFCAE10_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	88
+	.strz	"RLIN30_PMC10_INIT ((uint16) 0x0600)"
+	.byte	1
+	.byte	89
+	.strz	"RLIN30_PIBC10_INIT ((uint16) 0x0200)"
+	.byte	1
+	.byte	96
+	.strz	"RLIN31_P0_MASK ((uint16) 0x0030)"
+	.byte	1
+	.byte	97
+	.strz	"RLIN31_PM0_INIT ((uint16) 0x0010)"
+	.byte	1
+	.byte	98
+	.strz	"RLIN31_PFC0_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	99
+	.strz	"RLIN31_PFCE0_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	100
+	.strz	"RLIN31_PFCAE0_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	101
+	.strz	"RLIN31_PMC0_INIT ((uint16) 0x0030)"
+	.byte	1
+	.byte	102
+	.strz	"RLIN31_PIBC0_INIT ((uint16) 0x0010)"
+	.byte	4
+	.byte	1
+	.byte	73
+	.strz	"OS_CORE_ID_MASTER 0"
+	.byte	3
+	.byte	93
+	.byte	18
+	.byte	4
+	.byte	4
+	.byte	1
+	.byte	164,1
+	.strz	"ISR(ISRName) void ISRMain ## ISRName(void)"
+	.byte	1
+	.byte	176,1
+	.strz	"TOPPERS_STK_T sintptr"
+	.byte	1
+	.byte	156,3
+	.strz	"E_OS_SYS_ASSERT_FATAL UINT_C(27)"
+	.byte	1
+	.byte	169,5
+	.strz	"NATIVE_SPN UINT_C(0x00)"
+	.byte	1
+	.byte	170,5
+	.strz	"EMULATE_SPN UINT_C(0x01)"
+	.byte	4
+	.byte	1
+	.byte	95
+	.strz	"TMIN_TPRI UINT_C(0)"
+	.byte	1
+	.byte	96
+	.strz	"TMAX_TPRI UINT_C(15)"
+	.byte	1
+	.byte	101
+	.strz	"TNUM_TPRI ((TMAX_TPRI - TMIN_TPRI) + 1U)"
+	.byte	1
+	.byte	132,1
+	.strz	"ASSERT(exp) do { if (!(exp)) { fatal_file_name = __FILE__; fatal_line_num = __LINE__; internal_shutdownallcores(E_OS_SYS_ASSERT_FATAL); } } while (0)"
+	.byte	1
+	.byte	154,1
+	.strz	"G_KLOCK UINT_C(0x01)"
+	.byte	1
+	.byte	155,1
+	.strz	"C_KLOCK UINT_C(0x02)"
+	.byte	3
+	.byte	160,1
+	.byte	19
+	.byte	3
+	.byte	64
+	.byte	20
+	.byte	1
+	.byte	63
+	.strz	"TTYPE_KLOCK C_KLOCK"
+	.byte	1
+	.byte	68
+	.strz	"TTYPE_SPN NATIVE_SPN"
+	.byte	3
+	.byte	83
+	.byte	21
+	.byte	3
+	.byte	61
+	.byte	22
+	.byte	3
+	.byte	62
+	.byte	23
+	.byte	1
+	.byte	12
+	.strz	"__ATTRIBUTE(x) __attribute__(x)"
+	.byte	1
+	.byte	141,1
+	.strz	"__GETSP_macro() asm (\"mov sp, %0\" : \"=r\" (result));"
+	.byte	4
+	.byte	1
+	.byte	68
+	.strz	"CHECK_FUNC_ALIGN 2"
+	.byte	1
+	.byte	78
+	.strz	"V850_MEMORY_CHANGED v850_memory_changed();"
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	68
+	.byte	24
+	.byte	4
+	.byte	3
+	.byte	69
+	.byte	25
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	165,1
+	.byte	26
+	.byte	3
+	.byte	64
+	.byte	27
+	.byte	1
+	.byte	64
+	.strz	"ICI_IPIC_CH 0"
+	.byte	1
+	.byte	70
+	.strz	"INTPRI_ICI0 1"
+	.byte	1
+	.byte	74
+	.strz	"INTPRI_ICI1 1"
+	.byte	3
+	.byte	98
+	.byte	28
+	.byte	3
+	.byte	53
+	.byte	29
+	.byte	1
+	.byte	60
+	.strz	"TOPPERS_PRC_SIL_H "
+	.byte	1
+	.byte	62
+	.strz	"PSW_ID_BITPTN (1U << 5)"
+	.byte	4
+	.byte	1
+	.byte	60
+	.strz	"INTNO_ICI0 (UINT_C(0x10000) | (ICI_IPIC_CH))"
+	.byte	1
+	.byte	61
+	.strz	"INTNO_ICI1 (UINT_C(0x20000) | (ICI_IPIC_CH))"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	103
+	.byte	30
+	.byte	3
+	.byte	65
+	.byte	29
+	.byte	4
+	.byte	1
+	.byte	92
+	.strz	"INTNO_MASK(intno) ((intno) & 0xffffU)"
+	.byte	1
+	.byte	98
+	.strz	"VALID_INTNO(intno) (INTNO_MASK(intno) <= (InterruptNumberType) (TMAX_INTNO))"
+	.byte	1
+	.byte	108
+	.strz	"TOPPERS_OSTKPT(stk,stksz) ((StackType *) ((sint8 *) (stk) + (stksz)))"
+	.byte	1
+	.byte	143,1
+	.strz	"EXT_IPM(iipm) ((PriorityType) (iipm - (TNUM_INTPRI)))"
+	.byte	1
+	.byte	144,1
+	.strz	"INT_IPM(ipm) ((uint32) (ipm + (TNUM_INTPRI)))"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	171,1
+	.byte	31
+	.byte	1
+	.byte	127
+	.strz	"TOPPERS_StartOS "
+	.byte	4
+	.byte	1
+	.byte	161,2
+	.strz	"ENABLE UINT_C(0x01)"
+	.byte	1
+	.byte	133,3
+	.strz	"BITMAP_NUM 15"
+	.byte	4
+	.byte	3
+	.byte	59
+	.byte	32
+	.byte	4
+	.byte	3
+	.byte	60
+	.byte	33
+	.byte	3
+	.byte	67
+	.byte	34
+	.byte	4
+	.byte	3
+	.byte	68
+	.byte	35
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	61
+	.byte	36
+	.byte	1
+	.byte	51
+	.strz	"TOPPERS_UART_RLIN_H "
+	.byte	3
+	.byte	53
+	.byte	29
+	.byte	4
+	.byte	3
+	.byte	54
+	.byte	37
+	.byte	3
+	.byte	104
+	.byte	36
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	62
+	.byte	29
+	.byte	4
+	.byte	3
+	.byte	63
+	.byte	38
+	.byte	3
+	.byte	64
+	.byte	29
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	0
+	.section	.debug_abbrev
+	.byte	0
+	.section	.debug_info
+.Ldw_end:
+.rh850_flags REGMODE32,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M
