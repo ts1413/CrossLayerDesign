@@ -11,8 +11,8 @@
 --		-DALLFUNC -I../../kernel Os_Lcfg.c
 --Source File:   Os_Lcfg.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
---Compile Date:  Thu Sep 07 10:14:58 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
+--Compile Date:  Thu Sep 07 16:15:30 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,22 +22,22 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
 	.size	..gh.f.f.1.e.0,0
-	.global	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW01:
 	mov	4,r6
 	jr	_activate_task_action
 --	    .ef
 .LDW11:
-___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -51,17 +51,17 @@ ___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.1:
 	.type	..gh.f.f.1.e.1,@object
 	.size	..gh.f.f.1.e.1,0
-	.global	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW21:
 	mov	5,r6
 	jr	_activate_task_action
 --	    .ef
 .LDW31:
-___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -75,17 +75,17 @@ ___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.2:
 	.type	..gh.f.f.1.e.2,@object
 	.size	..gh.f.f.1.e.2,0
-	.global	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW41:
 	mov	6,r6
 	jr	_activate_task_action
 --	    .ef
 .LDW51:
-___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -99,8 +99,8 @@ ___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.3:
 	.type	..gh.f.f.1.e.3,@object
 	.size	..gh.f.f.1.e.3,0
-	.global	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW61:
 	mov	0,r6
@@ -108,9 +108,9 @@ ____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 	jr	_set_event_action
 --	    .ef
 .LDW71:
-___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -124,8 +124,8 @@ ___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.4:
 	.type	..gh.f.f.1.e.4,@object
 	.size	..gh.f.f.1.e.4,0
-	.global	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW81:
 	mov	1,r6
@@ -133,9 +133,9 @@ ____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 	jr	_set_event_action
 --	    .ef
 .LDW91:
-___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -149,8 +149,8 @@ ___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.5:
 	.type	..gh.f.f.1.e.5,@object
 	.size	..gh.f.f.1.e.5,0
-	.global	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW02:
 	mov	2,r6
@@ -158,9 +158,9 @@ ____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 	jr	_set_event_action
 --	    .ef
 .LDW12:
-___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -174,8 +174,8 @@ ___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H1
 ..gh.f.f.1.e.6:
 	.type	..gh.f.f.1.e.6,@object
 	.size	..gh.f.f.1.e.6,0
-	.global	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
+	.global	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
 --	    .bf
 .LDW22:
 	mov	3,r6
@@ -183,9 +183,9 @@ ____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 	jr	_set_event_action
 --	    .ef
 .LDW32:
-___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:
-	.type	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@function
-	.size	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,.-____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:
+	.type	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@function
+	.size	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,.-____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -206,21 +206,21 @@ _object_initialize:
 .LDW42:
 	jarl	_interrupt_initialize,lp
 --line378
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg.1::
 .LDWlin1:
 	jarl	_task_initialize,lp
 --line379
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg.2::
 .LDWlin2:
 	jarl	_counter_initialize,lp
 --line380
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg.3::
 .LDWlin3:
 	jarl	_alarm_initialize,lp
 --	    .ef
 .LDW52:
 --line381
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg.4::
 .LDWlin4:
 	dispose	0,{r31},[lp]
 	.global	___ghs_eofn_object_initialize
@@ -492,13 +492,13 @@ __ostksz_table:	.byte	80,9,0,0
 	.type	__ostksz_table,@object
 	.size	__ostksz_table,8
 	.global	__ostk_table
-__ostk_table:	.word	sdaoff23(____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
-	.word	sdaoff23(____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+__ostk_table:	.word	sdaoff23(____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.type	__ostk_table,@object
 	.size	__ostk_table,8
 	.global	__ostkpt_table
-__ostkpt_table:	.word	sdaoff23(____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf+2384)
-	.word	sdaoff23(____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf+1872)
+__ostkpt_table:	.word	sdaoff23(____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf+2384)
+	.word	sdaoff23(____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf+1872)
 	.type	__ostkpt_table,@object
 	.size	__ostkpt_table,8
 	.global	_isr_table
@@ -549,7 +549,7 @@ _tnum_exttask:	.byte	4,0,0,0
 	.type	_tnum_exttask,@object
 	.size	_tnum_exttask,4
 	.global	_tnum_appmode
-_tnum_appmode:	.byte	2,0,0,0
+_tnum_appmode:	.byte	1,0,0,0
 	.type	_tnum_appmode,@object
 	.size	_tnum_appmode,4
 	.global	_tnum_scheduletable
@@ -633,10 +633,10 @@ _p_almcb_table:	.word	sdaoff23(__kernel_almcb_OperationManagerCycAlarm)
 	.word	sdaoff23(__kernel_almcb_DriveManagerCycAlarm)
 	.word	sdaoff23(__kernel_almcb_BodyControlCycAlarm)
 	.word	sdaoff23(__kernel_almcb_BuzzerControlCycAlarm)
-	.word	sdaoff23(__kernel_almcb_a_controller_Core0_1_0_Alarm)
-	.word	sdaoff23(__kernel_almcb_a_controller_Core1_1_0_Alarm)
-	.word	sdaoff23(__kernel_almcb_a_controller_Core0_100_0_Alarm)
-	.word	sdaoff23(__kernel_almcb_a_controller_Core1_100_0_Alarm)
+	.word	sdaoff23(__kernel_almcb_BlsmControl_Core0_1_0_Alarm)
+	.word	sdaoff23(__kernel_almcb_BlsmControl_Core1_1_0_Alarm)
+	.word	sdaoff23(__kernel_almcb_BlsmControl_Core0_100_0_Alarm)
+	.word	sdaoff23(__kernel_almcb_BlsmControl_Core1_100_0_Alarm)
 	.type	_p_almcb_table,@object
 	.size	_p_almcb_table,32
 	.global	_schtblinib_table
@@ -671,10 +671,10 @@ _p_isrcb_table:	.word	sdaoff23(__kernel_isrcb_RLIN3x_TX_ISR)
 	.type	_p_isrcb_table,@object
 	.size	_p_isrcb_table,16
 	.global	_p_tcb_table
-_p_tcb_table:	.word	sdaoff23(__kernel_tcb_a_controller_Core0_1_0_Task)
-	.word	sdaoff23(__kernel_tcb_a_controller_Core1_1_0_Task)
-	.word	sdaoff23(__kernel_tcb_a_controller_Core0_100_0_Task)
-	.word	sdaoff23(__kernel_tcb_a_controller_Core1_100_0_Task)
+_p_tcb_table:	.word	sdaoff23(__kernel_tcb_BlsmControl_Core0_1_0_Task)
+	.word	sdaoff23(__kernel_tcb_BlsmControl_Core1_1_0_Task)
+	.word	sdaoff23(__kernel_tcb_BlsmControl_Core0_100_0_Task)
+	.word	sdaoff23(__kernel_tcb_BlsmControl_Core1_100_0_Task)
 	.word	sdaoff23(__kernel_tcb_OperationManagerTask)
 	.word	sdaoff23(__kernel_tcb_DriveManagerTask)
 	.word	sdaoff23(__kernel_tcb_BodyControlTask)
@@ -781,49 +781,49 @@ __kernel_core1_ccb:	.space	1
 	.size	__kernel_core1_ccb,224
 	.section ".rosdata","a"
 	.global	_tinib_table
-_tinib_table:	.word	_TaskMaina_controller_Core0_1_0_Task
+_tinib_table:	.word	_TaskMainBlsmControl_Core0_1_0_Task
 	.byte	136,19,0,0
-	.word	sdaoff23(____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table+1)
 	.space	4
 	.space	4
 	.space	1
 	.space	3
-	.byte	3,0,0,0
+	.byte	1,0,0,0
 	.word	sdaoff23(__kernel_core0_ccb)
-	.word	_TaskMaina_controller_Core1_1_0_Task
+	.word	_TaskMainBlsmControl_Core1_1_0_Task
 	.byte	136,19,0,0
-	.word	sdaoff23(____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table+2)
 	.space	4
 	.space	4
 	.space	1
 	.space	3
-	.byte	3,0,0,0
+	.byte	1,0,0,0
 	.word	sdaoff23(__kernel_core1_ccb)
-	.word	_TaskMaina_controller_Core0_100_0_Task
+	.word	_TaskMainBlsmControl_Core0_100_0_Task
 	.byte	136,19,0,0
-	.word	sdaoff23(____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table+1)
 	.byte	1,0,0,0
 	.byte	1,0,0,0
 	.space	1
 	.space	3
-	.byte	3,0,0,0
+	.byte	1,0,0,0
 	.word	sdaoff23(__kernel_core0_ccb)
-	.word	_TaskMaina_controller_Core1_100_0_Task
+	.word	_TaskMainBlsmControl_Core1_100_0_Task
 	.byte	136,19,0,0
-	.word	sdaoff23(____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table+2)
 	.byte	1,0,0,0
 	.byte	1,0,0,0
 	.space	1
 	.space	3
-	.byte	3,0,0,0
+	.byte	1,0,0,0
 	.word	sdaoff23(__kernel_core1_ccb)
 	.word	_TaskMainOperationManagerTask
 	.byte	0,8,0,0
-	.word	sdaoff23(____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table)
 	.byte	13,0,0,0
 	.byte	13,0,0,0
@@ -833,7 +833,7 @@ _tinib_table:	.word	_TaskMaina_controller_Core0_1_0_Task
 	.word	sdaoff23(__kernel_core0_ccb)
 	.word	_TaskMainDriveManagerTask
 	.byte	0,8,0,0
-	.word	sdaoff23(____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table)
 	.byte	12,0,0,0
 	.byte	12,0,0,0
@@ -843,7 +843,7 @@ _tinib_table:	.word	_TaskMaina_controller_Core0_1_0_Task
 	.word	sdaoff23(__kernel_core0_ccb)
 	.word	_TaskMainBodyControlTask
 	.byte	0,8,0,0
-	.word	sdaoff23(____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf)
+	.word	sdaoff23(____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf)
 	.word	rosdaoff23(_osapinib_table)
 	.byte	13,0,0,0
 	.byte	13,0,0,0
@@ -884,21 +884,21 @@ _hwcntinib_table:	.word	_init_hwcounter_MAIN_HW_COUNTER_CORE0
 	.size	_hwcntinib_table,96
 	.global	_alminib_table
 _alminib_table:	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.byte	3,0,0,0
+	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.byte	1,0,0,0
 	.byte	128,56,1,0
 	.byte	128,56,1,0
 	.byte	16,0,0,0
 	.word	rosdaoff23(_osapinib_table)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.byte	3,0,0,0
+	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.byte	1,0,0,0
 	.byte	0,113,2,0
 	.byte	0,113,2,0
 	.byte	16,0,0,0
 	.word	rosdaoff23(_osapinib_table)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,0,0,0
 	.byte	0,53,12,0
 	.byte	0,53,12,0
@@ -912,28 +912,28 @@ _alminib_table:	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
 	.byte	20,0,0,0
 	.word	rosdaoff23(_osapinib_table)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.space	4
 	.space	4
 	.space	4
 	.space	4
 	.word	rosdaoff23(_osapinib_table+1)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.space	4
 	.space	4
 	.space	4
 	.space	4
 	.word	rosdaoff23(_osapinib_table+1)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.space	4
 	.space	4
 	.space	4
 	.space	4
 	.word	rosdaoff23(_osapinib_table+1)
 	.word	sdaoff23(__kernel_cntcb_MAIN_HW_COUNTER_CORE0)
-	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.space	4
 	.space	4
 	.space	4
@@ -3119,25 +3119,25 @@ __kernel_almcb_BuzzerControlCycAlarm:	.space	24
 	.type	__kernel_almcb_BuzzerControlCycAlarm,@object
 	.size	__kernel_almcb_BuzzerControlCycAlarm,24
 	.align	4
-	.global	__kernel_almcb_a_controller_Core0_1_0_Alarm
-__kernel_almcb_a_controller_Core0_1_0_Alarm:	.space	24
-	.type	__kernel_almcb_a_controller_Core0_1_0_Alarm,@object
-	.size	__kernel_almcb_a_controller_Core0_1_0_Alarm,24
+	.global	__kernel_almcb_BlsmControl_Core0_1_0_Alarm
+__kernel_almcb_BlsmControl_Core0_1_0_Alarm:	.space	24
+	.type	__kernel_almcb_BlsmControl_Core0_1_0_Alarm,@object
+	.size	__kernel_almcb_BlsmControl_Core0_1_0_Alarm,24
 	.align	4
-	.global	__kernel_almcb_a_controller_Core1_1_0_Alarm
-__kernel_almcb_a_controller_Core1_1_0_Alarm:	.space	24
-	.type	__kernel_almcb_a_controller_Core1_1_0_Alarm,@object
-	.size	__kernel_almcb_a_controller_Core1_1_0_Alarm,24
+	.global	__kernel_almcb_BlsmControl_Core1_1_0_Alarm
+__kernel_almcb_BlsmControl_Core1_1_0_Alarm:	.space	24
+	.type	__kernel_almcb_BlsmControl_Core1_1_0_Alarm,@object
+	.size	__kernel_almcb_BlsmControl_Core1_1_0_Alarm,24
 	.align	4
-	.global	__kernel_almcb_a_controller_Core0_100_0_Alarm
-__kernel_almcb_a_controller_Core0_100_0_Alarm:	.space	24
-	.type	__kernel_almcb_a_controller_Core0_100_0_Alarm,@object
-	.size	__kernel_almcb_a_controller_Core0_100_0_Alarm,24
+	.global	__kernel_almcb_BlsmControl_Core0_100_0_Alarm
+__kernel_almcb_BlsmControl_Core0_100_0_Alarm:	.space	24
+	.type	__kernel_almcb_BlsmControl_Core0_100_0_Alarm,@object
+	.size	__kernel_almcb_BlsmControl_Core0_100_0_Alarm,24
 	.align	4
-	.global	__kernel_almcb_a_controller_Core1_100_0_Alarm
-__kernel_almcb_a_controller_Core1_100_0_Alarm:	.space	24
-	.type	__kernel_almcb_a_controller_Core1_100_0_Alarm,@object
-	.size	__kernel_almcb_a_controller_Core1_100_0_Alarm,24
+	.global	__kernel_almcb_BlsmControl_Core1_100_0_Alarm
+__kernel_almcb_BlsmControl_Core1_100_0_Alarm:	.space	24
+	.type	__kernel_almcb_BlsmControl_Core1_100_0_Alarm,@object
+	.size	__kernel_almcb_BlsmControl_Core1_100_0_Alarm,24
 	.align	4
 	.global	_ioccb_table
 _ioccb_table:	.space	16
@@ -3146,72 +3146,72 @@ _ioccb_table:	.space	16
 	.section ".pe1_lram","awb"
 	.align	4
 	.align	4
-	.global	____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	5000
-	.type	____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,5000
+	.global	____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	5000
+	.type	____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,5000
 	.section ".pe2_lram","awb"
 	.align	4
 	.align	4
-	.global	____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	5000
-	.type	____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,5000
+	.global	____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	5000
+	.type	____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,5000
 	.section ".pe1_lram","awb"
 	.align	4
-	.global	____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	5000
-	.type	____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,5000
+	.global	____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	5000
+	.type	____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,5000
 	.section ".pe2_lram","awb"
 	.align	4
-	.global	____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	5000
-	.type	____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,5000
+	.global	____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	5000
+	.type	____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,5000
 	.section ".pe1_lram","awb"
 	.align	4
-	.global	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	2048
-	.type	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,2048
+	.global	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	2048
+	.type	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,2048
 	.align	4
-	.global	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	2048
-	.type	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,2048
+	.global	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	2048
+	.type	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,2048
 	.align	4
-	.global	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	2384
-	.type	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,2384
+	.global	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	2384
+	.type	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,2384
 	.section ".pe2_lram","awb"
 	.align	4
-	.global	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf:	.space	1872
-	.type	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,@object
-	.size	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf,1872
+	.global	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf:	.space	1872
+	.type	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,@object
+	.size	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf,1872
 	.section ".sbss","awb"
 	.align	4
-	.global	__kernel_tcb_a_controller_Core0_1_0_Task
-__kernel_tcb_a_controller_Core0_1_0_Task:	.space	44
-	.type	__kernel_tcb_a_controller_Core0_1_0_Task,@object
-	.size	__kernel_tcb_a_controller_Core0_1_0_Task,44
+	.global	__kernel_tcb_BlsmControl_Core0_1_0_Task
+__kernel_tcb_BlsmControl_Core0_1_0_Task:	.space	44
+	.type	__kernel_tcb_BlsmControl_Core0_1_0_Task,@object
+	.size	__kernel_tcb_BlsmControl_Core0_1_0_Task,44
 	.align	4
-	.global	__kernel_tcb_a_controller_Core1_1_0_Task
-__kernel_tcb_a_controller_Core1_1_0_Task:	.space	44
-	.type	__kernel_tcb_a_controller_Core1_1_0_Task,@object
-	.size	__kernel_tcb_a_controller_Core1_1_0_Task,44
+	.global	__kernel_tcb_BlsmControl_Core1_1_0_Task
+__kernel_tcb_BlsmControl_Core1_1_0_Task:	.space	44
+	.type	__kernel_tcb_BlsmControl_Core1_1_0_Task,@object
+	.size	__kernel_tcb_BlsmControl_Core1_1_0_Task,44
 	.align	4
-	.global	__kernel_tcb_a_controller_Core0_100_0_Task
-__kernel_tcb_a_controller_Core0_100_0_Task:	.space	44
-	.type	__kernel_tcb_a_controller_Core0_100_0_Task,@object
-	.size	__kernel_tcb_a_controller_Core0_100_0_Task,44
+	.global	__kernel_tcb_BlsmControl_Core0_100_0_Task
+__kernel_tcb_BlsmControl_Core0_100_0_Task:	.space	44
+	.type	__kernel_tcb_BlsmControl_Core0_100_0_Task,@object
+	.size	__kernel_tcb_BlsmControl_Core0_100_0_Task,44
 	.align	4
-	.global	__kernel_tcb_a_controller_Core1_100_0_Task
-__kernel_tcb_a_controller_Core1_100_0_Task:	.space	44
-	.type	__kernel_tcb_a_controller_Core1_100_0_Task,@object
-	.size	__kernel_tcb_a_controller_Core1_100_0_Task,44
+	.global	__kernel_tcb_BlsmControl_Core1_100_0_Task
+__kernel_tcb_BlsmControl_Core1_100_0_Task:	.space	44
+	.type	__kernel_tcb_BlsmControl_Core1_100_0_Task,@object
+	.size	__kernel_tcb_BlsmControl_Core1_100_0_Task,44
 	.align	4
 	.global	__kernel_tcb_OperationManagerTask
 __kernel_tcb_OperationManagerTask:	.space	44
@@ -3273,7 +3273,7 @@ _ioc_inival_table:	.space	4
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -3284,10 +3284,10 @@ _ioc_inival_table:	.space	4
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COs_Lcfg...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
 	.strz	"Os_Lcfg.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -3408,7 +3408,7 @@ _ioc_inival_table:	.space	4
 	.byte	0,0,0
 	.strz	"Os_Lcfg.h"
 	.byte	0,0,0
-	.strz	"a_controller-app.h"
+	.strz	"BlsmControl-app.h"
 	.byte	0,0,0
 	.strz	"rlin3x.h"
 	.byte	0,0,0
@@ -3419,7 +3419,7 @@ _ioc_inival_table:	.space	4
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_390e9c8:
+.LDW_38be9a8:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -3561,7 +3561,7 @@ _ioc_inival_table:	.space	4
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_2f8d4a0:
+.LDW_2e5d4a0:
 	.byte	37
 	.strz	"void*"
 	.byte	1
@@ -3577,15 +3577,15 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2f8d580:
+.LDW_2e5d580:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
 	.byte	4
 
-.LDW_2f8d5b8:
+.LDW_2e5d5b8:
 	.byte	66
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	1
 
 	.section	.debug_abbrev
@@ -3599,21 +3599,21 @@ _ioc_inival_table:	.space	4
 	.section	.debug_info
 	.byte	0
 
-.LDW_2f8d660:
+.LDW_2e5d660:
 	.byte	37
 	.strz	"unsigned short"
 	.byte	7
 	.byte	2
 
-.LDW_2f8d7b0:
+.LDW_2e5d7b0:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_35eeaf8:
+.LDW_359eaf8:
 	.byte	45
-	.word	.LDW_36207d0
+	.word	.LDW_35d07d0
 
 	.section	.debug_abbrev
 	.byte	45
@@ -3623,13 +3623,13 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35ef0a8:
+.LDW_359f0a8:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_35ef1f8:
+.LDW_359f1f8:
 	.byte	67
 	.byte	1
 
@@ -3641,9 +3641,9 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3621b00:
+.LDW_35d1b00:
 	.byte	18
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 	.byte	0
 
 	.section	.debug_abbrev
@@ -3657,26 +3657,26 @@ _ioc_inival_table:	.space	4
 	.section	.debug_info
 	.byte	0
 
-.LDW_364bbf8:
+.LDW_35fbbf8:
 	.byte	67
 	.byte	1
 
-.LDW_3621b60:
+.LDW_35d1b60:
 	.byte	18
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 	.byte	0
 
 	.byte	0
 
-.LDW_364bf08:
+.LDW_35fbf08:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_36209f8:
+.LDW_35d09f8:
 	.byte	41
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
 	.section	.debug_abbrev
 	.byte	41
@@ -3686,202 +3686,202 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3620b58:
+.LDW_35d0b58:
 	.byte	41
-	.word	.LDW_3620b00
+	.word	.LDW_35d0b00
 
-.LDW_364bfe8:
+.LDW_35fbfe8:
 	.byte	45
-	.word	.LDW_3620b58
+	.word	.LDW_35d0b58
 
-.LDW_364c170:
+.LDW_35fc170:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c1a8:
+.LDW_35fc1a8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c1e0:
+.LDW_35fc1e0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c218:
+.LDW_35fc218:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c250:
+.LDW_35fc250:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c288:
+.LDW_35fc288:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c2c0:
+.LDW_35fc2c0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c2f8:
+.LDW_35fc2f8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c330:
+.LDW_35fc330:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c368:
+.LDW_35fc368:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_364c3a0:
+.LDW_35fc3a0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35561e0:
+.LDW_35061e0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3556218:
+.LDW_3506218:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3556250:
+.LDW_3506250:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3556288:
+.LDW_3506288:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35562c0:
+.LDW_35062c0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35562f8:
+.LDW_35062f8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3556528:
+.LDW_3506528:
 	.byte	45
-	.word	.LDW_3553348
+	.word	.LDW_3503348
 
-.LDW_3556560:
+.LDW_3506560:
 	.byte	45
-	.word	.LDW_3553500
+	.word	.LDW_3503500
 
-.LDW_3556598:
+.LDW_3506598:
 	.byte	45
-	.word	.LDW_3552fd8
+	.word	.LDW_3502fd8
 
-.LDW_35565d0:
+.LDW_35065d0:
 	.byte	45
-	.word	.LDW_3553030
+	.word	.LDW_3503030
 
-.LDW_3556608:
+.LDW_3506608:
 	.byte	45
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 
-.LDW_3556640:
+.LDW_3506640:
 	.byte	45
-	.word	.LDW_3553138
+	.word	.LDW_3503138
 
-.LDW_3556678:
+.LDW_3506678:
 	.byte	45
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 
-.LDW_35566b0:
+.LDW_35066b0:
 	.byte	45
-	.word	.LDW_35533a0
+	.word	.LDW_35033a0
 
-.LDW_35566e8:
+.LDW_35066e8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3556720:
+.LDW_3506720:
 	.byte	45
-	.word	.LDW_35566e8
+	.word	.LDW_35066e8
 
-.LDW_3556758:
+.LDW_3506758:
 	.byte	45
-	.word	.LDW_35ee988
+	.word	.LDW_359e988
 
-.LDW_3556790:
+.LDW_3506790:
 	.byte	66
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 	.byte	1
 
 	.byte	0
 
-.LDW_35567c8:
+.LDW_35067c8:
 	.byte	45
-	.word	.LDW_3556790
+	.word	.LDW_3506790
 
-.LDW_35577d0:
+.LDW_35077d0:
 	.byte	41
-	.word	.LDW_3557778
+	.word	.LDW_3507778
 
-.LDW_3556800:
+.LDW_3506800:
 	.byte	45
-	.word	.LDW_35577d0
+	.word	.LDW_35077d0
 
-.LDW_35578d8:
+.LDW_35078d8:
 	.byte	41
-	.word	.LDW_3557828
+	.word	.LDW_3507828
 
-.LDW_3556838:
+.LDW_3506838:
 	.byte	45
-	.word	.LDW_35578d8
+	.word	.LDW_35078d8
 
-.LDW_3556870:
+.LDW_3506870:
 	.byte	45
-	.word	.LDW_3557880
+	.word	.LDW_3507880
 
-.LDW_35568a8:
+.LDW_35068a8:
 	.byte	45
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 
-.LDW_3556b68:
+.LDW_3506b68:
 	.byte	56
 	.byte	0
 	.byte	128,1
-	.word	.LDW_35ee9e0
+	.word	.LDW_359e9e0
 
 	.section	.debug_abbrev
 	.byte	56
@@ -3894,7 +3894,7 @@ _ioc_inival_table:	.space	4
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	15
@@ -3912,1021 +3912,1021 @@ _ioc_inival_table:	.space	4
 	.section	.debug_info
 	.byte	0
 
-.LDW_35568e0:
+.LDW_35068e0:
 	.byte	45
-	.word	.LDW_3557a90
+	.word	.LDW_3507a90
 
-.LDW_3557b98:
+.LDW_3507b98:
 	.byte	41
-	.word	.LDW_3557b40
+	.word	.LDW_3507b40
 
-.LDW_3556918:
+.LDW_3506918:
 	.byte	45
-	.word	.LDW_3557b98
+	.word	.LDW_3507b98
 
-.LDW_3556950:
+.LDW_3506950:
 	.byte	45
-	.word	.LDW_3557930
+	.word	.LDW_3507930
 
-.LDW_3557da8:
+.LDW_3507da8:
 	.byte	41
-	.word	.LDW_3557cf8
+	.word	.LDW_3507cf8
 
-.LDW_3556988:
+.LDW_3506988:
 	.byte	45
-	.word	.LDW_3557da8
+	.word	.LDW_3507da8
 
-.LDW_3708438:
+.LDW_36b8438:
 	.byte	45
-	.word	.LDW_3557d50
+	.word	.LDW_3507d50
 
-.LDW_3557f08:
+.LDW_3507f08:
 	.byte	41
-	.word	.LDW_3557eb0
+	.word	.LDW_3507eb0
 
-.LDW_3708470:
+.LDW_36b8470:
 	.byte	45
-	.word	.LDW_3557f08
+	.word	.LDW_3507f08
 
-.LDW_37084a8:
+.LDW_36b84a8:
 	.byte	45
-	.word	.LDW_3557e00
+	.word	.LDW_3507e00
 
-.LDW_37084e0:
+.LDW_36b84e0:
 	.byte	67
 	.byte	1
 
-.LDW_3558ab0:
+.LDW_3508ab0:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
-.LDW_3558ae0:
+.LDW_3508ae0:
 	.byte	18
-	.word	.LDW_35533f8
+	.word	.LDW_35033f8
 	.byte	0
 
 	.byte	0
 
-.LDW_3708518:
+.LDW_36b8518:
 	.byte	45
-	.word	.LDW_37084e0
+	.word	.LDW_36b84e0
 
-.LDW_3708550:
+.LDW_36b8550:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3708588:
+.LDW_36b8588:
 	.byte	45
-	.word	.LDW_3708550
+	.word	.LDW_36b8550
 
-.LDW_37085c0:
+.LDW_36b85c0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37085f8:
+.LDW_36b85f8:
 	.byte	45
-	.word	.LDW_37085c0
+	.word	.LDW_36b85c0
 
-.LDW_3708630:
+.LDW_36b8630:
 	.byte	67
 	.byte	1
 
-.LDW_3558b10:
+.LDW_3508b10:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
 	.byte	0
 
-.LDW_3708668:
+.LDW_36b8668:
 	.byte	45
-	.word	.LDW_3708630
+	.word	.LDW_36b8630
 
-.LDW_37086a0:
+.LDW_36b86a0:
 	.byte	66
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	1
 
 	.byte	0
 
-.LDW_37086d8:
+.LDW_36b86d8:
 	.byte	45
-	.word	.LDW_37086a0
+	.word	.LDW_36b86a0
 
-.LDW_3708710:
+.LDW_36b8710:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3708748:
+.LDW_36b8748:
 	.byte	45
-	.word	.LDW_3708710
+	.word	.LDW_36b8710
 
-.LDW_3708780:
+.LDW_36b8780:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37087b8:
+.LDW_36b87b8:
 	.byte	45
-	.word	.LDW_3708780
+	.word	.LDW_36b8780
 
-.LDW_37087f0:
+.LDW_36b87f0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3708828:
+.LDW_36b8828:
 	.byte	45
-	.word	.LDW_37087f0
+	.word	.LDW_36b87f0
 
-.LDW_3708860:
+.LDW_36b8860:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3708898:
+.LDW_36b8898:
 	.byte	45
-	.word	.LDW_3708860
+	.word	.LDW_36b8860
 
-.LDW_37088d0:
+.LDW_36b88d0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3708908:
+.LDW_36b8908:
 	.byte	45
-	.word	.LDW_37088d0
+	.word	.LDW_36b88d0
 
-.LDW_3709d40:
+.LDW_36b9d40:
 	.byte	41
-	.word	.LDW_3709ce8
+	.word	.LDW_36b9ce8
 
-.LDW_3708940:
+.LDW_36b8940:
 	.byte	45
-	.word	.LDW_3709d40
+	.word	.LDW_36b9d40
 
-.LDW_37089b0:
+.LDW_36b89b0:
 	.byte	45
-	.word	.LDW_3709df0
+	.word	.LDW_36b9df0
 
-.LDW_3708978:
+.LDW_36b8978:
 	.byte	67
 	.byte	1
 
-.LDW_3748078:
+.LDW_36f8078:
 	.byte	18
-	.word	.LDW_37089b0
+	.word	.LDW_36b89b0
 	.byte	0
 
-.LDW_37480a8:
+.LDW_36f80a8:
 	.byte	18
-	.word	.LDW_364bfe8
+	.word	.LDW_35fbfe8
 	.byte	0
 
 	.byte	0
 
-.LDW_37089e8:
+.LDW_36b89e8:
 	.byte	45
-	.word	.LDW_3708978
+	.word	.LDW_36b8978
 
-.LDW_3708a20:
+.LDW_36b8a20:
 	.byte	45
-	.word	.LDW_3620b00
+	.word	.LDW_35d0b00
 
-.LDW_3709fa8:
+.LDW_36b9fa8:
 	.byte	41
-	.word	.LDW_3709ef8
+	.word	.LDW_36b9ef8
 
-.LDW_3708a58:
+.LDW_36b8a58:
 	.byte	45
-	.word	.LDW_3709fa8
+	.word	.LDW_36b9fa8
 
-.LDW_370a210:
+.LDW_36ba210:
 	.byte	41
-	.word	.LDW_370a0b0
+	.word	.LDW_36ba0b0
 
-.LDW_3708a90:
+.LDW_36b8a90:
 	.byte	45
-	.word	.LDW_370a210
+	.word	.LDW_36ba210
 
-.LDW_370a2c0:
+.LDW_36ba2c0:
 	.byte	41
-	.word	.LDW_370a268
+	.word	.LDW_36ba268
 
-.LDW_3708ac8:
+.LDW_36b8ac8:
 	.byte	45
-	.word	.LDW_370a2c0
+	.word	.LDW_36ba2c0
 
-.LDW_370a420:
+.LDW_36ba420:
 	.byte	41
-	.word	.LDW_370a370
+	.word	.LDW_36ba370
 
-.LDW_3708b00:
+.LDW_36b8b00:
 	.byte	45
-	.word	.LDW_370a420
+	.word	.LDW_36ba420
 
-.LDW_370a528:
+.LDW_36ba528:
 	.byte	41
-	.word	.LDW_370a478
+	.word	.LDW_36ba478
 
-.LDW_3708b38:
+.LDW_36b8b38:
 	.byte	45
-	.word	.LDW_370a528
+	.word	.LDW_36ba528
 
-.LDW_3708b70:
+.LDW_36b8b70:
 	.byte	45
-	.word	.LDW_370a4d0
+	.word	.LDW_36ba4d0
 
-.LDW_3708ba8:
+.LDW_36b8ba8:
 	.byte	45
-	.word	.LDW_370a580
+	.word	.LDW_36ba580
 
-.LDW_370a840:
+.LDW_36ba840:
 	.byte	41
-	.word	.LDW_370a6e0
+	.word	.LDW_36ba6e0
 
-.LDW_3708be0:
+.LDW_36b8be0:
 	.byte	45
-	.word	.LDW_370a840
+	.word	.LDW_36ba840
 
-.LDW_370a9a0:
+.LDW_36ba9a0:
 	.byte	41
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 
-.LDW_370aa50:
+.LDW_36baa50:
 	.byte	41
-	.word	.LDW_355a0f0
+	.word	.LDW_350a0f0
 
-.LDW_370ab00:
+.LDW_36bab00:
 	.byte	41
-	.word	.LDW_3553450
+	.word	.LDW_3503450
 
-.LDW_370ab58:
+.LDW_36bab58:
 	.byte	41
-	.word	.LDW_3620bb0
+	.word	.LDW_35d0bb0
 
-.LDW_370abb0:
+.LDW_36babb0:
 	.byte	41
-	.word	.LDW_3553558
+	.word	.LDW_3503558
 
-.LDW_370ae58:
+.LDW_36bae58:
 	.byte	41
-	.word	.LDW_35534a8
+	.word	.LDW_35034a8
 
-.LDW_370aeb0:
+.LDW_36baeb0:
 	.byte	41
-	.word	.LDW_3553500
+	.word	.LDW_3503500
 
-.LDW_370af08:
+.LDW_36baf08:
 	.byte	41
-	.word	.LDW_3553088
+	.word	.LDW_3503088
 
-.LDW_370af60:
+.LDW_36baf60:
 	.byte	41
-	.word	.LDW_35535b0
+	.word	.LDW_35035b0
 
-.LDW_370afb8:
+.LDW_36bafb8:
 	.byte	41
-	.word	.LDW_3553240
+	.word	.LDW_3503240
 
-.LDW_370b010:
+.LDW_36bb010:
 	.byte	41
-	.word	.LDW_36209a0
+	.word	.LDW_35d09a0
 
-.LDW_370b068:
+.LDW_36bb068:
 	.byte	41
-	.word	.LDW_35eeaf8
+	.word	.LDW_359eaf8
 
-.LDW_374b060:
+.LDW_36fb060:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b068
+	.word	.LDW_36bb068
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_374b0e8:
+.LDW_36fb0e8:
 	.byte	56
 	.byte	0
 	.byte	136,39
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	225,9
 
 	.byte	0
 
-.LDW_370be58:
+.LDW_36bbe58:
 	.byte	56
 	.byte	0
 	.byte	136,39
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	225,9
 
 	.byte	0
 
-.LDW_370bee0:
+.LDW_36bbee0:
 	.byte	56
 	.byte	0
 	.byte	136,39
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	225,9
 
 	.byte	0
 
-.LDW_370bf68:
+.LDW_36bbf68:
 	.byte	56
 	.byte	0
 	.byte	136,39
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	225,9
 
 	.byte	0
 
-.LDW_370bff0:
+.LDW_36bbff0:
 	.byte	56
 	.byte	0
 	.byte	128,16
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	255,3
 
 	.byte	0
 
-.LDW_370c078:
+.LDW_36bc078:
 	.byte	56
 	.byte	0
 	.byte	128,16
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	255,3
 
 	.byte	0
 
-.LDW_370c100:
+.LDW_36bc100:
 	.byte	56
 	.byte	0
 	.byte	252,1
-	.word	.LDW_3557f08
+	.word	.LDW_3507f08
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	6
 
 	.byte	0
 
-.LDW_370b0c0:
+.LDW_36bb0c0:
 	.byte	41
-	.word	.LDW_35568a8
+	.word	.LDW_35068a8
 
-.LDW_370c188:
+.LDW_36bc188:
 	.byte	56
 	.byte	0
 	.byte	28
-	.word	.LDW_370b0c0
+	.word	.LDW_36bb0c0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	6
 
 	.byte	0
 
-.LDW_370c210:
+.LDW_36bc210:
 	.byte	56
 	.byte	0
 	.byte	48
-	.word	.LDW_3709d40
+	.word	.LDW_36b9d40
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370b118:
+.LDW_36bb118:
 	.byte	41
-	.word	.LDW_3708a20
+	.word	.LDW_36b8a20
 
-.LDW_370c298:
+.LDW_36bc298:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b118
+	.word	.LDW_36bb118
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370b170:
+.LDW_36bb170:
 	.byte	41
-	.word	.LDW_3709c38
+	.word	.LDW_36b9c38
 
-.LDW_370c320:
+.LDW_36bc320:
 	.byte	56
 	.byte	0
 	.byte	96
-	.word	.LDW_370b170
+	.word	.LDW_36bb170
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370c3a8:
+.LDW_36bc3a8:
 	.byte	56
 	.byte	0
 	.byte	224,1
-	.word	.LDW_3709fa8
+	.word	.LDW_36b9fa8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	7
 
 	.byte	0
 
-.LDW_37498b0:
+.LDW_36f98b0:
 	.byte	45
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 
-.LDW_370b1c8:
+.LDW_36bb1c8:
 	.byte	41
-	.word	.LDW_37498b0
+	.word	.LDW_36f98b0
 
-.LDW_370c430:
+.LDW_36bc430:
 	.byte	56
 	.byte	0
 	.byte	32
-	.word	.LDW_370b1c8
+	.word	.LDW_36bb1c8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	7
 
 	.byte	0
 
-.LDW_370c4b8:
+.LDW_36bc4b8:
 	.byte	56
 	.byte	0
 	.byte	32
-	.word	.LDW_370a528
+	.word	.LDW_36ba528
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370b220:
+.LDW_36bb220:
 	.byte	41
-	.word	.LDW_3708ba8
+	.word	.LDW_36b8ba8
 
-.LDW_370c540:
+.LDW_36bc540:
 	.byte	56
 	.byte	0
 	.byte	4
-	.word	.LDW_370b220
+	.word	.LDW_36bb220
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370c5c8:
+.LDW_36bc5c8:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_3557da8
+	.word	.LDW_3507da8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370b278:
+.LDW_36bb278:
 	.byte	41
-	.word	.LDW_37084a8
+	.word	.LDW_36b84a8
 
-.LDW_370c650:
+.LDW_36bc650:
 	.byte	56
 	.byte	0
 	.byte	4
-	.word	.LDW_370b278
+	.word	.LDW_36bb278
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370c6d8:
+.LDW_36bc6d8:
 	.byte	56
 	.byte	0
 	.byte	32
-	.word	.LDW_370a2c0
+	.word	.LDW_36ba2c0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	3
 
 	.byte	0
 
-.LDW_370b2d0:
+.LDW_36bb2d0:
 	.byte	41
-	.word	.LDW_35568e0
+	.word	.LDW_35068e0
 
-.LDW_370c760:
+.LDW_36bc760:
 	.byte	56
 	.byte	0
 	.byte	16
-	.word	.LDW_370b2d0
+	.word	.LDW_36bb2d0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	3
 
 	.byte	0
 
-.LDW_370b328:
+.LDW_36bb328:
 	.byte	41
-	.word	.LDW_370a160
+	.word	.LDW_36ba160
 
-.LDW_370c7e8:
+.LDW_36bc7e8:
 	.byte	56
 	.byte	0
 	.byte	12
-	.word	.LDW_370b328
+	.word	.LDW_36bb328
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_37498e8:
+.LDW_36f98e8:
 	.byte	45
-	.word	.LDW_370b328
+	.word	.LDW_36bb328
 
-.LDW_370c870:
+.LDW_36bc870:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_37498e8
+	.word	.LDW_36f98e8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370c8f8:
+.LDW_36bc8f8:
 	.byte	56
 	.byte	0
 	.byte	2
-	.word	.LDW_36209f8
+	.word	.LDW_35d09f8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370c980:
+.LDW_36bc980:
 	.byte	56
 	.byte	0
 	.byte	5
-	.word	.LDW_3557b98
+	.word	.LDW_3507b98
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	4
 
 	.byte	0
 
-.LDW_370ca08:
+.LDW_36bca08:
 	.byte	56
 	.byte	0
 	.byte	12
-	.word	.LDW_35578d8
+	.word	.LDW_35078d8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370ca90:
+.LDW_36bca90:
 	.byte	56
 	.byte	0
 	.byte	20
-	.word	.LDW_3557930
+	.word	.LDW_3507930
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370cb18:
+.LDW_36bcb18:
 	.byte	56
 	.byte	0
 	.byte	80
-	.word	.LDW_370a210
+	.word	.LDW_36ba210
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	3
 
 	.byte	0
 
-.LDW_370b380:
+.LDW_36bb380:
 	.byte	41
-	.word	.LDW_35531e8
+	.word	.LDW_35031e8
 
-.LDW_370cba0:
+.LDW_36bcba0:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b380
+	.word	.LDW_36bb380
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370cc28:
+.LDW_36bcc28:
 	.byte	56
 	.byte	0
 	.byte	208,18
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	211,4
 
 	.byte	0
 
-.LDW_370ccb0:
+.LDW_36bccb0:
 	.byte	56
 	.byte	0
 	.byte	208,14
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	211,3
 
 	.byte	0
 
-.LDW_370cd38:
+.LDW_36bcd38:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b380
+	.word	.LDW_36bb380
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_3749920:
+.LDW_36f9920:
 	.byte	45
-	.word	.LDW_3557510
+	.word	.LDW_3507510
 
-.LDW_370b3d8:
+.LDW_36bb3d8:
 	.byte	41
-	.word	.LDW_3749920
+	.word	.LDW_36f9920
 
-.LDW_370cdc0:
+.LDW_36bcdc0:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b3d8
+	.word	.LDW_36bb3d8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370ce48:
+.LDW_36bce48:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b3d8
+	.word	.LDW_36bb3d8
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370b430:
+.LDW_36bb430:
 	.byte	41
-	.word	.LDW_3553660
+	.word	.LDW_3503660
 
-.LDW_370ced0:
+.LDW_36bced0:
 	.byte	56
 	.byte	0
 	.byte	4
-	.word	.LDW_2f8d4a0
+	.word	.LDW_2e5d4a0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370cf58:
+.LDW_36bcf58:
 	.byte	56
 	.byte	0
 	.byte	16
-	.word	.LDW_370a790
+	.word	.LDW_36ba790
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370cfe0:
+.LDW_36bcfe0:
 	.byte	56
 	.byte	0
 	.byte	20
-	.word	.LDW_370a840
+	.word	.LDW_36ba840
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370b488:
+.LDW_36bb488:
 	.byte	41
-	.word	.LDW_370a898
+	.word	.LDW_36ba898
 
-.LDW_370d068:
+.LDW_36bd068:
 	.byte	56
 	.byte	0
 	.byte	12
-	.word	.LDW_370b488
+	.word	.LDW_36bb488
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	0
 
 	.byte	0
 
-.LDW_370b4e0:
+.LDW_36bb4e0:
 	.byte	41
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 
-.LDW_370d0f0:
+.LDW_36bd0f0:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b4e0
+	.word	.LDW_36bb4e0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370d178:
+.LDW_36bd178:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b4e0
+	.word	.LDW_36bb4e0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370b538:
+.LDW_36bb538:
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_370d200:
+.LDW_36bd200:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b538
+	.word	.LDW_36bb538
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370d288:
+.LDW_36bd288:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b2d0
+	.word	.LDW_36bb2d0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370d310:
+.LDW_36bd310:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b2d0
+	.word	.LDW_36bb2d0
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370d398:
+.LDW_36bd398:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b538
+	.word	.LDW_36bb538
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370d420:
+.LDW_36bd420:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b538
+	.word	.LDW_36bb538
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370d4a8:
+.LDW_36bd4a8:
 	.byte	56
 	.byte	0
 	.byte	252,10
-	.word	.LDW_370b538
+	.word	.LDW_36bb538
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	222,2
 
 	.byte	0
 
-.LDW_370d530:
+.LDW_36bd530:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_370b538
+	.word	.LDW_36bb538
 
 	.byte	48
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_370b6f0:
+.LDW_36bb6f0:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_364bf08
+	.word	.LDW_35fbf08
 
 	.section	.debug_abbrev
 	.byte	40
@@ -4940,458 +4940,458 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3750988:
+.LDW_3700988:
 	.byte	66
-	.word	.LDW_2f8d580
+	.word	.LDW_2e5d580
 	.byte	1
 
-.LDW_37503c8:
+.LDW_37003c8:
 	.byte	18
-	.word	.LDW_370b6f0
+	.word	.LDW_36bb6f0
 	.byte	0
 
-.LDW_37503f8:
+.LDW_37003f8:
 	.byte	18
-	.word	.LDW_370b6f0
+	.word	.LDW_36bb6f0
 	.byte	0
 
 	.byte	0
 
-.LDW_3750fe0:
+.LDW_3700fe0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3753888:
+.LDW_3703888:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754230:
+.LDW_3704230:
 	.byte	66
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 	.byte	1
 
-.LDW_3753da8:
+.LDW_3703da8:
 	.byte	18
-	.word	.LDW_3553500
+	.word	.LDW_3503500
 	.byte	0
 
 	.byte	0
 
-.LDW_3754268:
+.LDW_3704268:
 	.byte	66
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 	.byte	1
 
-.LDW_3753dd8:
+.LDW_3703dd8:
 	.byte	18
-	.word	.LDW_3553500
+	.word	.LDW_3503500
 	.byte	0
 
-.LDW_3753e08:
+.LDW_3703e08:
 	.byte	18
-	.word	.LDW_3553030
+	.word	.LDW_3503030
 	.byte	0
 
 	.byte	0
 
-.LDW_3754348:
+.LDW_3704348:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754380:
+.LDW_3704380:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754460:
+.LDW_3704460:
 	.byte	67
 	.byte	1
 
-.LDW_3754018:
+.LDW_3704018:
 	.byte	18
-	.word	.LDW_3620bb0
+	.word	.LDW_35d0bb0
 	.byte	0
 
 	.byte	0
 
-.LDW_37544d0:
+.LDW_37044d0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754540:
+.LDW_3704540:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37547a8:
+.LDW_37047a8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37547e0:
+.LDW_37047e0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754818:
+.LDW_3704818:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754850:
+.LDW_3704850:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754888:
+.LDW_3704888:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37548c0:
+.LDW_37048c0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37548f8:
+.LDW_37048f8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3754930:
+.LDW_3704930:
 	.byte	67
 	.byte	1
 
-.LDW_3756b38:
+.LDW_3706b38:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
-.LDW_3756b68:
+.LDW_3706b68:
 	.byte	18
-	.word	.LDW_35533f8
+	.word	.LDW_35033f8
 	.byte	0
 
 	.byte	0
 
-.LDW_3757188:
+.LDW_3707188:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37571c0:
+.LDW_37071c0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37571f8:
+.LDW_37071f8:
 	.byte	67
 	.byte	1
 
-.LDW_3756b98:
+.LDW_3706b98:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
 	.byte	0
 
-.LDW_3757230:
+.LDW_3707230:
 	.byte	66
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	1
 
 	.byte	0
 
-.LDW_3757268:
+.LDW_3707268:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37572a0:
+.LDW_37072a0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37572d8:
+.LDW_37072d8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757310:
+.LDW_3707310:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757348:
+.LDW_3707348:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757380:
+.LDW_3707380:
 	.byte	67
 	.byte	1
 
-.LDW_3756bc8:
+.LDW_3706bc8:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
-.LDW_3756bf8:
+.LDW_3706bf8:
 	.byte	18
-	.word	.LDW_35533f8
+	.word	.LDW_35033f8
 	.byte	0
 
 	.byte	0
 
-.LDW_37573b8:
+.LDW_37073b8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37573f0:
+.LDW_37073f0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757428:
+.LDW_3707428:
 	.byte	67
 	.byte	1
 
-.LDW_3756c28:
+.LDW_3706c28:
 	.byte	18
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	0
 
 	.byte	0
 
-.LDW_3757460:
+.LDW_3707460:
 	.byte	66
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	1
 
 	.byte	0
 
-.LDW_3757498:
+.LDW_3707498:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37574d0:
+.LDW_37074d0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757508:
+.LDW_3707508:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757540:
+.LDW_3707540:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757578:
+.LDW_3707578:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37575b0:
+.LDW_37075b0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_37575e8:
+.LDW_37075e8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757620:
+.LDW_3707620:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757658:
+.LDW_3707658:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3757690:
+.LDW_3707690:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3759d40:
+.LDW_3709d40:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35ee510:
+.LDW_359e510:
 	.byte	40
 	.strz	"boolean"
 	.byte	101
 	.byte	23
 	.byte	6
-	.word	.LDW_2f8d7b0
+	.word	.LDW_2e5d7b0
 
-.LDW_35ee838:
+.LDW_359e838:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	6
-	.word	.LDW_2f8d7b0
+	.word	.LDW_2e5d7b0
 
-.LDW_355a0f0:
+.LDW_350a0f0:
 	.byte	40
 	.strz	"uint16"
 	.byte	106
 	.byte	25
 	.byte	6
-	.word	.LDW_2f8d660
+	.word	.LDW_2e5d660
 
-.LDW_3559f08:
+.LDW_3509f08:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	6
-	.word	.LDW_2f8d580
+	.word	.LDW_2e5d580
 
-.LDW_3620840:
+.LDW_35d0840:
 	.byte	40
 	.strz	"sint32"
 	.byte	109
 	.byte	22
 	.byte	6
-	.word	.LDW_35ef0a8
+	.word	.LDW_359f0a8
 
-.LDW_3552cc0:
+.LDW_3502cc0:
 	.byte	40
 	.strz	"uintptr"
 	.byte	123
 	.byte	16
 	.byte	6
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3552d18:
+.LDW_3502d18:
 	.byte	40
 	.strz	"sintptr"
 	.byte	124
 	.byte	16
 	.byte	6
-	.word	.LDW_3620840
+	.word	.LDW_35d0840
 
-.LDW_3552e78:
+.LDW_3502e78:
 	.byte	40
 	.strz	"StatusType"
 	.byte	102
 	.byte	23
 	.byte	5
-	.word	.LDW_2f8d7b0
+	.word	.LDW_2e5d7b0
 
-.LDW_3552fd8:
+.LDW_3502fd8:
 	.byte	40
 	.strz	"TaskStateType"
 	.byte	100
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_3553030:
+.LDW_3503030:
 	.byte	40
 	.strz	"EventMaskType"
 	.byte	101
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3620a50:
+.LDW_35d0a50:
 	.byte	40
 	.strz	"TickType"
 	.byte	102
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3553088:
+.LDW_3503088:
 	.byte	40
 	.strz	"AppModeType"
 	.byte	103
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_35530e0:
+.LDW_35030e0:
 	.byte	40
 	.strz	"OSServiceIdType"
 	.byte	104
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_3553138:
+.LDW_3503138:
 	.byte	40
 	.strz	"ScheduleTableStatusType"
 	.byte	105
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_35531e8:
+.LDW_35031e8:
 	.byte	40
 	.strz	"MemorySizeType"
 	.byte	107
 	.byte	17
 	.byte	4
-	.word	.LDW_3552cc0
+	.word	.LDW_3502cc0
 
-.LDW_3553240:
+.LDW_3503240:
 	.byte	40
 	.strz	"ApplicationType"
 	.byte	108
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_35532f0:
+.LDW_35032f0:
 	.byte	63
 	.byte	111
 	.byte	16
@@ -5411,13 +5411,13 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3688890:
+.LDW_3638890:
 	.byte	35
 	.strz	"maxallowedvalue"
 	.byte	112
 	.byte	11
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
@@ -5436,39 +5436,39 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36888d8:
+.LDW_36388d8:
 	.byte	35
 	.strz	"ticksperbase"
 	.byte	113
 	.byte	11
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3688920:
+.LDW_3638920:
 	.byte	35
 	.strz	"mincycle"
 	.byte	114
 	.byte	11
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_3553348:
+.LDW_3503348:
 	.byte	40
 	.strz	"AlarmBaseType"
 	.byte	115
 	.byte	3
 	.byte	4
-	.word	.LDW_35532f0
+	.word	.LDW_35032f0
 
-.LDW_364d0c8:
+.LDW_35fd0c8:
 	.byte	44
 	.byte	0
 	.byte	117
@@ -5490,7 +5490,7 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3559288:
+.LDW_3509288:
 	.byte	43
 	.strz	"TRYTOGETSPINLOCK_SUCCESS"
 	.byte	118
@@ -5510,7 +5510,7 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35592c8:
+.LDW_35092c8:
 	.byte	43
 	.strz	"TRYTOGETSPINLOCK_NOSUCCESS"
 	.byte	119
@@ -5520,159 +5520,159 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_35533a0:
+.LDW_35033a0:
 	.byte	40
 	.strz	"TryToGetSpinlockType"
 	.byte	120
 	.byte	3
 	.byte	4
-	.word	.LDW_364d0c8
+	.word	.LDW_35fd0c8
 
-.LDW_35533f8:
+.LDW_35033f8:
 	.byte	40
 	.strz	"TimeType"
 	.byte	126
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3553450:
+.LDW_3503450:
 	.byte	40
 	.strz	"AlarmType"
 	.byte	127
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_35534a8:
+.LDW_35034a8:
 	.byte	40
 	.strz	"ResourceType"
 	.byte	128,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3553500:
+.LDW_3503500:
 	.byte	40
 	.strz	"TaskType"
 	.byte	129,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3553558:
+.LDW_3503558:
 	.byte	40
 	.strz	"ISRType"
 	.byte	130,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3620bb0:
+.LDW_35d0bb0:
 	.byte	40
 	.strz	"CounterType"
 	.byte	131,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_35535b0:
+.LDW_35035b0:
 	.byte	40
 	.strz	"ScheduleTableType"
 	.byte	132,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_35ee890:
+.LDW_359e890:
 	.byte	40
 	.strz	"CoreIdType"
 	.byte	134,1
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_36209a0:
+.LDW_35d09a0:
 	.byte	40
 	.strz	"SpinlockIdType"
 	.byte	135,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3553660:
+.LDW_3503660:
 	.byte	40
 	.strz	"IocType"
 	.byte	136,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_35536b8:
+.LDW_35036b8:
 	.byte	40
 	.strz	"SenderIdType"
 	.byte	137,1
 	.byte	15
 	.byte	4
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 
-.LDW_3553710:
+.LDW_3503710:
 	.byte	40
 	.strz	"AlarmBaseRefType"
 	.byte	140,1
 	.byte	28
 	.byte	4
-	.word	.LDW_3556528
+	.word	.LDW_3506528
 
-.LDW_3553768:
+.LDW_3503768:
 	.byte	40
 	.strz	"TaskRefType"
 	.byte	141,1
 	.byte	24
 	.byte	4
-	.word	.LDW_3556560
+	.word	.LDW_3506560
 
-.LDW_3557358:
+.LDW_3507358:
 	.byte	40
 	.strz	"TaskStateRefType"
 	.byte	142,1
 	.byte	28
 	.byte	4
-	.word	.LDW_3556598
+	.word	.LDW_3506598
 
-.LDW_35573b0:
+.LDW_35073b0:
 	.byte	40
 	.strz	"EventMaskRefType"
 	.byte	143,1
 	.byte	28
 	.byte	4
-	.word	.LDW_35565d0
+	.word	.LDW_35065d0
 
-.LDW_3557408:
+.LDW_3507408:
 	.byte	40
 	.strz	"TickRefType"
 	.byte	144,1
 	.byte	24
 	.byte	4
-	.word	.LDW_3556608
+	.word	.LDW_3506608
 
-.LDW_3557460:
+.LDW_3507460:
 	.byte	40
 	.strz	"ScheduleTableStatusRefType"
 	.byte	145,1
 	.byte	35
 	.byte	4
-	.word	.LDW_3556640
+	.word	.LDW_3506640
 
-.LDW_3557510:
+.LDW_3507510:
 	.byte	40
 	.strz	"StackType"
 	.byte	178,1
 	.byte	23
 	.byte	4
-	.word	.LDW_3552d18
+	.word	.LDW_3502d18
 
-.LDW_3557568:
+.LDW_3507568:
 	.byte	65
 	.byte	183,1
 	.byte	15
@@ -5692,373 +5692,373 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3688968:
+.LDW_3638968:
 	.byte	35
 	.strz	"tskid"
 	.byte	184,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3553500
+	.word	.LDW_3503500
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_36889b0:
+.LDW_36389b0:
 	.byte	35
 	.strz	"p_tskid"
 	.byte	185,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3553768
+	.word	.LDW_3503768
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_36889f8:
+.LDW_36389f8:
 	.byte	35
 	.strz	"p_stat"
 	.byte	186,1
 	.byte	21
 	.byte	4
-	.word	.LDW_3557358
+	.word	.LDW_3507358
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688a40:
+.LDW_3638a40:
 	.byte	35
 	.strz	"resid"
 	.byte	187,1
 	.byte	18
 	.byte	4
-	.word	.LDW_35534a8
+	.word	.LDW_35034a8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688a88:
+.LDW_3638a88:
 	.byte	35
 	.strz	"mask"
 	.byte	188,1
 	.byte	19
 	.byte	4
-	.word	.LDW_3553030
+	.word	.LDW_3503030
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688ad0:
+.LDW_3638ad0:
 	.byte	35
 	.strz	"p_mask"
 	.byte	189,1
 	.byte	21
 	.byte	4
-	.word	.LDW_35573b0
+	.word	.LDW_35073b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688b18:
+.LDW_3638b18:
 	.byte	35
 	.strz	"almid"
 	.byte	190,1
 	.byte	16
 	.byte	4
-	.word	.LDW_3553450
+	.word	.LDW_3503450
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688b60:
+.LDW_3638b60:
 	.byte	35
 	.strz	"p_info"
 	.byte	191,1
 	.byte	21
 	.byte	4
-	.word	.LDW_3553710
+	.word	.LDW_3503710
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688ba8:
+.LDW_3638ba8:
 	.byte	35
 	.strz	"p_tick"
 	.byte	192,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3557408
+	.word	.LDW_3507408
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688bf0:
+.LDW_3638bf0:
 	.byte	35
 	.strz	"p_val"
 	.byte	193,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3557408
+	.word	.LDW_3507408
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688c38:
+.LDW_3638c38:
 	.byte	35
 	.strz	"p_eval"
 	.byte	194,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3557408
+	.word	.LDW_3507408
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688c80:
+.LDW_3638c80:
 	.byte	35
 	.strz	"incr"
 	.byte	195,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688cc8:
+.LDW_3638cc8:
 	.byte	35
 	.strz	"cycle"
 	.byte	196,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688d10:
+.LDW_3638d10:
 	.byte	35
 	.strz	"start"
 	.byte	197,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688d58:
+.LDW_3638d58:
 	.byte	35
 	.strz	"mode"
 	.byte	198,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3553088
+	.word	.LDW_3503088
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688da0:
+.LDW_3638da0:
 	.byte	35
 	.strz	"cntid"
 	.byte	199,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3620bb0
+	.word	.LDW_35d0bb0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688de8:
+.LDW_3638de8:
 	.byte	35
 	.strz	"schtblid"
 	.byte	200,1
 	.byte	22
 	.byte	4
-	.word	.LDW_35535b0
+	.word	.LDW_35035b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688e30:
+.LDW_3638e30:
 	.byte	35
 	.strz	"offset"
 	.byte	201,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688e78:
+.LDW_3638e78:
 	.byte	35
 	.strz	"schtblid_from"
 	.byte	202,1
 	.byte	22
 	.byte	4
-	.word	.LDW_35535b0
+	.word	.LDW_35035b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688ec0:
+.LDW_3638ec0:
 	.byte	35
 	.strz	"schtblid_to"
 	.byte	203,1
 	.byte	22
 	.byte	4
-	.word	.LDW_35535b0
+	.word	.LDW_35035b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688f08:
+.LDW_3638f08:
 	.byte	35
 	.strz	"p_schtblstate"
 	.byte	204,1
 	.byte	29
 	.byte	4
-	.word	.LDW_3557460
+	.word	.LDW_3507460
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688f50:
+.LDW_3638f50:
 	.byte	35
 	.strz	"isrid"
 	.byte	205,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3553558
+	.word	.LDW_3503558
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688f98:
+.LDW_3638f98:
 	.byte	35
 	.strz	"coreid"
 	.byte	206,1
 	.byte	17
 	.byte	4
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3688fe0:
+.LDW_3638fe0:
 	.byte	35
 	.strz	"status"
 	.byte	207,1
 	.byte	18
 	.byte	4
-	.word	.LDW_3556678
+	.word	.LDW_3506678
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3689028:
+.LDW_3639028:
 	.byte	35
 	.strz	"spnid"
 	.byte	208,1
 	.byte	20
 	.byte	4
-	.word	.LDW_36209a0
+	.word	.LDW_35d09a0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3689070:
+.LDW_3639070:
 	.byte	35
 	.strz	"tryspntype"
 	.byte	209,1
 	.byte	25
 	.byte	4
-	.word	.LDW_35566b0
+	.word	.LDW_35066b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_36890b8:
+.LDW_36390b8:
 	.byte	35
 	.strz	"iocid"
 	.byte	210,1
 	.byte	15
 	.byte	4
-	.word	.LDW_3553660
+	.word	.LDW_3503660
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3689100:
+.LDW_3639100:
 	.byte	35
 	.strz	"senderid"
 	.byte	211,1
 	.byte	18
 	.byte	4
-	.word	.LDW_35536b8
+	.word	.LDW_35036b8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_35575c0:
+.LDW_35075c0:
 	.byte	40
 	.strz	"_ErrorHook_Par"
 	.byte	212,1
 	.byte	3
 	.byte	4
-	.word	.LDW_3557568
+	.word	.LDW_3507568
 
-.LDW_36208f0:
+.LDW_35d08f0:
 	.byte	40
 	.strz	"InterruptNumberType"
 	.byte	110
 	.byte	16
 	.byte	3
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3557618:
+.LDW_3507618:
 	.byte	40
 	.strz	"AttributeType"
 	.byte	111
 	.byte	16
 	.byte	3
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_3620898:
+.LDW_35d0898:
 	.byte	40
 	.strz	"PriorityType"
 	.byte	112
 	.byte	16
 	.byte	3
-	.word	.LDW_3620840
+	.word	.LDW_35d0840
 
-.LDW_3557670:
+.LDW_3507670:
 	.byte	40
 	.strz	"FunctionRefType"
 	.byte	115
 	.byte	16
 	.byte	3
-	.word	.LDW_3556720
+	.word	.LDW_3506720
 
-.LDW_3620948:
+.LDW_35d0948:
 	.byte	40
 	.strz	"LockType"
 	.byte	71
 	.byte	16
 	.byte	22
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 
-.LDW_36207d0:
+.LDW_35d07d0:
 	.byte	40
 	.strz	"CCB"
 	.byte	76
 	.byte	35
 	.byte	22
-	.word	.LDW_35ef290
+	.word	.LDW_359f290
 
-.LDW_35576c8:
+.LDW_35076c8:
 	.byte	62
 	.strz	"target_core_control_block"
 	.byte	81
@@ -6080,72 +6080,72 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3689148:
+.LDW_3639148:
 	.byte	35
 	.strz	"except_nest_cnt"
 	.byte	86
 	.byte	9
 	.byte	22
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3689190:
+.LDW_3639190:
 	.byte	35
 	.strz	"current_iintpri"
 	.byte	91
 	.byte	8
 	.byte	22
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_36891d8:
+.LDW_36391d8:
 	.byte	35
 	.strz	"nested_lock_os_int_cnt"
 	.byte	96
 	.byte	8
 	.byte	22
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	5
 	.byte	1
 
-.LDW_3689220:
+.LDW_3639220:
 	.byte	35
 	.strz	"current_intpri"
 	.byte	101
 	.byte	9
 	.byte	22
-	.word	.LDW_355a0f0
+	.word	.LDW_350a0f0
 	.byte	2,35
 	.byte	6
 	.byte	1
 
-.LDW_3689268:
+.LDW_3639268:
 	.byte	35
 	.strz	"trusted_hook_savedsp"
 	.byte	103
 	.byte	9
 	.byte	22
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_3557720:
+.LDW_3507720:
 	.byte	40
 	.strz	"TCCB"
 	.byte	104
 	.byte	3
 	.byte	22
-	.word	.LDW_35576c8
+	.word	.LDW_35076c8
 
-.LDW_35ee988:
+.LDW_359e988:
 	.byte	62
 	.strz	"queue"
 	.byte	77
@@ -6154,39 +6154,39 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	1
 
-.LDW_36892b0:
+.LDW_36392b0:
 	.byte	35
 	.strz	"p_next"
 	.byte	78
 	.byte	16
 	.byte	25
-	.word	.LDW_3556758
+	.word	.LDW_3506758
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_36892f8:
+.LDW_36392f8:
 	.byte	35
 	.strz	"p_prev"
 	.byte	79
 	.byte	16
 	.byte	25
-	.word	.LDW_3556758
+	.word	.LDW_3506758
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_35ee9e0:
+.LDW_359e9e0:
 	.byte	40
 	.strz	"QUEUE"
 	.byte	80
 	.byte	3
 	.byte	25
-	.word	.LDW_35ee988
+	.word	.LDW_359e988
 
-.LDW_3557778:
+.LDW_3507778:
 	.byte	62
 	.strz	"spinlock_initialization_block"
 	.byte	80
@@ -6195,50 +6195,50 @@ _ioc_inival_table:	.space	4
 	.byte	12
 	.byte	1
 
-.LDW_3689340:
+.LDW_3639340:
 	.byte	35
 	.strz	"susint"
 	.byte	81
 	.byte	15
 	.byte	26
-	.word	.LDW_35567c8
+	.word	.LDW_35067c8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3689388:
+.LDW_3639388:
 	.byte	35
 	.strz	"resint"
 	.byte	82
 	.byte	25
 	.byte	26
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3707438:
+.LDW_36b7438:
 	.byte	35
 	.strz	"p_nextspn"
 	.byte	83
 	.byte	46
 	.byte	26
-	.word	.LDW_3556800
+	.word	.LDW_3506800
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_3557828:
+.LDW_3507828:
 	.byte	40
 	.strz	"SPNINIB"
 	.byte	84
 	.byte	3
 	.byte	26
-	.word	.LDW_3557778
+	.word	.LDW_3507778
 
-.LDW_3557880:
+.LDW_3507880:
 	.byte	62
 	.strz	"spinlock_control_block"
 	.byte	89
@@ -6247,96 +6247,96 @@ _ioc_inival_table:	.space	4
 	.byte	20
 	.byte	1
 
-.LDW_3707480:
+.LDW_36b7480:
 	.byte	35
 	.strz	"p_spninib"
 	.byte	90
 	.byte	21
 	.byte	26
-	.word	.LDW_3556838
+	.word	.LDW_3506838
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_37074c8:
+.LDW_36b74c8:
 	.byte	35
 	.strz	"p_ccb"
 	.byte	91
 	.byte	14
 	.byte	26
-	.word	.LDW_35eeaf8
+	.word	.LDW_359eaf8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3707510:
+.LDW_36b7510:
 	.byte	35
 	.strz	"p_holdcb"
 	.byte	92
 	.byte	14
 	.byte	26
-	.word	.LDW_2f8d4a0
+	.word	.LDW_2e5d4a0
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3707558:
+.LDW_36b7558:
 	.byte	35
 	.strz	"p_prevspncb"
 	.byte	93
 	.byte	33
 	.byte	26
-	.word	.LDW_3556870
+	.word	.LDW_3506870
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_37075a0:
+.LDW_36b75a0:
 	.byte	35
 	.strz	"spn_lock"
 	.byte	98
 	.byte	11
 	.byte	26
-	.word	.LDW_3620948
+	.word	.LDW_35d0948
 	.byte	2,35
 	.byte	16
 	.byte	1
 
 	.byte	0
 
-.LDW_3557930:
+.LDW_3507930:
 	.byte	40
 	.strz	"SPNCB"
 	.byte	100
 	.byte	3
 	.byte	26
-	.word	.LDW_3557880
+	.word	.LDW_3507880
 
-.LDW_35579e0:
+.LDW_35079e0:
 	.byte	40
 	.strz	"TCB"
 	.byte	74
 	.byte	39
 	.byte	20
-	.word	.LDW_3557988
+	.word	.LDW_3507988
 
-.LDW_3557a90:
+.LDW_3507a90:
 	.byte	40
 	.strz	"ISRCB"
 	.byte	75
 	.byte	38
 	.byte	20
-	.word	.LDW_3557a38
+	.word	.LDW_3507a38
 
-.LDW_3557b40:
+.LDW_3507b40:
 	.byte	40
 	.strz	"OSAPINIB"
 	.byte	76
 	.byte	52
 	.byte	20
-	.word	.LDW_3557ae8
+	.word	.LDW_3507ae8
 
-.LDW_35ef290:
+.LDW_359f290:
 	.byte	62
 	.strz	"core_control_block"
 	.byte	81
@@ -6345,317 +6345,317 @@ _ioc_inival_table:	.space	4
 	.byte	224,1
 	.byte	1
 
-.LDW_37075e8:
+.LDW_36b75e8:
 	.byte	35
 	.strz	"coreid"
 	.byte	83
 	.byte	13
 	.byte	20
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3707630:
+.LDW_36b7630:
 	.byte	35
 	.strz	"kerflg"
 	.byte	88
 	.byte	10
 	.byte	20
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	1
 	.byte	1
 
-.LDW_3707678:
+.LDW_36b7678:
 	.byte	35
 	.strz	"sus_all_cnt"
 	.byte	93
 	.byte	8
 	.byte	20
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	2
 	.byte	1
 
-.LDW_37076c0:
+.LDW_36b76c0:
 	.byte	35
 	.strz	"sus_os_cnt"
 	.byte	98
 	.byte	8
 	.byte	20
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	3
 	.byte	1
 
-.LDW_3707708:
+.LDW_36b7708:
 	.byte	35
 	.strz	"callevel_stat"
 	.byte	103
 	.byte	9
 	.byte	20
-	.word	.LDW_355a0f0
+	.word	.LDW_350a0f0
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3707750:
+.LDW_36b7750:
 	.byte	35
 	.strz	"tsk_lock"
 	.byte	109
 	.byte	11
 	.byte	20
-	.word	.LDW_3620948
+	.word	.LDW_35d0948
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3707798:
+.LDW_36b7798:
 	.byte	35
 	.strz	"cnt_lock"
 	.byte	110
 	.byte	11
 	.byte	20
-	.word	.LDW_3620948
+	.word	.LDW_35d0948
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_37077e0:
+.LDW_36b77e0:
 	.byte	35
 	.strz	"p_runtsk"
 	.byte	127
 	.byte	7
 	.byte	20
-	.word	.LDW_35568a8
+	.word	.LDW_35068a8
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3707828:
+.LDW_36b7828:
 	.byte	35
 	.strz	"p_schedtsk"
 	.byte	136,1
 	.byte	7
 	.byte	20
-	.word	.LDW_35568a8
+	.word	.LDW_35068a8
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3707870:
+.LDW_36b7870:
 	.byte	35
 	.strz	"nextpri"
 	.byte	144,1
 	.byte	15
 	.byte	20
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_37078b8:
+.LDW_36b78b8:
 	.byte	35
 	.strz	"ready_queue"
 	.byte	157,1
 	.byte	8
 	.byte	20
-	.word	.LDW_3556b68
+	.word	.LDW_3506b68
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_3707900:
+.LDW_36b7900:
 	.byte	35
 	.strz	"ready_primap"
 	.byte	169,1
 	.byte	9
 	.byte	20
-	.word	.LDW_355a0f0
+	.word	.LDW_350a0f0
 	.byte	3,35
 	.byte	156,1
 	.byte	1
 
-.LDW_3707948:
+.LDW_36b7948:
 	.byte	35
 	.strz	"p_runisr"
 	.byte	179,1
 	.byte	9
 	.byte	20
-	.word	.LDW_35568e0
+	.word	.LDW_35068e0
 	.byte	3,35
 	.byte	160,1
 	.byte	1
 
-.LDW_3707990:
+.LDW_36b7990:
 	.byte	35
 	.strz	"wrap_sus_all_cnt"
 	.byte	184,1
 	.byte	8
 	.byte	20
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	3,35
 	.byte	164,1
 	.byte	1
 
-.LDW_37079d8:
+.LDW_36b79d8:
 	.byte	35
 	.strz	"wrap_sus_os_cnt"
 	.byte	189,1
 	.byte	8
 	.byte	20
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	3,35
 	.byte	165,1
 	.byte	1
 
-.LDW_3707a20:
+.LDW_36b7a20:
 	.byte	35
 	.strz	"_errorhook_svcid"
 	.byte	194,1
 	.byte	18
 	.byte	20
-	.word	.LDW_35530e0
+	.word	.LDW_35030e0
 	.byte	3,35
 	.byte	166,1
 	.byte	1
 
-.LDW_3707a68:
+.LDW_36b7a68:
 	.byte	35
 	.strz	"_errorhook_par1"
 	.byte	195,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	168,1
 	.byte	1
 
-.LDW_3707ab0:
+.LDW_36b7ab0:
 	.byte	35
 	.strz	"_errorhook_par2"
 	.byte	196,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	172,1
 	.byte	1
 
-.LDW_3707af8:
+.LDW_36b7af8:
 	.byte	35
 	.strz	"_errorhook_par3"
 	.byte	197,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	176,1
 	.byte	1
 
-.LDW_3707b40:
+.LDW_36b7b40:
 	.byte	35
 	.strz	"errorhook_par1"
 	.byte	198,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	180,1
 	.byte	1
 
-.LDW_3707b88:
+.LDW_36b7b88:
 	.byte	35
 	.strz	"errorhook_par2"
 	.byte	199,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	184,1
 	.byte	1
 
-.LDW_3707bd0:
+.LDW_36b7bd0:
 	.byte	35
 	.strz	"errorhook_par3"
 	.byte	200,1
 	.byte	17
 	.byte	20
-	.word	.LDW_35575c0
+	.word	.LDW_35075c0
 	.byte	3,35
 	.byte	188,1
 	.byte	1
 
-.LDW_3707c18:
+.LDW_36b7c18:
 	.byte	35
 	.strz	"ici_request_map"
 	.byte	205,1
 	.byte	9
 	.byte	20
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	3,35
 	.byte	192,1
 	.byte	1
 
-.LDW_3707c60:
+.LDW_36b7c60:
 	.byte	35
 	.strz	"ici_bit_mask"
 	.byte	210,1
 	.byte	9
 	.byte	20
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	3,35
 	.byte	196,1
 	.byte	1
 
-.LDW_3707ca8:
+.LDW_36b7ca8:
 	.byte	35
 	.strz	"ici_disreqflg"
 	.byte	215,1
 	.byte	10
 	.byte	20
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	3,35
 	.byte	200,1
 	.byte	1
 
-.LDW_3707cf0:
+.LDW_36b7cf0:
 	.byte	35
 	.strz	"p_runosap"
 	.byte	220,1
 	.byte	18
 	.byte	20
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	3,35
 	.byte	204,1
 	.byte	1
 
-.LDW_3707d38:
+.LDW_36b7d38:
 	.byte	35
 	.strz	"target_ccb"
 	.byte	225,1
 	.byte	7
 	.byte	20
-	.word	.LDW_3557720
+	.word	.LDW_3507720
 	.byte	3,35
 	.byte	208,1
 	.byte	1
 
-.LDW_3707d80:
+.LDW_36b7d80:
 	.byte	35
 	.strz	"p_protectspncb"
 	.byte	230,1
 	.byte	9
 	.byte	20
-	.word	.LDW_3556950
+	.word	.LDW_3506950
 	.byte	3,35
 	.byte	220,1
 	.byte	1
 
 	.byte	0
 
-.LDW_3557bf0:
+.LDW_3507bf0:
 	.byte	62
 	.strz	"task_context_block"
 	.byte	197,3
@@ -6664,39 +6664,39 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	1
 
-.LDW_3707dc8:
+.LDW_36b7dc8:
 	.byte	35
 	.strz	"sp"
 	.byte	198,3
 	.byte	10
 	.byte	31
-	.word	.LDW_2f8d4a0
+	.word	.LDW_2e5d4a0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3707e10:
+.LDW_36b7e10:
 	.byte	35
 	.strz	"pc"
 	.byte	199,3
 	.byte	18
 	.byte	31
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_3557c48:
+.LDW_3507c48:
 	.byte	40
 	.strz	"TSKCTXB"
 	.byte	200,3
 	.byte	3
 	.byte	31
-	.word	.LDW_3557bf0
+	.word	.LDW_3507bf0
 
-.LDW_3557ca0:
+.LDW_3507ca0:
 	.byte	62
 	.strz	"resource_initialization_block"
 	.byte	70
@@ -6705,39 +6705,39 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	1
 
-.LDW_3707e58:
+.LDW_36b7e58:
 	.byte	35
 	.strz	"ceilpri"
 	.byte	71
 	.byte	15
 	.byte	34
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3707ea0:
+.LDW_36b7ea0:
 	.byte	35
 	.strz	"coreid"
 	.byte	72
 	.byte	14
 	.byte	34
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_3557cf8:
+.LDW_3507cf8:
 	.byte	40
 	.strz	"RESINIB"
 	.byte	73
 	.byte	3
 	.byte	34
-	.word	.LDW_3557ca0
+	.word	.LDW_3507ca0
 
-.LDW_3557d50:
+.LDW_3507d50:
 	.byte	62
 	.strz	"resource_control_block"
 	.byte	78
@@ -6746,61 +6746,61 @@ _ioc_inival_table:	.space	4
 	.byte	16
 	.byte	1
 
-.LDW_3707ee8:
+.LDW_36b7ee8:
 	.byte	35
 	.strz	"p_resinib"
 	.byte	79
 	.byte	21
 	.byte	34
-	.word	.LDW_3556988
+	.word	.LDW_3506988
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3707f30:
+.LDW_36b7f30:
 	.byte	35
 	.strz	"prevpri"
 	.byte	80
 	.byte	19
 	.byte	34
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3707f78:
+.LDW_36b7f78:
 	.byte	35
 	.strz	"p_prevrescb"
 	.byte	81
 	.byte	33
 	.byte	34
-	.word	.LDW_3708438
+	.word	.LDW_36b8438
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3707fc0:
+.LDW_36b7fc0:
 	.byte	35
 	.strz	"lockflg"
 	.byte	82
 	.byte	16
 	.byte	34
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_3557e00:
+.LDW_3507e00:
 	.byte	40
 	.strz	"RESCB"
 	.byte	83
 	.byte	3
 	.byte	34
-	.word	.LDW_3557d50
+	.word	.LDW_3507d50
 
-.LDW_3557ae8:
+.LDW_3507ae8:
 	.byte	62
 	.strz	"os_application_initialization_block"
 	.byte	86
@@ -6809,20 +6809,20 @@ _ioc_inival_table:	.space	4
 	.byte	1
 	.byte	1
 
-.LDW_3708008:
+.LDW_36b8008:
 	.byte	35
 	.strz	"coreid"
 	.byte	87
 	.byte	13
 	.byte	36
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_3557e58:
+.LDW_3507e58:
 	.byte	62
 	.strz	"task_initialization_block"
 	.byte	114
@@ -6831,116 +6831,116 @@ _ioc_inival_table:	.space	4
 	.byte	36
 	.byte	1
 
-.LDW_3708050:
+.LDW_36b8050:
 	.byte	35
 	.strz	"task"
 	.byte	115
 	.byte	18
 	.byte	33
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3708098:
+.LDW_36b8098:
 	.byte	35
 	.strz	"stksz"
 	.byte	120
 	.byte	17
 	.byte	33
-	.word	.LDW_35531e8
+	.word	.LDW_35031e8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_37080e0:
+.LDW_36b80e0:
 	.byte	35
 	.strz	"stk"
 	.byte	121
 	.byte	10
 	.byte	33
-	.word	.LDW_2f8d4a0
+	.word	.LDW_2e5d4a0
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3708128:
+.LDW_36b8128:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	123
 	.byte	18
 	.byte	33
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3708170:
+.LDW_36b8170:
 	.byte	35
 	.strz	"inipri"
 	.byte	124
 	.byte	15
 	.byte	33
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_37081b8:
+.LDW_36b81b8:
 	.byte	35
 	.strz	"exepri"
 	.byte	125
 	.byte	15
 	.byte	33
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3708200:
+.LDW_36b8200:
 	.byte	35
 	.strz	"maxact"
 	.byte	126
 	.byte	10
 	.byte	33
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_3708248:
+.LDW_36b8248:
 	.byte	35
 	.strz	"autoact"
 	.byte	127
 	.byte	15
 	.byte	33
-	.word	.LDW_3553088
+	.word	.LDW_3503088
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_3708290:
+.LDW_36b8290:
 	.byte	35
 	.strz	"p_ccb"
 	.byte	128,1
 	.byte	10
 	.byte	33
-	.word	.LDW_35eeaf8
+	.word	.LDW_359eaf8
 	.byte	2,35
 	.byte	32
 	.byte	1
 
 	.byte	0
 
-.LDW_3557eb0:
+.LDW_3507eb0:
 	.byte	40
 	.strz	"TINIB"
 	.byte	129,1
 	.byte	3
 	.byte	33
-	.word	.LDW_3557e58
+	.word	.LDW_3507e58
 
-.LDW_3557988:
+.LDW_3507988:
 	.byte	62
 	.strz	"task_control_block"
 	.byte	134,1
@@ -6949,199 +6949,199 @@ _ioc_inival_table:	.space	4
 	.byte	44
 	.byte	1
 
-.LDW_37082d8:
+.LDW_36b82d8:
 	.byte	35
 	.strz	"task_queue"
 	.byte	135,1
 	.byte	10
 	.byte	33
-	.word	.LDW_35ee9e0
+	.word	.LDW_359e9e0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3708320:
+.LDW_36b8320:
 	.byte	35
 	.strz	"p_tinib"
 	.byte	136,1
 	.byte	16
 	.byte	33
-	.word	.LDW_3708470
+	.word	.LDW_36b8470
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3708368:
+.LDW_36b8368:
 	.byte	35
 	.strz	"curpri"
 	.byte	137,1
 	.byte	15
 	.byte	33
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_37083b0:
+.LDW_36b83b0:
 	.byte	35
 	.strz	"tstat"
 	.byte	138,1
 	.byte	16
 	.byte	33
-	.word	.LDW_3552fd8
+	.word	.LDW_3502fd8
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3708c38:
+.LDW_36b8c38:
 	.byte	35
 	.strz	"actcnt"
 	.byte	139,1
 	.byte	10
 	.byte	33
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	17
 	.byte	1
 
-.LDW_3708c80:
+.LDW_36b8c80:
 	.byte	35
 	.strz	"curevt"
 	.byte	140,1
 	.byte	16
 	.byte	33
-	.word	.LDW_3553030
+	.word	.LDW_3503030
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3708cc8:
+.LDW_36b8cc8:
 	.byte	35
 	.strz	"waievt"
 	.byte	141,1
 	.byte	16
 	.byte	33
-	.word	.LDW_3553030
+	.word	.LDW_3503030
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_3708d10:
+.LDW_36b8d10:
 	.byte	35
 	.strz	"p_lastrescb"
 	.byte	142,1
 	.byte	11
 	.byte	33
-	.word	.LDW_37084a8
+	.word	.LDW_36b84a8
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_3708d58:
+.LDW_36b8d58:
 	.byte	35
 	.strz	"p_lastspncb"
 	.byte	143,1
 	.byte	11
 	.byte	33
-	.word	.LDW_3556950
+	.word	.LDW_3506950
 	.byte	2,35
 	.byte	32
 	.byte	1
 
-.LDW_3708da0:
+.LDW_36b8da0:
 	.byte	35
 	.strz	"tskctxb"
 	.byte	144,1
 	.byte	12
 	.byte	33
-	.word	.LDW_3557c48
+	.word	.LDW_3507c48
 	.byte	2,35
 	.byte	36
 	.byte	1
 
 	.byte	0
 
-.LDW_3557f60:
+.LDW_3507f60:
 	.byte	40
 	.strz	"HardwareCounterInitRefType"
 	.byte	108
 	.byte	16
 	.byte	37
-	.word	.LDW_3708518
+	.word	.LDW_36b8518
 
-.LDW_3557fb8:
+.LDW_3507fb8:
 	.byte	40
 	.strz	"HardwareCounterStartRefType"
 	.byte	109
 	.byte	16
 	.byte	37
-	.word	.LDW_3708588
+	.word	.LDW_36b8588
 
-.LDW_3558010:
+.LDW_3508010:
 	.byte	40
 	.strz	"HardwareCounterStopRefType"
 	.byte	110
 	.byte	16
 	.byte	37
-	.word	.LDW_37085f8
+	.word	.LDW_36b85f8
 
-.LDW_3558068:
+.LDW_3508068:
 	.byte	40
 	.strz	"HardwareCounterSetRefType"
 	.byte	111
 	.byte	16
 	.byte	37
-	.word	.LDW_3708668
+	.word	.LDW_36b8668
 
-.LDW_35580c0:
+.LDW_35080c0:
 	.byte	40
 	.strz	"HardwareCounterGetRefType"
 	.byte	112
 	.byte	20
 	.byte	37
-	.word	.LDW_37086d8
+	.word	.LDW_36b86d8
 
-.LDW_3558118:
+.LDW_3508118:
 	.byte	40
 	.strz	"HardwareCounterCancelRefType"
 	.byte	113
 	.byte	16
 	.byte	37
-	.word	.LDW_3708748
+	.word	.LDW_36b8748
 
-.LDW_3558170:
+.LDW_3508170:
 	.byte	40
 	.strz	"HardwareCounterTriggerRefType"
 	.byte	114
 	.byte	16
 	.byte	37
-	.word	.LDW_37087b8
+	.word	.LDW_36b87b8
 
-.LDW_35581c8:
+.LDW_35081c8:
 	.byte	40
 	.strz	"HardwareCounterIntClearRefType"
 	.byte	115
 	.byte	16
 	.byte	37
-	.word	.LDW_3708828
+	.word	.LDW_36b8828
 
-.LDW_3558220:
+.LDW_3508220:
 	.byte	40
 	.strz	"HardwareCounterIntCancelRefType"
 	.byte	116
 	.byte	16
 	.byte	37
-	.word	.LDW_3708898
+	.word	.LDW_36b8898
 
-.LDW_3558278:
+.LDW_3508278:
 	.byte	40
 	.strz	"HardwareCounterIncrementRefType"
 	.byte	117
 	.byte	16
 	.byte	37
-	.word	.LDW_3708908
+	.word	.LDW_36b8908
 
-.LDW_35582d0:
+.LDW_35082d0:
 	.byte	62
 	.strz	"hardware_counter_initialization_block"
 	.byte	122
@@ -7150,149 +7150,149 @@ _ioc_inival_table:	.space	4
 	.byte	48
 	.byte	1
 
-.LDW_3708de8:
+.LDW_36b8de8:
 	.byte	35
 	.strz	"init"
 	.byte	123
 	.byte	30
 	.byte	37
-	.word	.LDW_3557f60
+	.word	.LDW_3507f60
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3708e30:
+.LDW_36b8e30:
 	.byte	35
 	.strz	"start"
 	.byte	124
 	.byte	31
 	.byte	37
-	.word	.LDW_3557fb8
+	.word	.LDW_3507fb8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3708e78:
+.LDW_36b8e78:
 	.byte	35
 	.strz	"stop"
 	.byte	125
 	.byte	30
 	.byte	37
-	.word	.LDW_3558010
+	.word	.LDW_3508010
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3708ec0:
+.LDW_36b8ec0:
 	.byte	35
 	.strz	"set"
 	.byte	126
 	.byte	29
 	.byte	37
-	.word	.LDW_3558068
+	.word	.LDW_3508068
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3708f08:
+.LDW_36b8f08:
 	.byte	35
 	.strz	"get"
 	.byte	127
 	.byte	29
 	.byte	37
-	.word	.LDW_35580c0
+	.word	.LDW_35080c0
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3708f50:
+.LDW_36b8f50:
 	.byte	35
 	.strz	"cancel"
 	.byte	128,1
 	.byte	31
 	.byte	37
-	.word	.LDW_3558118
+	.word	.LDW_3508118
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3708f98:
+.LDW_36b8f98:
 	.byte	35
 	.strz	"trigger"
 	.byte	129,1
 	.byte	32
 	.byte	37
-	.word	.LDW_3558170
+	.word	.LDW_3508170
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_3708fe0:
+.LDW_36b8fe0:
 	.byte	35
 	.strz	"intclear"
 	.byte	130,1
 	.byte	33
 	.byte	37
-	.word	.LDW_35581c8
+	.word	.LDW_35081c8
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_3709028:
+.LDW_36b9028:
 	.byte	35
 	.strz	"intcancel"
 	.byte	131,1
 	.byte	34
 	.byte	37
-	.word	.LDW_3558220
+	.word	.LDW_3508220
 	.byte	2,35
 	.byte	32
 	.byte	1
 
-.LDW_3709070:
+.LDW_36b9070:
 	.byte	35
 	.strz	"increment"
 	.byte	132,1
 	.byte	34
 	.byte	37
-	.word	.LDW_3558278
+	.word	.LDW_3508278
 	.byte	2,35
 	.byte	36
 	.byte	1
 
-.LDW_37090b8:
+.LDW_36b90b8:
 	.byte	35
 	.strz	"nspertick"
 	.byte	133,1
 	.byte	16
 	.byte	37
-	.word	.LDW_35533f8
+	.word	.LDW_35033f8
 	.byte	2,35
 	.byte	40
 	.byte	1
 
-.LDW_3709100:
+.LDW_36b9100:
 	.byte	35
 	.strz	"coreid"
 	.byte	134,1
 	.byte	18
 	.byte	37
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	44
 	.byte	1
 
 	.byte	0
 
-.LDW_3709c38:
+.LDW_36b9c38:
 	.byte	40
 	.strz	"HWCNTINIB"
 	.byte	135,1
 	.byte	3
 	.byte	37
-	.word	.LDW_35582d0
+	.word	.LDW_35082d0
 
-.LDW_3709c90:
+.LDW_36b9c90:
 	.byte	62
 	.strz	"counter_initialization_block"
 	.byte	140,1
@@ -7301,83 +7301,83 @@ _ioc_inival_table:	.space	4
 	.byte	24
 	.byte	1
 
-.LDW_3709148:
+.LDW_36b9148:
 	.byte	35
 	.strz	"maxval"
 	.byte	141,1
 	.byte	12
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709190:
+.LDW_36b9190:
 	.byte	35
 	.strz	"maxval2"
 	.byte	142,1
 	.byte	12
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_37091d8:
+.LDW_36b91d8:
 	.byte	35
 	.strz	"tickbase"
 	.byte	143,1
 	.byte	12
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3709220:
+.LDW_36b9220:
 	.byte	35
 	.strz	"mincyc"
 	.byte	144,1
 	.byte	12
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3709268:
+.LDW_36b9268:
 	.byte	35
 	.strz	"coreid"
 	.byte	145,1
 	.byte	14
 	.byte	37
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_37092b0:
+.LDW_36b92b0:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	146,1
 	.byte	18
 	.byte	37
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	20
 	.byte	1
 
 	.byte	0
 
-.LDW_3709ce8:
+.LDW_36b9ce8:
 	.byte	40
 	.strz	"CNTINIB"
 	.byte	147,1
 	.byte	3
 	.byte	37
-	.word	.LDW_3709c90
+	.word	.LDW_36b9c90
 
-.LDW_3620aa8:
+.LDW_35d0aa8:
 	.byte	62
 	.strz	"counter_control_block"
 	.byte	152,1
@@ -7386,88 +7386,88 @@ _ioc_inival_table:	.space	4
 	.byte	20
 	.byte	1
 
-.LDW_37092f8:
+.LDW_36b92f8:
 	.byte	35
 	.strz	"cntexpque"
 	.byte	153,1
 	.byte	10
 	.byte	37
-	.word	.LDW_35ee9e0
+	.word	.LDW_359e9e0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709340:
+.LDW_36b9340:
 	.byte	35
 	.strz	"p_cntinib"
 	.byte	154,1
 	.byte	17
 	.byte	37
-	.word	.LDW_3708940
+	.word	.LDW_36b8940
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3709388:
+.LDW_36b9388:
 	.byte	35
 	.strz	"curval"
 	.byte	155,1
 	.byte	12
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_37093d0:
+.LDW_36b93d0:
 	.byte	35
 	.strz	"cstat"
 	.byte	156,1
 	.byte	12
 	.byte	37
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3709418:
+.LDW_36b9418:
 	.byte	35
 	.strz	"hwset"
 	.byte	157,1
 	.byte	12
 	.byte	37
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	17
 	.byte	1
 
 	.byte	0
 
-.LDW_3620b00:
+.LDW_35d0b00:
 	.byte	40
 	.strz	"CNTCB"
 	.byte	158,1
 	.byte	3
 	.byte	37
-	.word	.LDW_3620aa8
+	.word	.LDW_35d0aa8
 
-.LDW_3709df0:
+.LDW_36b9df0:
 	.byte	40
 	.strz	"CNTEXPINFO"
 	.byte	163,1
 	.byte	36
 	.byte	37
-	.word	.LDW_3709d98
+	.word	.LDW_36b9d98
 
-.LDW_3709e48:
+.LDW_36b9e48:
 	.byte	40
 	.strz	"EXPFP"
 	.byte	168,1
 	.byte	16
 	.byte	37
-	.word	.LDW_37089e8
+	.word	.LDW_36b89e8
 
-.LDW_3709d98:
+.LDW_36b9d98:
 	.byte	62
 	.strz	"counter_expire_info"
 	.byte	173,1
@@ -7476,42 +7476,42 @@ _ioc_inival_table:	.space	4
 	.byte	16
 	.byte	1
 
-.LDW_3709460:
+.LDW_36b9460:
 	.byte	35
 	.strz	"cntexpque"
 	.byte	174,1
 	.byte	9
 	.byte	37
-	.word	.LDW_35ee9e0
+	.word	.LDW_359e9e0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_37094a8:
+.LDW_36b94a8:
 	.byte	35
 	.strz	"expiretick"
 	.byte	175,1
 	.byte	11
 	.byte	37
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_37094f0:
+.LDW_36b94f0:
 	.byte	35
 	.strz	"expirefunc"
 	.byte	176,1
 	.byte	9
 	.byte	37
-	.word	.LDW_3709e48
+	.word	.LDW_36b9e48
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_3709ea0:
+.LDW_36b9ea0:
 	.byte	62
 	.strz	"alarm_initialization_block"
 	.byte	77
@@ -7520,94 +7520,94 @@ _ioc_inival_table:	.space	4
 	.byte	28
 	.byte	1
 
-.LDW_3709538:
+.LDW_36b9538:
 	.byte	35
 	.strz	"p_cntcb"
 	.byte	78
 	.byte	11
 	.byte	38
-	.word	.LDW_3708a20
+	.word	.LDW_36b8a20
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709580:
+.LDW_36b9580:
 	.byte	35
 	.strz	"action"
 	.byte	79
 	.byte	18
 	.byte	38
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_37095c8:
+.LDW_36b95c8:
 	.byte	35
 	.strz	"autosta"
 	.byte	80
 	.byte	15
 	.byte	38
-	.word	.LDW_3553088
+	.word	.LDW_3503088
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3709610:
+.LDW_36b9610:
 	.byte	35
 	.strz	"almval"
 	.byte	81
 	.byte	12
 	.byte	38
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3709658:
+.LDW_36b9658:
 	.byte	35
 	.strz	"cycle"
 	.byte	82
 	.byte	12
 	.byte	38
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_37096a0:
+.LDW_36b96a0:
 	.byte	35
 	.strz	"actatr"
 	.byte	83
 	.byte	16
 	.byte	38
-	.word	.LDW_3557618
+	.word	.LDW_3507618
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_37096e8:
+.LDW_36b96e8:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	85
 	.byte	18
 	.byte	38
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	24
 	.byte	1
 
 	.byte	0
 
-.LDW_3709ef8:
+.LDW_36b9ef8:
 	.byte	40
 	.strz	"ALMINIB"
 	.byte	86
 	.byte	3
 	.byte	38
-	.word	.LDW_3709ea0
+	.word	.LDW_36b9ea0
 
-.LDW_3709f50:
+.LDW_36b9f50:
 	.byte	62
 	.strz	"alarm_control_block"
 	.byte	91
@@ -7616,50 +7616,50 @@ _ioc_inival_table:	.space	4
 	.byte	24
 	.byte	1
 
-.LDW_3709730:
+.LDW_36b9730:
 	.byte	35
 	.strz	"cntexpinfo"
 	.byte	92
 	.byte	14
 	.byte	38
-	.word	.LDW_3709df0
+	.word	.LDW_36b9df0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709778:
+.LDW_36b9778:
 	.byte	35
 	.strz	"p_alminib"
 	.byte	93
 	.byte	17
 	.byte	38
-	.word	.LDW_3708a58
+	.word	.LDW_36b8a58
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_37097c0:
+.LDW_36b97c0:
 	.byte	35
 	.strz	"cycle"
 	.byte	94
 	.byte	12
 	.byte	38
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	20
 	.byte	1
 
 	.byte	0
 
-.LDW_370a000:
+.LDW_36ba000:
 	.byte	40
 	.strz	"ALMCB"
 	.byte	95
 	.byte	3
 	.byte	38
-	.word	.LDW_3709f50
+	.word	.LDW_36b9f50
 
-.LDW_370a058:
+.LDW_36ba058:
 	.byte	62
 	.strz	"interrupt_request_initialization_block"
 	.byte	92
@@ -7668,72 +7668,72 @@ _ioc_inival_table:	.space	4
 	.byte	20
 	.byte	1
 
-.LDW_3709808:
+.LDW_36b9808:
 	.byte	35
 	.strz	"intno"
 	.byte	93
 	.byte	22
 	.byte	39
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709850:
+.LDW_36b9850:
 	.byte	35
 	.strz	"intatr"
 	.byte	94
 	.byte	17
 	.byte	39
-	.word	.LDW_3557618
+	.word	.LDW_3507618
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3709898:
+.LDW_36b9898:
 	.byte	35
 	.strz	"intpri"
 	.byte	95
 	.byte	16
 	.byte	39
-	.word	.LDW_3620898
+	.word	.LDW_35d0898
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_37098e0:
+.LDW_36b98e0:
 	.byte	35
 	.strz	"coreid"
 	.byte	96
 	.byte	15
 	.byte	39
-	.word	.LDW_35ee890
+	.word	.LDW_359e890
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3709928:
+.LDW_36b9928:
 	.byte	35
 	.strz	"remain_stksz"
 	.byte	98
 	.byte	17
 	.byte	39
-	.word	.LDW_35531e8
+	.word	.LDW_35031e8
 	.byte	2,35
 	.byte	16
 	.byte	1
 
 	.byte	0
 
-.LDW_370a0b0:
+.LDW_36ba0b0:
 	.byte	40
 	.strz	"INTINIB"
 	.byte	100
 	.byte	3
 	.byte	39
-	.word	.LDW_370a058
+	.word	.LDW_36ba058
 
-.LDW_370a108:
+.LDW_36ba108:
 	.byte	62
 	.strz	"inter_core_interrupt_initialization_block"
 	.byte	122
@@ -7742,50 +7742,50 @@ _ioc_inival_table:	.space	4
 	.byte	12
 	.byte	1
 
-.LDW_3709970:
+.LDW_36b9970:
 	.byte	35
 	.strz	"ici_routing"
 	.byte	123
 	.byte	18
 	.byte	39
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_37099b8:
+.LDW_36b99b8:
 	.byte	35
 	.strz	"ici_bit_ptn"
 	.byte	124
 	.byte	11
 	.byte	39
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3709a00:
+.LDW_36b9a00:
 	.byte	35
 	.strz	"iciid"
 	.byte	125
 	.byte	12
 	.byte	39
-	.word	.LDW_3553558
+	.word	.LDW_3503558
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_370a160:
+.LDW_36ba160:
 	.byte	40
 	.strz	"ICIINIB"
 	.byte	126
 	.byte	3
 	.byte	39
-	.word	.LDW_370a108
+	.word	.LDW_36ba108
 
-.LDW_370a1b8:
+.LDW_36ba1b8:
 	.byte	62
 	.strz	"isr_initialization_block"
 	.byte	174,1
@@ -7794,39 +7794,39 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	1
 
-.LDW_3709a48:
+.LDW_36b9a48:
 	.byte	35
 	.strz	"p_intinib"
 	.byte	175,1
 	.byte	17
 	.byte	39
-	.word	.LDW_3708a90
+	.word	.LDW_36b8a90
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709a90:
+.LDW_36b9a90:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	176,1
 	.byte	18
 	.byte	39
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_370a268:
+.LDW_36ba268:
 	.byte	40
 	.strz	"ISRINIB"
 	.byte	177,1
 	.byte	3
 	.byte	39
-	.word	.LDW_370a1b8
+	.word	.LDW_36ba1b8
 
-.LDW_3557a38:
+.LDW_3507a38:
 	.byte	62
 	.strz	"isr_control_block"
 	.byte	179,1
@@ -7835,42 +7835,42 @@ _ioc_inival_table:	.space	4
 	.byte	12
 	.byte	1
 
-.LDW_3709ad8:
+.LDW_36b9ad8:
 	.byte	35
 	.strz	"p_isrinib"
 	.byte	180,1
 	.byte	17
 	.byte	39
-	.word	.LDW_3708ac8
+	.word	.LDW_36b8ac8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3709b20:
+.LDW_36b9b20:
 	.byte	35
 	.strz	"p_lastrescb"
 	.byte	181,1
 	.byte	11
 	.byte	39
-	.word	.LDW_37084a8
+	.word	.LDW_36b84a8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3709b68:
+.LDW_36b9b68:
 	.byte	35
 	.strz	"p_lastspncb"
 	.byte	182,1
 	.byte	11
 	.byte	39
-	.word	.LDW_3556950
+	.word	.LDW_3506950
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_370a318:
+.LDW_36ba318:
 	.byte	62
 	.strz	"scheduletable_expire_point_block"
 	.byte	86
@@ -7879,39 +7879,39 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	1
 
-.LDW_3709bb0:
+.LDW_36b9bb0:
 	.byte	35
 	.strz	"offset"
 	.byte	87
 	.byte	12
 	.byte	40
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3748878:
+.LDW_36f8878:
 	.byte	35
 	.strz	"expptfnt"
 	.byte	88
 	.byte	18
 	.byte	40
-	.word	.LDW_3557670
+	.word	.LDW_3507670
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_370a370:
+.LDW_36ba370:
 	.byte	40
 	.strz	"SCHTBLEXPPTCB"
 	.byte	89
 	.byte	3
 	.byte	40
-	.word	.LDW_370a318
+	.word	.LDW_36ba318
 
-.LDW_370a3c8:
+.LDW_36ba3c8:
 	.byte	62
 	.strz	"scheduletable_initialization_block"
 	.byte	95
@@ -7920,116 +7920,116 @@ _ioc_inival_table:	.space	4
 	.byte	32
 	.byte	1
 
-.LDW_37488c0:
+.LDW_36f88c0:
 	.byte	35
 	.strz	"p_cntcb"
 	.byte	96
 	.byte	12
 	.byte	40
-	.word	.LDW_3708a20
+	.word	.LDW_36b8a20
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3748908:
+.LDW_36f8908:
 	.byte	35
 	.strz	"length"
 	.byte	97
 	.byte	13
 	.byte	40
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3748950:
+.LDW_36f8950:
 	.byte	35
 	.strz	"autosta"
 	.byte	98
 	.byte	16
 	.byte	40
-	.word	.LDW_3553088
+	.word	.LDW_3503088
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3748998:
+.LDW_36f8998:
 	.byte	35
 	.strz	"actatr"
 	.byte	99
 	.byte	17
 	.byte	40
-	.word	.LDW_3557618
+	.word	.LDW_3507618
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_37489e0:
+.LDW_36f89e0:
 	.byte	35
 	.strz	"staval"
 	.byte	100
 	.byte	13
 	.byte	40
-	.word	.LDW_3620a50
+	.word	.LDW_35d0a50
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3748a28:
+.LDW_36f8a28:
 	.byte	35
 	.strz	"p_exppt"
 	.byte	101
 	.byte	23
 	.byte	40
-	.word	.LDW_3708b00
+	.word	.LDW_36b8b00
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3748a70:
+.LDW_36f8a70:
 	.byte	35
 	.strz	"repeat"
 	.byte	102
 	.byte	13
 	.byte	40
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_3748ab8:
+.LDW_36f8ab8:
 	.byte	35
 	.strz	"tnum_exppt"
 	.byte	103
 	.byte	11
 	.byte	40
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	25
 	.byte	1
 
-.LDW_3748b00:
+.LDW_36f8b00:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	105
 	.byte	18
 	.byte	40
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	28
 	.byte	1
 
 	.byte	0
 
-.LDW_370a478:
+.LDW_36ba478:
 	.byte	40
 	.strz	"SCHTBLINIB"
 	.byte	106
 	.byte	3
 	.byte	40
-	.word	.LDW_370a3c8
+	.word	.LDW_36ba3c8
 
-.LDW_370a4d0:
+.LDW_36ba4d0:
 	.byte	62
 	.strz	"scheduletable_control_block"
 	.byte	111
@@ -8038,83 +8038,83 @@ _ioc_inival_table:	.space	4
 	.byte	32
 	.byte	1
 
-.LDW_3748b48:
+.LDW_36f8b48:
 	.byte	35
 	.strz	"cntexpinfo"
 	.byte	112
 	.byte	19
 	.byte	40
-	.word	.LDW_3709df0
+	.word	.LDW_36b9df0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3748b90:
+.LDW_36f8b90:
 	.byte	35
 	.strz	"p_schtblinib"
 	.byte	113
 	.byte	24
 	.byte	40
-	.word	.LDW_3708b38
+	.word	.LDW_36b8b38
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_3748bd8:
+.LDW_36f8bd8:
 	.byte	35
 	.strz	"p_prevschtblcb"
 	.byte	114
 	.byte	38
 	.byte	40
-	.word	.LDW_3708b70
+	.word	.LDW_36b8b70
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_3748c20:
+.LDW_36f8c20:
 	.byte	35
 	.strz	"p_nextschtblcb"
 	.byte	115
 	.byte	38
 	.byte	40
-	.word	.LDW_3708b70
+	.word	.LDW_36b8b70
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_3748c68:
+.LDW_36f8c68:
 	.byte	35
 	.strz	"status"
 	.byte	116
 	.byte	29
 	.byte	40
-	.word	.LDW_3553138
+	.word	.LDW_3503138
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_3748cb0:
+.LDW_36f8cb0:
 	.byte	35
 	.strz	"expptindex"
 	.byte	117
 	.byte	15
 	.byte	40
-	.word	.LDW_35ee838
+	.word	.LDW_359e838
 	.byte	2,35
 	.byte	29
 	.byte	1
 
 	.byte	0
 
-.LDW_370a580:
+.LDW_36ba580:
 	.byte	40
 	.strz	"SCHTBLCB"
 	.byte	118
 	.byte	3
 	.byte	40
-	.word	.LDW_370a4d0
+	.word	.LDW_36ba4d0
 
-.LDW_370a688:
+.LDW_36ba688:
 	.byte	62
 	.strz	"ioc_initialization_block"
 	.byte	88
@@ -8123,72 +8123,72 @@ _ioc_inival_table:	.space	4
 	.byte	20
 	.byte	1
 
-.LDW_3748d40:
+.LDW_36f8d40:
 	.byte	35
 	.strz	"maxque"
 	.byte	89
 	.byte	9
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3748d88:
+.LDW_36f8d88:
 	.byte	35
 	.strz	"datasz"
 	.byte	90
 	.byte	9
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3748dd0:
+.LDW_36f8dd0:
 	.byte	35
 	.strz	"intercoreflg"
 	.byte	91
 	.byte	10
 	.byte	41
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3748e18:
+.LDW_36f8e18:
 	.byte	35
 	.strz	"p_rcvosapinib"
 	.byte	95
 	.byte	18
 	.byte	41
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_3748e60:
+.LDW_36f8e60:
 	.byte	35
 	.strz	"p_iocmb"
 	.byte	96
 	.byte	10
 	.byte	41
-	.word	.LDW_2f8d4a0
+	.word	.LDW_2e5d4a0
 	.byte	2,35
 	.byte	16
 	.byte	1
 
 	.byte	0
 
-.LDW_370a6e0:
+.LDW_36ba6e0:
 	.byte	40
 	.strz	"IOCINIB"
 	.byte	97
 	.byte	3
 	.byte	41
-	.word	.LDW_370a688
+	.word	.LDW_36ba688
 
-.LDW_370a738:
+.LDW_36ba738:
 	.byte	62
 	.strz	"ioc_control_block"
 	.byte	102
@@ -8197,61 +8197,61 @@ _ioc_inival_table:	.space	4
 	.byte	16
 	.byte	1
 
-.LDW_3748ea8:
+.LDW_36f8ea8:
 	.byte	35
 	.strz	"quecnt"
 	.byte	103
 	.byte	9
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3748ef0:
+.LDW_36f8ef0:
 	.byte	35
 	.strz	"head"
 	.byte	104
 	.byte	9
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3748f38:
+.LDW_36f8f38:
 	.byte	35
 	.strz	"tail"
 	.byte	105
 	.byte	9
 	.byte	41
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3748f80:
+.LDW_36f8f80:
 	.byte	35
 	.strz	"lostflg"
 	.byte	106
 	.byte	10
 	.byte	41
-	.word	.LDW_35ee510
+	.word	.LDW_359e510
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_370a790:
+.LDW_36ba790:
 	.byte	40
 	.strz	"IOCCB"
 	.byte	107
 	.byte	3
 	.byte	41
-	.word	.LDW_370a738
+	.word	.LDW_36ba738
 
-.LDW_370a7e8:
+.LDW_36ba7e8:
 	.byte	62
 	.strz	"ioc_wrapper_initialization_block"
 	.byte	112
@@ -8260,56 +8260,56 @@ _ioc_inival_table:	.space	4
 	.byte	12
 	.byte	1
 
-.LDW_3748fc8:
+.LDW_36f8fc8:
 	.byte	35
 	.strz	"p_iocinib"
 	.byte	113
 	.byte	17
 	.byte	41
-	.word	.LDW_3708be0
+	.word	.LDW_36b8be0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_3749010:
+.LDW_36f9010:
 	.byte	35
 	.strz	"p_sndosapinib"
 	.byte	114
 	.byte	18
 	.byte	41
-	.word	.LDW_3556918
+	.word	.LDW_3506918
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_3749058:
+.LDW_36f9058:
 	.byte	35
 	.strz	"senderid"
 	.byte	115
 	.byte	15
 	.byte	41
-	.word	.LDW_35536b8
+	.word	.LDW_35036b8
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_370a898:
+.LDW_36ba898:
 	.byte	40
 	.strz	"IOCWRPINIB"
 	.byte	116
 	.byte	3
 	.byte	41
-	.word	.LDW_370a7e8
+	.word	.LDW_36ba7e8
 
-.LDW_374a258:
+.LDW_36fa258:
 	.byte	4
 	.strz	"tnum_alarm"
 	.byte	29
 	.byte	21
 	.byte	1
-	.word	.LDW_370ab00
+	.word	.LDW_36bab00
 	.byte	1
 	.byte	0
 	.byte	5,3
@@ -8330,1045 +8330,1045 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_374a2a8:
+.LDW_36fa2a8:
 	.byte	4
 	.strz	"tnum_counter"
 	.byte	30
 	.byte	22
 	.byte	1
-	.word	.LDW_370ab58
+	.word	.LDW_36bab58
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_counter
 
-.LDW_374a2f8:
+.LDW_36fa2f8:
 	.byte	4
 	.strz	"tnum_hardcounter"
 	.byte	31
 	.byte	22
 	.byte	1
-	.word	.LDW_370ab58
+	.word	.LDW_36bab58
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_hardcounter
 
-.LDW_374a348:
+.LDW_36fa348:
 	.byte	4
 	.strz	"tnum_isr2"
 	.byte	32
 	.byte	19
 	.byte	1
-	.word	.LDW_370abb0
+	.word	.LDW_36babb0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_isr2
 
-.LDW_374a398:
+.LDW_36fa398:
 	.byte	4
 	.strz	"tnum_ici"
 	.byte	33
 	.byte	19
 	.byte	1
-	.word	.LDW_370abb0
+	.word	.LDW_36babb0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_ici
 
-.LDW_374a3e8:
+.LDW_36fa3e8:
 	.byte	4
 	.strz	"tnum_stdresource"
 	.byte	34
 	.byte	23
 	.byte	1
-	.word	.LDW_370ae58
+	.word	.LDW_36bae58
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_stdresource
 
-.LDW_374a438:
+.LDW_36fa438:
 	.byte	4
 	.strz	"tnum_task"
 	.byte	35
 	.byte	20
 	.byte	1
-	.word	.LDW_370aeb0
+	.word	.LDW_36baeb0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_task
 
-.LDW_374a488:
+.LDW_36fa488:
 	.byte	4
 	.strz	"tnum_exttask"
 	.byte	36
 	.byte	20
 	.byte	1
-	.word	.LDW_370aeb0
+	.word	.LDW_36baeb0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_exttask
 
-.LDW_374a4d8:
+.LDW_36fa4d8:
 	.byte	4
 	.strz	"tnum_appmode"
 	.byte	37
 	.byte	22
 	.byte	1
-	.word	.LDW_370af08
+	.word	.LDW_36baf08
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_appmode
 
-.LDW_374a528:
+.LDW_36fa528:
 	.byte	4
 	.strz	"tnum_scheduletable"
 	.byte	38
 	.byte	27
 	.byte	1
-	.word	.LDW_370af60
+	.word	.LDW_36baf60
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_scheduletable
 
-.LDW_374a578:
+.LDW_36fa578:
 	.byte	4
 	.strz	"tnum_implscheduletable"
 	.byte	39
 	.byte	27
 	.byte	1
-	.word	.LDW_370af60
+	.word	.LDW_36baf60
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_implscheduletable
 
-.LDW_374a5c8:
+.LDW_36fa5c8:
 	.byte	4
 	.strz	"tnum_osap"
 	.byte	40
 	.byte	25
 	.byte	1
-	.word	.LDW_370afb8
+	.word	.LDW_36bafb8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_osap
 
-.LDW_374a618:
+.LDW_36fa618:
 	.byte	4
 	.strz	"tnum_spinlock"
 	.byte	41
 	.byte	24
 	.byte	1
-	.word	.LDW_370b010
+	.word	.LDW_36bb010
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_spinlock
 
-.LDW_374a668:
+.LDW_36fa668:
 	.byte	4
 	.strz	"_kernel_core0_ccb"
 	.byte	46
 	.byte	5
 	.byte	1
-	.word	.LDW_36207d0
+	.word	.LDW_35d07d0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_core0_ccb
 
-.LDW_374a6b8:
+.LDW_36fa6b8:
 	.byte	4
 	.strz	"_kernel_core1_ccb"
 	.byte	47
 	.byte	5
 	.byte	1
-	.word	.LDW_36207d0
+	.word	.LDW_35d07d0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_core1_ccb
 
-.LDW_374a708:
+.LDW_36fa708:
 	.byte	4
 	.strz	"p_ccb_table"
 	.byte	50
 	.byte	13
 	.byte	1
-	.word	.LDW_374b060
+	.word	.LDW_36fb060
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_ccb_table
 
-.LDW_374a758:
+.LDW_36fa758:
 	.byte	4
-	.strz	"_kernel_stack_a_controller_Core0_1_0_Task"
+	.strz	"_kernel_stack_BlsmControl_Core0_1_0_Task"
 	.byte	58
 	.byte	18
 	.byte	1
-	.word	.LDW_374b0e8
+	.word	.LDW_36fb0e8
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a7a8:
+.LDW_36fa7a8:
 	.byte	4
-	.strz	"_kernel_stack_a_controller_Core1_1_0_Task"
+	.strz	"_kernel_stack_BlsmControl_Core1_1_0_Task"
 	.byte	59
 	.byte	18
 	.byte	1
-	.word	.LDW_370be58
+	.word	.LDW_36bbe58
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a7f8:
+.LDW_36fa7f8:
 	.byte	4
-	.strz	"_kernel_stack_a_controller_Core0_100_0_Task"
+	.strz	"_kernel_stack_BlsmControl_Core0_100_0_Task"
 	.byte	60
 	.byte	18
 	.byte	1
-	.word	.LDW_370bee0
+	.word	.LDW_36bbee0
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a848:
+.LDW_36fa848:
 	.byte	4
-	.strz	"_kernel_stack_a_controller_Core1_100_0_Task"
+	.strz	"_kernel_stack_BlsmControl_Core1_100_0_Task"
 	.byte	61
 	.byte	18
 	.byte	1
-	.word	.LDW_370bf68
+	.word	.LDW_36bbf68
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a898:
+.LDW_36fa898:
 	.byte	4
 	.strz	"_kernel_shared_stack_2"
 	.byte	62
 	.byte	18
 	.byte	1
-	.word	.LDW_370bff0
+	.word	.LDW_36bbff0
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a8e8:
+.LDW_36fa8e8:
 	.byte	4
 	.strz	"_kernel_shared_stack_3"
 	.byte	63
 	.byte	18
 	.byte	1
-	.word	.LDW_370c078
+	.word	.LDW_36bc078
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_374a938:
+.LDW_36fa938:
 	.byte	4
 	.strz	"tinib_table"
 	.byte	65
 	.byte	13
 	.byte	1
-	.word	.LDW_370c100
+	.word	.LDW_36bc100
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tinib_table
 
-.LDW_374a988:
+.LDW_36fa988:
 	.byte	4
-	.strz	"_kernel_tcb_a_controller_Core0_1_0_Task"
+	.strz	"_kernel_tcb_BlsmControl_Core0_1_0_Task"
 	.byte	145,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_tcb_a_controller_Core0_1_0_Task
+	.word	__kernel_tcb_BlsmControl_Core0_1_0_Task
 
-.LDW_374a9d8:
+.LDW_36fa9d8:
 	.byte	4
-	.strz	"_kernel_tcb_a_controller_Core1_1_0_Task"
+	.strz	"_kernel_tcb_BlsmControl_Core1_1_0_Task"
 	.byte	146,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_tcb_a_controller_Core1_1_0_Task
+	.word	__kernel_tcb_BlsmControl_Core1_1_0_Task
 
-.LDW_374aa28:
+.LDW_36faa28:
 	.byte	4
-	.strz	"_kernel_tcb_a_controller_Core0_100_0_Task"
+	.strz	"_kernel_tcb_BlsmControl_Core0_100_0_Task"
 	.byte	147,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_tcb_a_controller_Core0_100_0_Task
+	.word	__kernel_tcb_BlsmControl_Core0_100_0_Task
 
-.LDW_374aa78:
+.LDW_36faa78:
 	.byte	4
-	.strz	"_kernel_tcb_a_controller_Core1_100_0_Task"
+	.strz	"_kernel_tcb_BlsmControl_Core1_100_0_Task"
 	.byte	148,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_tcb_a_controller_Core1_100_0_Task
+	.word	__kernel_tcb_BlsmControl_Core1_100_0_Task
 
-.LDW_374aac8:
+.LDW_36faac8:
 	.byte	4
 	.strz	"_kernel_tcb_OperationManagerTask"
 	.byte	149,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_tcb_OperationManagerTask
 
-.LDW_374ab18:
+.LDW_36fab18:
 	.byte	4
 	.strz	"_kernel_tcb_DriveManagerTask"
 	.byte	150,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_tcb_DriveManagerTask
 
-.LDW_374ab68:
+.LDW_36fab68:
 	.byte	4
 	.strz	"_kernel_tcb_BodyControlTask"
 	.byte	151,1
 	.byte	5
 	.byte	1
-	.word	.LDW_35579e0
+	.word	.LDW_35079e0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_tcb_BodyControlTask
 
-.LDW_374abb8:
+.LDW_36fabb8:
 	.byte	4
 	.strz	"p_tcb_table"
 	.byte	153,1
 	.byte	13
 	.byte	1
-	.word	.LDW_370c188
+	.word	.LDW_36bc188
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_tcb_table
 
-.LDW_374ac08:
+.LDW_36fac08:
 	.byte	4
 	.strz	"cntinib_table"
 	.byte	165,1
 	.byte	15
 	.byte	1
-	.word	.LDW_370c210
+	.word	.LDW_36bc210
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_cntinib_table
 
-.LDW_374ac58:
+.LDW_36fac58:
 	.byte	4
 	.strz	"_kernel_cntcb_MAIN_HW_COUNTER_CORE0"
 	.byte	170,1
 	.byte	7
 	.byte	1
-	.word	.LDW_3620b00
+	.word	.LDW_35d0b00
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_cntcb_MAIN_HW_COUNTER_CORE0
 
-.LDW_374aca8:
+.LDW_36faca8:
 	.byte	4
 	.strz	"_kernel_cntcb_MAIN_HW_COUNTER_CORE1"
 	.byte	171,1
 	.byte	7
 	.byte	1
-	.word	.LDW_3620b00
+	.word	.LDW_35d0b00
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_cntcb_MAIN_HW_COUNTER_CORE1
 
-.LDW_374acf8:
+.LDW_36facf8:
 	.byte	4
 	.strz	"p_cntcb_table"
 	.byte	173,1
 	.byte	15
 	.byte	1
-	.word	.LDW_370c298
+	.word	.LDW_36bc298
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_cntcb_table
 
-.LDW_374ad48:
+.LDW_36fad48:
 	.byte	4
 	.strz	"hwcntinib_table"
 	.byte	177,1
 	.byte	17
 	.byte	1
-	.word	.LDW_370c320
+	.word	.LDW_36bc320
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_hwcntinib_table
 
-.LDW_374ad98:
+.LDW_36fad98:
 	.byte	4
 	.strz	"alminib_table"
 	.byte	141,2
 	.byte	15
 	.byte	1
-	.word	.LDW_370c3a8
+	.word	.LDW_36bc3a8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_alminib_table
 
-.LDW_374ade8:
+.LDW_36fade8:
 	.byte	4
 	.strz	"_kernel_almcb_OperationManagerCycAlarm"
 	.byte	152,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_almcb_OperationManagerCycAlarm
 
-.LDW_374ae38:
+.LDW_36fae38:
 	.byte	4
 	.strz	"_kernel_almcb_DriveManagerCycAlarm"
 	.byte	153,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_almcb_DriveManagerCycAlarm
 
-.LDW_374ae88:
+.LDW_36fae88:
 	.byte	4
 	.strz	"_kernel_almcb_BodyControlCycAlarm"
 	.byte	154,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_almcb_BodyControlCycAlarm
 
-.LDW_374aed8:
+.LDW_36faed8:
 	.byte	4
 	.strz	"_kernel_almcb_BuzzerControlCycAlarm"
 	.byte	155,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_almcb_BuzzerControlCycAlarm
 
-.LDW_374af28:
+.LDW_36faf28:
 	.byte	4
-	.strz	"_kernel_almcb_a_controller_Core0_1_0_Alarm"
+	.strz	"_kernel_almcb_BlsmControl_Core0_1_0_Alarm"
 	.byte	156,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_almcb_a_controller_Core0_1_0_Alarm
+	.word	__kernel_almcb_BlsmControl_Core0_1_0_Alarm
 
-.LDW_374af78:
+.LDW_36faf78:
 	.byte	4
-	.strz	"_kernel_almcb_a_controller_Core1_1_0_Alarm"
+	.strz	"_kernel_almcb_BlsmControl_Core1_1_0_Alarm"
 	.byte	157,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_almcb_a_controller_Core1_1_0_Alarm
+	.word	__kernel_almcb_BlsmControl_Core1_1_0_Alarm
 
-.LDW_374afc8:
+.LDW_36fafc8:
 	.byte	4
-	.strz	"_kernel_almcb_a_controller_Core0_100_0_Alarm"
+	.strz	"_kernel_almcb_BlsmControl_Core0_100_0_Alarm"
 	.byte	158,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_almcb_a_controller_Core0_100_0_Alarm
+	.word	__kernel_almcb_BlsmControl_Core0_100_0_Alarm
 
-.LDW_370de58:
+.LDW_36bde58:
 	.byte	4
-	.strz	"_kernel_almcb_a_controller_Core1_100_0_Alarm"
+	.strz	"_kernel_almcb_BlsmControl_Core1_100_0_Alarm"
 	.byte	159,2
 	.byte	7
 	.byte	1
-	.word	.LDW_370a000
+	.word	.LDW_36ba000
 	.byte	1
 	.byte	0
 	.byte	5,3
-	.word	__kernel_almcb_a_controller_Core1_100_0_Alarm
+	.word	__kernel_almcb_BlsmControl_Core1_100_0_Alarm
 
-.LDW_370dea8:
+.LDW_36bdea8:
 	.byte	4
 	.strz	"p_almcb_table"
 	.byte	161,2
 	.byte	15
 	.byte	1
-	.word	.LDW_370c430
+	.word	.LDW_36bc430
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_almcb_table
 
-.LDW_370def8:
+.LDW_36bdef8:
 	.byte	4
 	.strz	"schtblinib_table"
 	.byte	175,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370c4b8
+	.word	.LDW_36bc4b8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_schtblinib_table
 
-.LDW_370df48:
+.LDW_36bdf48:
 	.byte	4
 	.strz	"p_schtblcb_table"
 	.byte	176,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370c540
+	.word	.LDW_36bc540
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_schtblcb_table
 
-.LDW_370df98:
+.LDW_36bdf98:
 	.byte	4
 	.strz	"resinib_table"
 	.byte	181,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370c5c8
+	.word	.LDW_36bc5c8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_resinib_table
 
-.LDW_370dfe8:
+.LDW_36bdfe8:
 	.byte	4
 	.strz	"p_rescb_table"
 	.byte	182,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370c650
+	.word	.LDW_36bc650
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_rescb_table
 
-.LDW_370e038:
+.LDW_36be038:
 	.byte	4
 	.strz	"isrinib_table"
 	.byte	188,2
 	.byte	15
 	.byte	1
-	.word	.LDW_370c6d8
+	.word	.LDW_36bc6d8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_isrinib_table
 
-.LDW_370e088:
+.LDW_36be088:
 	.byte	4
 	.strz	"_kernel_isrcb_RLIN3x_TX_ISR"
 	.byte	203,2
 	.byte	7
 	.byte	1
-	.word	.LDW_3557a90
+	.word	.LDW_3507a90
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_isrcb_RLIN3x_TX_ISR
 
-.LDW_370e0d8:
+.LDW_36be0d8:
 	.byte	4
 	.strz	"_kernel_isrcb_RLIN3x_RX_ISR"
 	.byte	204,2
 	.byte	7
 	.byte	1
-	.word	.LDW_3557a90
+	.word	.LDW_3507a90
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_isrcb_RLIN3x_RX_ISR
 
-.LDW_370e128:
+.LDW_36be128:
 	.byte	4
 	.strz	"_kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE0"
 	.byte	205,2
 	.byte	7
 	.byte	1
-	.word	.LDW_3557a90
+	.word	.LDW_3507a90
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE0
 
-.LDW_370e178:
+.LDW_36be178:
 	.byte	4
 	.strz	"_kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE1"
 	.byte	206,2
 	.byte	7
 	.byte	1
-	.word	.LDW_3557a90
+	.word	.LDW_3507a90
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE1
 
-.LDW_370e1c8:
+.LDW_36be1c8:
 	.byte	4
 	.strz	"p_isrcb_table"
 	.byte	209,2
 	.byte	15
 	.byte	1
-	.word	.LDW_370c760
+	.word	.LDW_36bc760
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_isrcb_table
 
-.LDW_370e218:
+.LDW_36be218:
 	.byte	4
 	.strz	"iciinib_table"
 	.byte	219,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370c7e8
+	.word	.LDW_36bc7e8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_iciinib_table
 
-.LDW_370e268:
+.LDW_36be268:
 	.byte	4
 	.strz	"p_iciinb_table"
 	.byte	220,2
 	.byte	17
 	.byte	1
-	.word	.LDW_370c870
+	.word	.LDW_36bc870
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_iciinb_table
 
-.LDW_370e2b8:
+.LDW_36be2b8:
 	.byte	4
 	.strz	"tnum_ici_of_core"
 	.byte	221,2
 	.byte	13
 	.byte	1
-	.word	.LDW_370c8f8
+	.word	.LDW_36bc8f8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_ici_of_core
 
-.LDW_370e308:
+.LDW_36be308:
 	.byte	4
 	.strz	"osapinib_table"
 	.byte	224,2
 	.byte	16
 	.byte	1
-	.word	.LDW_370c980
+	.word	.LDW_36bc980
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_osapinib_table
 
-.LDW_370e358:
+.LDW_36be358:
 	.byte	4
 	.strz	"spninib_table"
 	.byte	243,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370ca08
+	.word	.LDW_36bca08
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_spninib_table
 
-.LDW_370e3a8:
+.LDW_36be3a8:
 	.byte	4
 	.strz	"spncb_table"
 	.byte	244,2
 	.byte	1
 	.byte	1
-	.word	.LDW_370ca90
+	.word	.LDW_36bca90
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_spncb_table
 
-.LDW_370e3f8:
+.LDW_36be3f8:
 	.byte	4
 	.strz	"tnum_intno"
 	.byte	192,3
 	.byte	27
 	.byte	1
-	.word	.LDW_370a9a0
+	.word	.LDW_36ba9a0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_intno
 
-.LDW_370e448:
+.LDW_36be448:
 	.byte	4
 	.strz	"intinib_table"
 	.byte	194,3
 	.byte	15
 	.byte	1
-	.word	.LDW_370cb18
+	.word	.LDW_36bcb18
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_intinib_table
 
-.LDW_370e498:
+.LDW_36be498:
 	.byte	4
 	.strz	"ici_remain_stksz"
 	.byte	201,3
 	.byte	22
 	.byte	1
-	.word	.LDW_370cba0
+	.word	.LDW_36bcba0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_ici_remain_stksz
 
-.LDW_370e4e8:
+.LDW_36be4e8:
 	.byte	4
 	.strz	"_kernel_core0_ostack"
 	.byte	205,3
 	.byte	18
 	.byte	1
-	.word	.LDW_370cc28
+	.word	.LDW_36bcc28
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_370e538:
+.LDW_36be538:
 	.byte	4
 	.strz	"_kernel_core1_ostack"
 	.byte	209,3
 	.byte	18
 	.byte	1
-	.word	.LDW_370ccb0
+	.word	.LDW_36bccb0
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 
-.LDW_370e588:
+.LDW_36be588:
 	.byte	4
 	.strz	"_ostksz_table"
 	.byte	214,3
 	.byte	22
 	.byte	1
-	.word	.LDW_370cd38
+	.word	.LDW_36bcd38
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__ostksz_table
 
-.LDW_370e5d8:
+.LDW_36be5d8:
 	.byte	4
 	.strz	"_ostk_table"
 	.byte	219,3
 	.byte	20
 	.byte	1
-	.word	.LDW_370cdc0
+	.word	.LDW_36bcdc0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__ostk_table
 
-.LDW_370e628:
+.LDW_36be628:
 	.byte	4
 	.strz	"_ostkpt_table"
 	.byte	225,3
 	.byte	19
 	.byte	1
-	.word	.LDW_370ce48
+	.word	.LDW_36bce48
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	__ostkpt_table
 
-.LDW_370e678:
+.LDW_36be678:
 	.byte	4
 	.strz	"tnum_ioc"
 	.byte	233,3
 	.byte	15
 	.byte	1
-	.word	.LDW_370b430
+	.word	.LDW_36bb430
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_ioc
 
-.LDW_370e6c8:
+.LDW_36be6c8:
 	.byte	4
 	.strz	"tnum_queueioc"
 	.byte	234,3
 	.byte	15
 	.byte	1
-	.word	.LDW_370b430
+	.word	.LDW_36bb430
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_tnum_queueioc
 
-.LDW_370e718:
+.LDW_36be718:
 	.byte	4
 	.strz	"ioc_inival_table"
 	.byte	236,3
 	.byte	1
 	.byte	1
-	.word	.LDW_370ced0
+	.word	.LDW_36bced0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_ioc_inival_table
 
-.LDW_370e768:
+.LDW_36be768:
 	.byte	4
 	.strz	"ioccb_table"
 	.byte	237,3
 	.byte	1
 	.byte	1
-	.word	.LDW_370cf58
+	.word	.LDW_36bcf58
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_ioccb_table
 
-.LDW_370e7b8:
+.LDW_36be7b8:
 	.byte	4
 	.strz	"iocinib_table"
 	.byte	238,3
 	.byte	1
 	.byte	1
-	.word	.LDW_370cfe0
+	.word	.LDW_36bcfe0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_iocinib_table
 
-.LDW_370e808:
+.LDW_36be808:
 	.byte	4
 	.strz	"iocwrpinib_table"
 	.byte	239,3
 	.byte	1
 	.byte	1
-	.word	.LDW_370d068
+	.word	.LDW_36bd068
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_iocwrpinib_table
 
-.LDW_370e858:
+.LDW_36be858:
 	.byte	4
 	.strz	"pmr_isr2_mask"
-	.byte	172,6
+	.byte	169,6
 	.byte	14
 	.byte	1
-	.word	.LDW_370aa50
+	.word	.LDW_36baa50
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_pmr_isr2_mask
 
-.LDW_370e8a8:
+.LDW_36be8a8:
 	.byte	4
 	.strz	"pmr_isr1_mask"
-	.byte	173,6
+	.byte	170,6
 	.byte	14
 	.byte	1
-	.word	.LDW_370aa50
+	.word	.LDW_36baa50
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_pmr_isr1_mask
 
-.LDW_370e8f8:
+.LDW_36be8f8:
 	.byte	4
 	.strz	"core0_isr_tbl"
-	.byte	175,6
+	.byte	172,6
 	.byte	23
 	.byte	1
-	.word	.LDW_370d0f0
+	.word	.LDW_36bd0f0
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core0_isr_tbl
 
-.LDW_370e948:
+.LDW_36be948:
 	.byte	4
 	.strz	"core1_isr_tbl"
-	.byte	145,9
+	.byte	142,9
 	.byte	23
 	.byte	1
-	.word	.LDW_370d178
+	.word	.LDW_36bd178
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core1_isr_tbl
 
-.LDW_370e998:
+.LDW_36be998:
 	.byte	4
 	.strz	"isr_table"
-	.byte	243,11
+	.byte	240,11
 	.byte	14
 	.byte	1
-	.word	.LDW_370d200
+	.word	.LDW_36bd200
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_isr_table
 
-.LDW_370e9e8:
+.LDW_36be9e8:
 	.byte	4
 	.strz	"core0_isr_p_isrcb_tbl"
-	.byte	248,11
+	.byte	245,11
 	.byte	15
 	.byte	1
-	.word	.LDW_370d288
+	.word	.LDW_36bd288
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core0_isr_p_isrcb_tbl
 
-.LDW_370ea38:
+.LDW_36bea38:
 	.byte	4
 	.strz	"core1_isr_p_isrcb_tbl"
-	.byte	218,14
+	.byte	215,14
 	.byte	15
 	.byte	1
-	.word	.LDW_370d310
+	.word	.LDW_36bd310
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core1_isr_p_isrcb_tbl
 
-.LDW_370ea88:
+.LDW_36bea88:
 	.byte	4
 	.strz	"isr_p_isrcb_table"
-	.byte	188,17
+	.byte	185,17
 	.byte	14
 	.byte	1
-	.word	.LDW_370d398
+	.word	.LDW_36bd398
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_isr_p_isrcb_table
 
-.LDW_370ead8:
+.LDW_36bead8:
 	.byte	4
 	.strz	"core0_intbp_tbl"
-	.byte	194,17
+	.byte	191,17
 	.byte	44
 	.byte	1
-	.word	.LDW_370d420
+	.word	.LDW_36bd420
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core0_intbp_tbl
 
-.LDW_370eb28:
+.LDW_36beb28:
 	.byte	4
 	.strz	"core1_intbp_tbl"
-	.byte	164,20
+	.byte	161,20
 	.byte	44
 	.byte	1
-	.word	.LDW_370d4a8
+	.word	.LDW_36bd4a8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_core1_intbp_tbl
 
-.LDW_370eb78:
+.LDW_36beb78:
 	.byte	4
 	.strz	"intbp_table"
-	.byte	134,23
+	.byte	131,23
 	.byte	14
 	.byte	1
-	.word	.LDW_370d530
+	.word	.LDW_36bd530
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_intbp_table
 
-.LDW_374ed68:
+.LDW_36fed68:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
 	.byte	14
 	.byte	24
-	.word	.LDW_2f8d580
+	.word	.LDW_2e5d580
 	.byte	1
 	.byte	0
 	.byte	1
@@ -9396,13 +9396,13 @@ _ioc_inival_table:	.space	4
 	.section	.debug_info
 	.byte	0
 
-.LDW_3559f60:
+.LDW_3509f60:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	23
-	.word	.LDW_3559f08
+	.word	.LDW_3509f08
 	.byte	0
 	.byte	3
 	.byte	0
@@ -9410,7 +9410,7 @@ _ioc_inival_table:	.space	4
 	.byte	0
 	.byte	1
 
-.LDW_2f72bc8:
+.LDW_2e42bc8:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -9424,7 +9424,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3618488:
+.LDW_35c8488:
 	.byte	21
 	.strz	"i_begin_int"
 	.byte	136,3
@@ -9454,13 +9454,13 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3606ee0:
+.LDW_35b6ee0:
 	.byte	16
 	.strz	"intno"
 	.byte	136,3
 	.byte	33
 	.byte	31
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 	.byte	0
 
 	.section	.debug_abbrev
@@ -9476,14 +9476,14 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3621b30:
+.LDW_35d1b30:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_3618528:
+.LDW_35c8528:
 	.byte	21
 	.strz	"i_end_int"
 	.byte	145,3
@@ -9496,23 +9496,23 @@ _ioc_inival_table:	.space	4
 	.byte	0
 	.byte	1
 
-.LDW_3606f30:
+.LDW_35b6f30:
 	.byte	16
 	.strz	"intno"
 	.byte	145,3
 	.byte	31
 	.byte	31
-	.word	.LDW_36208f0
+	.word	.LDW_35d08f0
 	.byte	0
 
-.LDW_3621b90:
+.LDW_35d1b90:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_374fee8:
+.LDW_36ffee8:
 	.byte	21
 	.strz	"default_int_handler"
 	.byte	153,3
@@ -9527,7 +9527,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37524e8:
+.LDW_37024e8:
 	.byte	21
 	.strz	"task_initialize"
 	.byte	160,1
@@ -9542,13 +9542,13 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3752948:
+.LDW_3702948:
 	.byte	22
 	.strz	"activate_task_action"
 	.byte	215,1
 	.byte	19
 	.byte	33
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 	.byte	1
 	.byte	0
 	.byte	1
@@ -9558,13 +9558,13 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37529e8:
+.LDW_37029e8:
 	.byte	22
 	.strz	"set_event_action"
 	.byte	222,1
 	.byte	19
 	.byte	33
-	.word	.LDW_3552e78
+	.word	.LDW_3502e78
 	.byte	1
 	.byte	0
 	.byte	1
@@ -9574,7 +9574,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3752c68:
+.LDW_3702c68:
 	.byte	21
 	.strz	"counter_initialize"
 	.byte	159,2
@@ -9589,7 +9589,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3752d08:
+.LDW_3702d08:
 	.byte	21
 	.strz	"counter_terminate"
 	.byte	164,2
@@ -9604,7 +9604,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3752f88:
+.LDW_3702f88:
 	.byte	21
 	.strz	"notify_hardware_counter"
 	.byte	184,2
@@ -9619,7 +9619,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37530c8:
+.LDW_37030c8:
 	.byte	21
 	.strz	"alarm_initialize"
 	.byte	115
@@ -9634,7 +9634,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3754a28:
+.LDW_3704a28:
 	.byte	21
 	.strz	"interrupt_initialize"
 	.byte	198,1
@@ -9649,9 +9649,24 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755068:
+.LDW_3705068:
 	.byte	21
-	.strz	"TaskMaina_controller_Core0_1_0_Task"
+	.strz	"TaskMainBlsmControl_Core0_1_0_Task"
+	.byte	112
+	.byte	8
+	.byte	42
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3705108:
+	.byte	21
+	.strz	"TaskMainBlsmControl_Core1_1_0_Task"
 	.byte	113
 	.byte	8
 	.byte	42
@@ -9664,9 +9679,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755108:
+.LDW_37051a8:
 	.byte	21
-	.strz	"TaskMaina_controller_Core1_1_0_Task"
+	.strz	"TaskMainBlsmControl_Core0_100_0_Task"
 	.byte	114
 	.byte	8
 	.byte	42
@@ -9679,9 +9694,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37551a8:
+.LDW_3705248:
 	.byte	21
-	.strz	"TaskMaina_controller_Core0_100_0_Task"
+	.strz	"TaskMainBlsmControl_Core1_100_0_Task"
 	.byte	115
 	.byte	8
 	.byte	42
@@ -9694,9 +9709,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755248:
+.LDW_37052e8:
 	.byte	21
-	.strz	"TaskMaina_controller_Core1_100_0_Task"
+	.strz	"TaskMainOperationManagerTask"
 	.byte	116
 	.byte	8
 	.byte	42
@@ -9709,9 +9724,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37552e8:
+.LDW_3705388:
 	.byte	21
-	.strz	"TaskMainOperationManagerTask"
+	.strz	"TaskMainDriveManagerTask"
 	.byte	117
 	.byte	8
 	.byte	42
@@ -9724,9 +9739,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755388:
+.LDW_3705428:
 	.byte	21
-	.strz	"TaskMainDriveManagerTask"
+	.strz	"TaskMainBodyControlTask"
 	.byte	118
 	.byte	8
 	.byte	42
@@ -9739,11 +9754,11 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755428:
+.LDW_37054c8:
 	.byte	21
-	.strz	"TaskMainBodyControlTask"
-	.byte	119
-	.byte	8
+	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.byte	120
+	.byte	13
 	.byte	42
 	.byte	1
 	.byte	0
@@ -9754,9 +9769,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37554c8:
+.LDW_3705568:
 	.byte	21
-	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	121
 	.byte	13
 	.byte	42
@@ -9769,9 +9784,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755568:
+.LDW_3705608:
 	.byte	21
-	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	122
 	.byte	13
 	.byte	42
@@ -9784,9 +9799,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755608:
+.LDW_37056a8:
 	.byte	21
-	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	123
 	.byte	13
 	.byte	42
@@ -9799,10 +9814,26 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37556a8:
-	.byte	21
-	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE0"
+.LDW_3705748:
+	.byte	22
+	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	124
+	.byte	17
+	.byte	42
+	.word	.LDW_35d0a50
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_37057e8:
+	.byte	21
+	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.byte	125
 	.byte	13
 	.byte	42
 	.byte	1
@@ -9814,25 +9845,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755748:
-	.byte	22
-	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE0"
-	.byte	125
-	.byte	17
-	.byte	42
-	.word	.LDW_3620a50
-	.byte	1
-	.byte	0
-	.byte	1
-	.byte	1
-	.byte	0
-	.byte	1
-
-	.byte	0
-
-.LDW_37557e8:
+.LDW_3705888:
 	.byte	21
-	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	126
 	.byte	13
 	.byte	42
@@ -9845,9 +9860,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755888:
+.LDW_3705928:
 	.byte	21
-	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	127
 	.byte	13
 	.byte	42
@@ -9860,9 +9875,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755928:
+.LDW_37059c8:
 	.byte	21
-	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	128,1
 	.byte	13
 	.byte	42
@@ -9875,9 +9890,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37559c8:
+.LDW_3705a68:
 	.byte	21
-	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	129,1
 	.byte	13
 	.byte	42
@@ -9890,9 +9905,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755a68:
+.LDW_3705b08:
 	.byte	21
-	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE0"
+	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	130,1
 	.byte	13
 	.byte	42
@@ -9905,9 +9920,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755b08:
+.LDW_3705ba8:
 	.byte	21
-	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	131,1
 	.byte	13
 	.byte	42
@@ -9920,9 +9935,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755ba8:
+.LDW_3705c48:
 	.byte	21
-	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	132,1
 	.byte	13
 	.byte	42
@@ -9935,9 +9950,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755c48:
+.LDW_3705ce8:
 	.byte	21
-	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	133,1
 	.byte	13
 	.byte	42
@@ -9950,10 +9965,26 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755ce8:
-	.byte	21
-	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE1"
+.LDW_3705d88:
+	.byte	22
+	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	134,1
+	.byte	17
+	.byte	42
+	.word	.LDW_35d0a50
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3705e28:
+	.byte	21
+	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.byte	135,1
 	.byte	13
 	.byte	42
 	.byte	1
@@ -9965,25 +9996,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755d88:
-	.byte	22
-	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE1"
-	.byte	135,1
-	.byte	17
-	.byte	42
-	.word	.LDW_3620a50
-	.byte	1
-	.byte	0
-	.byte	1
-	.byte	1
-	.byte	0
-	.byte	1
-
-	.byte	0
-
-.LDW_3755e28:
+.LDW_3705ec8:
 	.byte	21
-	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	136,1
 	.byte	13
 	.byte	42
@@ -9996,9 +10011,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755ec8:
+.LDW_3705f68:
 	.byte	21
-	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	137,1
 	.byte	13
 	.byte	42
@@ -10011,9 +10026,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3755f68:
+.LDW_3706008:
 	.byte	21
-	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	138,1
 	.byte	13
 	.byte	42
@@ -10026,9 +10041,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3756008:
+.LDW_37060a8:
 	.byte	21
-	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
+	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	139,1
 	.byte	13
 	.byte	42
@@ -10041,25 +10056,10 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37560a8:
-	.byte	21
-	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE1"
-	.byte	140,1
-	.byte	13
-	.byte	42
-	.byte	1
-	.byte	0
-	.byte	1
-	.byte	1
-	.byte	0
-	.byte	1
-
-	.byte	0
-
-.LDW_3756148:
+.LDW_3706148:
 	.byte	21
 	.strz	"AlarmMainBuzzerControlCycAlarmCb"
-	.byte	142,1
+	.byte	141,1
 	.byte	8
 	.byte	42
 	.byte	1
@@ -10071,9 +10071,24 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37561e8:
+.LDW_37061e8:
 	.byte	21
 	.strz	"ISRMainRLIN3x_TX_ISR"
+	.byte	149,1
+	.byte	8
+	.byte	42
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_3706288:
+	.byte	21
+	.strz	"ISRMainRLIN3x_RX_ISR"
 	.byte	150,1
 	.byte	8
 	.byte	42
@@ -10086,10 +10101,10 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3756288:
+.LDW_3706328:
 	.byte	21
-	.strz	"ISRMainRLIN3x_RX_ISR"
-	.byte	151,1
+	.strz	"ISRMaintarget_ici_handler0"
+	.byte	154,1
 	.byte	8
 	.byte	42
 	.byte	1
@@ -10101,9 +10116,9 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3756328:
+.LDW_37063c8:
 	.byte	21
-	.strz	"ISRMaintarget_ici_handler0"
+	.strz	"ISRMaintarget_ici_handler1"
 	.byte	155,1
 	.byte	8
 	.byte	42
@@ -10116,29 +10131,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_37563c8:
-	.byte	21
-	.strz	"ISRMaintarget_ici_handler1"
-	.byte	156,1
-	.byte	8
-	.byte	42
-	.byte	1
-	.byte	0
-	.byte	1
-	.byte	1
-	.byte	0
-	.byte	1
-
-	.byte	0
-
-.LDW_36d9748:
+.LDW_3689748:
 	.byte	19
 	.strz	"_activate_alarm_1"
 	.byte	215,1
 	.byte	1
 	.byte	1
-	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10182,12 +10182,12 @@ _ioc_inival_table:	.space	4
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_391f9a8:
+.LDW_38cf9a8:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_390e9c8
-	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW11
 	.byte	0
@@ -10196,7 +10196,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_4:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	216,1
@@ -10207,7 +10207,7 @@ _ioc_inival_table:	.space	4
 	.byte	6
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558720:
+.LDW_3508720:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -10225,14 +10225,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d97e8:
+.LDW_36897e8:
 	.byte	19
 	.strz	"_activate_alarm_2"
 	.byte	223,1
 	.byte	1
 	.byte	1
-	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10247,12 +10247,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391faa8:
+.LDW_38cfaa8:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_390e9c8
-	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW31
 	.byte	0
@@ -10261,7 +10261,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_6:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	224,1
@@ -10272,7 +10272,7 @@ _ioc_inival_table:	.space	4
 	.byte	6
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558750:
+.LDW_3508750:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
@@ -10281,14 +10281,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9888:
+.LDW_3689888:
 	.byte	19
 	.strz	"_activate_alarm_3"
 	.byte	231,1
 	.byte	1
 	.byte	1
-	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10303,12 +10303,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391fba8:
+.LDW_38cfba8:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_390e9c8
-	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW51
 	.byte	0
@@ -10317,7 +10317,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_8:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	232,1
@@ -10328,7 +10328,7 @@ _ioc_inival_table:	.space	4
 	.byte	6
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558780:
+.LDW_3508780:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW51
@@ -10337,14 +10337,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9928:
+.LDW_3689928:
 	.byte	19
 	.strz	"_setevent_alarm_5"
 	.byte	240,1
 	.byte	1
 	.byte	1
-	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10359,12 +10359,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391fca8:
+.LDW_38cfca8:
 	.word	.LDW_unq_a-.LDW_unq_9
 .LDW_unq_9:
-	.word	.LDW_390e9c8
-	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW71
 	.byte	0
@@ -10373,7 +10373,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_a:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	241,1
@@ -10384,7 +10384,7 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35587b0:
+.LDW_35087b0:
 	.byte	29
 	.word	.LDW61
 	.word	.LDW71
@@ -10393,14 +10393,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d99c8:
+.LDW_36899c8:
 	.byte	19
 	.strz	"_setevent_alarm_6"
 	.byte	248,1
 	.byte	1
 	.byte	1
-	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10415,12 +10415,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391fda8:
+.LDW_38cfda8:
 	.word	.LDW_unq_c-.LDW_unq_b
 .LDW_unq_b:
-	.word	.LDW_390e9c8
-	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW91
 	.byte	0
@@ -10429,7 +10429,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_c:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	249,1
@@ -10440,7 +10440,7 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35587e0:
+.LDW_35087e0:
 	.byte	29
 	.word	.LDW81
 	.word	.LDW91
@@ -10449,14 +10449,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9a68:
+.LDW_3689a68:
 	.byte	19
 	.strz	"_setevent_alarm_7"
 	.byte	128,2
 	.byte	1
 	.byte	1
-	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10471,12 +10471,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391fea8:
+.LDW_38cfea8:
 	.word	.LDW_unq_e-.LDW_unq_d
 .LDW_unq_d:
-	.word	.LDW_390e9c8
-	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW12
 	.byte	0
@@ -10485,7 +10485,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_e:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	129,2
@@ -10496,7 +10496,7 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558810:
+.LDW_3508810:
 	.byte	29
 	.word	.LDW02
 	.word	.LDW12
@@ -10505,14 +10505,14 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9b08:
+.LDW_3689b08:
 	.byte	19
 	.strz	"_setevent_alarm_8"
 	.byte	136,2
 	.byte	1
 	.byte	1
-	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -10527,12 +10527,12 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_391ffa8:
+.LDW_38cffa8:
 	.word	.LDW_unq_10-.LDW_unq_f
 .LDW_unq_f:
-	.word	.LDW_390e9c8
-	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
-	.word	___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf-____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	.LDW_38be9a8
+	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
+	.word	___ghs_eofn____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf-____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	1
 	.word	.LDW32
 	.byte	0
@@ -10541,7 +10541,7 @@ _ioc_inival_table:	.space	4
 .LDW_unq_10:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+	.word	____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
 	.byte	6
 	.byte	3
 	.byte	137,2
@@ -10552,7 +10552,7 @@ _ioc_inival_table:	.space	4
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558840:
+.LDW_3508840:
 	.byte	29
 	.word	.LDW22
 	.word	.LDW32
@@ -10561,7 +10561,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9ba8:
+.LDW_3689ba8:
 	.byte	19
 	.strz	"object_initialize"
 	.byte	247,2
@@ -10583,10 +10583,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39200a8:
+.LDW_38d00a8:
 	.word	.LDW_unq_12-.LDW_unq_11
 .LDW_unq_11:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	_object_initialize
 	.word	___ghs_eofn_object_initialize-_object_initialize
 	.byte	68
@@ -10625,7 +10625,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558870:
+.LDW_3508870:
 	.byte	29
 	.word	.LDW42
 	.word	.LDW52
@@ -10634,7 +10634,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9c48:
+.LDW_3689c48:
 	.byte	19
 	.strz	"object_terminate"
 	.byte	129,3
@@ -10656,10 +10656,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c2bc0:
+.LDW_3972bc0:
 	.word	.LDW_unq_14-.LDW_unq_13
 .LDW_unq_13:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	_object_terminate
 	.word	___ghs_eofn_object_terminate-_object_terminate
 	.byte	1
@@ -10681,7 +10681,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35588a0:
+.LDW_35088a0:
 	.byte	29
 	.word	.LDW62
 	.word	.LDW72
@@ -10690,7 +10690,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9ce8:
+.LDW_3689ce8:
 	.byte	19
 	.strz	"_kernel_inthdr_0xffff00a5"
 	.byte	140,3
@@ -10712,10 +10712,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c2cc0:
+.LDW_3972cc0:
 	.word	.LDW_unq_16-.LDW_unq_15
 .LDW_unq_15:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0xffff00a5
 	.word	___ghs_eofn__kernel_inthdr_0xffff00a5-__kernel_inthdr_0xffff00a5
 	.byte	1
@@ -10737,7 +10737,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35588d0:
+.LDW_35088d0:
 	.byte	29
 	.word	.LDW82
 	.word	.LDW92
@@ -10746,7 +10746,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9d88:
+.LDW_3689d88:
 	.byte	19
 	.strz	"_kernel_inthdr_0xffff00a6"
 	.byte	149,3
@@ -10768,10 +10768,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c2dc0:
+.LDW_3972dc0:
 	.word	.LDW_unq_18-.LDW_unq_17
 .LDW_unq_17:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0xffff00a6
 	.word	___ghs_eofn__kernel_inthdr_0xffff00a6-__kernel_inthdr_0xffff00a6
 	.byte	1
@@ -10793,7 +10793,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558900:
+.LDW_3508900:
 	.byte	29
 	.word	.LDW03
 	.word	.LDW13
@@ -10802,7 +10802,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9e28:
+.LDW_3689e28:
 	.byte	19
 	.strz	"_kernel_inthdr_0xffff0050"
 	.byte	158,3
@@ -10824,10 +10824,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c3000:
+.LDW_3973000:
 	.word	.LDW_unq_1a-.LDW_unq_19
 .LDW_unq_19:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0xffff0050
 	.word	___ghs_eofn__kernel_inthdr_0xffff0050-__kernel_inthdr_0xffff0050
 	.byte	1
@@ -10849,7 +10849,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558930:
+.LDW_3508930:
 	.byte	29
 	.word	.LDW43
 	.word	.LDW53
@@ -10858,7 +10858,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9ec8:
+.LDW_3689ec8:
 	.byte	19
 	.strz	"_kernel_inthdr_0xffff00a8"
 	.byte	167,3
@@ -10880,10 +10880,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c3240:
+.LDW_3973240:
 	.word	.LDW_unq_1c-.LDW_unq_1b
 .LDW_unq_1b:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0xffff00a8
 	.word	___ghs_eofn__kernel_inthdr_0xffff00a8-__kernel_inthdr_0xffff00a8
 	.byte	1
@@ -10905,7 +10905,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558960:
+.LDW_3508960:
 	.byte	29
 	.word	.LDW83
 	.word	.LDW93
@@ -10914,7 +10914,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36d9f68:
+.LDW_3689f68:
 	.byte	19
 	.strz	"ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0"
 	.byte	177,3
@@ -10936,10 +10936,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c2f00:
+.LDW_3972f00:
 	.word	.LDW_unq_1e-.LDW_unq_1d
 .LDW_unq_1d:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0-_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -10961,7 +10961,7 @@ _ioc_inival_table:	.space	4
 	.byte	6
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558990:
+.LDW_3508990:
 	.byte	29
 	.word	.LDW23
 	.word	.LDW33
@@ -10970,7 +10970,7 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36da008:
+.LDW_368a008:
 	.byte	19
 	.strz	"ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1"
 	.byte	181,3
@@ -10992,10 +10992,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39c3140:
+.LDW_3973140:
 	.word	.LDW_unq_20-.LDW_unq_1f
 .LDW_unq_1f:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1-_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -11017,7 +11017,7 @@ _ioc_inival_table:	.space	4
 	.byte	6
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35589c0:
+.LDW_35089c0:
 	.byte	29
 	.word	.LDW63
 	.word	.LDW73
@@ -11026,10 +11026,10 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36da0a8:
+.LDW_368a0a8:
 	.byte	19
 	.strz	"_kernel_inthdr_0x10000"
-	.byte	159,6
+	.byte	156,6
 	.byte	1
 	.byte	1
 	.word	__kernel_inthdr_0x10000
@@ -11048,10 +11048,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39ec5c8:
+.LDW_399c5c8:
 	.word	.LDW_unq_22-.LDW_unq_21
 .LDW_unq_21:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0x10000
 	.word	___ghs_eofn__kernel_inthdr_0x10000-__kernel_inthdr_0x10000
 	.byte	1
@@ -11065,7 +11065,7 @@ _ioc_inival_table:	.space	4
 	.word	__kernel_inthdr_0x10000
 	.byte	6
 	.byte	3
-	.byte	161,6
+	.byte	158,6
 	.byte	2
 	.byte	0
 	.byte	1
@@ -11073,7 +11073,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558a50:
+.LDW_3508a50:
 	.byte	29
 	.word	.LDW04
 	.word	.LDW14
@@ -11082,10 +11082,10 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_36da148:
+.LDW_368a148:
 	.byte	19
 	.strz	"_kernel_inthdr_0x20000"
-	.byte	166,6
+	.byte	163,6
 	.byte	1
 	.byte	1
 	.word	__kernel_inthdr_0x20000
@@ -11104,10 +11104,10 @@ _ioc_inival_table:	.space	4
 	.byte	1
 
 	.section	.debug_frame
-.LDW_39ec6c8:
+.LDW_399c6c8:
 	.word	.LDW_unq_24-.LDW_unq_23
 .LDW_unq_23:
-	.word	.LDW_390e9c8
+	.word	.LDW_38be9a8
 	.word	__kernel_inthdr_0x20000
 	.word	___ghs_eofn__kernel_inthdr_0x20000-__kernel_inthdr_0x20000
 	.byte	1
@@ -11121,7 +11121,7 @@ _ioc_inival_table:	.space	4
 	.word	__kernel_inthdr_0x20000
 	.byte	6
 	.byte	3
-	.byte	168,6
+	.byte	165,6
 	.byte	2
 	.byte	0
 	.byte	1
@@ -11129,7 +11129,7 @@ _ioc_inival_table:	.space	4
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3558a80:
+.LDW_3508a80:
 	.byte	29
 	.word	.LDW24
 	.word	.LDW34
@@ -11138,10 +11138,10 @@ _ioc_inival_table:	.space	4
 
 	.byte	0
 
-.LDW_3758568:
+.LDW_3708568:
 	.byte	21
 	.strz	"interrupt"
-	.byte	193,17
+	.byte	190,17
 	.byte	13
 	.byte	1
 	.byte	1
@@ -11669,7 +11669,7 @@ _ioc_inival_table:	.space	4
 	.strz	"TNUM_EXTTASK UINT_C(4)"
 	.byte	1
 	.byte	13
-	.strz	"TNUM_APP_MODE UINT_C(2)"
+	.strz	"TNUM_APP_MODE UINT_C(1)"
 	.byte	1
 	.byte	14
 	.strz	"TNUM_SCHEDULETABLE UINT_C(0)"
@@ -11684,16 +11684,16 @@ _ioc_inival_table:	.space	4
 	.strz	"TNUM_SPINLOCK UINT_C(0)"
 	.byte	1
 	.byte	31
-	.strz	"a_controller_Core0_1_0_Task UINT_C(0)"
+	.strz	"BlsmControl_Core0_1_0_Task UINT_C(0)"
 	.byte	1
 	.byte	32
-	.strz	"a_controller_Core1_1_0_Task UINT_C(1)"
+	.strz	"BlsmControl_Core1_1_0_Task UINT_C(1)"
 	.byte	1
 	.byte	33
-	.strz	"a_controller_Core0_100_0_Task UINT_C(2)"
+	.strz	"BlsmControl_Core0_100_0_Task UINT_C(2)"
 	.byte	1
 	.byte	34
-	.strz	"a_controller_Core1_100_0_Task UINT_C(3)"
+	.strz	"BlsmControl_Core1_100_0_Task UINT_C(3)"
 	.byte	1
 	.byte	35
 	.strz	"OperationManagerTask UINT_C(4)"
@@ -11722,28 +11722,28 @@ _ioc_inival_table:	.space	4
 	.byte	83
 	.strz	"C2ISR_for_MAIN_HW_COUNTER_CORE1 UINT_C(3)"
 	.byte	1
-	.byte	92
-	.strz	"a_controller_WakeupEvent UINT_C(0x00000001)"
+	.byte	91
+	.strz	"BlsmControl_WakeupEvent UINT_C(0x00000001)"
 	.byte	1
-	.byte	98
+	.byte	97
 	.strz	"blsm_OSAP_CORE0 UINT_C(0)"
 	.byte	1
+	.byte	98
+	.strz	"BlsmControl_OSAP_CORE0 UINT_C(1)"
+	.byte	1
 	.byte	99
-	.strz	"a_controller_OSAP_CORE0 UINT_C(1)"
+	.strz	"BlsmControl_OSAP_CORE1 UINT_C(2)"
 	.byte	1
 	.byte	100
-	.strz	"a_controller_OSAP_CORE1 UINT_C(2)"
-	.byte	1
-	.byte	101
 	.strz	"OSAP_for_MAIN_HW_COUNTER_CORE0 UINT_C(3)"
 	.byte	1
-	.byte	102
+	.byte	101
 	.strz	"OSAP_for_MAIN_HW_COUNTER_CORE1 UINT_C(4)"
 	.byte	1
-	.byte	108
+	.byte	107
 	.strz	"TNUM_IOC UINT_C(0)"
 	.byte	1
-	.byte	109
+	.byte	108
 	.strz	"TNUM_QUEUEIOC UINT_C(0)"
 	.byte	4
 	.byte	1

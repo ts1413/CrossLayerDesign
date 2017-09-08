@@ -11,7 +11,7 @@ Release Date: Fri Dec 06 20:38:06 2013
 
 
 
-Load Map Thu Sep 07 10:14:39 2017
+Load Map Thu Sep 07 16:15:12 2017
 Image Summary
 
   Section              Base      Size(hex)    Size(dec)  SecOffs
@@ -37,34 +37,34 @@ Image Summary
   .debug_sfnames       00000000  00000000            0   0000000
   .global              feef8000  00000000            0   0000000
   .debug_abbrev        00000000  00000138          312   00004eb
-  .debug_info          00000000  00001ab2         6834   0000623
-  .debug_line          00000000  000008b6         2230   00020d5
-  .debug_macinfo       00000000  00001013         4115   000298b
-  .debug_frame         00000000  000000d8          216   000399e
-  .note.renesas        00000000  00000028           40   0003a78
+  .debug_info          00000000  00001aa8         6824   0000623
+  .debug_line          00000000  000008b5         2229   00020cb
+  .debug_macinfo       00000000  0000100b         4107   0002980
+  .debug_frame         00000000  000000d8          216   000398b
+  .note.renesas        00000000  00000028           40   0003a64
   .linfix              00000000  00000000            0   0000000
   .gstackfix           00000000  00000000            0   0000000
   .secinfo             feef8000  00000000            0   0000000
 
-Load Map Thu Sep 07 10:14:39 2017
+Load Map Thu Sep 07 16:15:12 2017
 Module Summary
 
   Origin+Size    Section          Module
 00000000+000126  .text            start.o
 00000000+000024  .debug_abbrev    start.o
-00000000+000184  .debug_info      start.o
+00000000+000183  .debug_info      start.o
 00000000+00029b  .debug_line      start.o
 00000000+000028  .note.renesas    <RENESAS ABI INFO>
 00000126+000006  .text            cfg1_out.o
 00000130+00031b  .rosdata         cfg1_out.o
 fef00000+000004  .sbss            cfg1_out.o
-00000184+00192e  .debug_info      cfg1_out.o
+00000183+001925  .debug_info      cfg1_out.o
 00000024+000114  .debug_abbrev    cfg1_out.o
-0000029b+00061b  .debug_line      cfg1_out.o
-00000000+001013  .debug_macinfo   cfg1_out.o
+0000029b+00061a  .debug_line      cfg1_out.o
+00000000+00100b  .debug_macinfo   cfg1_out.o
 00000000+0000d8  .debug_frame     cfg1_out.o
 
-Load Map Thu Sep 07 10:14:39 2017
+Load Map Thu Sep 07 16:15:12 2017
 Global Symbols (sorted alphabetically)
 
  .rosdata         0000044a+000001 _MAGIC_1
@@ -161,14 +161,14 @@ Global Symbols (sorted alphabetically)
  .rosdata         00000428+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_C2ISR_for_MAIN_HW_COUNTER_CORE1_Os
  .rosdata         00000408+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_RLIN3x_RX_ISR_Os
  .rosdata         000003f8+000008 _TOPPERS_cfg_valueof_ISR_INTPRI_RLIN3x_TX_ISR_Os
- .rosdata         000003d0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_100_0_Task_Os
- .rosdata         000003b0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_1_0_Task_Os
- .rosdata         000003e0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_100_0_Task_Os
- .rosdata         000003c0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_1_0_Task_Os
- .rosdata         000003d8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_100_0_Task_Os
- .rosdata         000003b8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_1_0_Task_Os
- .rosdata         000003e8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_100_0_Task_Os
- .rosdata         000003c8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_1_0_Task_Os
+ .rosdata         000003d0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core0_100_0_Task_Os
+ .rosdata         000003b0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core0_1_0_Task_Os
+ .rosdata         000003e0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core1_100_0_Task_Os
+ .rosdata         000003c0+000008 _TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core1_1_0_Task_Os
+ .rosdata         000003d8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core0_100_0_Task_Os
+ .rosdata         000003b8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core0_1_0_Task_Os
+ .rosdata         000003e8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core1_100_0_Task_Os
+ .rosdata         000003c8+000008 _TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core1_1_0_Task_Os
                   00000000+000000 ___ghs_eofn__reset
  .text            0000012a+000000 ___ghs_eofn_main
  .text            0000012c+000000 ___ghs_eofn_target_hardware_initialize
