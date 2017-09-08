@@ -11,8 +11,8 @@
 --		../../library/t_perror.c
 --Source File:   ../../library/t_perror.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:29 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:58 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -55,7 +55,7 @@ _t_perror:
 --	    .ef
 .LDW11:
 --line73
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror.1::
 .LDWlin1:
 	dispose	9,{r22,r23,r24,r25,r31},[lp]
 	.global	___ghs_eofn_t_perror
@@ -129,7 +129,7 @@ _t_ioc_perror:
 --	    .ef
 .LDW31:
 --line81
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror.2::
 .LDWlin2:
 	dispose	9,{r22,r23,r24,r25,r31},[lp]
 	.global	___ghs_eofn_t_ioc_perror
@@ -177,7 +177,7 @@ ___ghs_eofn_t_ioc_perror:
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -188,10 +188,10 @@ ___ghs_eofn_t_ioc_perror:
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ct_perror...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
 	.strz	"../../library/t_perror.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -273,7 +273,7 @@ ___ghs_eofn_t_ioc_perror:
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_36af280:
+.LDW_364f2a0:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -415,7 +415,7 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_2fd6560:
+.LDW_3036560:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
@@ -431,7 +431,7 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2fd6678:
+.LDW_3036678:
 	.byte	67
 	.byte	1
 
@@ -443,9 +443,9 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2fedfc8:
+.LDW_304dfc8:
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
 	.section	.debug_abbrev
@@ -457,52 +457,52 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2fedff8:
+.LDW_304dff8:
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
-.LDW_2fee028:
+.LDW_304e028:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_2fee058:
+.LDW_304e058:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_2fee088:
+.LDW_304e088:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_2fee0b8:
+.LDW_304e0b8:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_2fee0e8:
+.LDW_304e0e8:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36af760:
+.LDW_364f760:
 	.byte	18
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
 	.byte	0
 
-.LDW_2fd66e8:
+.LDW_30366e8:
 	.byte	37
 	.strz	"char"
 	.byte	6
 	.byte	1
 
-.LDW_36c0ee8:
+.LDW_3660ee8:
 	.byte	41
-	.word	.LDW_36c0e90
+	.word	.LDW_3660e90
 
 	.section	.debug_abbrev
 	.byte	41
@@ -512,9 +512,9 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2fd6720:
+.LDW_3036720:
 	.byte	45
-	.word	.LDW_36c0ee8
+	.word	.LDW_3660ee8
 
 	.section	.debug_abbrev
 	.byte	45
@@ -524,91 +524,91 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36046d0:
+.LDW_35a46d0:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_3604708:
+.LDW_35a4708:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_2fd66b0:
+.LDW_30366b0:
 	.byte	67
 	.byte	1
 
-.LDW_36af8e0:
+.LDW_364f8e0:
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
-.LDW_36af910:
+.LDW_364f910:
 	.byte	18
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 
-.LDW_36af940:
+.LDW_364f940:
 	.byte	18
-	.word	.LDW_36c0f40
+	.word	.LDW_3660f40
 	.byte	0
 
-.LDW_36af970:
+.LDW_364f970:
 	.byte	18
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 
-.LDW_36af9a0:
+.LDW_364f9a0:
 	.byte	18
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 
 	.byte	0
 
-.LDW_3604740:
+.LDW_35a4740:
 	.byte	67
 	.byte	1
 
-.LDW_36afa00:
+.LDW_364fa00:
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
-.LDW_36afa30:
+.LDW_364fa30:
 	.byte	18
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 
-.LDW_36afa60:
+.LDW_364fa60:
 	.byte	18
-	.word	.LDW_36c0f40
+	.word	.LDW_3660f40
 	.byte	0
 
-.LDW_36afa90:
+.LDW_364fa90:
 	.byte	18
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 
-.LDW_36afac0:
+.LDW_364fac0:
 	.byte	18
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 
 	.byte	0
 
-.LDW_3604b30:
+.LDW_35a4b30:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_36c4fd8:
+.LDW_3664fd8:
 	.byte	56
 	.byte	0
 	.byte	24
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 
 	.section	.debug_abbrev
 	.byte	56
@@ -621,7 +621,7 @@ ___ghs_eofn_t_ioc_perror:
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_3604b30
+	.word	.LDW_35a4b30
 	.byte	4
 	.byte	0
 	.byte	5
@@ -639,17 +639,17 @@ ___ghs_eofn_t_ioc_perror:
 	.section	.debug_info
 	.byte	0
 
-.LDW_36c3f28:
+.LDW_3663f28:
 	.byte	41
-	.word	.LDW_3605fc0
+	.word	.LDW_35a5fc0
 
-.LDW_36cba40:
+.LDW_366ba40:
 	.byte	45
-	.word	.LDW_36c3f28
+	.word	.LDW_3663f28
 
-.LDW_36cba08:
+.LDW_366ba08:
 	.byte	66
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	1
 
 	.section	.debug_abbrev
@@ -661,49 +661,49 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c9178:
+.LDW_3669178:
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
-.LDW_36c91a8:
+.LDW_36691a8:
 	.byte	18
-	.word	.LDW_36cba40
+	.word	.LDW_366ba40
 	.byte	0
 
 	.byte	0
 
-.LDW_36cbab0:
+.LDW_366bab0:
 	.byte	66
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	1
 
-.LDW_36c9238:
+.LDW_3669238:
 	.byte	18
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 
 	.byte	0
 
-.LDW_36cbae8:
+.LDW_366bae8:
 	.byte	66
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	1
 
-.LDW_36c9268:
+.LDW_3669268:
 	.byte	18
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 
 	.byte	0
 
-.LDW_36c0e90:
+.LDW_3660e90:
 	.byte	40
 	.strz	"char8"
 	.byte	103
 	.byte	17
 	.byte	5
-	.word	.LDW_2fd66e8
+	.word	.LDW_30366e8
 
 	.section	.debug_abbrev
 	.byte	40
@@ -717,63 +717,63 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36016a0:
+.LDW_35a16a0:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	5
-	.word	.LDW_3604708
+	.word	.LDW_35a4708
 
-.LDW_3605d28:
+.LDW_35a5d28:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	5
-	.word	.LDW_2fd6560
+	.word	.LDW_3036560
 
-.LDW_36c0f40:
+.LDW_3660f40:
 	.byte	40
 	.strz	"sint32"
 	.byte	109
 	.byte	22
 	.byte	5
-	.word	.LDW_36046d0
+	.word	.LDW_35a46d0
 
-.LDW_3605d80:
+.LDW_35a5d80:
 	.byte	40
 	.strz	"uintptr"
 	.byte	123
 	.byte	16
 	.byte	5
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 
-.LDW_3604eb8:
+.LDW_35a4eb8:
 	.byte	40
 	.strz	"StatusType"
 	.byte	102
 	.byte	23
 	.byte	4
-	.word	.LDW_3604708
+	.word	.LDW_35a4708
 
-.LDW_36c3168:
+.LDW_3663168:
 	.byte	40
 	.strz	"SystemTimeMsType"
 	.byte	66
 	.byte	16
 	.byte	18
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 
-.LDW_36c39a8:
+.LDW_36639a8:
 	.byte	40
 	.strz	"CoreIdType"
 	.byte	134,1
 	.byte	15
 	.byte	3
-	.word	.LDW_36016a0
+	.word	.LDW_35a16a0
 
-.LDW_3605f68:
+.LDW_35a5f68:
 	.byte	63
 	.byte	137,1
 	.byte	16
@@ -793,13 +793,13 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c4668:
+.LDW_3664668:
 	.byte	35
 	.strz	"logtype"
 	.byte	138,1
 	.byte	12
 	.byte	2
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	2,35
 	.byte	0
 	.byte	1
@@ -818,56 +818,56 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c46b0:
+.LDW_36646b0:
 	.byte	35
 	.strz	"logtim"
 	.byte	139,1
 	.byte	19
 	.byte	2
-	.word	.LDW_36c3168
+	.word	.LDW_3663168
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_36c46f8:
+.LDW_36646f8:
 	.byte	35
 	.strz	"coreid"
 	.byte	140,1
 	.byte	15
 	.byte	2
-	.word	.LDW_36c39a8
+	.word	.LDW_36639a8
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_36c4740:
+.LDW_3664740:
 	.byte	35
 	.strz	"loginfo"
 	.byte	141,1
 	.byte	13
 	.byte	2
-	.word	.LDW_36c4fd8
+	.word	.LDW_3664fd8
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_3605fc0:
+.LDW_35a5fc0:
 	.byte	40
 	.strz	"SYSLOG"
 	.byte	142,1
 	.byte	3
 	.byte	2
-	.word	.LDW_3605f68
+	.word	.LDW_35a5f68
 
-.LDW_36cb0f8:
+.LDW_366b0f8:
 	.byte	22
 	.strz	"syslog_wri_log"
 	.byte	155,1
 	.byte	19
 	.byte	2
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	1
 	.byte	0
 	.byte	1
@@ -895,7 +895,7 @@ ___ghs_eofn_t_ioc_perror:
 	.section	.debug_info
 	.byte	0
 
-.LDW_36aff48:
+.LDW_364ff48:
 	.byte	21
 	.strz	"_syslog_6"
 	.byte	221,1
@@ -925,13 +925,13 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36abbc0:
+.LDW_364bbc0:
 	.byte	16
 	.strz	"prio"
 	.byte	221,1
 	.byte	18
 	.byte	2
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
 	.section	.debug_abbrev
@@ -947,70 +947,70 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36abc10:
+.LDW_364bc10:
 	.byte	16
 	.strz	"type"
 	.byte	221,1
 	.byte	31
 	.byte	2
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 
-.LDW_36abc60:
+.LDW_364bc60:
 	.byte	16
 	.strz	"arg1"
 	.byte	221,1
 	.byte	45
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36abcb0:
+.LDW_364bcb0:
 	.byte	16
 	.strz	"arg2"
 	.byte	221,1
 	.byte	59
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36abd00:
+.LDW_364bd00:
 	.byte	16
 	.strz	"arg3"
 	.byte	222,1
 	.byte	13
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36abd50:
+.LDW_364bd50:
 	.byte	16
 	.strz	"arg4"
 	.byte	222,1
 	.byte	27
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36abda0:
+.LDW_364bda0:
 	.byte	16
 	.strz	"arg5"
 	.byte	222,1
 	.byte	41
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36abdf0:
+.LDW_364bdf0:
 	.byte	16
 	.strz	"arg6"
 	.byte	222,1
 	.byte	55
 	.byte	2
-	.word	.LDW_3605d80
+	.word	.LDW_35a5d80
 	.byte	0
 
-.LDW_36af790:
+.LDW_364f790:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -1020,13 +1020,13 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36abe40:
+.LDW_364be40:
 	.byte	5
 	.strz	"syslog"
 	.byte	224,1
 	.byte	9
 	.byte	2
-	.word	.LDW_3605fc0
+	.word	.LDW_35a5fc0
 	.byte	0
 	.byte	0
 
@@ -1048,13 +1048,13 @@ ___ghs_eofn_t_ioc_perror:
 
 	.byte	0
 
-.LDW_36cb238:
+.LDW_366b238:
 	.byte	22
 	.strz	"atk2_strerror"
 	.byte	73
 	.byte	21
 	.byte	20
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	1
 	.byte	0
 	.byte	1
@@ -1064,13 +1064,13 @@ ___ghs_eofn_t_ioc_perror:
 
 	.byte	0
 
-.LDW_36cb2d8:
+.LDW_366b2d8:
 	.byte	22
 	.strz	"atk2_ioc_strerror"
 	.byte	78
 	.byte	21
 	.byte	20
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	1
 	.byte	0
 	.byte	1
@@ -1080,7 +1080,7 @@ ___ghs_eofn_t_ioc_perror:
 
 	.byte	0
 
-.LDW_3604f10:
+.LDW_35a4f10:
 	.byte	19
 	.strz	"t_perror"
 	.byte	68
@@ -1131,10 +1131,10 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_3615488:
+.LDW_35b5488:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_36af280
+	.word	.LDW_364f2a0
 	.word	_t_perror
 	.word	___ghs_eofn_t_perror-_t_perror
 	.byte	68
@@ -1184,13 +1184,13 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_36abe90:
+.LDW_364be90:
 	.byte	15
 	.strz	"prio"
 	.byte	68
 	.byte	17
 	.byte	1
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 	.byte	1,105
 
@@ -1208,48 +1208,48 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36abee0:
+.LDW_364bee0:
 	.byte	15
 	.strz	"file"
 	.byte	68
 	.byte	36
 	.byte	1
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 	.byte	1,104
 
-.LDW_36abf30:
+.LDW_364bf30:
 	.byte	15
 	.strz	"line"
 	.byte	68
 	.byte	49
 	.byte	1
-	.word	.LDW_36c0f40
+	.word	.LDW_3660f40
 	.byte	0
 	.byte	1,103
 
-.LDW_36abf80:
+.LDW_364bf80:
 	.byte	15
 	.strz	"expr"
 	.byte	68
 	.byte	68
 	.byte	1
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 	.byte	1,102
 
-.LDW_36abfd0:
+.LDW_364bfd0:
 	.byte	15
 	.strz	"ercd"
 	.byte	68
 	.byte	85
 	.byte	1
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 	.byte	2,115
 	.byte	56
 
-.LDW_36af9d0:
+.LDW_364f9d0:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -1267,7 +1267,7 @@ ___ghs_eofn_t_ioc_perror:
 
 	.byte	0
 
-.LDW_3604fb0:
+.LDW_35a4fb0:
 	.byte	19
 	.strz	"t_ioc_perror"
 	.byte	76
@@ -1289,10 +1289,10 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3615ac8:
+.LDW_35b5ac8:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_36af280
+	.word	.LDW_364f2a0
 	.word	_t_ioc_perror
 	.word	___ghs_eofn_t_ioc_perror-_t_ioc_perror
 	.byte	68
@@ -1342,58 +1342,58 @@ ___ghs_eofn_t_ioc_perror:
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_36ac020:
+.LDW_364c020:
 	.byte	15
 	.strz	"prio"
 	.byte	76
 	.byte	21
 	.byte	1
-	.word	.LDW_3605d28
+	.word	.LDW_35a5d28
 	.byte	0
 	.byte	1,105
 
-.LDW_36ac070:
+.LDW_364c070:
 	.byte	15
 	.strz	"file"
 	.byte	76
 	.byte	40
 	.byte	1
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 	.byte	1,104
 
-.LDW_36ac0c0:
+.LDW_364c0c0:
 	.byte	15
 	.strz	"line"
 	.byte	76
 	.byte	53
 	.byte	1
-	.word	.LDW_36c0f40
+	.word	.LDW_3660f40
 	.byte	0
 	.byte	1,103
 
-.LDW_36ac110:
+.LDW_364c110:
 	.byte	15
 	.strz	"expr"
 	.byte	76
 	.byte	72
 	.byte	1
-	.word	.LDW_2fd6720
+	.word	.LDW_3036720
 	.byte	0
 	.byte	1,102
 
-.LDW_36ac160:
+.LDW_364c160:
 	.byte	15
 	.strz	"ercd"
 	.byte	76
 	.byte	89
 	.byte	1
-	.word	.LDW_3604eb8
+	.word	.LDW_35a4eb8
 	.byte	0
 	.byte	2,115
 	.byte	56
 
-.LDW_36afaf0:
+.LDW_364faf0:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31

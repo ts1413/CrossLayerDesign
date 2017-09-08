@@ -11,8 +11,8 @@
 --		../../sysmod/serial.c
 --Source File:   ../../sysmod/serial.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:29 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:57 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -34,16 +34,16 @@ _InitSerial:
 .LDW01:
 	jarl	_GetCoreID,lp
 --line91
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.1::
 .LDWlin1:
-	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),ep
+	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),ep
 	add	r10,ep
 	sst.b	zero,0[ep]
 	jarl	_InitHwSerial,lp
 --	    .ef
 .LDW11:
 --line97
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.2::
 .LDWlin2:
 	dispose	0,{r31},[lp]
 	.global	___ghs_eofn_InitSerial
@@ -70,13 +70,13 @@ _TermSerial:
 .LDW21:
 	jarl	_TermHwSerial,lp
 --line120
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.3::
 .LDWlin3:
 	jarl	_GetCoreID,lp
 --line121
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.4::
 .LDWlin4:
-	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),ep
+	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),ep
 	add	r10,ep
 	sst.b	zero,0[ep]
 --	    .ef
@@ -108,21 +108,21 @@ _RecvPolSerialChar:
 	jarl	_GetCoreID,lp
 	mov	r10,r29
 --line133
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.5::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.5::
 .LDWlin5:
 	jarl	_SuspendAllInterrupts,lp
-	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),ep
+	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),ep
 	add	r29,ep
 	sld.bu	0[ep],r17
 --line134
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.6::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.6::
 .LDWlin6:
 	cmp	zero,r17
 	be	.L224
 --line138
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.7::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.7::
 .LDWlin7:
-	mov	sdaoff23(___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),r18
+	mov	sdaoff23(___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),r18
 	add	r29,r18
 	ld.bu	0[r18],r15
 	st.b	r15,0[r28]
@@ -131,14 +131,14 @@ _RecvPolSerialChar:
 	dispose	0,{r28,r29,r31},[lp]
 .L224:
 --line145
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.8::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.8::
 .LDWlin8:
 	st.b	zero,0[r28]
 	jarl	_ResumeAllInterrupts,lp
 --	    .ef
 .LDW51:
 --line148
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.9::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.9::
 .LDWlin9:
 	dispose	0,{r28,r29,r31},[lp]
 	.global	___ghs_eofn_RecvPolSerialChar
@@ -170,14 +170,14 @@ _RxSerialInt:
 	jarl	_GetCoreID,lp
 	mov	r10,r29
 --line162
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.10::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.10::
 .LDWlin10:
 	jarl	_SuspendAllInterrupts,lp
 --line163
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.11::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.11::
 .LDWlin11:
-	mov	sdaoff23(___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),ep
-	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf),r18
+	mov	sdaoff23(___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),ep
+	mov	sdaoff23(___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf),r18
 	add	r29,ep
 	add	r29,r18
 	sst.b	r28,0[ep]
@@ -187,7 +187,7 @@ _RxSerialInt:
 --	    .ef
 .LDW71:
 --line166
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial.12::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial.12::
 .LDWlin12:
 	dispose	0,{r28,r29,r31},[lp]
 	.global	___ghs_eofn_RxSerialInt
@@ -209,21 +209,21 @@ ___ghs_eofn_RxSerialInt:
 
 	.data
 	.section ".sbss","awb"
-	.global	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
-___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf:	.space	2
-	.type	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf,@object
-	.size	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf,2
-	.global	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
-___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf:	.space	2
-	.type	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf,@object
-	.size	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf,2
+	.global	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
+___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf:	.space	2
+	.type	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf,@object
+	.size	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf,2
+	.global	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
+___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf:	.space	2
+	.type	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf,@object
+	.size	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf,2
 	.data
 	.ghsnote version,14
 	.ghsnote tools,3
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -234,10 +234,10 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cserial...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
 	.strz	"../../sysmod/serial.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -329,7 +329,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_36688f8:
+.LDW_37a8918:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -471,7 +471,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_1626720:
+.LDW_18e6720:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
@@ -487,9 +487,9 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_1626758:
+.LDW_18e6758:
 	.byte	66
-	.word	.LDW_35717c8
+	.word	.LDW_36b17c8
 	.byte	1
 
 	.section	.debug_abbrev
@@ -503,13 +503,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_354aad0:
+.LDW_368aad0:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_354ae88:
+.LDW_368ae88:
 	.byte	67
 	.byte	1
 
@@ -523,15 +523,15 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_354aec0:
+.LDW_368aec0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_354af30:
+.LDW_368af30:
 	.byte	45
-	.word	.LDW_354b470
+	.word	.LDW_368b470
 
 	.section	.debug_abbrev
 	.byte	45
@@ -541,13 +541,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_354aef8:
+.LDW_368aef8:
 	.byte	67
 	.byte	1
 
-.LDW_3549ab8:
+.LDW_3689ab8:
 	.byte	18
-	.word	.LDW_354af30
+	.word	.LDW_368af30
 	.byte	0
 
 	.section	.debug_abbrev
@@ -561,28 +561,28 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_354af68:
+.LDW_368af68:
 	.byte	67
 	.byte	1
 
-.LDW_3549b18:
+.LDW_3689b18:
 	.byte	18
-	.word	.LDW_354b470
+	.word	.LDW_368b470
 	.byte	0
 
 	.byte	0
 
-.LDW_34b32e0:
+.LDW_35f32e0:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_354a3a8:
+.LDW_368a3a8:
 	.byte	56
 	.byte	0
 	.byte	2
-	.word	.LDW_354b470
+	.word	.LDW_368b470
 
 	.section	.debug_abbrev
 	.byte	56
@@ -595,7 +595,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_34b32e0
+	.word	.LDW_35f32e0
 	.byte	4
 	.byte	0
 	.byte	1
@@ -613,46 +613,46 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_354a430:
+.LDW_368a430:
 	.byte	56
 	.byte	0
 	.byte	2
-	.word	.LDW_354b148
+	.word	.LDW_368b148
 
 	.byte	48
-	.word	.LDW_34b32e0
+	.word	.LDW_35f32e0
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_34b3778:
+.LDW_35f3778:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_34b37b0:
+.LDW_35f37b0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_34b3ed0:
+.LDW_35f3ed0:
 	.byte	66
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	1
 
 	.byte	0
 
-.LDW_3596878:
+.LDW_36d6878:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_34b32e0
+	.word	.LDW_35f32e0
 
 	.section	.debug_abbrev
 	.byte	40
@@ -666,78 +666,78 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3597a30:
+.LDW_36d7a30:
 	.byte	66
-	.word	.LDW_1626720
+	.word	.LDW_18e6720
 	.byte	1
 
-.LDW_3596508:
+.LDW_36d6508:
 	.byte	18
-	.word	.LDW_3596878
+	.word	.LDW_36d6878
 	.byte	0
 
-.LDW_3596538:
+.LDW_36d6538:
 	.byte	18
-	.word	.LDW_3596878
+	.word	.LDW_36d6878
 	.byte	0
 
 	.byte	0
 
-.LDW_3597de8:
+.LDW_36d7de8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3597e20:
+.LDW_36d7e20:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_354b148:
+.LDW_368b148:
 	.byte	40
 	.strz	"boolean"
 	.byte	101
 	.byte	23
 	.byte	4
-	.word	.LDW_354aad0
+	.word	.LDW_368aad0
 
-.LDW_354b470:
+.LDW_368b470:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	4
-	.word	.LDW_354aad0
+	.word	.LDW_368aad0
 
-.LDW_35717c8:
+.LDW_36b17c8:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	4
-	.word	.LDW_1626720
+	.word	.LDW_18e6720
 
-.LDW_354b6d0:
+.LDW_368b6d0:
 	.byte	40
 	.strz	"CoreIdType"
 	.byte	134,1
 	.byte	15
 	.byte	2
-	.word	.LDW_354b470
+	.word	.LDW_368b470
 
-.LDW_3576a10:
+.LDW_36b6a10:
 	.byte	4
 	.strz	"rx_char"
 	.byte	74
 	.byte	14
 	.byte	1
-	.word	.LDW_354a3a8
+	.word	.LDW_368a3a8
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
+	.word	___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
 
 	.section	.debug_abbrev
 	.byte	4
@@ -754,19 +754,19 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3576a60:
+.LDW_36b6a60:
 	.byte	4
 	.strz	"rx_flag"
 	.byte	75
 	.byte	16
 	.byte	1
-	.word	.LDW_354a430
+	.word	.LDW_368a430
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
+	.word	___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
 
-.LDW_3578500:
+.LDW_36b8500:
 	.byte	21
 	.strz	"ResumeAllInterrupts"
 	.byte	129,2
@@ -798,7 +798,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_35785a0:
+.LDW_36b85a0:
 	.byte	21
 	.strz	"SuspendAllInterrupts"
 	.byte	130,2
@@ -813,13 +813,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_358f1c8:
+.LDW_36cf1c8:
 	.byte	22
 	.strz	"GetCoreID"
 	.byte	194,2
 	.byte	19
 	.byte	2
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	1
 	.byte	0
 	.byte	1
@@ -847,13 +847,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.section	.debug_info
 	.byte	0
 
-.LDW_35955c8:
+.LDW_36d55c8:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
 	.byte	14
 	.byte	23
-	.word	.LDW_1626720
+	.word	.LDW_18e6720
 	.byte	1
 	.byte	0
 	.byte	1
@@ -863,13 +863,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_3571820:
+.LDW_36b1820:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	22
-	.word	.LDW_35717c8
+	.word	.LDW_36b17c8
 	.byte	0
 	.byte	3
 	.byte	0
@@ -877,7 +877,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0
 	.byte	1
 
-.LDW_163cb30:
+.LDW_18fcb30:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -891,7 +891,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_35987e8:
+.LDW_36d87e8:
 	.byte	21
 	.strz	"InitHwSerial"
 	.byte	110
@@ -906,7 +906,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_3598888:
+.LDW_36d8888:
 	.byte	21
 	.strz	"TermHwSerial"
 	.byte	115
@@ -921,7 +921,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_3577600:
+.LDW_36b7600:
 	.byte	19
 	.strz	"InitSerial"
 	.byte	83
@@ -972,10 +972,10 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_35fb948:
+.LDW_373b948:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_36688f8
+	.word	.LDW_37a8918
 	.word	_InitSerial
 	.word	___ghs_eofn_InitSerial-_InitSerial
 	.byte	68
@@ -1017,7 +1017,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3549a58:
+.LDW_3689a58:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -1031,13 +1031,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35765b0:
+.LDW_36b65b0:
 	.byte	5
 	.strz	"coreid"
 	.byte	85
 	.byte	13
 	.byte	1
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	0
 	.byte	0
 
@@ -1059,7 +1059,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_35776a0:
+.LDW_36b76a0:
 	.byte	19
 	.strz	"TermSerial"
 	.byte	108
@@ -1081,10 +1081,10 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	1
 
 	.section	.debug_frame
-.LDW_35fba48:
+.LDW_373ba48:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_36688f8
+	.word	.LDW_37a8918
 	.word	_TermSerial
 	.word	___ghs_eofn_TermSerial-_TermSerial
 	.byte	68
@@ -1126,18 +1126,18 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3549a88:
+.LDW_3689a88:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
 
-.LDW_3576600:
+.LDW_36b6600:
 	.byte	5
 	.strz	"coreid"
 	.byte	110
 	.byte	13
 	.byte	1
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	0
 	.byte	0
 
@@ -1145,7 +1145,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_3577740:
+.LDW_36b7740:
 	.byte	19
 	.strz	"RecvPolSerialChar"
 	.byte	128,1
@@ -1167,10 +1167,10 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	1
 
 	.section	.debug_frame
-.LDW_35fbb48:
+.LDW_373bb48:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_36688f8
+	.word	.LDW_37a8918
 	.word	_RecvPolSerialChar
 	.word	___ghs_eofn_RecvPolSerialChar-_RecvPolSerialChar
 	.byte	68
@@ -1233,13 +1233,13 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3576650:
+.LDW_36b6650:
 	.byte	15
 	.strz	"character"
 	.byte	128,1
 	.byte	26
 	.byte	1
-	.word	.LDW_354af30
+	.word	.LDW_368af30
 	.byte	0
 	.byte	1,108
 
@@ -1257,18 +1257,18 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3549ae8:
+.LDW_3689ae8:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW51
 
-.LDW_35766a0:
+.LDW_36b66a0:
 	.byte	4
 	.strz	"coreid"
 	.byte	130,1
 	.byte	13
 	.byte	1
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	0
 	.byte	0
 	.byte	1,109
@@ -1277,7 +1277,7 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 
 	.byte	0
 
-.LDW_35777e0:
+.LDW_36b77e0:
 	.byte	19
 	.strz	"RxSerialInt"
 	.byte	154,1
@@ -1299,10 +1299,10 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	1
 
 	.section	.debug_frame
-.LDW_35fbc48:
+.LDW_373bc48:
 	.word	.LDW_unq_a-.LDW_unq_9
 .LDW_unq_9:
-	.word	.LDW_36688f8
+	.word	.LDW_37a8918
 	.word	_RxSerialInt
 	.word	___ghs_eofn_RxSerialInt-_RxSerialInt
 	.byte	68
@@ -1352,28 +1352,28 @@ ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobj
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35766f0:
+.LDW_36b66f0:
 	.byte	15
 	.strz	"character"
 	.byte	154,1
 	.byte	19
 	.byte	1
-	.word	.LDW_354b470
+	.word	.LDW_368b470
 	.byte	0
 	.byte	1,108
 
-.LDW_3549b48:
+.LDW_3689b48:
 	.byte	29
 	.word	.LDW61
 	.word	.LDW71
 
-.LDW_3576740:
+.LDW_36b6740:
 	.byte	4
 	.strz	"coreid"
 	.byte	156,1
 	.byte	13
 	.byte	1
-	.word	.LDW_354b6d0
+	.word	.LDW_368b6d0
 	.byte	0
 	.byte	0
 	.byte	1,109

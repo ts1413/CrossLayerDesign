@@ -11,8 +11,8 @@
 --		rcb3.c
 --Source File:   rcb3.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:28 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:56 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16290..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E10..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -31,8 +31,8 @@
 _rcb3_Init:
 --	    .bf
 .LDW01:
-	mov	sdaoff23(___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf),r17
-	mov	sdaoff23(___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf),r18
+	mov	sdaoff23(___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf),r17
+	mov	sdaoff23(___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf),r18
 	addi	14,r17,r16
 	addi	4,r18,r15
 	st.w	r17,sdaoff23(_p_g_pre_ps3button)[gp]
@@ -59,8 +59,8 @@ ___ghs_eofn_rcb3_Init:
 ..gh.f.f.1.e.1:
 	.type	..gh.f.f.1.e.1,@object
 	.size	..gh.f.f.1.e.1,0
-	.global	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:
+	.global	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:
 --	    .bf
 .LDW21:
 	ld.bu	sdaoff23(_g_rcb3_rmsg+1)[gp],r18
@@ -70,9 +70,9 @@ ___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 --	    .ef
 .LDW31:
 	jmp	[lp]
-___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:
-	.type	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@function
-	.size	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,.-___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:
+	.type	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@function
+	.size	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,.-___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.align	2
 
 	.section ".bss","awb"
@@ -86,14 +86,14 @@ ___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH85
 ..gh.f.f.1.e.2:
 	.type	..gh.f.f.1.e.2,@object
 	.size	..gh.f.f.1.e.2,0
-	.global	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:
+	.global	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:
 	prepare	{r28,r29,r31},0
 --	    .bf
 .LDW41:
-	jarl	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,lp
+	jarl	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,lp
 --line151
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.1::
 .LDWlin1:
 	ld.w	sdaoff23(_p_g_pre_ps3button)[gp],r18
 	ld.w	sdaoff23(_p_g_pre_ps3analog)[gp],r14
@@ -101,7 +101,7 @@ ___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 	ld.w	sdaoff23(_p_g_cur_ps3analog)[gp],r12
 	mov	0,r1
 	mov	2,lp
-	mov	rosdaoff23(___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf),ep
+	mov	rosdaoff23(___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf),ep
 	st.w	r18,sdaoff23(_p_g_cur_ps3button)[gp]
 	mov	6,r9
 	mov	5,r8
@@ -167,7 +167,7 @@ ___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 --	    .bs
 .LDW51:
 --line175
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.2::
 .LDWlin2:
 	ld.bu	sdaoff23(_g_rcb3_rmsg+3)[gp],r18
 	ld.w	sdaoff23(_p_g_cur_ps3analog)[gp],ep
@@ -190,9 +190,9 @@ ___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk
 --	    .ef
 .LDW71:
 	dispose	0,{r28,r29,r31},[lp]
-___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:
-	.type	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@function
-	.size	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,.-___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:
+	.type	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@function
+	.size	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,.-___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.align	2
 --_tmp_analog	r14	local
 --_i	r1	local
@@ -217,7 +217,7 @@ _rcb3_AddReceivedByte:
 	zxb	r7
 --	    .bf
 .LDW81:
-	ld.w	sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r19
+	ld.w	sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r19
 	mov	0,r29
 	cmp	7,r19
 	bh	.L410
@@ -234,108 +234,108 @@ _rcb3_AddReceivedByte:
 	jr	.L421
 .L412:
 --line196
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.3::
 .LDWlin3:
 	addi	-128,r7,zero
 	bne	.L410
 --line199
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.4::
 .LDWlin4:
 	mov	1,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	st.b	r7,sdaoff23(_g_rcb3_rmsg)[gp]
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L415:
 --line203
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.5::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.5::
 .LDWlin5:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	2,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r17
 	sst.b	r7,0[ep]
-	st.w	r17,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r17,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L416:
 --line207
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.6::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.6::
 .LDWlin6:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	3,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r16
 	sst.b	r7,0[ep]
-	st.w	r16,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r16,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L417:
 --line211
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.7::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.7::
 .LDWlin7:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	4,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r15
 	sst.b	r7,0[ep]
-	st.w	r15,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r15,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L418:
 --line215
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.8::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.8::
 .LDWlin8:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	5,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r14
 	sst.b	r7,0[ep]
-	st.w	r14,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r14,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L419:
 --line219
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.9::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.9::
 .LDWlin9:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	6,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r13
 	sst.b	r7,0[ep]
-	st.w	r13,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r13,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L420:
 --line223
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.10::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.10::
 .LDWlin10:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	mov	7,r6
 	mov	r29,r10
-	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r6,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	add	r18,ep
 	addi	1,r18,r12
 	sst.b	r7,0[ep]
-	st.w	r12,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r12,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	dispose	0,{r29,r31},[lp]
 .L421:
 --line227
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.11::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.11::
 .LDWlin11:
-	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp],r18
+	ld.w	sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp],r18
 	mov	sdaoff23(_g_rcb3_rmsg),ep
 	add	r18,ep
 	addi	1,r18,r11
@@ -353,29 +353,29 @@ _rcb3_AddReceivedByte:
 	add	r19,r6
 	add	r18,r6
 	andi	127,r6,r6
-	st.w	r11,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	r11,sdaoff23(___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	cmp	r6,r7
 	bne	.L425
 --line233
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.12::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.12::
 .LDWlin12:
-	jarl	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,lp
+	jarl	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,lp
 --line234
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.13::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.13::
 .LDWlin13:
-	st.w	zero,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	zero,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 	mov	1,r10
 	dispose	0,{r29,r31},[lp]
 .L425:
 --line237
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.14::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.14::
 .LDWlin14:
 	mov	ep,r8
 	jarl	_rcb3_ErrorCb,lp
 --line240
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3.15::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3.15::
 .LDWlin15:
-	st.w	zero,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf)[gp]
+	st.w	zero,sdaoff23(___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf)[gp]
 .L410:
 	mov	r29,r10
 --	    .ef
@@ -402,22 +402,22 @@ ___ghs_eofn_rcb3_AddReceivedByte:
 
 	.section ".rosdata","a"
 	.align	4
-	.global	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:	.byte	1,0,2,0
+	.global	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:	.byte	1,0,2,0
 	.byte	8,0,4,0
 	.byte	16,0,32,0
 	.byte	64,0,0,1
 	.byte	0,2,0,4
 	.byte	0,8,0,16
 	.byte	3,0,12,0
-	.type	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@object
-	.size	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,28
+	.type	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@object
+	.size	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,28
 	.section ".sdata","aw"
 	.align	4
-	.global	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:	.byte	0,0,0,0
-	.type	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@object
-	.size	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,4
+	.global	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:	.byte	0,0,0,0
+	.type	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@object
+	.size	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,4
 	.data
 	.section ".sbss","awb"
 	.align	4
@@ -427,10 +427,10 @@ _g_rcb3_rmsg:	.space	8
 	.type	_g_rcb3_rmsg,@object
 	.size	_g_rcb3_rmsg,8
 	.align	4
-	.global	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:	.space	8
-	.type	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@object
-	.size	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,8
+	.global	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:	.space	8
+	.type	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@object
+	.size	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,8
 	.align	4
 	.global	_p_g_pre_ps3button
 _p_g_pre_ps3button:	.space	4
@@ -452,22 +452,22 @@ _p_g_cur_ps3analog:	.space	4
 	.type	_p_g_cur_ps3analog,@object
 	.size	_p_g_cur_ps3analog,4
 	.align	4
-	.global	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:	.space	4
-	.type	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@object
-	.size	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,4
+	.global	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:	.space	4
+	.type	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@object
+	.size	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,4
 	.align	4
-	.global	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf:	.space	28
-	.type	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,@object
-	.size	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf,28
+	.global	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf:	.space	28
+	.type	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,@object
+	.size	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf,28
 	.data
 	.ghsnote version,14
 	.ghsnote tools,3
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16290..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E10..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -478,10 +478,10 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16290..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16290..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E10..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Crcb3...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E10..0
 	.strz	"rcb3.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -561,7 +561,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_361bce0:
+.LDW_34bbd30:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -703,7 +703,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_3026488:
+.LDW_17264c0:
 	.byte	67
 	.byte	1
 
@@ -717,7 +717,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_info
 	.byte	0
 
-.LDW_30264c0:
+.LDW_17264f8:
 	.byte	37
 	.strz	"unsigned short"
 	.byte	7
@@ -733,9 +733,9 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_30264f8:
+.LDW_1726530:
 	.byte	66
-	.word	.LDW_35641d8
+	.word	.LDW_1738d90
 	.byte	0
 
 	.section	.debug_abbrev
@@ -749,21 +749,21 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_info
 	.byte	0
 
-.LDW_3026530:
+.LDW_1726568:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3026568:
+.LDW_17265a0:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_30265a0:
+.LDW_17265d8:
 	.byte	45
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 
 	.section	.debug_abbrev
 	.byte	45
@@ -773,30 +773,30 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_30265d8:
+.LDW_1726610:
 	.byte	37
 	.strz	"signed char"
 	.byte	6
 	.byte	1
 
-.LDW_3026610:
+.LDW_1726648:
 	.byte	45
-	.word	.LDW_3564468
+	.word	.LDW_3404410
 
-.LDW_3026648:
+.LDW_1726680:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_3026680:
+.LDW_17266b8:
 	.byte	66
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 	.byte	1
 
-.LDW_303da80:
+.LDW_173dab8:
 	.byte	18
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 
 	.section	.debug_abbrev
@@ -810,11 +810,11 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_info
 	.byte	0
 
-.LDW_3560f00:
+.LDW_3400e98:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 
 	.section	.debug_abbrev
 	.byte	56
@@ -827,7 +827,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	7
@@ -845,9 +845,9 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_info
 	.byte	0
 
-.LDW_361dc48:
+.LDW_34bdd28:
 	.byte	41
-	.word	.LDW_35641d8
+	.word	.LDW_1738d90
 
 	.section	.debug_abbrev
 	.byte	41
@@ -857,120 +857,120 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3560f88:
+.LDW_3400f20:
 	.byte	56
 	.byte	0
 	.byte	28
-	.word	.LDW_361dc48
+	.word	.LDW_34bdd28
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	13
 
 	.byte	0
 
-.LDW_3561010:
+.LDW_3400fa8:
 	.byte	56
 	.byte	0
 	.byte	14
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	13
 
 	.byte	0
 
-.LDW_3561098:
+.LDW_3401030:
 	.byte	56
 	.byte	0
 	.byte	28
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	13
 
 	.byte	0
 
-.LDW_3561120:
+.LDW_34010b8:
 	.byte	56
 	.byte	0
 	.byte	4
-	.word	.LDW_3564468
+	.word	.LDW_3404410
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	3
 
 	.byte	0
 
-.LDW_35611a8:
+.LDW_3401140:
 	.byte	56
 	.byte	0
 	.byte	8
-	.word	.LDW_3564468
+	.word	.LDW_3404410
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	1
 
 	.byte	48
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	4
 	.byte	0
 	.byte	3
 
 	.byte	0
 
-.LDW_3626380:
+.LDW_34c6370:
 	.byte	45
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 
-.LDW_3626348:
+.LDW_34c6338:
 	.byte	67
 	.byte	1
 
-.LDW_36239b0:
+.LDW_34c39a0:
 	.byte	18
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 
-.LDW_36239e0:
+.LDW_34c39d0:
 	.byte	18
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 
-.LDW_3623a10:
+.LDW_34c3a00:
 	.byte	18
-	.word	.LDW_3626380
+	.word	.LDW_34c6370
 	.byte	0
 
 	.byte	0
 
-.LDW_35643c0:
+.LDW_3404368:
 	.byte	40
 	.strz	"boolean"
 	.byte	101
 	.byte	23
 	.byte	4
-	.word	.LDW_3026568
+	.word	.LDW_17265a0
 
 	.section	.debug_abbrev
 	.byte	40
@@ -984,31 +984,31 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35645b0:
+.LDW_3404558:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	4
-	.word	.LDW_3026568
+	.word	.LDW_17265a0
 
-.LDW_3564468:
+.LDW_3404410:
 	.byte	40
 	.strz	"sint8"
 	.byte	105
 	.byte	23
 	.byte	4
-	.word	.LDW_30265d8
+	.word	.LDW_1726610
 
-.LDW_35641d8:
+.LDW_1738d90:
 	.byte	40
 	.strz	"uint16"
 	.byte	106
 	.byte	25
 	.byte	4
-	.word	.LDW_30264c0
+	.word	.LDW_17264f8
 
-.LDW_361ef58:
+.LDW_34bef48:
 	.byte	44
 	.strz	"rcb3_st"
 	.byte	60
@@ -1030,7 +1030,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_361efa8:
+.LDW_34bef98:
 	.byte	43
 	.strz	"RCB3_ST_HEADER_1"
 	.byte	61
@@ -1050,7 +1050,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3560d40:
+.LDW_3400c38:
 	.byte	43
 	.strz	"RCB3_ST_BUTTON_1"
 	.byte	62
@@ -1058,7 +1058,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	1
 
-.LDW_3560d80:
+.LDW_3400c78:
 	.byte	43
 	.strz	"RCB3_ST_BUTTON_2"
 	.byte	63
@@ -1066,7 +1066,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	2
 
-.LDW_3560dc0:
+.LDW_3400cb8:
 	.byte	43
 	.strz	"RCB3_ST_ANALOG_1"
 	.byte	64
@@ -1074,7 +1074,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	3
 
-.LDW_3560e00:
+.LDW_3400cf8:
 	.byte	43
 	.strz	"RCB3_ST_ANALOG_2"
 	.byte	65
@@ -1082,7 +1082,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	4
 
-.LDW_3560e40:
+.LDW_3400d38:
 	.byte	43
 	.strz	"RCB3_ST_ANALOG_3"
 	.byte	66
@@ -1090,7 +1090,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	5
 
-.LDW_3560e80:
+.LDW_3400d78:
 	.byte	43
 	.strz	"RCB3_ST_ANALOG_4"
 	.byte	67
@@ -1098,7 +1098,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 	.byte	6
 
-.LDW_3560ec0:
+.LDW_3400db8:
 	.byte	43
 	.strz	"RCB3_ST_SUM"
 	.byte	68
@@ -1108,17 +1108,17 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 
 	.byte	0
 
-.LDW_361f0a0:
+.LDW_34beff0:
 	.byte	4
 	.strz	"s_rcb3_st"
 	.byte	74
 	.byte	21
 	.byte	1
-	.word	.LDW_361ef58
+	.word	.LDW_34bef48
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 
 	.section	.debug_abbrev
 	.byte	4
@@ -1135,115 +1135,115 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_361f0f0:
+.LDW_34bf040:
 	.byte	4
 	.strz	"s_rcb3_rmsg_cnt"
 	.byte	75
 	.byte	14
 	.byte	1
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 
-.LDW_361f140:
+.LDW_34bf090:
 	.byte	4
 	.strz	"g_rcb3_rmsg"
 	.byte	76
 	.byte	10
 	.byte	1
-	.word	.LDW_3560f00
+	.word	.LDW_3400e98
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_g_rcb3_rmsg
 
-.LDW_361f190:
+.LDW_34bf0e0:
 	.byte	4
 	.strz	"msg_button_pattern"
 	.byte	81
 	.byte	21
 	.byte	1
-	.word	.LDW_3560f88
+	.word	.LDW_3400f20
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 
-.LDW_361f1e0:
+.LDW_34bf130:
 	.byte	4
 	.strz	"s_ps3button"
 	.byte	102
 	.byte	16
 	.byte	1
-	.word	.LDW_3561098
+	.word	.LDW_3401030
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 
-.LDW_361f230:
+.LDW_34bf180:
 	.byte	4
 	.strz	"s_ps3analog"
 	.byte	103
 	.byte	15
 	.byte	1
-	.word	.LDW_35611a8
+	.word	.LDW_3401140
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 
-.LDW_361f280:
+.LDW_34bf1d0:
 	.byte	4
 	.strz	"p_g_pre_ps3button"
 	.byte	108
 	.byte	10
 	.byte	1
-	.word	.LDW_30265a0
+	.word	.LDW_17265d8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_g_pre_ps3button
 
-.LDW_361f2d0:
+.LDW_34bf220:
 	.byte	4
 	.strz	"p_g_cur_ps3button"
 	.byte	109
 	.byte	10
 	.byte	1
-	.word	.LDW_30265a0
+	.word	.LDW_17265d8
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_g_cur_ps3button
 
-.LDW_361f320:
+.LDW_34bf270:
 	.byte	4
 	.strz	"p_g_pre_ps3analog"
 	.byte	110
 	.byte	8
 	.byte	1
-	.word	.LDW_3026610
+	.word	.LDW_1726648
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_g_pre_ps3analog
 
-.LDW_361f370:
+.LDW_34bf2c0:
 	.byte	4
 	.strz	"p_g_cur_ps3analog"
 	.byte	111
 	.byte	8
 	.byte	1
-	.word	.LDW_3026610
+	.word	.LDW_1726648
 	.byte	1
 	.byte	0
 	.byte	5,3
 	.word	_p_g_cur_ps3analog
 
-.LDW_3625860:
+.LDW_34c5850:
 	.byte	21
 	.strz	"rcb3_ErrorCb"
 	.byte	131,1
@@ -1275,7 +1275,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.section	.debug_info
 	.byte	0
 
-.LDW_3591dc8:
+.LDW_3431df8:
 	.byte	19
 	.strz	"rcb3_Init"
 	.byte	115
@@ -1326,10 +1326,10 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_3689f30:
+.LDW_3529f68:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_361bce0
+	.word	.LDW_34bbd30
 	.word	_rcb3_Init
 	.word	___ghs_eofn_rcb3_Init-_rcb3_Init
 	.byte	1
@@ -1353,7 +1353,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_303d9c0:
+.LDW_173d9f8:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -1371,15 +1371,15 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 
 	.byte	0
 
-.LDW_3564230:
+.LDW_34041d8:
 	.byte	20
 	.strz	"rcb3_GetReceivedButton"
 	.byte	128,1
 	.byte	1
 	.byte	1
-	.word	.LDW_35641d8
-	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-	.word	___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	.LDW_1738d90
+	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+	.word	___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -1424,12 +1424,12 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_368a030:
+.LDW_352a068:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_361bce0
-	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-	.word	___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf-___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	.LDW_34bbd30
+	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+	.word	___ghs_eofn___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf-___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	1
 	.word	.LDW31
 	.byte	0
@@ -1438,7 +1438,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 .LDW_unq_6:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	6
 	.byte	3
 	.byte	133,1
@@ -1452,18 +1452,18 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_303d9f0:
+.LDW_173da28:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
 
-.LDW_35642d0:
+.LDW_3404278:
 	.byte	5
 	.strz	"button_cmd"
 	.byte	130,1
 	.byte	9
 	.byte	1
-	.word	.LDW_35641d8
+	.word	.LDW_1738d90
 	.byte	0
 	.byte	0
 
@@ -1485,14 +1485,14 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 
 	.byte	0
 
-.LDW_3564320:
+.LDW_34042c8:
 	.byte	19
 	.strz	"rcb3_UpdateStatus"
 	.byte	141,1
 	.byte	1
 	.byte	1
-	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-	.word	___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+	.word	___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	1,83
 	.byte	130,128,128,128,11
 	.byte	12
@@ -1507,12 +1507,12 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 
 	.section	.debug_frame
-.LDW_368a130:
+.LDW_352a168:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_361bce0
-	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-	.word	___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf-___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	.LDW_34bbd30
+	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+	.word	___ghs_eofn___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf-___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	68
 	.byte	159
 	.byte	0
@@ -1529,7 +1529,7 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 .LDW_unq_8:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
+	.word	___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
 	.byte	3
 	.byte	141,1
 	.byte	2
@@ -1586,66 +1586,66 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_303da20:
+.LDW_173da58:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW71
 
-.LDW_3564418:
+.LDW_34043c0:
 	.byte	5
 	.strz	"tmp_button"
 	.byte	143,1
 	.byte	11
 	.byte	1
-	.word	.LDW_30265a0
+	.word	.LDW_17265d8
 	.byte	0
 	.byte	0
 
-.LDW_35644c0:
+.LDW_3404468:
 	.byte	4
 	.strz	"tmp_analog"
 	.byte	144,1
 	.byte	9
 	.byte	1
-	.word	.LDW_3026610
+	.word	.LDW_1726648
 	.byte	0
 	.byte	0
 	.byte	1,94
 
-.LDW_3564510:
+.LDW_34044b8:
 	.byte	4
 	.strz	"i"
 	.byte	145,1
 	.byte	6
 	.byte	1
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	0
 	.byte	0
 	.byte	1,81
 
-.LDW_3564560:
+.LDW_3404508:
 	.byte	4
 	.strz	"button"
 	.byte	146,1
 	.byte	9
 	.byte	1
-	.word	.LDW_35641d8
+	.word	.LDW_1738d90
 	.byte	0
 	.byte	0
 	.byte	1,90
 
-.LDW_303da50:
+.LDW_173da88:
 	.byte	29
 	.word	.LDW51
 	.word	.LDW61
 
-.LDW_3564608:
+.LDW_34045b0:
 	.byte	4
 	.strz	"val"
 	.byte	176,1
 	.byte	9
 	.byte	1
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 	.byte	0
 	.byte	1,98
@@ -1656,13 +1656,13 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 
 	.byte	0
 
-.LDW_3564658:
+.LDW_3404600:
 	.byte	20
 	.strz	"rcb3_AddReceivedByte"
 	.byte	188,1
 	.byte	1
 	.byte	1
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 	.word	_rcb3_AddReceivedByte
 	.word	___ghs_eofn_rcb3_AddReceivedByte
 	.byte	1,83
@@ -1679,10 +1679,10 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	1
 
 	.section	.debug_frame
-.LDW_368a230:
+.LDW_352a268:
 	.word	.LDW_unq_a-.LDW_unq_9
 .LDW_unq_9:
-	.word	.LDW_361bce0
+	.word	.LDW_34bbd30
 	.word	_rcb3_AddReceivedByte
 	.word	___ghs_eofn_rcb3_AddReceivedByte-_rcb3_AddReceivedByte
 	.byte	68
@@ -1791,13 +1791,13 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35646f8:
+.LDW_34046a0:
 	.byte	15
 	.strz	"c"
 	.byte	188,1
 	.byte	28
 	.byte	1
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 	.byte	1,87
 
@@ -1815,39 +1815,39 @@ ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rcca
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_303dab0:
+.LDW_173dae8:
 	.byte	29
 	.word	.LDW81
 	.word	.LDW91
 
-.LDW_3564748:
+.LDW_34046f0:
 	.byte	4
 	.strz	"rval"
 	.byte	190,1
 	.byte	10
 	.byte	1
-	.word	.LDW_35643c0
+	.word	.LDW_3404368
 	.byte	0
 	.byte	0
 	.byte	1,109
 
-.LDW_3564798:
+.LDW_3404740:
 	.byte	5
 	.strz	"i"
 	.byte	191,1
 	.byte	6
 	.byte	1
-	.word	.LDW_3026648
+	.word	.LDW_1726680
 	.byte	0
 	.byte	0
 
-.LDW_35647e8:
+.LDW_3404790:
 	.byte	4
 	.strz	"sum"
 	.byte	192,1
 	.byte	8
 	.byte	1
-	.word	.LDW_35645b0
+	.word	.LDW_3404558
 	.byte	0
 	.byte	0
 	.byte	1,86

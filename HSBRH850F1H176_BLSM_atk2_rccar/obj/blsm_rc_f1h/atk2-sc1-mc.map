@@ -11,348 +11,358 @@ Release Date: Fri Dec 06 20:38:06 2013
 
 
 
-Load Map Thu Sep 07 16:15:33 2017
+Load Map Thu Sep 07 10:15:02 2017
 Image Summary
 
   Section              Base      Size(hex)    Size(dec)  SecOffs
   .CODEFLASH           00000000  00000000            0   0000000
-  .text                00000000  0000768a        30346   0000120
-  .call_table_data     0000768c  00000000            0   0000000
-  .call_table_text     0000768c  00000000            0   0000000
-  .rosdata             00007800  0000361c        13852   0007800
-  .rodata              0000ae1c  00000000            0   0000000
+  .text                00000000  000077b2        30642   0000120
+  .call_table_data     000077b4  00000000            0   0000000
+  .call_table_text     000077b4  00000000            0   0000000
+  .rosdata             00007800  0000381c        14364   0007a00
+  .rodata              0000b01c  00000000            0   0000000
   .data                fef00000  00000000            0   0000000
   .sdabase             fef00000  00000000            0   0000000
-  .sdata               fef00000  000002a4          676   000ae1c
-  .sbss                fef002a8  00000589         1417   0000000
-  .bss                 fef00831  00000000            0   0000000
-  .pe2_rom             00800000  00000220          544   000b0c0
+  .sdata               fef00000  000002c0          704   000b21c
+  .sbss                fef002c0  00000605         1541   0000000
+  .bss                 fef008c5  00000000            0   0000000
+  .pe2_rom             00800000  00000220          544   000b4dc
   .pe1_lram            febd0000  00004060        16480   0000000
   .pe2_lram            fe9d0000  00002e60        11872   0000000
-  .tdata               fef00834  00000000            0   0000000
+  .tdata               fef008c8  00000000            0   0000000
   .comment             00000000  00000000            0   0000000
   .debug               00000000  00000000            0   0000000
   .line                00000000  00000000            0   0000000
   .debug_srcinfo       00000000  00000000            0   0000000
   .debug_sfnames       00000000  00000000            0   0000000
   .global              feef8000  00000000            0   0000000
-  .debug_abbrev        00000000  000035d6        13782   000b2e0
-  .debug_info          00000000  00029131       168241   000e8b6
-  .debug_line          00000000  0000fca6        64678   00379e7
-  .debug_macinfo       00000000  0001a672       108146   004768d
-  .debug_frame         00000000  000030ec        12524   0061cff
-  .note.renesas        00000000  00000050           80   0064dec
-  .linfix              00000000  0000008c          140   0064e3c
+  .debug_abbrev        00000000  0000368b        13963   000b6fc
+  .debug_info          00000000  000301dc       197084   000ed87
+  .debug_line          00000000  00010892        67730   003ef63
+  .debug_macinfo       00000000  0001ae9a       110234   004f7f5
+  .debug_frame         00000000  00003270        12912   006a68f
+  .note.renesas        00000000  00000050           80   006d900
+  .linfix              00000000  00000078          120   006d950
   .gstackfix           00000000  00000000            0   0000000
   .secinfo             feef8000  00000000            0   0000000
 
-Load Map Thu Sep 07 16:15:33 2017
+Load Map Thu Sep 07 10:15:02 2017
 Module Summary
 
   Origin+Size    Section          Module
 0000020c+000126  .text            start.o
 00000000+000024  .debug_abbrev    start.o
-00000000+000183  .debug_info      start.o
+00000000+000184  .debug_info      start.o
 00000000+00029b  .debug_line      start.o
 00000000+000050  .note.renesas    <RENESAS ABI INFO>
-00000332+0000ba  .text            f1h_rc_car.o
-00007800+000018  .rosdata         f1h_rc_car.o
-fef00000+000001  .sdata           f1h_rc_car.o
-fef002a8+000014  .sbss            f1h_rc_car.o
-00000183+000596  .debug_info      f1h_rc_car.o
-00000024+00014a  .debug_abbrev    f1h_rc_car.o
-0000029b+0003b8  .debug_line      f1h_rc_car.o
-00000000+000440  .debug_macinfo   f1h_rc_car.o
-00000000+0000e0  .debug_frame     f1h_rc_car.o
-000003ec+0014ca  .text            testout-BlsmControl.o
-00007818+000420  .rosdata         testout-BlsmControl.o
-fef002c0+000072  .sbss            testout-BlsmControl.o
-00000719+003b60  .debug_info      testout-BlsmControl.o
-0000016e+00017f  .debug_abbrev    testout-BlsmControl.o
-00000653+001185  .debug_line      testout-BlsmControl.o
-00000440+002195  .debug_macinfo   testout-BlsmControl.o
-000000e0+000170  .debug_frame     testout-BlsmControl.o
-000018b6+0002f8  .text            rcb3.o
-00007c38+00001c  .rosdata         rcb3.o
-fef00004+000004  .sdata           rcb3.o
-fef00334+000040  .sbss            rcb3.o
-00004279+000569  .debug_info      rcb3.o
-000002ed+00014c  .debug_abbrev    rcb3.o
-000017d8+000373  .debug_line      rcb3.o
-000025d5+000535  .debug_macinfo   rcb3.o
-00000250+0000fc  .debug_frame     rcb3.o
-00001bae+0003c6  .text            rlin3x.o
-fef00374+000219  .sbss            rlin3x.o
-000047e2+0006f1  .debug_info      rlin3x.o
-00000439+00015d  .debug_abbrev    rlin3x.o
-00001b4b+0004a6  .debug_line      rlin3x.o
-00002b0a+000817  .debug_macinfo   rlin3x.o
-0000034c+000174  .debug_frame     rlin3x.o
-00001f74+0000ca  .text            pwm_diag.o
-00004ed3+0003b0  .debug_info      pwm_diag.o
-00000596+00010e  .debug_abbrev    pwm_diag.o
-00001ff1+00036f  .debug_line      pwm_diag.o
-00003321+000838  .debug_macinfo   pwm_diag.o
-000004c0+0000d8  .debug_frame     pwm_diag.o
-0000203e+000174  .text            OperationManager.o
-fef00008+000001  .sdata           OperationManager.o
-00007c54+000058  .rosdata         OperationManager.o
-00005283+000593  .debug_info      OperationManager.o
-000006a4+000145  .debug_abbrev    OperationManager.o
-00002360+0003d8  .debug_line      OperationManager.o
-00003b59+000502  .debug_macinfo   OperationManager.o
-00000598+0000fc  .debug_frame     OperationManager.o
-000021b2+0005f8  .text            DriveManager.o
-fef0000c+000014  .sdata           DriveManager.o
-00007cac+00001c  .rosdata         DriveManager.o
-00005816+0009be  .debug_info      DriveManager.o
-000007e9+00015b  .debug_abbrev    DriveManager.o
-00002738+00074a  .debug_line      DriveManager.o
-0000405b+000aa7  .debug_macinfo   DriveManager.o
-00000694+00016c  .debug_frame     DriveManager.o
-000027aa+000396  .text            BodyControl.o
-00007cc8+00002c  .rosdata         BodyControl.o
-fef00020+00000d  .sdata           BodyControl.o
-000061d4+0006a6  .debug_info      BodyControl.o
-00000944+000143  .debug_abbrev    BodyControl.o
-00002e82+00060d  .debug_line      BodyControl.o
-00004b02+00080d  .debug_macinfo   BodyControl.o
-00000800+000154  .debug_frame     BodyControl.o
-00002b40+00006a  .text            uart_rlin.o
-0000687a+000476  .debug_info      uart_rlin.o
-00000a87+000126  .debug_abbrev    uart_rlin.o
-0000348f+0003c3  .debug_line      uart_rlin.o
-0000530f+0005da  .debug_macinfo   uart_rlin.o
-00000954+000108  .debug_frame     uart_rlin.o
-00002baa+000026  .text            banner.o
-00007cf4+000050  .rosdata         banner.o
-00006cf0+00036e  .debug_info      banner.o
-00000bad+00013c  .debug_abbrev    banner.o
-00003852+000347  .debug_line      banner.o
-000058e9+0005bf  .debug_macinfo   banner.o
-00000a5c+0000ac  .debug_frame     banner.o
-00002bd0+000060  .text            syslog.o
-fef00590+000004  .sbss            syslog.o
-0000705e+00048e  .debug_info      syslog.o
-00000ce9+000186  .debug_abbrev    syslog.o
-00003b99+0003d5  .debug_line      syslog.o
-00005ea8+000577  .debug_macinfo   syslog.o
-00000b08+0000dc  .debug_frame     syslog.o
-00002c30+00001a  .text            serial.o
-fef00594+000004  .sbss            serial.o
-000074ec+0003bd  .debug_info      serial.o
-00000e6f+000115  .debug_abbrev    serial.o
-00003f6e+000450  .debug_line      serial.o
-0000641f+000496  .debug_macinfo   serial.o
-00000be4+00010c  .debug_frame     serial.o
-00002c4a+0002de  .text            log_output.o
-00007d44+000054  .rosdata         log_output.o
-000078a9+000505  .debug_info      log_output.o
-00000f84+0000fc  .debug_abbrev    log_output.o
-000043be+0004a7  .debug_line      log_output.o
-000068b5+000374  .debug_macinfo   log_output.o
-00000cf0+000104  .debug_frame     log_output.o
-00002f28+000110  .text            vasyslog.o
-00007dae+00035f  .debug_info      vasyslog.o
-00001080+000136  .debug_abbrev    vasyslog.o
-00004865+000398  .debug_line      vasyslog.o
-00006c29+0004b3  .debug_macinfo   vasyslog.o
-00000df4+0000ac  .debug_frame     vasyslog.o
-00007d98+000060  .rosdata         t_perror.o
-0000810d+000495  .debug_info      t_perror.o
-000011b6+00013a  .debug_abbrev    t_perror.o
-00004bfd+0002ce  .debug_line      t_perror.o
-000070dc+0003c0  .debug_macinfo   t_perror.o
-00000ea0+0000f0  .debug_frame     t_perror.o
-fef00030+000098  .sdata           strerror.o
-00007df8+00036c  .rosdata         strerror.o
-000085a2+0001e4  .debug_info      strerror.o
-000012f0+0000cb  .debug_abbrev    strerror.o
-00004ecb+000301  .debug_line      strerror.o
-0000749c+00033e  .debug_macinfo   strerror.o
-00000f90+0000c0  .debug_frame     strerror.o
-00008786+00037b  .debug_info      chkobj.o
-000013bb+000103  .debug_abbrev    chkobj.o
-000051cc+000346  .debug_line      chkobj.o
-000077da+000522  .debug_macinfo   chkobj.o
-00001050+0000ac  .debug_frame     chkobj.o
-00003038+000072  .text            Os_Lcfg.o
-00008200+002800  .rosdata         Os_Lcfg.o
-fef000c8+0001c8  .sdata           Os_Lcfg.o
-fef00598+000274  .sbss            Os_Lcfg.o
+00000332+0000b6  .text            main.o
+00007800+000018  .rosdata         main.o
+fef00000+000001  .sdata           main.o
+fef002c0+000014  .sbss            main.o
+00000184+0005bd  .debug_info      main.o
+00000024+00014a  .debug_abbrev    main.o
+0000029b+0003e3  .debug_line      main.o
+00000000+000523  .debug_macinfo   main.o
+00000000+0000f8  .debug_frame     main.o
+000003e8+001528  .text            testout-a_controller.o
+00007818+000420  .rosdata         testout-a_controller.o
+fef002d8+000082  .sbss            testout-a_controller.o
+00000741+0055de  .debug_info      testout-a_controller.o
+0000016e+000166  .debug_abbrev    testout-a_controller.o
+0000067e+00120c  .debug_line      testout-a_controller.o
+00000523+002357  .debug_macinfo   testout-a_controller.o
+000000f8+000170  .debug_frame     testout-a_controller.o
+00001910+000232  .text            blsm.o
+fef00004+000016  .sdata           blsm.o
+00007c38+000140  .rosdata         blsm.o
+fef00360+000067  .sbss            blsm.o
+00005d1f+005898  .debug_info      blsm.o
+000002d4+0000e4  .debug_abbrev    blsm.o
+0000188a+000cec  .debug_line      blsm.o
+0000287a+000a76  .debug_macinfo   blsm.o
+00000268+000200  .debug_frame     blsm.o
+00001b42+0002f8  .text            rcb3.o
+00007d78+00001c  .rosdata         rcb3.o
+fef0001c+000004  .sdata           rcb3.o
+fef003c8+000040  .sbss            rcb3.o
+0000b5b7+00056a  .debug_info      rcb3.o
+000003b8+00014c  .debug_abbrev    rcb3.o
+00002576+000373  .debug_line      rcb3.o
+000032f0+000535  .debug_macinfo   rcb3.o
+00000468+0000fc  .debug_frame     rcb3.o
+00001e3a+0003c6  .text            rlin3x.o
+fef00408+000219  .sbss            rlin3x.o
+0000bb21+0006f2  .debug_info      rlin3x.o
+00000504+00015d  .debug_abbrev    rlin3x.o
+000028e9+0004a6  .debug_line      rlin3x.o
+00003825+000817  .debug_macinfo   rlin3x.o
+00000564+000174  .debug_frame     rlin3x.o
+00002200+0000ca  .text            pwm_diag.o
+0000c213+0003b1  .debug_info      pwm_diag.o
+00000661+00010e  .debug_abbrev    pwm_diag.o
+00002d8f+00036f  .debug_line      pwm_diag.o
+0000403c+000838  .debug_macinfo   pwm_diag.o
+000006d8+0000d8  .debug_frame     pwm_diag.o
+000022ca+00016e  .text            OperationManager.o
+fef00020+000001  .sdata           OperationManager.o
+00007d94+000058  .rosdata         OperationManager.o
+0000c5c4+000558  .debug_info      OperationManager.o
+0000076f+000145  .debug_abbrev    OperationManager.o
+000030fe+0003c5  .debug_line      OperationManager.o
+00004874+0004e2  .debug_macinfo   OperationManager.o
+000007b0+0000e4  .debug_frame     OperationManager.o
+00002438+000496  .text            DriveManager.o
+fef00024+000018  .sdata           DriveManager.o
+00007dec+00001c  .rosdata         DriveManager.o
+0000cb1c+000731  .debug_info      DriveManager.o
+000008b4+000145  .debug_abbrev    DriveManager.o
+000034c3+0005a2  .debug_line      DriveManager.o
+00004d56+0005cd  .debug_macinfo   DriveManager.o
+00000894+0000f0  .debug_frame     DriveManager.o
+000028ce+00039a  .text            BodyControl.o
+00007e08+00002c  .rosdata         BodyControl.o
+fef0003c+00000d  .sdata           BodyControl.o
+0000d24d+0006a7  .debug_info      BodyControl.o
+000009f9+000143  .debug_abbrev    BodyControl.o
+00003a65+000615  .debug_line      BodyControl.o
+00005323+00080d  .debug_macinfo   BodyControl.o
+00000984+000154  .debug_frame     BodyControl.o
+00002c68+00006a  .text            uart_rlin.o
+0000d8f4+000477  .debug_info      uart_rlin.o
+00000b3c+000126  .debug_abbrev    uart_rlin.o
+0000407a+0003c3  .debug_line      uart_rlin.o
+00005b30+0005da  .debug_macinfo   uart_rlin.o
+00000ad8+000108  .debug_frame     uart_rlin.o
+00002cd2+000026  .text            banner.o
+00007e34+000050  .rosdata         banner.o
+0000dd6b+00036f  .debug_info      banner.o
+00000c62+00013c  .debug_abbrev    banner.o
+0000443d+000347  .debug_line      banner.o
+0000610a+0005bf  .debug_macinfo   banner.o
+00000be0+0000ac  .debug_frame     banner.o
+00002cf8+000060  .text            syslog.o
+fef00624+000004  .sbss            syslog.o
+0000e0da+00048f  .debug_info      syslog.o
+00000d9e+000186  .debug_abbrev    syslog.o
+00004784+0003d5  .debug_line      syslog.o
+000066c9+000577  .debug_macinfo   syslog.o
+00000c8c+0000dc  .debug_frame     syslog.o
+00002d58+00001a  .text            serial.o
+fef00628+000004  .sbss            serial.o
+0000e569+0003be  .debug_info      serial.o
+00000f24+000115  .debug_abbrev    serial.o
+00004b59+000450  .debug_line      serial.o
+00006c40+000496  .debug_macinfo   serial.o
+00000d68+00010c  .debug_frame     serial.o
+00002d72+0002de  .text            log_output.o
+00007e84+000054  .rosdata         log_output.o
+0000e927+000506  .debug_info      log_output.o
+00001039+0000fc  .debug_abbrev    log_output.o
+00004fa9+0004a7  .debug_line      log_output.o
+000070d6+000374  .debug_macinfo   log_output.o
+00000e74+000104  .debug_frame     log_output.o
+00003050+000110  .text            vasyslog.o
+0000ee2d+000360  .debug_info      vasyslog.o
+00001135+000136  .debug_abbrev    vasyslog.o
+00005450+000398  .debug_line      vasyslog.o
+0000744a+0004b3  .debug_macinfo   vasyslog.o
+00000f78+0000ac  .debug_frame     vasyslog.o
+00007ed8+000060  .rosdata         t_perror.o
+0000f18d+000496  .debug_info      t_perror.o
+0000126b+00013a  .debug_abbrev    t_perror.o
+000057e8+0002ce  .debug_line      t_perror.o
+000078fd+0003c0  .debug_macinfo   t_perror.o
+00001024+0000f0  .debug_frame     t_perror.o
+fef0004c+000098  .sdata           strerror.o
+00007f38+00036c  .rosdata         strerror.o
+0000f623+0001e5  .debug_info      strerror.o
+000013a5+0000cb  .debug_abbrev    strerror.o
+00005ab6+000301  .debug_line      strerror.o
+00007cbd+00033e  .debug_macinfo   strerror.o
+00001114+0000c0  .debug_frame     strerror.o
+0000f808+00037c  .debug_info      chkobj.o
+00001470+000103  .debug_abbrev    chkobj.o
+00005db7+000346  .debug_line      chkobj.o
+00007ffb+000522  .debug_macinfo   chkobj.o
+000011d4+0000ac  .debug_frame     chkobj.o
+00003160+000072  .text            Os_Lcfg.o
+00008400+002800  .rosdata         Os_Lcfg.o
+fef000e4+0001c8  .sdata           Os_Lcfg.o
+fef0062c+000274  .sbss            Os_Lcfg.o
 febd0000+004060  .pe1_lram        Os_Lcfg.o
 fe9d0000+002e60  .pe2_lram        Os_Lcfg.o
-00008b01+0039ba  .debug_info      Os_Lcfg.o
-000014be+000169  .debug_abbrev    Os_Lcfg.o
-00005512+0006fc  .debug_line      Os_Lcfg.o
-00007cfc+00129e  .debug_macinfo   Os_Lcfg.o
-000010fc+00022c  .debug_frame     Os_Lcfg.o
-0000c4bb+00008a  .debug_info      Ioc.o
-00001627+000018  .debug_abbrev    Ioc.o
-00005c0e+000023  .debug_line      Ioc.o
-00008f9a+000005  .debug_macinfo   Ioc.o
-000030aa+000a34  .text            libkernel.a(prc_support.o)
-0000163f+000024  .debug_abbrev    libkernel.a(prc_support.o)
-0000c545+000a66  .debug_info      libkernel.a(prc_support.o)
-00005c31+00148c  .debug_line      libkernel.a(prc_support.o)
+0000fb84+0039cc  .debug_info      Os_Lcfg.o
+00001573+000169  .debug_abbrev    Os_Lcfg.o
+000060fd+0006fd  .debug_line      Os_Lcfg.o
+0000851d+0012a5  .debug_macinfo   Os_Lcfg.o
+00001280+00022c  .debug_frame     Os_Lcfg.o
+00013550+00008b  .debug_info      Ioc.o
+000016dc+000018  .debug_abbrev    Ioc.o
+000067fa+000023  .debug_line      Ioc.o
+000097c2+000005  .debug_macinfo   Ioc.o
+000031d2+000a34  .text            libkernel.a(prc_support.o)
+000016f4+000024  .debug_abbrev    libkernel.a(prc_support.o)
+000135db+000a67  .debug_info      libkernel.a(prc_support.o)
+0000681d+00148c  .debug_line      libkernel.a(prc_support.o)
 00000000+00020c  .reset.text -> .text libkernel.a(prc_support.o)
 00800000+000220  .pe2_reset -> .pe2_rom libkernel.a(prc_support.o)
-00003ade+000420  .text            libkernel.a(target_config.o)
-0000aa00+000028  .rosdata         libkernel.a(target_config.o)
-0000cfab+0008ca  .debug_info      libkernel.a(target_config.o)
-00001663+000161  .debug_abbrev    libkernel.a(target_config.o)
-000070bd+000708  .debug_line      libkernel.a(target_config.o)
-00008f9f+000fd7  .debug_macinfo   libkernel.a(target_config.o)
-00001328+000164  .debug_frame     libkernel.a(target_config.o)
-00003efe+0001f6  .text            libkernel.a(rh850_f1h.o)
-0000aa28+0000c0  .rosdata         libkernel.a(rh850_f1h.o)
-0000d875+000677  .debug_info      libkernel.a(rh850_f1h.o)
-000017c4+00015d  .debug_abbrev    libkernel.a(rh850_f1h.o)
-000077c5+0006cf  .debug_line      libkernel.a(rh850_f1h.o)
-00009f76+000fac  .debug_macinfo   libkernel.a(rh850_f1h.o)
-0000148c+000148  .debug_frame     libkernel.a(rh850_f1h.o)
-000040f4+00011c  .text            libkernel.a(target_hw_counter.o)
-fef0080c+000004  .sbss            libkernel.a(target_hw_counter.o)
-0000deec+000ad2  .debug_info      libkernel.a(target_hw_counter.o)
-00001921+00011a  .debug_abbrev    libkernel.a(target_hw_counter.o)
-00007e94+0004f3  .debug_line      libkernel.a(target_hw_counter.o)
-0000af22+000658  .debug_macinfo   libkernel.a(target_hw_counter.o)
-000015d4+000280  .debug_frame     libkernel.a(target_hw_counter.o)
-00004210+0001aa  .text            libkernel.a(prc_config.o)
-0000aae8+00008c  .rosdata         libkernel.a(prc_config.o)
-fef00810+00000c  .sbss            libkernel.a(prc_config.o)
-0000e9be+001474  .debug_info      libkernel.a(prc_config.o)
-00001a3b+0001cf  .debug_abbrev    libkernel.a(prc_config.o)
-00008387+00058f  .debug_line      libkernel.a(prc_config.o)
-0000b57a+0009e9  .debug_macinfo   libkernel.a(prc_config.o)
-00001854+000178  .debug_frame     libkernel.a(prc_config.o)
-000043ba+000102  .text            libkernel.a(counter_manage.o)
-0000ab74+000024  .rosdata         libkernel.a(counter_manage.o)
-0000fe32+001a93  .debug_info      libkernel.a(counter_manage.o)
-00001c0a+0001d1  .debug_abbrev    libkernel.a(counter_manage.o)
-00008916+0007a4  .debug_line      libkernel.a(counter_manage.o)
-0000bf63+0010c0  .debug_macinfo   libkernel.a(counter_manage.o)
-000019cc+000164  .debug_frame     libkernel.a(counter_manage.o)
-000044bc+0007a4  .text            libkernel.a(counter.o)
-0000ab98+000024  .rosdata         libkernel.a(counter.o)
-000118c5+002041  .debug_info      libkernel.a(counter.o)
-00001ddb+0001c8  .debug_abbrev    libkernel.a(counter.o)
-000090ba+0007a6  .debug_line      libkernel.a(counter.o)
-0000d023+000a97  .debug_macinfo   libkernel.a(counter.o)
-00001b30+0001e0  .debug_frame     libkernel.a(counter.o)
-00004c60+000484  .text            libkernel.a(alarm.o)
-0000abbc+000024  .rosdata         libkernel.a(alarm.o)
-00013906+00201f  .debug_info      libkernel.a(alarm.o)
-00001fa3+0001d1  .debug_abbrev    libkernel.a(alarm.o)
-00009860+000922  .debug_line      libkernel.a(alarm.o)
-0000daba+0013c9  .debug_macinfo   libkernel.a(alarm.o)
-00001d10+0001b4  .debug_frame     libkernel.a(alarm.o)
-000050e4+00025e  .text            libkernel.a(osctl_manage.o)
-fef0081c+00000c  .sbss            libkernel.a(osctl_manage.o)
-fef00290+00000c  .sdata           libkernel.a(osctl_manage.o)
-0000abe0+000024  .rosdata         libkernel.a(osctl_manage.o)
-00015925+00168a  .debug_info      libkernel.a(osctl_manage.o)
-00002174+0001d1  .debug_abbrev    libkernel.a(osctl_manage.o)
-0000a182+000678  .debug_line      libkernel.a(osctl_manage.o)
-0000ee83+000f99  .debug_macinfo   libkernel.a(osctl_manage.o)
-00001ec4+0000e8  .debug_frame     libkernel.a(osctl_manage.o)
-00005342+00032a  .text            libkernel.a(osctl.o)
-00016faf+001cc8  .debug_info      libkernel.a(osctl.o)
-00002345+000187  .debug_abbrev    libkernel.a(osctl.o)
-0000a7fa+0005cf  .debug_line      libkernel.a(osctl.o)
-0000fe1c+000c79  .debug_macinfo   libkernel.a(osctl.o)
-00001fac+000108  .debug_frame     libkernel.a(osctl.o)
-0000566c+000150  .text            libkernel.a(task_manage.o)
-0000ac04+000024  .rosdata         libkernel.a(task_manage.o)
-00018c77+001a04  .debug_info      libkernel.a(task_manage.o)
-000024cc+0001a3  .debug_abbrev    libkernel.a(task_manage.o)
-0000adc9+000a08  .debug_line      libkernel.a(task_manage.o)
-00010a95+001407  .debug_macinfo   libkernel.a(task_manage.o)
-000020b4+000174  .debug_frame     libkernel.a(task_manage.o)
-000057bc+000584  .text            libkernel.a(event.o)
-0000ac28+000024  .rosdata         libkernel.a(event.o)
-0001a67b+00189d  .debug_info      libkernel.a(event.o)
-0000266f+0001a3  .debug_abbrev    libkernel.a(event.o)
-0000b7d1+000830  .debug_line      libkernel.a(event.o)
-00011e9c+001228  .debug_macinfo   libkernel.a(event.o)
-00002228+000154  .debug_frame     libkernel.a(event.o)
-00005d40+0001b8  .text            libkernel.a(interrupt_manage.o)
-0000ac4c+000048  .rosdata         libkernel.a(interrupt_manage.o)
-0001bf18+001b8b  .debug_info      libkernel.a(interrupt_manage.o)
-00002812+0001d8  .debug_abbrev    libkernel.a(interrupt_manage.o)
-0000c001+000854  .debug_line      libkernel.a(interrupt_manage.o)
-000130c4+001490  .debug_macinfo   libkernel.a(interrupt_manage.o)
-0000237c+000198  .debug_frame     libkernel.a(interrupt_manage.o)
-00005ef8+0004c8  .text            libkernel.a(interrupt.o)
-0000ac94+000064  .rosdata         libkernel.a(interrupt.o)
-0001daa3+0015e7  .debug_info      libkernel.a(interrupt.o)
-000029ea+000198  .debug_abbrev    libkernel.a(interrupt.o)
-0000c855+0005af  .debug_line      libkernel.a(interrupt.o)
-00014554+000a8e  .debug_macinfo   libkernel.a(interrupt.o)
-00002514+000108  .debug_frame     libkernel.a(interrupt.o)
-000063c0+0005b6  .text            libkernel.a(task.o)
-0000acf8+000068  .rosdata         libkernel.a(task.o)
-0001f08a+001c7a  .debug_info      libkernel.a(task.o)
-00002b82+0001c8  .debug_abbrev    libkernel.a(task.o)
-0000ce04+0006f8  .debug_line      libkernel.a(task.o)
-00014fe2+000c6f  .debug_macinfo   libkernel.a(task.o)
-0000261c+0001a0  .debug_frame     libkernel.a(task.o)
-00006976+0008e6  .text            libkernel.a(mc.o)
-fef0029c+000008  .sdata           libkernel.a(mc.o)
-fef00828+000009  .sbss            libkernel.a(mc.o)
-0000ad60+000050  .rosdata         libkernel.a(mc.o)
-00020d04+00229b  .debug_info      libkernel.a(mc.o)
-00002d4a+0001cf  .debug_abbrev    libkernel.a(mc.o)
-0000d4fc+000917  .debug_line      libkernel.a(mc.o)
-00015c51+000c60  .debug_macinfo   libkernel.a(mc.o)
-000027bc+0002f0  .debug_frame     libkernel.a(mc.o)
-0000725c+000072  .text            libkernel.a(mc_manage.o)
-0000adb0+000024  .rosdata         libkernel.a(mc_manage.o)
-00022f9f+001a65  .debug_info      libkernel.a(mc_manage.o)
-00002f19+0001d8  .debug_abbrev    libkernel.a(mc_manage.o)
-0000de13+000804  .debug_line      libkernel.a(mc_manage.o)
-000168b1+001041  .debug_macinfo   libkernel.a(mc_manage.o)
-00002aac+000138  .debug_frame     libkernel.a(mc_manage.o)
-00024a04+001e0b  .debug_info      libkernel.a(osap.o)
-000030f1+000179  .debug_abbrev    libkernel.a(osap.o)
-0000e617+000781  .debug_line      libkernel.a(osap.o)
-000178f2+0011fc  .debug_macinfo   libkernel.a(osap.o)
-00002be4+000120  .debug_frame     libkernel.a(osap.o)
-000072ce+000034  .text            libkernel.a(spinlock.o)
-0000add4+000048  .rosdata         libkernel.a(spinlock.o)
-0002680f+001d88  .debug_info      libkernel.a(spinlock.o)
-0000326a+0001d1  .debug_abbrev    libkernel.a(spinlock.o)
-0000ed98+000a1d  .debug_line      libkernel.a(spinlock.o)
-00018aee+0013d5  .debug_macinfo   libkernel.a(spinlock.o)
-00002d04+0001c0  .debug_frame     libkernel.a(spinlock.o)
-00007302+000386  .text            libkernel.a(tauj_hw_counter.o)
-00028597+000abc  .debug_info      libkernel.a(tauj_hw_counter.o)
-0000343b+000145  .debug_abbrev    libkernel.a(tauj_hw_counter.o)
-0000f7b5+0004a2  .debug_line      libkernel.a(tauj_hw_counter.o)
-00019ec3+0007aa  .debug_macinfo   libkernel.a(tauj_hw_counter.o)
-00002ec4+000180  .debug_frame     libkernel.a(tauj_hw_counter.o)
-00007688+000002  .text            libkernel.a(prc_tool.o)
-00029053+0000de  .debug_info      libkernel.a(prc_tool.o)
-00003580+000056  .debug_abbrev    libkernel.a(prc_tool.o)
-0000fc57+00004f  .debug_line      libkernel.a(prc_tool.o)
-0001a66d+000005  .debug_macinfo   libkernel.a(prc_tool.o)
-00003044+0000a8  .debug_frame     libkernel.a(prc_tool.o)
-00000000+00008c  .linfix          <Linker supplemental debug info>
+00003c06+000420  .text            libkernel.a(target_config.o)
+0000ac00+000028  .rosdata         libkernel.a(target_config.o)
+00014042+0008cb  .debug_info      libkernel.a(target_config.o)
+00001718+000161  .debug_abbrev    libkernel.a(target_config.o)
+00007ca9+000708  .debug_line      libkernel.a(target_config.o)
+000097c7+000fd7  .debug_macinfo   libkernel.a(target_config.o)
+000014ac+000164  .debug_frame     libkernel.a(target_config.o)
+00004026+0001f6  .text            libkernel.a(rh850_f1h.o)
+0000ac28+0000c0  .rosdata         libkernel.a(rh850_f1h.o)
+0001490d+000678  .debug_info      libkernel.a(rh850_f1h.o)
+00001879+00015d  .debug_abbrev    libkernel.a(rh850_f1h.o)
+000083b1+0006cf  .debug_line      libkernel.a(rh850_f1h.o)
+0000a79e+000fac  .debug_macinfo   libkernel.a(rh850_f1h.o)
+00001610+000148  .debug_frame     libkernel.a(rh850_f1h.o)
+0000421c+00011c  .text            libkernel.a(target_hw_counter.o)
+fef008a0+000004  .sbss            libkernel.a(target_hw_counter.o)
+00014f85+000ad3  .debug_info      libkernel.a(target_hw_counter.o)
+000019d6+00011a  .debug_abbrev    libkernel.a(target_hw_counter.o)
+00008a80+0004f3  .debug_line      libkernel.a(target_hw_counter.o)
+0000b74a+000658  .debug_macinfo   libkernel.a(target_hw_counter.o)
+00001758+000280  .debug_frame     libkernel.a(target_hw_counter.o)
+00004338+0001aa  .text            libkernel.a(prc_config.o)
+0000ace8+00008c  .rosdata         libkernel.a(prc_config.o)
+fef008a4+00000c  .sbss            libkernel.a(prc_config.o)
+00015a58+001475  .debug_info      libkernel.a(prc_config.o)
+00001af0+0001cf  .debug_abbrev    libkernel.a(prc_config.o)
+00008f73+00058f  .debug_line      libkernel.a(prc_config.o)
+0000bda2+0009e9  .debug_macinfo   libkernel.a(prc_config.o)
+000019d8+000178  .debug_frame     libkernel.a(prc_config.o)
+000044e2+000102  .text            libkernel.a(counter_manage.o)
+0000ad74+000024  .rosdata         libkernel.a(counter_manage.o)
+00016ecd+001a94  .debug_info      libkernel.a(counter_manage.o)
+00001cbf+0001d1  .debug_abbrev    libkernel.a(counter_manage.o)
+00009502+0007a4  .debug_line      libkernel.a(counter_manage.o)
+0000c78b+0010c0  .debug_macinfo   libkernel.a(counter_manage.o)
+00001b50+000164  .debug_frame     libkernel.a(counter_manage.o)
+000045e4+0007a4  .text            libkernel.a(counter.o)
+0000ad98+000024  .rosdata         libkernel.a(counter.o)
+00018961+002042  .debug_info      libkernel.a(counter.o)
+00001e90+0001c8  .debug_abbrev    libkernel.a(counter.o)
+00009ca6+0007a6  .debug_line      libkernel.a(counter.o)
+0000d84b+000a97  .debug_macinfo   libkernel.a(counter.o)
+00001cb4+0001e0  .debug_frame     libkernel.a(counter.o)
+00004d88+000484  .text            libkernel.a(alarm.o)
+0000adbc+000024  .rosdata         libkernel.a(alarm.o)
+0001a9a3+002020  .debug_info      libkernel.a(alarm.o)
+00002058+0001d1  .debug_abbrev    libkernel.a(alarm.o)
+0000a44c+000922  .debug_line      libkernel.a(alarm.o)
+0000e2e2+0013c9  .debug_macinfo   libkernel.a(alarm.o)
+00001e94+0001b4  .debug_frame     libkernel.a(alarm.o)
+0000520c+00025e  .text            libkernel.a(osctl_manage.o)
+fef008b0+00000c  .sbss            libkernel.a(osctl_manage.o)
+fef002ac+00000c  .sdata           libkernel.a(osctl_manage.o)
+0000ade0+000024  .rosdata         libkernel.a(osctl_manage.o)
+0001c9c3+00168b  .debug_info      libkernel.a(osctl_manage.o)
+00002229+0001d1  .debug_abbrev    libkernel.a(osctl_manage.o)
+0000ad6e+000678  .debug_line      libkernel.a(osctl_manage.o)
+0000f6ab+000f99  .debug_macinfo   libkernel.a(osctl_manage.o)
+00002048+0000e8  .debug_frame     libkernel.a(osctl_manage.o)
+0000546a+00032a  .text            libkernel.a(osctl.o)
+0001e04e+001cc9  .debug_info      libkernel.a(osctl.o)
+000023fa+000187  .debug_abbrev    libkernel.a(osctl.o)
+0000b3e6+0005cf  .debug_line      libkernel.a(osctl.o)
+00010644+000c79  .debug_macinfo   libkernel.a(osctl.o)
+00002130+000108  .debug_frame     libkernel.a(osctl.o)
+00005794+000150  .text            libkernel.a(task_manage.o)
+0000ae04+000024  .rosdata         libkernel.a(task_manage.o)
+0001fd17+001a05  .debug_info      libkernel.a(task_manage.o)
+00002581+0001a3  .debug_abbrev    libkernel.a(task_manage.o)
+0000b9b5+000a08  .debug_line      libkernel.a(task_manage.o)
+000112bd+001407  .debug_macinfo   libkernel.a(task_manage.o)
+00002238+000174  .debug_frame     libkernel.a(task_manage.o)
+000058e4+000584  .text            libkernel.a(event.o)
+0000ae28+000024  .rosdata         libkernel.a(event.o)
+0002171c+00189e  .debug_info      libkernel.a(event.o)
+00002724+0001a3  .debug_abbrev    libkernel.a(event.o)
+0000c3bd+000830  .debug_line      libkernel.a(event.o)
+000126c4+001228  .debug_macinfo   libkernel.a(event.o)
+000023ac+000154  .debug_frame     libkernel.a(event.o)
+00005e68+0001b8  .text            libkernel.a(interrupt_manage.o)
+0000ae4c+000048  .rosdata         libkernel.a(interrupt_manage.o)
+00022fba+001b8c  .debug_info      libkernel.a(interrupt_manage.o)
+000028c7+0001d8  .debug_abbrev    libkernel.a(interrupt_manage.o)
+0000cbed+000854  .debug_line      libkernel.a(interrupt_manage.o)
+000138ec+001490  .debug_macinfo   libkernel.a(interrupt_manage.o)
+00002500+000198  .debug_frame     libkernel.a(interrupt_manage.o)
+00006020+0004c8  .text            libkernel.a(interrupt.o)
+0000ae94+000064  .rosdata         libkernel.a(interrupt.o)
+00024b46+0015e8  .debug_info      libkernel.a(interrupt.o)
+00002a9f+000198  .debug_abbrev    libkernel.a(interrupt.o)
+0000d441+0005af  .debug_line      libkernel.a(interrupt.o)
+00014d7c+000a8e  .debug_macinfo   libkernel.a(interrupt.o)
+00002698+000108  .debug_frame     libkernel.a(interrupt.o)
+000064e8+0005b6  .text            libkernel.a(task.o)
+0000aef8+000068  .rosdata         libkernel.a(task.o)
+0002612e+001c7b  .debug_info      libkernel.a(task.o)
+00002c37+0001c8  .debug_abbrev    libkernel.a(task.o)
+0000d9f0+0006f8  .debug_line      libkernel.a(task.o)
+0001580a+000c6f  .debug_macinfo   libkernel.a(task.o)
+000027a0+0001a0  .debug_frame     libkernel.a(task.o)
+00006a9e+0008e6  .text            libkernel.a(mc.o)
+fef002b8+000008  .sdata           libkernel.a(mc.o)
+fef008bc+000009  .sbss            libkernel.a(mc.o)
+0000af60+000050  .rosdata         libkernel.a(mc.o)
+00027da9+00229c  .debug_info      libkernel.a(mc.o)
+00002dff+0001cf  .debug_abbrev    libkernel.a(mc.o)
+0000e0e8+000917  .debug_line      libkernel.a(mc.o)
+00016479+000c60  .debug_macinfo   libkernel.a(mc.o)
+00002940+0002f0  .debug_frame     libkernel.a(mc.o)
+00007384+000072  .text            libkernel.a(mc_manage.o)
+0000afb0+000024  .rosdata         libkernel.a(mc_manage.o)
+0002a045+001a66  .debug_info      libkernel.a(mc_manage.o)
+00002fce+0001d8  .debug_abbrev    libkernel.a(mc_manage.o)
+0000e9ff+000804  .debug_line      libkernel.a(mc_manage.o)
+000170d9+001041  .debug_macinfo   libkernel.a(mc_manage.o)
+00002c30+000138  .debug_frame     libkernel.a(mc_manage.o)
+0002baab+001e0c  .debug_info      libkernel.a(osap.o)
+000031a6+000179  .debug_abbrev    libkernel.a(osap.o)
+0000f203+000781  .debug_line      libkernel.a(osap.o)
+0001811a+0011fc  .debug_macinfo   libkernel.a(osap.o)
+00002d68+000120  .debug_frame     libkernel.a(osap.o)
+000073f6+000034  .text            libkernel.a(spinlock.o)
+0000afd4+000048  .rosdata         libkernel.a(spinlock.o)
+0002d8b7+001d89  .debug_info      libkernel.a(spinlock.o)
+0000331f+0001d1  .debug_abbrev    libkernel.a(spinlock.o)
+0000f984+000a1d  .debug_line      libkernel.a(spinlock.o)
+00019316+0013d5  .debug_macinfo   libkernel.a(spinlock.o)
+00002e88+0001c0  .debug_frame     libkernel.a(spinlock.o)
+0000742a+000386  .text            libkernel.a(tauj_hw_counter.o)
+0002f640+000abd  .debug_info      libkernel.a(tauj_hw_counter.o)
+000034f0+000145  .debug_abbrev    libkernel.a(tauj_hw_counter.o)
+000103a1+0004a2  .debug_line      libkernel.a(tauj_hw_counter.o)
+0001a6eb+0007aa  .debug_macinfo   libkernel.a(tauj_hw_counter.o)
+00003048+000180  .debug_frame     libkernel.a(tauj_hw_counter.o)
+000077b0+000002  .text            libkernel.a(prc_tool.o)
+000300fd+0000df  .debug_info      libkernel.a(prc_tool.o)
+00003635+000056  .debug_abbrev    libkernel.a(prc_tool.o)
+00010843+00004f  .debug_line      libkernel.a(prc_tool.o)
+0001ae95+000005  .debug_macinfo   libkernel.a(prc_tool.o)
+000031c8+0000a8  .debug_frame     libkernel.a(prc_tool.o)
+00000000+000078  .linfix          <Linker supplemental debug info>
 
-Load Map Thu Sep 07 16:15:33 2017
+Load Map Thu Sep 07 10:15:02 2017
 Global Symbols (sorted alphabetically)
 
                   00000000+00020c _ActivateTask
- .text            00002ab0+000090 _AlarmMainBuzzerControlCycAlarmCb
- .text            000024ee+00028a _BodyControl
- .text            000027aa+000032 _BodyControlInit
- .sbss            fef002c0+000010 _CH_BlsmControl_0002_0088
- .sbss            fef002d0+000010 _CH_BlsmControl_0015_0076
- .sbss            fef002e0+000010 _CH_BlsmControl_0036_0038
- .sbss            fef002f0+000010 _CH_BlsmControl_0037_0072
- .sbss            fef00300+000010 _CH_BlsmControl_0038_0035
- .sbss            fef00310+000010 _CH_BlsmControl_0039_0037
- .sbss            fef00320+000010 _CH_BlsmControl_0043_0077
+ .text            00002bd8+000090 _AlarmMainBuzzerControlCycAlarmCb
+ .text            00002568+000326 _BodyControl
+ .text            000028ce+000032 _BodyControlInit
+ .sbss            fef002d8+000010 _CH_a_controller_0002_0088
+ .sbss            fef002e8+000010 _CH_a_controller_0004_0015
+ .sbss            fef002f8+000010 _CH_a_controller_0015_0076
+ .sbss            fef00308+000010 _CH_a_controller_0036_0038
+ .sbss            fef00318+000010 _CH_a_controller_0037_0072
+ .sbss            fef00328+000010 _CH_a_controller_0038_0035
+ .sbss            fef00338+000010 _CH_a_controller_0039_0037
+ .sbss            fef00348+000010 _CH_a_controller_0043_0077
                   00000000+00016e _CancelAlarm
                   00000000+000342 _ChainTask
                   00000000+000074 _CheckAlarmOwnership
@@ -361,22 +371,21 @@ Global Symbols (sorted alphabetically)
                   00000000+000090 _CheckObjectOwnership
                   00000000+000074 _CheckScheduleTableOwnership
                   00000000+000074 _CheckTaskOwnership
- .text            000059d0+000164 _ClearEvent
+ .text            00005af8+000164 _ClearEvent
                   00000000+000044 _DisableAllInterrupts
                   00000000+0001d0 _DisableInterruptSource
- .text            00002356+000014 _DriveInit
- .text            0000236a+000184 _DrivingControl
+ .text            00002484+0000e4 _DrivingControl
                   00000000+000048 _EnableAllInterrupts
                   00000000+0001e4 _EnableInterruptSource
- .text            00003f5c+0000a6 _EnableMainOSC
- .text            00004002+00004c _EnablePLL0
- .text            0000404e+00004a _EnablePLL1
+ .text            00004084+0000a6 _EnableMainOSC
+ .text            0000412a+00004c _EnablePLL0
+ .text            00004176+00004a _EnablePLL1
                   00000000+00004a _EnableSubOSC
                   00000000+000052 _GetActiveApplicationMode
                   00000000+0001d2 _GetAlarm
                   00000000+000098 _GetAlarmBase
                   00000000+00005a _GetApplicationID
- .text            0000725c+000012 _GetCoreID
+ .text            00007384+000012 _GetCoreID
                   00000000+000198 _GetCounterValue
                   00000000+0001c4 _GetElapsedValue
                   00000000+000182 _GetEvent
@@ -386,102 +395,112 @@ Global Symbols (sorted alphabetically)
                   00000000+00021c _GetSpinlock
                   00000000+000070 _GetTaskID
                   00000000+000072 _GetTaskState
- .text            0000308e+000006 _ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
- .text            00003098+000006 _ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
- .text            00001f70+000004 _ISRMainRLIN3x_RX_ISR
- .text            00001f24+000004 _ISRMainRLIN3x_TX_ISR
+ .text            000031b6+000006 _ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
+ .text            000031c0+000006 _ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
+ .text            000021fc+000004 _ISRMainRLIN3x_RX_ISR
+ .text            000021b0+000004 _ISRMainRLIN3x_TX_ISR
                   00000000+000020 _ISRMainRxHwSerialInt0
                   00000000+000020 _ISRMainRxHwSerialInt1
- .text            000043b2+000004 _ISRMaintarget_ici_handler0
- .text            000043b6+000004 _ISRMaintarget_ici_handler1
+ .text            000044da+000004 _ISRMaintarget_ici_handler0
+ .text            000044de+000004 _ISRMaintarget_ici_handler1
                   00000000+000168 _IncrementCounter
- .text            00002b68+000042 _InitHwSerial
- .text            00002c30+00001a _InitSerial
- .text            00002840+000038 _LampControl
- .text            00002042+000088 _OperationControl
- .text            0000203e+000004 _OperationInit
+ .text            00002c90+000042 _InitHwSerial
+ .text            00002d58+00001a _InitSerial
+ .sbss            fef00398+000008 _Iu
+ .sbss            fef003ba+000002 _Iu_ad
+ .sbss            fef003a0+000008 _Iv
+ .sbss            fef003bc+000002 _Iv_ad
+ .sbss            fef003a8+000008 _Iw
+ .sbss            fef003be+000002 _Iw_ad
+ .text            00002964+000038 _LampControl
+ .text            000022ca+000080 _OperationControl
                   00000000+00016a _RaiseInterCoreInterrupt
                   00000000+000044 _RecvPolSerialChar
                   00000000+0001c2 _ReleaseSpinlock
                   00000000+000072 _ResumeAllInterrupts
- .text            00005e06+0000f2 _ResumeOSInterrupts
+ .text            00005f2e+0000f2 _ResumeOSInterrupts
                   00000000+000030 _RxSerialInt
                   00000000+000186 _Schedule
                   00000000+000198 _SetAbsAlarm
- .text            00004098+00005c _SetClockSelection
- .text            000057bc+000214 _SetEvent
- .text            00004f48+00019c _SetRelAlarm
- .text            00002316+000040 _SetSteerAngle
+ .text            000041c0+00005c _SetClockSelection
+ .text            000058e4+000214 _SetEvent
+ .text            00005070+00019c _SetRelAlarm
+ .text            00002438+00004c _SetSteerAngle
                   00000000+00003a _ShutdownAllCores
- .text            0000726e+000060 _StartCore
+ .text            00007396+000060 _StartCore
                   00000000+00005a _StartNonAutosarCore
- .text            000050e4+00025e _StartOS
- .text            00000392+00005a _StartupHook
- .text            00002308+00000e _SteerInit
+ .text            0000520c+00025e _StartOS
+ .text            00000392+000056 _StartupHook
                   00000000+000070 _SuspendAllInterrupts
- .text            00005d40+0000c6 _SuspendOSInterrupts
- .sbss            fef00818+000004 _TOPPERS_spn_var
- .text            000015b4+000092 _TaskMainBlsmControl_Core0_100_0_Task
- .text            0000041c+000850 _TaskMainBlsmControl_Core0_1_0_Task
- .text            00001646+000270 _TaskMainBlsmControl_Core1_100_0_Task
- .text            00000c6c+000948 _TaskMainBlsmControl_Core1_1_0_Task
- .text            00002a7e+000032 _TaskMainBodyControlTask
- .text            00002778+000032 _TaskMainDriveManagerTask
- .text            000020ca+000054 _TaskMainOperationManagerTask
+ .text            00005e68+0000c6 _SuspendOSInterrupts
+ .sbss            fef008ac+000004 _TOPPERS_spn_var
+ .text            00002ba2+000036 _TaskMainBodyControlTask
+ .text            0000288e+000040 _TaskMainDriveManagerTask
+ .text            0000234a+00005a _TaskMainOperationManagerTask
+ .text            0000160e+000092 _TaskMaina_controller_Core0_100_0_Task
+ .text            00000418+0008d6 _TaskMaina_controller_Core0_1_0_Task
+ .text            000016a0+000270 _TaskMaina_controller_Core1_100_0_Task
+ .text            00000cee+000920 _TaskMaina_controller_Core1_1_0_Task
                   00000000+00001c _TermHwSerial
                   00000000+00001a _TermSerial
- .text            0000566c+0000dc _TerminateTask
+ .text            00005794+0000dc _TerminateTask
                   00000000+00023c _TryToGetSpinlock
  .sdata           fef00000+000001 _UpDateContCmd
- .text            00005b34+0001ac _WaitEvent
- .text            00002878+000206 _WinkerControl
- .sbss            fef0080c+000004 ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf
- .rosdata         0000acf8+000018 _____UNNAMED_1_static_in___queue_delete_next_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_inf
- .rosdata         0000abbc+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_caralarm_inf
- .rosdata         0000ab98+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carcounter_inf
- .rosdata         0000ab74+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carcounter_manage_inf
- .rosdata         0000ac28+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carevent_inf
- .rosdata         0000acb0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carinterrupt_inf
- .rosdata         0000ac4c+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carinterrupt_manage_inf
- .rosdata         0000ad60+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_inf
- .rosdata         0000adb0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_manage_inf
- .rosdata         0000abe0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carosctl_manage_inf
- .rosdata         0000add4+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carspinlock_inf
- .rosdata         0000ac04+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf
- .rosdata         0000ac70+000024 _____UNNAMED_1_static_in___x_resume_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carinterrupt_manage_inf
- .rosdata         0000adf8+000024 _____UNNAMED_1_static_in___x_resume_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carspinlock_inf
- .rosdata         0000acd4+000024 _____UNNAMED_1_static_in___x_set_ipm_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carinterrupt_inf
- .rosdata         0000ad10+000024 _____UNNAMED_1_static_in___x_set_ipm_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_inf
- .rosdata         0000ad94+00001c _____UNNAMED_2_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_inf
- .rosdata         0000ad44+00001c _____UNNAMED_2_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_inf
- .text            00003038+000006 ____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            0000303e+000006 ____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            00003044+000006 ____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe1_lram        febd3710+000950 ____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe2_lram        fe9d2710+000750 ____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe1_lram        febd2710+000800 ____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe1_lram        febd2f10+000800 ____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe1_lram        febd1388+001388 ____kernel_stack_BlsmControl_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe1_lram        febd0000+001388 ____kernel_stack_BlsmControl_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe2_lram        fe9d1388+001388 ____kernel_stack_BlsmControl_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .pe2_lram        fe9d0000+001388 ____kernel_stack_BlsmControl_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            0000304a+000008 ____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            00003052+000008 ____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            0000305a+000008 ____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .text            00003062+000008 ____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carOs_Lcfg_inf
- .sdata           fef0001f+000001 ___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
- .sdata           fef0001d+000001 ___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
- .sdata           fef0001e+000001 ___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carDriveManager_inf
-                  00000000+000028 ___acquire_lock_ldlstc_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_inf
- .rosdata         00007cf4+000050 ___banner_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carbanner_inf
- .rosdata         0000ad84+000010 ___bitmap_search_table_1_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_inf
- .rosdata         0000ad34+000010 ___bitmap_search_table_1_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_inf
- .rosdata         0000aa28+000060 ___cmd_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrh850_f1h_inf
- .text            00002c4a+000156 ___convert_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carlog_output_inf
+ .sbss            fef00380+000008 _Vu
+ .sbss            fef003b4+000002 _Vu_ad
+ .sbss            fef00388+000008 _Vv
+ .sbss            fef003b6+000002 _Vv_ad
+ .sbss            fef00390+000008 _Vw
+ .sbss            fef003b8+000002 _Vw_ad
+ .text            00005c5c+0001ac _WaitEvent
+ .text            0000299c+000206 _WinkerControl
+ .sbss            fef008a0+000004 ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf
+ .rosdata         0000aef8+000018 _____UNNAMED_1_static_in___queue_delete_next_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_inf
+ .rosdata         0000adbc+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1halarm_inf
+ .rosdata         0000ad98+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hcounter_inf
+ .rosdata         0000ad74+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hcounter_manage_inf
+ .rosdata         0000ae28+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hevent_inf
+ .rosdata         0000aeb0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hinterrupt_inf
+ .rosdata         0000ae4c+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hinterrupt_manage_inf
+ .rosdata         0000af60+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_inf
+ .rosdata         0000afb0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_manage_inf
+ .rosdata         0000ade0+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hosctl_manage_inf
+ .rosdata         0000afd4+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hspinlock_inf
+ .rosdata         0000ae04+000024 _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf
+ .rosdata         0000ae70+000024 _____UNNAMED_1_static_in___x_resume_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hinterrupt_manage_inf
+ .rosdata         0000aff8+000024 _____UNNAMED_1_static_in___x_resume_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hspinlock_inf
+ .rosdata         0000aed4+000024 _____UNNAMED_1_static_in___x_set_ipm_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hinterrupt_inf
+ .rosdata         0000af10+000024 _____UNNAMED_1_static_in___x_set_ipm_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_inf
+ .rosdata         0000af94+00001c _____UNNAMED_2_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_inf
+ .rosdata         0000af44+00001c _____UNNAMED_2_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_inf
+ .text            00003160+000006 ____activate_alarm_1_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            00003166+000006 ____activate_alarm_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            0000316c+000006 ____activate_alarm_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe1_lram        febd3710+000950 ____kernel_core0_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe2_lram        fe9d2710+000750 ____kernel_core1_ostack_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe1_lram        febd2710+000800 ____kernel_shared_stack_2_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe1_lram        febd2f10+000800 ____kernel_shared_stack_3_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe1_lram        febd1388+001388 ____kernel_stack_a_controller_Core0_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe1_lram        febd0000+001388 ____kernel_stack_a_controller_Core0_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe2_lram        fe9d1388+001388 ____kernel_stack_a_controller_Core1_100_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .pe2_lram        fe9d0000+001388 ____kernel_stack_a_controller_Core1_1_0_Task_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            00003172+000008 ____setevent_alarm_5_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            0000317a+000008 ____setevent_alarm_6_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            00003182+000008 ____setevent_alarm_7_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .text            0000318a+000008 ____setevent_alarm_8_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hOs_Lcfg_inf
+ .sdata           fef00036+000001 ___ackl_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hDriveManager_inf
+ .sdata           fef00034+000001 ___acklr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hDriveManager_inf
+ .sdata           fef00035+000001 ___ackr_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hDriveManager_inf
+                  00000000+000028 ___acquire_lock_ldlstc_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_inf
+ .rosdata         00007e34+000050 ___banner_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hbanner_inf
+ .rosdata         0000af84+000010 ___bitmap_search_table_1_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_inf
+ .rosdata         0000af34+000010 ___bitmap_search_table_1_static_in___bitmap_search_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_inf
+ .rosdata         0000ac28+000060 ___cmd_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrh850_f1h_inf
+ .text            00002d72+000156 ___convert_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hlog_output_inf
                   00000000+000000 ___ghs_eofn_ActivateTask
- .text            00002b40+000000 ___ghs_eofn_AlarmMainBuzzerControlCycAlarmCb
- .text            00002778+000000 ___ghs_eofn_BodyControl
- .text            000027dc+000000 ___ghs_eofn_BodyControlInit
+ .text            00002c68+000000 ___ghs_eofn_AlarmMainBuzzerControlCycAlarmCb
+ .text            0000288e+000000 ___ghs_eofn_BodyControl
+ .text            00002900+000000 ___ghs_eofn_BodyControlInit
                   00000000+000000 ___ghs_eofn_CancelAlarm
                   00000000+000000 ___ghs_eofn_ChainTask
                   00000000+000000 ___ghs_eofn_CheckAlarmOwnership
@@ -490,22 +509,21 @@ Global Symbols (sorted alphabetically)
                   00000000+000000 ___ghs_eofn_CheckObjectOwnership
                   00000000+000000 ___ghs_eofn_CheckScheduleTableOwnership
                   00000000+000000 ___ghs_eofn_CheckTaskOwnership
- .text            00005b34+000000 ___ghs_eofn_ClearEvent
+ .text            00005c5c+000000 ___ghs_eofn_ClearEvent
                   00000000+000000 ___ghs_eofn_DisableAllInterrupts
                   00000000+000000 ___ghs_eofn_DisableInterruptSource
- .text            0000236a+000000 ___ghs_eofn_DriveInit
- .text            000024ee+000000 ___ghs_eofn_DrivingControl
+ .text            00002568+000000 ___ghs_eofn_DrivingControl
                   00000000+000000 ___ghs_eofn_EnableAllInterrupts
                   00000000+000000 ___ghs_eofn_EnableInterruptSource
- .text            00004002+000000 ___ghs_eofn_EnableMainOSC
- .text            0000404e+000000 ___ghs_eofn_EnablePLL0
- .text            00004098+000000 ___ghs_eofn_EnablePLL1
+ .text            0000412a+000000 ___ghs_eofn_EnableMainOSC
+ .text            00004176+000000 ___ghs_eofn_EnablePLL0
+ .text            000041c0+000000 ___ghs_eofn_EnablePLL1
                   00000000+000000 ___ghs_eofn_EnableSubOSC
                   00000000+000000 ___ghs_eofn_GetActiveApplicationMode
                   00000000+000000 ___ghs_eofn_GetAlarm
                   00000000+000000 ___ghs_eofn_GetAlarmBase
                   00000000+000000 ___ghs_eofn_GetApplicationID
- .text            0000726e+000000 ___ghs_eofn_GetCoreID
+ .text            00007396+000000 ___ghs_eofn_GetCoreID
                   00000000+000000 ___ghs_eofn_GetCounterValue
                   00000000+000000 ___ghs_eofn_GetElapsedValue
                   00000000+000000 ___ghs_eofn_GetEvent
@@ -515,226 +533,237 @@ Global Symbols (sorted alphabetically)
                   00000000+000000 ___ghs_eofn_GetSpinlock
                   00000000+000000 ___ghs_eofn_GetTaskID
                   00000000+000000 ___ghs_eofn_GetTaskState
- .text            00003094+000000 ___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
- .text            0000309e+000000 ___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
- .text            00001f74+000000 ___ghs_eofn_ISRMainRLIN3x_RX_ISR
- .text            00001f28+000000 ___ghs_eofn_ISRMainRLIN3x_TX_ISR
+ .text            000031bc+000000 ___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE0
+ .text            000031c6+000000 ___ghs_eofn_ISRMainC2ISR_for_MAIN_HW_COUNTER_CORE1
+ .text            00002200+000000 ___ghs_eofn_ISRMainRLIN3x_RX_ISR
+ .text            000021b4+000000 ___ghs_eofn_ISRMainRLIN3x_TX_ISR
                   00000000+000000 ___ghs_eofn_ISRMainRxHwSerialInt0
                   00000000+000000 ___ghs_eofn_ISRMainRxHwSerialInt1
- .text            000043b6+000000 ___ghs_eofn_ISRMaintarget_ici_handler0
- .text            000043ba+000000 ___ghs_eofn_ISRMaintarget_ici_handler1
+ .text            000044de+000000 ___ghs_eofn_ISRMaintarget_ici_handler0
+ .text            000044e2+000000 ___ghs_eofn_ISRMaintarget_ici_handler1
                   00000000+000000 ___ghs_eofn_IncrementCounter
- .text            00002baa+000000 ___ghs_eofn_InitHwSerial
- .text            00002c4a+000000 ___ghs_eofn_InitSerial
- .text            00002878+000000 ___ghs_eofn_LampControl
- .text            000020ca+000000 ___ghs_eofn_OperationControl
- .text            00002042+000000 ___ghs_eofn_OperationInit
+ .text            00002cd2+000000 ___ghs_eofn_InitHwSerial
+ .text            00002d72+000000 ___ghs_eofn_InitSerial
+ .text            0000299c+000000 ___ghs_eofn_LampControl
+ .text            0000234a+000000 ___ghs_eofn_OperationControl
                   00000000+000000 ___ghs_eofn_RaiseInterCoreInterrupt
                   00000000+000000 ___ghs_eofn_RecvPolSerialChar
                   00000000+000000 ___ghs_eofn_ReleaseSpinlock
                   00000000+000000 ___ghs_eofn_ResumeAllInterrupts
- .text            00005ef8+000000 ___ghs_eofn_ResumeOSInterrupts
+ .text            00006020+000000 ___ghs_eofn_ResumeOSInterrupts
                   00000000+000000 ___ghs_eofn_RxSerialInt
                   00000000+000000 ___ghs_eofn_Schedule
                   00000000+000000 ___ghs_eofn_SetAbsAlarm
- .text            000040f4+000000 ___ghs_eofn_SetClockSelection
- .text            000059d0+000000 ___ghs_eofn_SetEvent
- .text            000050e4+000000 ___ghs_eofn_SetRelAlarm
- .text            00002356+000000 ___ghs_eofn_SetSteerAngle
+ .text            0000421c+000000 ___ghs_eofn_SetClockSelection
+ .text            00005af8+000000 ___ghs_eofn_SetEvent
+ .text            0000520c+000000 ___ghs_eofn_SetRelAlarm
+ .text            00002484+000000 ___ghs_eofn_SetSteerAngle
                   00000000+000000 ___ghs_eofn_ShutdownAllCores
- .text            000072ce+000000 ___ghs_eofn_StartCore
+ .text            000073f6+000000 ___ghs_eofn_StartCore
                   00000000+000000 ___ghs_eofn_StartNonAutosarCore
- .text            00005342+000000 ___ghs_eofn_StartOS
- .text            000003ec+000000 ___ghs_eofn_StartupHook
- .text            00002316+000000 ___ghs_eofn_SteerInit
+ .text            0000546a+000000 ___ghs_eofn_StartOS
+ .text            000003e8+000000 ___ghs_eofn_StartupHook
                   00000000+000000 ___ghs_eofn_SuspendAllInterrupts
- .text            00005e06+000000 ___ghs_eofn_SuspendOSInterrupts
- .text            00001646+000000 ___ghs_eofn_TaskMainBlsmControl_Core0_100_0_Task
- .text            00000c6c+000000 ___ghs_eofn_TaskMainBlsmControl_Core0_1_0_Task
- .text            000018b6+000000 ___ghs_eofn_TaskMainBlsmControl_Core1_100_0_Task
- .text            000015b4+000000 ___ghs_eofn_TaskMainBlsmControl_Core1_1_0_Task
- .text            00002ab0+000000 ___ghs_eofn_TaskMainBodyControlTask
- .text            000027aa+000000 ___ghs_eofn_TaskMainDriveManagerTask
- .text            0000211e+000000 ___ghs_eofn_TaskMainOperationManagerTask
+ .text            00005f2e+000000 ___ghs_eofn_SuspendOSInterrupts
+ .text            00002bd8+000000 ___ghs_eofn_TaskMainBodyControlTask
+ .text            000028ce+000000 ___ghs_eofn_TaskMainDriveManagerTask
+ .text            000023a4+000000 ___ghs_eofn_TaskMainOperationManagerTask
+ .text            000016a0+000000 ___ghs_eofn_TaskMaina_controller_Core0_100_0_Task
+ .text            00000cee+000000 ___ghs_eofn_TaskMaina_controller_Core0_1_0_Task
+ .text            00001910+000000 ___ghs_eofn_TaskMaina_controller_Core1_100_0_Task
+ .text            0000160e+000000 ___ghs_eofn_TaskMaina_controller_Core1_1_0_Task
                   00000000+000000 ___ghs_eofn_TermHwSerial
                   00000000+000000 ___ghs_eofn_TermSerial
- .text            00005748+000000 ___ghs_eofn_TerminateTask
+ .text            00005870+000000 ___ghs_eofn_TerminateTask
                   00000000+000000 ___ghs_eofn_TryToGetSpinlock
- .text            00005ce0+000000 ___ghs_eofn_WaitEvent
- .text            00002a7e+000000 ___ghs_eofn_WinkerControl
- .text            000030a6+000000 ___ghs_eofn__kernel_inthdr_0x10000
- .text            000030aa+000000 ___ghs_eofn__kernel_inthdr_0x20000
- .text            00003098+000000 ___ghs_eofn__kernel_inthdr_0xffff0050
- .text            0000308a+000000 ___ghs_eofn__kernel_inthdr_0xffff00a5
- .text            0000308e+000000 ___ghs_eofn__kernel_inthdr_0xffff00a6
- .text            000030a2+000000 ___ghs_eofn__kernel_inthdr_0xffff00a8
- .text            00007230+000000 ___ghs_eofn_acquire_cnt_lock
+ .text            00005e08+000000 ___ghs_eofn_WaitEvent
+ .text            00002ba2+000000 ___ghs_eofn_WinkerControl
+ .text            000031ce+000000 ___ghs_eofn__kernel_inthdr_0x10000
+ .text            000031d2+000000 ___ghs_eofn__kernel_inthdr_0x20000
+ .text            000031c0+000000 ___ghs_eofn__kernel_inthdr_0xffff0050
+ .text            000031b2+000000 ___ghs_eofn__kernel_inthdr_0xffff00a5
+ .text            000031b6+000000 ___ghs_eofn__kernel_inthdr_0xffff00a6
+ .text            000031ca+000000 ___ghs_eofn__kernel_inthdr_0xffff00a8
+ .text            00007358+000000 ___ghs_eofn_acquire_cnt_lock
                   00000000+000000 ___ghs_eofn_acquire_ioc_lock
                   00000000+000000 ___ghs_eofn_acquire_spn_lock
- .text            00006c42+000000 ___ghs_eofn_acquire_tsk_lock
- .text            000057bc+000000 ___ghs_eofn_activate_task_action
- .text            00004d26+000000 ___ghs_eofn_alarm_expire
- .text            00004f48+000000 ___ghs_eofn_alarm_initialize
+ .text            00006d6a+000000 ___ghs_eofn_acquire_tsk_lock
+ .text            000058e4+000000 ___ghs_eofn_activate_task_action
+ .text            00004e4e+000000 ___ghs_eofn_alarm_expire
+ .text            00005070+000000 ___ghs_eofn_alarm_initialize
                   00000000+000000 ___ghs_eofn_atk2_ioc_strerror
                   00000000+000000 ___ghs_eofn_atk2_strerror
- .text            00007126+000000 ___ghs_eofn_barrier_sync
- .text            000022fc+000000 ___ghs_eofn_blsm_motor_init
- .text            00002308+000000 ___ghs_eofn_blsm_motor_start
+ .text            0000724e+000000 ___ghs_eofn_barrier_sync
+                  00000000+000000 ___ghs_eofn_blsm_int_p0
+                  00000000+000000 ___ghs_eofn_blsm_int_p11
+                  00000000+000000 ___ghs_eofn_blsm_int_p2
+                  00000000+000000 ___ghs_eofn_blsm_int_p4
+                  00000000+000000 ___ghs_eofn_blsm_int_taud0i0
+                  00000000+000000 ___ghs_eofn_blsm_int_taud0i1
+                  00000000+000000 ___ghs_eofn_blsm_motor_control
+                  00000000+000000 ___ghs_eofn_blsm_motor_control_neg_phase
+                  00000000+000000 ___ghs_eofn_blsm_motor_control_pos_phase
+ .text            00001b36+000000 ___ghs_eofn_blsm_motor_init
+                  00000000+000000 ___ghs_eofn_blsm_motor_reverse_control
+ .text            00001b42+000000 ___ghs_eofn_blsm_motor_start
                   00000000+000000 ___ghs_eofn_blsm_motor_stop
- .text            0000566c+000000 ___ghs_eofn_call_protectionhk_main
- .text            0000564a+000000 ___ghs_eofn_callevel_chk_shutdown
- .text            00004162+000000 ___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041f0+000000 ___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            000075b0+000000 ___ghs_eofn_cancel_hwcounter_tauj
- .text            00005638+000000 ___ghs_eofn_cancel_shutdown_hook
- .text            00006b5a+000000 ___ghs_eofn_ccb_initialize
- .text            0000488e+000000 ___ghs_eofn_counter_initialize
- .text            00004944+000000 ___ghs_eofn_counter_terminate
- .text            000043b0+000000 ___ghs_eofn_default_int_handler
+                  00000000+000000 ___ghs_eofn_blsm_rpm_calc
+ .text            00005794+000000 ___ghs_eofn_call_protectionhk_main
+ .text            00005772+000000 ___ghs_eofn_callevel_chk_shutdown
+ .text            0000428a+000000 ___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004318+000000 ___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076d8+000000 ___ghs_eofn_cancel_hwcounter_tauj
+ .text            00005760+000000 ___ghs_eofn_cancel_shutdown_hook
+ .text            00006c82+000000 ___ghs_eofn_ccb_initialize
+                  00000000+000000 ___ghs_eofn_clock_init
+ .text            000049b6+000000 ___ghs_eofn_counter_initialize
+ .text            00004a6c+000000 ___ghs_eofn_counter_terminate
+ .text            000044d8+000000 ___ghs_eofn_default_int_handler
                   00000000+000000 ___ghs_eofn_delete_cnt_expr_que
- .text            00006fd4+000000 ___ghs_eofn_dispatch_request
- .text            000063c0+000000 ___ghs_eofn_exit_isr2
- .text            00006976+000000 ___ghs_eofn_exit_task
- .text            00004c60+000000 ___ghs_eofn_expire_process
- .text            00007302+000000 ___ghs_eofn_force_release_spinlocks
- .text            00004a24+000000 ___ghs_eofn_get_abstick
- .text            0000415a+000000 ___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041e8+000000 ___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            0000759a+000000 ___ghs_eofn_get_hwcounter_tauj
- .text            000049ae+000000 ___ghs_eofn_get_reltick
+ .text            000070fc+000000 ___ghs_eofn_dispatch_request
+ .text            000064e8+000000 ___ghs_eofn_exit_isr2
+ .text            00006a9e+000000 ___ghs_eofn_exit_task
+ .text            00004d88+000000 ___ghs_eofn_expire_process
+ .text            0000742a+000000 ___ghs_eofn_force_release_spinlocks
+ .text            00004b4c+000000 ___ghs_eofn_get_abstick
+ .text            00004282+000000 ___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004310+000000 ___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076c2+000000 ___ghs_eofn_get_hwcounter_tauj
+ .text            00004ad6+000000 ___ghs_eofn_get_reltick
                   00000000+000000 ___ghs_eofn_hardware_init_hook
- .text            00006f8e+000000 ___ghs_eofn_ici_handler_main
+ .text            000070b6+000000 ___ghs_eofn_ici_handler_main
                   00000000+000000 ___ghs_eofn_incr_counter_action
- .text            00004182+000000 ___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004210+000000 ___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007688+000000 ___ghs_eofn_increment_hwcounter_tauj
- .text            000043b2+000000 ___ghs_eofn_infinite_loop
- .text            00004116+000000 ___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041a4+000000 ___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007420+000000 ___ghs_eofn_init_hwcounter_tauj
- .text            00005630+000000 ___ghs_eofn_init_stack_magic_region
- .text            0000458a+000000 ___ghs_eofn_insert_cnt_expr_que
- .text            0000417a+000000 ___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004208+000000 ___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007686+000000 ___ghs_eofn_int_cancel_hwcounter_tauj
- .text            00004172+000000 ___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004200+000000 ___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007654+000000 ___ghs_eofn_int_clear_hwcounter_tauj
- .text            00006a20+000000 ___ghs_eofn_internal_shutdownallcores
- .text            0000612c+000000 ___ghs_eofn_interrupt_initialize
+ .text            000042aa+000000 ___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004338+000000 ___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000077b0+000000 ___ghs_eofn_increment_hwcounter_tauj
+ .text            000044da+000000 ___ghs_eofn_infinite_loop
+ .text            0000423e+000000 ___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042cc+000000 ___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            00007548+000000 ___ghs_eofn_init_hwcounter_tauj
+ .text            00005758+000000 ___ghs_eofn_init_stack_magic_region
+ .text            000046b2+000000 ___ghs_eofn_insert_cnt_expr_que
+ .text            000042a2+000000 ___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004330+000000 ___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000077ae+000000 ___ghs_eofn_int_cancel_hwcounter_tauj
+ .text            0000429a+000000 ___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004328+000000 ___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000777c+000000 ___ghs_eofn_int_clear_hwcounter_tauj
+ .text            00006b48+000000 ___ghs_eofn_internal_shutdownallcores
+ .text            00006254+000000 ___ghs_eofn_interrupt_initialize
  .text            00000360+000000 ___ghs_eofn_main
- .text            00006490+000000 ___ghs_eofn_make_active
- .text            00006844+000000 ___ghs_eofn_make_non_runnable
- .text            0000644e+000000 ___ghs_eofn_make_runnable
- .text            000044bc+000000 ___ghs_eofn_notify_hardware_counter
- .text            00003082+000000 ___ghs_eofn_object_initialize
- .text            00003086+000000 ___ghs_eofn_object_terminate
- .text            00005510+000000 ___ghs_eofn_p_inib_initialize
+ .text            000065b8+000000 ___ghs_eofn_make_active
+ .text            0000696c+000000 ___ghs_eofn_make_non_runnable
+ .text            00006576+000000 ___ghs_eofn_make_runnable
+ .text            000045e4+000000 ___ghs_eofn_notify_hardware_counter
+ .text            000031aa+000000 ___ghs_eofn_object_initialize
+ .text            000031ae+000000 ___ghs_eofn_object_terminate
+ .text            00005638+000000 ___ghs_eofn_p_inib_initialize
  .text            00000392+000000 ___ghs_eofn_port_init
                   00000000+000000 ___ghs_eofn_prc_hardware_initialize
- .text            00004266+000000 ___ghs_eofn_prc_initialize
- .text            000042ac+000000 ___ghs_eofn_prc_terminate
+ .text            0000438e+000000 ___ghs_eofn_prc_initialize
+ .text            000043d4+000000 ___ghs_eofn_prc_terminate
                   00000000+000000 ___ghs_eofn_preempt
- .text            00002bd0+000000 ___ghs_eofn_print_banner
- .text            0000203e+000000 ___ghs_eofn_pwm_diag_change_servo_duty
- .text            00002022+000000 ___ghs_eofn_pwm_diag_init
+ .text            00002cf8+000000 ___ghs_eofn_print_banner
+ .text            000022ca+000000 ___ghs_eofn_pwm_diag_change_servo_duty
+ .text            000022ae+000000 ___ghs_eofn_pwm_diag_init
                   00000000+000000 ___ghs_eofn_raise_ipir
- .text            00001bae+000000 ___ghs_eofn_rcb3_AddReceivedByte
- .text            000021b2+000000 ___ghs_eofn_rcb3_ErrorCb
+ .text            00001e3a+000000 ___ghs_eofn_rcb3_AddReceivedByte
+ .text            00002438+000000 ___ghs_eofn_rcb3_ErrorCb
                   00000000+000000 ___ghs_eofn_rcb3_Init
- .text            00007246+000000 ___ghs_eofn_release_cnt_lock
- .text            0000626c+000000 ___ghs_eofn_release_interrupts
+ .text            0000736e+000000 ___ghs_eofn_release_cnt_lock
+ .text            00006394+000000 ___ghs_eofn_release_interrupts
                   00000000+000000 ___ghs_eofn_release_ioc_lock
- .text            0000725c+000000 ___ghs_eofn_release_spn_lock
- .text            00006c58+000000 ___ghs_eofn_release_tsk_lock
- .text            00007148+000000 ___ghs_eofn_release_tsk_lock_and_dispatch
+ .text            00007384+000000 ___ghs_eofn_release_spn_lock
+ .text            00006d80+000000 ___ghs_eofn_release_tsk_lock
+ .text            00007270+000000 ___ghs_eofn_release_tsk_lock_and_dispatch
                   00000000+000000 ___ghs_eofn_rlin3x_get_rxcnt
- .text            00001c90+000000 ___ghs_eofn_rlin3x_init
- .text            00001c18+000000 ___ghs_eofn_rlin3x_portinit
- .text            00001ed2+000000 ___ghs_eofn_rlin3x_receive
- .text            00001f70+000000 ___ghs_eofn_rlin3x_rx_interrupt
+ .text            00001f1c+000000 ___ghs_eofn_rlin3x_init
+ .text            00001ea4+000000 ___ghs_eofn_rlin3x_portinit
+ .text            0000215e+000000 ___ghs_eofn_rlin3x_receive
+ .text            000021fc+000000 ___ghs_eofn_rlin3x_rx_interrupt
                   00000000+000000 ___ghs_eofn_rlin3x_send
- .text            00001f24+000000 ___ghs_eofn_rlin3x_tx_interrupt
- .text            00006794+000000 ___ghs_eofn_search_schedtsk
- .text            00005d40+000000 ___ghs_eofn_set_event_action
- .text            0000414c+000000 ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041da+000000 ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007582+000000 ___ghs_eofn_set_hwcounter_tauj
- .text            000069c8+000000 ___ghs_eofn_shutdown_request
+ .text            000021b0+000000 ___ghs_eofn_rlin3x_tx_interrupt
+ .text            000068bc+000000 ___ghs_eofn_search_schedtsk
+ .text            00005e68+000000 ___ghs_eofn_set_event_action
+ .text            00004274+000000 ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004302+000000 ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076aa+000000 ___ghs_eofn_set_hwcounter_tauj
+ .text            00006af0+000000 ___ghs_eofn_shutdown_request
                   00000000+000000 ___ghs_eofn_spinlock_initialize
- .text            0000411e+000000 ___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041ac+000000 ___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007436+000000 ___ghs_eofn_start_hwcounter_tauj
- .text            0000412a+000000 ___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041b8+000000 ___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            000074c8+000000 ___ghs_eofn_stop_hwcounter_tauj
- .text            00006870+000000 ___ghs_eofn_suspend
- .text            00003038+000000 ___ghs_eofn_syslog
- .text            00002bd8+000000 ___ghs_eofn_syslog_initialize
- .text            00002c30+000000 ___ghs_eofn_syslog_msk_log
- .text            00002f28+000000 ___ghs_eofn_syslog_print
- .text            00002f00+000000 ___ghs_eofn_syslog_printf
- .text            00002c24+000000 ___ghs_eofn_syslog_wri_log
- .text            00002840+000000 ___ghs_eofn_tSetBuzzer
- .text            0000281c+000000 ___ghs_eofn_tSetEachLED
+ .text            00004246+000000 ___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042d4+000000 ___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000755e+000000 ___ghs_eofn_start_hwcounter_tauj
+ .text            00004252+000000 ___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042e0+000000 ___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000075f0+000000 ___ghs_eofn_stop_hwcounter_tauj
+ .text            00006998+000000 ___ghs_eofn_suspend
+ .text            00003160+000000 ___ghs_eofn_syslog
+ .text            00002d00+000000 ___ghs_eofn_syslog_initialize
+ .text            00002d58+000000 ___ghs_eofn_syslog_msk_log
+ .text            00003050+000000 ___ghs_eofn_syslog_print
+ .text            00003028+000000 ___ghs_eofn_syslog_printf
+ .text            00002d4c+000000 ___ghs_eofn_syslog_wri_log
+ .text            00002964+000000 ___ghs_eofn_tSetBuzzer
+ .text            00002940+000000 ___ghs_eofn_tSetEachLED
                   00000000+000000 ___ghs_eofn_t_ioc_perror
                   00000000+000000 ___ghs_eofn_t_perror
- .text            00003c82+000000 ___ghs_eofn_target_clock_initialize
- .text            00003ee2+000000 ___ghs_eofn_target_exit
- .text            00003efe+000000 ___ghs_eofn_target_fput_log
- .text            00003b04+000000 ___ghs_eofn_target_fput_str
- .text            00003c92+000000 ___ghs_eofn_target_hardware_initialize
- .text            00003ecc+000000 ___ghs_eofn_target_initialize
+ .text            00003daa+000000 ___ghs_eofn_target_clock_initialize
+ .text            0000400a+000000 ___ghs_eofn_target_exit
+ .text            00004026+000000 ___ghs_eofn_target_fput_log
+ .text            00003c2c+000000 ___ghs_eofn_target_fput_str
+ .text            00003dba+000000 ___ghs_eofn_target_hardware_initialize
+ .text            00003ff4+000000 ___ghs_eofn_target_initialize
                   00000000+000000 ___ghs_eofn_target_is_int_controllable
- .text            00003bd6+000000 ___ghs_eofn_target_port_initialize
- .text            000066aa+000000 ___ghs_eofn_task_initialize
- .text            00002814+000000 ___ghs_eofn_tlu01_set
- .text            0000416a+000000 ___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041f8+000000 ___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007622+000000 ___ghs_eofn_trigger_hwcounter_tauj
+ .text            00003cfe+000000 ___ghs_eofn_target_port_initialize
+ .text            000067d2+000000 ___ghs_eofn_task_initialize
+ .text            00002938+000000 ___ghs_eofn_tlu01_set
+ .text            00004292+000000 ___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004320+000000 ___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000774a+000000 ___ghs_eofn_trigger_hwcounter_tauj
                   00000000+000000 ___ghs_eofn_try_spn_lock
- .text            00002b68+000000 ___ghs_eofn_uart_putc
- .text            0000768a+000000 ___ghs_eofn_v850_memory_changed
+ .text            00002c90+000000 ___ghs_eofn_uart_putc
+ .text            000077b2+000000 ___ghs_eofn_v850_memory_changed
                   00000000+000000 ___ghs_eofn_wrap_res_all_int
                   00000000+000000 ___ghs_eofn_wrap_res_os_int
                   00000000+000000 ___ghs_eofn_wrap_sus_all_int
                   00000000+000000 ___ghs_eofn_wrap_sus_os_int
- .text            00004380+000000 ___ghs_eofn_x_config_int
+ .text            000044a8+000000 ___ghs_eofn_x_config_int
                   00000002+000000 ___ghs_log_fee_level
  .secinfo         feef8000+000000 ___ghsbinfo_bcopy
  .secinfo         feef8000+000000 ___ghseinfo_bcopy
- .text            00001f74+000062 ___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
- .text            000003ec+000030 ___memset_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartestoutBlsmControl_inf
- .rosdata         00007c38+00001c ___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .rosdata         00007d84+000014 ___radHEX_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carlog_output_inf
- .rosdata         00007d64+00000c ___raddec_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carlog_output_inf
- .rosdata         00007d70+000014 ___radhex_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carlog_output_inf
- .text            000018b6+000012 ___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .text            000018c8+000136 ___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
-                  00000000+00000a ___release_lock_ldlstc_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carmc_inf
- .sbss            fef00594+000002 ___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
- .sbss            fef00596+000002 ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carserial_inf
- .sbss            fef0058c+000001 ___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef0033c+000008 ___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .sbss            fef00358+00001c ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .sbss            fef00354+000004 ___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .sdata           fef00004+000004 ___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrcb3_inf
- .rosdata         0000aa88+000060 ___s_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrh850_f1h_inf
- .sbss            fef0057c+000004 ___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00578+000004 ___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00374+000100 ___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00574+000004 ___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00588+000004 ___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00584+000004 ___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00474+000100 ___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00580+000004 ___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
- .sbss            fef00590+000004 ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf
- .text            00003efe+00005e ___write_protected_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrh850_f1h_inf
- .bss             fef00831+000000 __bss_end
- .sbss            fef002a8+000000 __bss_start
- .call_table_data 0000768c+000000 __ctbp
+ .text            00002200+000062 ___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+ .text            000003e8+000030 ___memset_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htestouta_controller_inf
+ .rosdata         00007d78+00001c ___msg_button_pattern_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .rosdata         00007ec4+000014 ___radHEX_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hlog_output_inf
+ .rosdata         00007ea4+00000c ___raddec_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hlog_output_inf
+ .rosdata         00007eb0+000014 ___radhex_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hlog_output_inf
+ .text            00001b42+000012 ___rcb3_GetReceivedButton_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .text            00001b54+000136 ___rcb3_UpdateStatus_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+                  00000000+00000a ___release_lock_ldlstc_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hmc_inf
+ .sbss            fef00628+000002 ___rx_char_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
+ .sbss            fef0062a+000002 ___rx_flag_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hserial_inf
+ .sbss            fef00620+000001 ___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef003d0+000008 ___s_ps3analog_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .sbss            fef003ec+00001c ___s_ps3button_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .sbss            fef003e8+000004 ___s_rcb3_rmsg_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .sdata           fef0001c+000004 ___s_rcb3_st_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrcb3_inf
+ .rosdata         0000ac88+000060 ___s_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrh850_f1h_inf
+ .sbss            fef00610+000004 ___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef0060c+000004 ___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef00408+000100 ___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef00608+000004 ___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef0061c+000004 ___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef00618+000004 ___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef00508+000100 ___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sbss            fef00614+000004 ___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrlin3x_inf
+ .sdata           fef00038+000004 ___servo_pwm_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hDriveManager_inf
+ .sbss            fef00624+000004 ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf
+ .text            00004026+00005e ___write_protected_reg_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hrh850_f1h_inf
+ .bss             fef008c5+000000 __bss_end
+ .sbss            fef002c0+000000 __bss_start
+ .call_table_data 000077b4+000000 __ctbp
  .data            fef00000+000000 __data_start
- .tdata           fef00834+000000 __ep
+ .tdata           fef008c8+000000 __ep
                   00000000+000000 __ghs_v800_sda_model
  .text            00000206+000006 __ghscallpatch___reset_pe2_0_0
  .pe2_rom         00800200+000006 __ghscallpatch___start_0_0
@@ -742,292 +771,325 @@ Global Symbols (sorted alphabetically)
  .pe2_rom         00800208+000006 __ghscallpatch__fe_exception_entry_0_0
  .pe2_rom         00800218+000006 __ghscallpatch__interrupt_0_0
  .sdabase         fef08000+000000 __gp
-                  0000b0c0+000000 __idata_end
-                  0000ae1c+000000 __idata_start
- .sbss            fef00628+000018 __kernel_almcb_BlsmControl_Core0_100_0_Alarm
- .sbss            fef005f8+000018 __kernel_almcb_BlsmControl_Core0_1_0_Alarm
- .sbss            fef00640+000018 __kernel_almcb_BlsmControl_Core1_100_0_Alarm
- .sbss            fef00610+000018 __kernel_almcb_BlsmControl_Core1_1_0_Alarm
- .sbss            fef005c8+000018 __kernel_almcb_BodyControlCycAlarm
- .sbss            fef005e0+000018 __kernel_almcb_BuzzerControlCycAlarm
- .sbss            fef005b0+000018 __kernel_almcb_DriveManagerCycAlarm
- .sbss            fef00598+000018 __kernel_almcb_OperationManagerCycAlarm
- .sbss            fef0079c+000014 __kernel_cntcb_MAIN_HW_COUNTER_CORE0
- .sbss            fef007b0+000014 __kernel_cntcb_MAIN_HW_COUNTER_CORE1
- .sdata           fef000d0+0000e0 __kernel_core0_ccb
- .sdata           fef001b0+0000e0 __kernel_core1_ccb
- .text            000030a2+000004 __kernel_inthdr_0x10000
- .text            000030a6+000004 __kernel_inthdr_0x20000
- .text            00003094+000004 __kernel_inthdr_0xffff0050
- .text            00003086+000004 __kernel_inthdr_0xffff00a5
- .text            0000308a+000004 __kernel_inthdr_0xffff00a6
- .text            0000309e+000004 __kernel_inthdr_0xffff00a8
- .sbss            fef007dc+00000c __kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE0
- .sbss            fef007e8+00000c __kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE1
- .sbss            fef007d0+00000c __kernel_isrcb_RLIN3x_RX_ISR
- .sbss            fef007c4+00000c __kernel_isrcb_RLIN3x_TX_ISR
- .sbss            fef006c0+00002c __kernel_tcb_BlsmControl_Core0_100_0_Task
- .sbss            fef00668+00002c __kernel_tcb_BlsmControl_Core0_1_0_Task
- .sbss            fef006ec+00002c __kernel_tcb_BlsmControl_Core1_100_0_Task
- .sbss            fef00694+00002c __kernel_tcb_BlsmControl_Core1_1_0_Task
- .sbss            fef00770+00002c __kernel_tcb_BodyControlTask
- .sbss            fef00744+00002c __kernel_tcb_DriveManagerTask
- .sbss            fef00718+00002c __kernel_tcb_OperationManagerTask
- .rosdata         00008228+000008 __ostk_table
- .rosdata         00008230+000008 __ostkpt_table
- .rosdata         00008220+000008 __ostksz_table
+                  0000b2dc+000000 __idata_end
+                  0000b01c+000000 __idata_start
+ .sbss            fef0065c+000018 __kernel_almcb_BodyControlCycAlarm
+ .sbss            fef00674+000018 __kernel_almcb_BuzzerControlCycAlarm
+ .sbss            fef00644+000018 __kernel_almcb_DriveManagerCycAlarm
+ .sbss            fef0062c+000018 __kernel_almcb_OperationManagerCycAlarm
+ .sbss            fef006bc+000018 __kernel_almcb_a_controller_Core0_100_0_Alarm
+ .sbss            fef0068c+000018 __kernel_almcb_a_controller_Core0_1_0_Alarm
+ .sbss            fef006d4+000018 __kernel_almcb_a_controller_Core1_100_0_Alarm
+ .sbss            fef006a4+000018 __kernel_almcb_a_controller_Core1_1_0_Alarm
+ .sbss            fef00830+000014 __kernel_cntcb_MAIN_HW_COUNTER_CORE0
+ .sbss            fef00844+000014 __kernel_cntcb_MAIN_HW_COUNTER_CORE1
+ .sdata           fef000ec+0000e0 __kernel_core0_ccb
+ .sdata           fef001cc+0000e0 __kernel_core1_ccb
+ .text            000031ca+000004 __kernel_inthdr_0x10000
+ .text            000031ce+000004 __kernel_inthdr_0x20000
+ .text            000031bc+000004 __kernel_inthdr_0xffff0050
+ .text            000031ae+000004 __kernel_inthdr_0xffff00a5
+ .text            000031b2+000004 __kernel_inthdr_0xffff00a6
+ .text            000031c6+000004 __kernel_inthdr_0xffff00a8
+ .sbss            fef00870+00000c __kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE0
+ .sbss            fef0087c+00000c __kernel_isrcb_C2ISR_for_MAIN_HW_COUNTER_CORE1
+ .sbss            fef00864+00000c __kernel_isrcb_RLIN3x_RX_ISR
+ .sbss            fef00858+00000c __kernel_isrcb_RLIN3x_TX_ISR
+ .sbss            fef00804+00002c __kernel_tcb_BodyControlTask
+ .sbss            fef007d8+00002c __kernel_tcb_DriveManagerTask
+ .sbss            fef007ac+00002c __kernel_tcb_OperationManagerTask
+ .sbss            fef00754+00002c __kernel_tcb_a_controller_Core0_100_0_Task
+ .sbss            fef006fc+00002c __kernel_tcb_a_controller_Core0_1_0_Task
+ .sbss            fef00780+00002c __kernel_tcb_a_controller_Core1_100_0_Task
+ .sbss            fef00728+00002c __kernel_tcb_a_controller_Core1_1_0_Task
+ .rosdata         00008428+000008 __ostk_table
+ .rosdata         00008430+000008 __ostkpt_table
+ .rosdata         00008420+000008 __ostksz_table
  .text            00000000+000000 __reset
  .pe2_rom         00800000+000000 __reset_pe2
  .text            0000020c+000000 __start
  .text            00000000+000000 __text
  .rosdata         0000f800+000000 __tp
- .text            00007148+0000e8 _acquire_cnt_lock
+ .text            00007270+0000e8 _acquire_cnt_lock
                   00000000+0000e6 _acquire_ioc_lock
                   00000000+0000e6 _acquire_spn_lock
- .text            00006b5a+0000e8 _acquire_tsk_lock
- .text            00005748+000074 _activate_task_action
- .sdata           fef002a0+000004 _activated_cores
- .text            00004c60+0000c6 _alarm_expire
- .text            00004d26+000222 _alarm_initialize
- .rosdata         000084f4+0000e0 _alminib_table
- .sbss            fef00824+000004 _appmodeid
- .sbss            fef0081c+000008 _appmodeid_table.StartOS.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cosctl_manage..0
+ .text            00006c82+0000e8 _acquire_tsk_lock
+ .text            00005870+000074 _activate_task_action
+ .sdata           fef002bc+000004 _activated_cores
+ .text            00004d88+0000c6 _alarm_expire
+ .text            00004e4e+000222 _alarm_initialize
+ .rosdata         000086f4+0000e0 _alminib_table
+ .sbss            fef008b8+000004 _appmodeid
+ .sbss            fef008b0+000008 _appmodeid_table.StartOS.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cosctl_manage..0
                   00000000+000050 _atk2_ioc_strerror
                   00000000+00001a _atk2_strerror
- .text            00006fd4+000152 _barrier_sync
- .text            000021b2+00014a _blsm_motor_init
- .text            000022fc+00000c _blsm_motor_start
-                  00000000+00003c _blsm_motor_stop
- .sbss            fef00330+000002 _blsm_speed
- .sdata           fef0002a+000002 _buzzer_cycle.AlarmMainBuzzerControlCycAlarmCb.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..7
- .sdata           fef0002c+000001 _buzzer_toggle.AlarmMainBuzzerControlCycAlarmCb.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..6
- .text            0000564a+000022 _call_protectionhk_main
- .text            00003a18+000000 _call_trusted_hook
- .text            00005638+000012 _callevel_chk_shutdown
- .text            0000415a+000008 _cancel_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041e8+000008 _cancel_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            0000759a+000016 _cancel_hwcounter_tauj
- .text            00005630+000008 _cancel_shutdown_hook
- .text            00006a20+00013a _ccb_initialize
- .sdata           fef00020+000004 _cnt_blink.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..4
- .rosdata         000082a4+000030 _cntinib_table
- .rosdata         00009e00+000600 _core0_intbp_tbl
- .rosdata         0000911c+00057c _core0_isr_p_isrcb_tbl
- .rosdata         00008624+00057c _core0_isr_tbl
- .rosdata         0000a400+000600 _core1_intbp_tbl
- .rosdata         00009698+00057c _core1_isr_p_isrcb_tbl
- .rosdata         00008ba0+00057c _core1_isr_tbl
- .sdata           fef0029c+000002 _core_init.barrier_sync.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cmc..1
- .sbss            fef00810+000008 _core_state_table
- .text            0000458a+000304 _counter_initialize
- .text            0000488e+0000b6 _counter_terminate
- .text            00004380+000030 _default_int_handler
+ .text            000070fc+000152 _barrier_sync
+                  00000000+000010 _blsm_int_p0
+                  00000000+000010 _blsm_int_p11
+                  00000000+000010 _blsm_int_p2
+                  00000000+000002 _blsm_int_p4
+                  00000000+000350 _blsm_int_taud0i0
+                  00000000+00038e _blsm_int_taud0i1
+                  00000000+00016a _blsm_motor_control
+                  00000000+00016a _blsm_motor_control_neg_phase
+                  00000000+000168 _blsm_motor_control_pos_phase
+ .text            00001910+000226 _blsm_motor_init
+                  00000000+00016c _blsm_motor_reverse_control
+ .text            00001b36+00000c _blsm_motor_start
+                  00000000+0000c0 _blsm_motor_stop
+                  00000000+00011e _blsm_rpm_calc
+ .sbss            fef00358+000002 _blsm_speed
+ .sdata           fef00046+000002 _buzzer_cycle.AlarmMainBuzzerControlCycAlarmCb.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..7
+ .sdata           fef00048+000001 _buzzer_toggle.AlarmMainBuzzerControlCycAlarmCb.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..6
+ .text            00005772+000022 _call_protectionhk_main
+ .text            00003b40+000000 _call_trusted_hook
+ .text            00005760+000012 _callevel_chk_shutdown
+ .text            00004282+000008 _cancel_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004310+000008 _cancel_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076c2+000016 _cancel_hwcounter_tauj
+ .text            00005758+000008 _cancel_shutdown_hook
+ .text            00006b48+00013a _ccb_initialize
+                  00000000+000038 _clock_init
+ .sdata           fef0003c+000004 _cnt_blink.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..4
+ .rosdata         000084a4+000030 _cntinib_table
+ .rosdata         0000a000+000600 _core0_intbp_tbl
+ .rosdata         0000931c+00057c _core0_isr_p_isrcb_tbl
+ .rosdata         00008824+00057c _core0_isr_tbl
+ .rosdata         0000a600+000600 _core1_intbp_tbl
+ .rosdata         00009898+00057c _core1_isr_p_isrcb_tbl
+ .rosdata         00008da0+00057c _core1_isr_tbl
+ .sdata           fef002b8+000002 _core_init.barrier_sync.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cmc..1
+ .sbss            fef008a4+000008 _core_state_table
+ .text            000046b2+000304 _counter_initialize
+ .text            000049b6+0000b6 _counter_terminate
+ .text            000044a8+000030 _default_int_handler
                   00000000+0000b8 _delete_cnt_expr_que
- .text            0000373a+000000 _dispatch
- .text            00006f8e+000046 _dispatch_request
- .sdata           fef002a4+000000 _edata
- .text            00003234+000000 _ei_exception_entry
- .sdata           fef00030+000098 _ercd_tbl.atk2_strerror.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cstrerror..0
- .text            0000768a+000000 _etext
- .sdata           fef00028+000001 _executed.TaskMainBodyControlTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..5
- .sdata           fef0001b+000001 _executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..12
- .sdata           fef00008+000001 _executed.TaskMainOperationManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5COperationManager..0
- .text            000037c8+000000 _exit_and_dispatch
- .text            0000626c+000154 _exit_isr2
- .text            00006870+000106 _exit_task
- .text            00003a70+000000 _exit_trusted_shutdown_hook
- .text            00004a24+00023c _expire_process
- .sdata           fef00294+000004 _fatal_file_name
- .sdata           fef00298+000004 _fatal_line_num
- .text            000030aa+000000 _fe_exception_entry
- .text            000072ce+000034 _force_release_spinlocks
- .sbss            fef002a8+000008 _g_bodycmd
- .sbss            fef002b0+00000c _g_contcmd
- .sbss            fef00334+000008 _g_rcb3_rmsg
- .text            000049ae+000076 _get_abstick
- .text            0000414c+00000e _get_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041da+00000e _get_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007582+000018 _get_hwcounter_tauj
- .text            00004944+00006a _get_reltick
+ .text            00003862+000000 _dispatch
+ .text            000070b6+000046 _dispatch_request
+ .sdata           fef002c0+000000 _edata
+ .text            0000335c+000000 _ei_exception_entry
+ .sdata           fef0004c+000098 _ercd_tbl.atk2_strerror.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cstrerror..0
+ .text            000077b2+000000 _etext
+ .sdata           fef00044+000001 _executed.TaskMainBodyControlTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..5
+ .sdata           fef00032+000001 _executed.TaskMainDriveManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..11
+ .sdata           fef00020+000001 _executed.TaskMainOperationManagerTask.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5COperationManager..0
+ .text            000038f0+000000 _exit_and_dispatch
+ .text            00006394+000154 _exit_isr2
+ .text            00006998+000106 _exit_task
+ .text            00003b98+000000 _exit_trusted_shutdown_hook
+ .text            00004b4c+00023c _expire_process
+ .sdata           fef002b0+000004 _fatal_file_name
+ .sdata           fef002b4+000004 _fatal_line_num
+ .text            000031d2+000000 _fe_exception_entry
+ .text            000073f6+000034 _force_release_spinlocks
+ .rosdata         00007c38+0000a0 _g_blsm_ad_val_table
+ .sdata           fef00004+000004 _g_blsm_control_counter
+ .sdata           fef00008+000004 _g_blsm_control_counter2
+ .sdata           fef00010+000002 _g_blsm_control_duty1
+ .sdata           fef00017+000001 _g_blsm_control_method
+ .sdata           fef00018+000001 _g_blsm_control_method_prev
+ .sdata           fef00019+000001 _g_blsm_control_start_method
+ .sdata           fef00012+000002 _g_blsm_control_start_wait
+ .sbss            fef003c5+000001 _g_blsm_direction
+ .sbss            fef003c6+000001 _g_blsm_error_code
+ .sdata           fef00016+000001 _g_blsm_over_current_check_start
+ .sdata           fef0000e+000002 _g_blsm_over_current_count
+ .sbss            fef003c4+000001 _g_blsm_prev_pos
+ .sbss            fef003b0+000002 _g_blsm_rpm
+ .sbss            fef003b2+000002 _g_blsm_rpm_ave
+ .sbss            fef00360+000020 _g_blsm_rpm_hist
+ .sdata           fef00015+000001 _g_blsm_rpm_hist_index
+ .sdata           fef00014+000001 _g_blsm_target_direction
+ .sdata           fef0000c+000002 _g_blsm_target_rpm
+ .rosdata         00007cd8+0000a0 _g_blsm_temp_table
+ .sbss            fef003c2+000002 _g_blsm_temparature
+ .sbss            fef003c0+000002 _g_blsm_temparature_ad_val
+ .sbss            fef002c0+000008 _g_bodycmd
+ .sbss            fef002c8+00000c _g_contcmd
+ .sbss            fef003c8+000008 _g_rcb3_rmsg
+ .text            00004ad6+000076 _get_abstick
+ .text            00004274+00000e _get_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004302+00000e _get_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076aa+000018 _get_hwcounter_tauj
+ .text            00004a6c+00006a _get_reltick
                   00000000+000002 _hardware_init_hook
- .rosdata         00008494+000060 _hwcntinib_table
- .text            00006c58+000336 _ici_handler_main
- .rosdata         00008218+000008 _ici_remain_stksz
- .rosdata         00008360+00000c _iciinib_table
+ .rosdata         00008694+000060 _hwcntinib_table
+ .text            00006d80+000336 _ici_handler_main
+ .rosdata         00008418+000008 _ici_remain_stksz
+ .rosdata         00008560+00000c _iciinib_table
                   00000000+00006e _incr_counter_action
- .text            0000417a+000008 _increment_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004208+000008 _increment_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007686+000002 _increment_hwcounter_tauj
- .text            000043b0+000002 _infinite_loop
- .text            000040f4+000022 _init_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004182+000022 _init_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007302+00011e _init_hwcounter_tauj
- .text            00005510+000120 _init_stack_magic_region
- .text            000044bc+0000ce _insert_cnt_expr_que
- .text            00004172+000008 _int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            00004200+000008 _int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007654+000032 _int_cancel_hwcounter_tauj
- .text            0000416a+000008 _int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041f8+000008 _int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007622+000032 _int_clear_hwcounter_tauj
- .rosdata         00008248+000008 _intbp_table
- .text            000069c8+000058 _internal_shutdownallcores
- .text            000033b0+000000 _interrupt
- .text            00005ef8+000234 _interrupt_initialize
- .rosdata         000085d4+000050 _intinib_table
- .sbss            fef00808+000004 _ioc_inival_table
- .sbss            fef0082c+000004 _ioc_lock
- .sbss            fef00658+000010 _ioccb_table
- .rosdata         00008378+000014 _iocinib_table
- .rosdata         0000838c+00000c _iocwrpinib_table
- .rosdata         00008240+000008 _isr_p_isrcb_table
- .rosdata         00008238+000008 _isr_table
- .rosdata         00008314+000020 _isrinib_table
+ .text            000042a2+000008 _increment_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004330+000008 _increment_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000077ae+000002 _increment_hwcounter_tauj
+ .text            000044d8+000002 _infinite_loop
+ .text            0000421c+000022 _init_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042aa+000022 _init_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000742a+00011e _init_hwcounter_tauj
+ .text            00005638+000120 _init_stack_magic_region
+ .text            000045e4+0000ce _insert_cnt_expr_que
+ .text            0000429a+000008 _int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004328+000008 _int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000777c+000032 _int_cancel_hwcounter_tauj
+ .text            00004292+000008 _int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004320+000008 _int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000774a+000032 _int_clear_hwcounter_tauj
+ .rosdata         00008448+000008 _intbp_table
+ .text            00006af0+000058 _internal_shutdownallcores
+ .text            000034d8+000000 _interrupt
+ .text            00006020+000234 _interrupt_initialize
+ .rosdata         000087d4+000050 _intinib_table
+ .sbss            fef0089c+000004 _ioc_inival_table
+ .sbss            fef008c0+000004 _ioc_lock
+ .sbss            fef006ec+000010 _ioccb_table
+ .rosdata         00008578+000014 _iocinib_table
+ .rosdata         0000858c+00000c _iocwrpinib_table
+ .rosdata         00008440+000008 _isr_p_isrcb_table
+ .rosdata         00008438+000008 _isr_table
+ .rosdata         00008514+000020 _isrinib_table
  .text            00000332+00002e _main
- .text            0000644e+000042 _make_active
- .text            00006794+0000b0 _make_non_runnable
- .text            000063c0+00008e _make_runnable
- .text            000043ba+000102 _notify_hardware_counter
- .text            0000306a+000018 _object_initialize
- .text            00003082+000004 _object_terminate
- .sdata           fef00290+000002 _os_controlled.StartOS.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cosctl_manage..1
- .rosdata         0000829c+000008 _osapinib_table
- .rosdata         000082d4+000020 _p_almcb_table
- .rosdata         00008200+000008 _p_ccb_table
- .rosdata         00008208+000008 _p_cntcb_table
- .sbss            fef00350+000004 _p_g_cur_ps3analog
- .sbss            fef00348+000004 _p_g_cur_ps3button
- .sbss            fef0034c+000004 _p_g_pre_ps3analog
- .sbss            fef00344+000004 _p_g_pre_ps3button
- .sdata           fef000c8+000008 _p_iciinb_table
- .text            00005342+0001ce _p_inib_initialize
- .rosdata         00008334+000010 _p_isrcb_table
- .rosdata         00008284+000004 _p_rescb_table
- .rosdata         00008280+000004 _p_schtblcb_table
- .rosdata         00008344+00001c _p_tcb_table
- .rosdata         00008298+000002 _pmr_isr1_mask
- .rosdata         00008296+000002 _pmr_isr2_mask
- .rosdata         0000ab50+000024 _pmr_setting_tbl
+ .text            00006576+000042 _make_active
+ .text            000068bc+0000b0 _make_non_runnable
+ .text            000064e8+00008e _make_runnable
+ .text            000044e2+000102 _notify_hardware_counter
+ .text            00003192+000018 _object_initialize
+ .text            000031aa+000004 _object_terminate
+ .sdata           fef002ac+000002 _os_controlled.StartOS.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cosctl_manage..1
+ .rosdata         0000849c+000008 _osapinib_table
+ .rosdata         000084d4+000020 _p_almcb_table
+ .rosdata         00008400+000008 _p_ccb_table
+ .rosdata         00008408+000008 _p_cntcb_table
+ .sbss            fef003e4+000004 _p_g_cur_ps3analog
+ .sbss            fef003dc+000004 _p_g_cur_ps3button
+ .sbss            fef003e0+000004 _p_g_pre_ps3analog
+ .sbss            fef003d8+000004 _p_g_pre_ps3button
+ .sdata           fef000e4+000008 _p_iciinb_table
+ .text            0000546a+0001ce _p_inib_initialize
+ .rosdata         00008534+000010 _p_isrcb_table
+ .rosdata         00008484+000004 _p_rescb_table
+ .rosdata         00008480+000004 _p_schtblcb_table
+ .rosdata         00008544+00001c _p_tcb_table
+ .rosdata         00008498+000002 _pmr_isr1_mask
+ .rosdata         00008496+000002 _pmr_isr2_mask
+ .rosdata         0000ad50+000024 _pmr_setting_tbl
  .text            00000360+000032 _port_init
                   00000000+000008 _prc_hardware_initialize
- .text            00004210+000056 _prc_initialize
- .text            00004266+000046 _prc_terminate
- .sdata           fef00017+000001 _pre_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..8
- .sdata           fef00018+000001 _pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..9
- .sdata           fef00016+000001 _pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..7
- .sdata           fef0000c+000004 _pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..0
- .sdata           fef00024+000001 _pre_winker.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..0
- .sdata           fef0001a+000001 _pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..11
- .sdata           fef00026+000001 _pre_winker_l.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..2
- .sdata           fef00025+000001 _pre_winker_lr.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..1
- .sdata           fef00019+000001 _pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..10
- .sdata           fef00027+000001 _pre_winker_r.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CBodyControl..3
+ .text            00004338+000056 _prc_initialize
+ .text            0000438e+000046 _prc_terminate
+ .sdata           fef0002f+000001 _pre_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..8
+ .sdata           fef0002e+000001 _pre_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..7
+ .sdata           fef00024+000004 _pre_speed.DrivingControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..0
+ .sdata           fef00040+000001 _pre_winker.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..0
+ .sdata           fef00031+000001 _pre_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..10
+ .sdata           fef00042+000001 _pre_winker_l.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..2
+ .sdata           fef00041+000001 _pre_winker_lr.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..1
+ .sdata           fef00030+000001 _pre_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..9
+ .sdata           fef00043+000001 _pre_winker_r.WinkerControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CBodyControl..3
                   00000000+000140 _preempt
- .text            00002baa+000026 _print_banner
- .text            00002022+00001c _pwm_diag_change_servo_duty
- .text            00001fd6+00004c _pwm_diag_init
+ .text            00002cd2+000026 _print_banner
+ .text            000022ae+00001c _pwm_diag_change_servo_duty
+ .text            00002262+00004c _pwm_diag_init
                   00000000+00001e _raise_ipir
- .text            000019fe+0001b0 _rcb3_AddReceivedByte
- .text            0000211e+000094 _rcb3_ErrorCb
+ .text            00001c8a+0001b0 _rcb3_AddReceivedByte
+ .text            000023a4+000094 _rcb3_ErrorCb
                   00000000+00002e _rcb3_Init
- .text            00007230+000016 _release_cnt_lock
- .text            0000612c+000140 _release_interrupts
+ .text            00007358+000016 _release_cnt_lock
+ .text            00006254+000140 _release_interrupts
                   00000000+000016 _release_ioc_lock
- .text            00007246+000016 _release_spn_lock
- .text            00006c42+000016 _release_tsk_lock
- .text            00007126+000022 _release_tsk_lock_and_dispatch
- .rosdata         00008210+000008 _resinib_table
- .rosdata         0000aa10+000008 _rlin3x_base_table
+ .text            0000736e+000016 _release_spn_lock
+ .text            00006d6a+000016 _release_tsk_lock
+ .text            0000724e+000022 _release_tsk_lock_and_dispatch
+ .rosdata         00008410+000008 _resinib_table
+ .rosdata         0000ac10+000008 _rlin3x_base_table
                   00000000+000008 _rlin3x_get_rxcnt
- .text            00001c18+000078 _rlin3x_init
- .text            00001bae+00006a _rlin3x_portinit
- .text            00001c90+000242 _rlin3x_receive
- .text            00001f28+000048 _rlin3x_rx_interrupt
+ .text            00001ea4+000078 _rlin3x_init
+ .text            00001e3a+00006a _rlin3x_portinit
+ .text            00001f1c+000242 _rlin3x_receive
+ .text            000021b4+000048 _rlin3x_rx_interrupt
                   00000000+00022a _rlin3x_send
- .text            00001ed2+000052 _rlin3x_tx_interrupt
- .rosdata         000082f4+000020 _schtblinib_table
- .text            000066aa+0000ea _search_schedtsk
- .text            00005ce0+000060 _set_event_action
- .text            0000412a+000022 _set_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041b8+000022 _set_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            000074c8+0000ba _set_hwcounter_tauj
- .sbss            fef00830+000001 _shutdown_reqflg
- .text            00006976+000052 _shutdown_request
+ .text            0000215e+000052 _rlin3x_tx_interrupt
+ .rosdata         000084f4+000020 _schtblinib_table
+ .text            000067d2+0000ea _search_schedtsk
+ .text            00005e08+000060 _set_event_action
+ .text            00004252+000022 _set_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042e0+000022 _set_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000075f0+0000ba _set_hwcounter_tauj
+ .sbss            fef008c4+000001 _shutdown_reqflg
+ .text            00006a9e+000052 _shutdown_request
                   00000000+000134 _spinlock_initialize
- .sbss            fef007f4+000014 _spncb_table
- .rosdata         0000836c+00000c _spninib_table
- .text            00003992+000000 _stack_change_and_call_func_1
- .text            00003992+000000 _stack_change_and_call_func_2
- .text            000038f0+000000 _stack_monitoring_error_isr
- .sdata           fef00010+000001 _start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..1
- .text            0000378c+000000 _start_dispatch
- .text            00004116+000008 _start_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041a4+000008 _start_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007420+000016 _start_hwcounter_tauj
- .text            00003950+000000 _start_r
- .sdata           fef0001c+000001 _steer_neutral
- .text            0000411e+00000c _stop_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041ac+00000c _stop_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            00007436+000092 _stop_hwcounter_tauj
- .text            00006844+00002c _suspend
- .sbss            fef00828+000001 _sys_start.barrier_sync.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cmc..0
- .text            00002f28+000110 _syslog
- .text            00002bd0+000008 _syslog_initialize
- .text            00002c24+00000c _syslog_msk_log
- .text            00002f00+000028 _syslog_print
- .text            00002da0+000160 _syslog_printf
- .text            00002bd8+00004c _syslog_wri_log
- .text            0000281c+000024 _tSetBuzzer
- .text            00002814+000008 _tSetEachLED
+ .sbss            fef00888+000014 _spncb_table
+ .rosdata         0000856c+00000c _spninib_table
+ .text            00003aba+000000 _stack_change_and_call_func_1
+ .text            00003aba+000000 _stack_change_and_call_func_2
+ .text            00003a18+000000 _stack_monitoring_error_isr
+ .sdata           fef00028+000001 _start_cnt.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..1
+ .text            000038b4+000000 _start_dispatch
+ .text            0000423e+000008 _start_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042cc+000008 _start_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            00007548+000016 _start_hwcounter_tauj
+ .text            00003a78+000000 _start_r
+ .sdata           fef00033+000001 _steer_neutral
+ .text            00004246+00000c _stop_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            000042d4+00000c _stop_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            0000755e+000092 _stop_hwcounter_tauj
+ .text            0000696c+00002c _suspend
+ .sbss            fef008bc+000001 _sys_start.barrier_sync.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cmc..0
+ .text            00003050+000110 _syslog
+ .text            00002cf8+000008 _syslog_initialize
+ .text            00002d4c+00000c _syslog_msk_log
+ .text            00003028+000028 _syslog_print
+ .text            00002ec8+000160 _syslog_printf
+ .text            00002d00+00004c _syslog_wri_log
+ .text            00002940+000024 _tSetBuzzer
+ .text            00002938+000008 _tSetEachLED
                   00000000+00003c _t_ioc_perror
                   00000000+00003c _t_perror
- .text            00003bd6+0000ac _target_clock_initialize
- .text            00003ecc+000016 _target_exit
- .text            00003ee2+00001c _target_fput_log
- .text            00003ade+000026 _target_fput_str
- .text            00003c82+000010 _target_hardware_initialize
- .rosdata         0000aa18+000008 _target_ici_intno_table
- .rosdata         0000aa20+000008 _target_ici_intpri_table
- .text            00003c92+00023a _target_initialize
+ .text            00003cfe+0000ac _target_clock_initialize
+ .text            00003ff4+000016 _target_exit
+ .text            0000400a+00001c _target_fput_log
+ .text            00003c06+000026 _target_fput_str
+ .text            00003daa+000010 _target_hardware_initialize
+ .rosdata         0000ac18+000008 _target_ici_intno_table
+ .rosdata         0000ac20+000008 _target_ici_intpri_table
+ .text            00003dba+00023a _target_initialize
                   00000000+000004 _target_is_int_controllable
- .text            00003b04+0000d2 _target_port_initialize
- .text            00006490+00021a _task_initialize
-                  0000ae1c+000000 _textend
- .rosdata         00008398+0000fc _tinib_table
- .text            000027dc+000038 _tlu01_set
- .rosdata         00008250+000004 _tnum_alarm
- .rosdata         00008270+000004 _tnum_appmode
- .rosdata         00008254+000004 _tnum_counter
- .rosdata         0000826c+000004 _tnum_exttask
- .rosdata         00008258+000004 _tnum_hardcounter
- .rosdata         00008260+000004 _tnum_ici
- .rosdata         00008294+000002 _tnum_ici_of_core
- .rosdata         00008278+000004 _tnum_implscheduletable
- .rosdata         00008288+000004 _tnum_intno
- .rosdata         0000828c+000004 _tnum_ioc
- .rosdata         0000825c+000004 _tnum_isr2
- .rosdata         0000829a+000001 _tnum_osap
- .rosdata         00008290+000004 _tnum_queueioc
- .rosdata         00008274+000004 _tnum_scheduletable
- .rosdata         0000827c+000004 _tnum_spinlock
- .rosdata         00008264+000004 _tnum_stdresource
- .rosdata         00008268+000004 _tnum_task
- .sdata           fef00012+000001 _toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..3
- .sdata           fef00013+000001 _toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..4
- .sdata           fef00011+000001 _toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..2
- .sdata           fef00015+000001 _toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..6
- .sdata           fef00014+000001 _toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5CDriveManager..5
- .text            00004162+000008 _trigger_hwcounter_MAIN_HW_COUNTER_CORE0
- .text            000041f0+000008 _trigger_hwcounter_MAIN_HW_COUNTER_CORE1
- .text            000075b0+000072 _trigger_hwcounter_tauj
+ .text            00003c2c+0000d2 _target_port_initialize
+ .text            000065b8+00021a _task_initialize
+                  0000b01c+000000 _textend
+ .rosdata         00008598+0000fc _tinib_table
+ .text            00002900+000038 _tlu01_set
+ .rosdata         00008450+000004 _tnum_alarm
+ .rosdata         00008470+000004 _tnum_appmode
+ .rosdata         00008454+000004 _tnum_counter
+ .rosdata         0000846c+000004 _tnum_exttask
+ .rosdata         00008458+000004 _tnum_hardcounter
+ .rosdata         00008460+000004 _tnum_ici
+ .rosdata         00008494+000002 _tnum_ici_of_core
+ .rosdata         00008478+000004 _tnum_implscheduletable
+ .rosdata         00008488+000004 _tnum_intno
+ .rosdata         0000848c+000004 _tnum_ioc
+ .rosdata         0000845c+000004 _tnum_isr2
+ .rosdata         0000849a+000001 _tnum_osap
+ .rosdata         00008490+000004 _tnum_queueioc
+ .rosdata         00008474+000004 _tnum_scheduletable
+ .rosdata         0000847c+000004 _tnum_spinlock
+ .rosdata         00008464+000004 _tnum_stdresource
+ .rosdata         00008468+000004 _tnum_task
+ .sdata           fef0002a+000001 _toggle_foglamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..3
+ .sdata           fef0002b+000001 _toggle_hazard.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..4
+ .sdata           fef00029+000001 _toggle_headlamp.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..2
+ .sdata           fef0002d+000001 _toggle_winker_l.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..6
+ .sdata           fef0002c+000001 _toggle_winker_r.BodyControl.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5CDriveManager..5
+ .text            0000428a+000008 _trigger_hwcounter_MAIN_HW_COUNTER_CORE0
+ .text            00004318+000008 _trigger_hwcounter_MAIN_HW_COUNTER_CORE1
+ .text            000076d8+000072 _trigger_hwcounter_tauj
                   00000000+000030 _try_spn_lock
- .text            00002b40+000028 _uart_putc
- .text            00007688+000002 _v850_memory_changed
+ .text            00002c68+000028 _uart_putc
+ .text            000077b0+000002 _v850_memory_changed
                   00000000+000050 _wrap_res_all_int
                   00000000+0000d4 _wrap_res_os_int
                   00000000+000062 _wrap_sus_all_int
                   00000000+0000bc _wrap_sus_os_int
- .text            000042ac+0000d4 _x_config_int
+ .text            000043d4+0000d4 _x_config_int
                   00000000+000000 hardware_init_hook
                   00000000+000000 software_init_hook
                   00000000+000000 software_term_hook

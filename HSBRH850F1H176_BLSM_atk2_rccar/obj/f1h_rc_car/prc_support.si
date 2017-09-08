@@ -1,0 +1,4592 @@
+#line 1 "../../arch/v850_gcc/prc_support.S"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+#line 1 "../../arch/v850_ghs/v850asm.inc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+#line 1 "../../kernel/kernel_impl.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+#line 1 "../../include/Os.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+#line 1 "../../include/Std_Types.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+#line 1 "../../arch/v850_gcc/Platform_Types.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+#line 127
+
+#line 76 "../../include/Std_Types.h"
+#line 1 "../../arch/ghs/Compiler.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+#line 1 "../../arch/ghs/Compiler_Cfg.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+#line 62 "../../arch/ghs/Compiler.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 77 "../../include/Std_Types.h"
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 79 "../../include/Os.h"
+#line 1 "../../include/MemMap.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+#line 80 "../../include/Os.h"
+#line 1 "../../include/Rte_Os_Type.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+#line 81 "../../include/Os.h"
+
+#line 1 ".\\Os_Cfg.h"
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+#line 84 "../../include/Os.h"
+
+
+
+
+ 
+#line 1 "../../target/rh850f1h_pb_gcc/target_kernel.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+#line 1 "../../target/rh850f1h_pb_gcc/rh850f1h_pb.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+#line 1 "../../arch/v850_gcc/rh850_f1h.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+#line 91
+
+
+
+ 
+#line 119
+
+
+
+ 
+#line 147
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+#line 211
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+#line 390
+
+
+#line 1 "../../arch/v850_gcc/v850.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+#line 102
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 393 "../../arch/v850_gcc/rh850_f1h.h"
+
+#line 53 "../../target/rh850f1h_pb_gcc/rh850f1h_pb.h"
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+#line 65 "../../target/rh850f1h_pb_gcc/target_kernel.h"
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+#line 1 "../../arch/v850_gcc/prc_kernel.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+#line 88
+
+
+
+ 
+
+
+
+#line 94 "../../target/rh850f1h_pb_gcc/target_kernel.h"
+
+#line 90 "../../include/Os.h"
+
+#line 378
+
+
+
+
+
+
+
+ 
+#line 422
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+#line 501
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 539
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+#line 661
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+#line 79 "../../kernel/kernel_impl.h"
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+#line 127
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+#line 1 "../../kernel/ccb.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+#line 1 "../../target/rh850f1h_pb_gcc/target_ccb.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+#line 1 "../../arch/v850_gcc/prc_ccb.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+#line 1 "../../arch/v850_ghs/prc_insn.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+#line 240
+
+#line 62 "../../arch/v850_gcc/prc_ccb.h"
+
+#line 84 "../../target/rh850f1h_pb_gcc/target_ccb.h"
+
+#line 65 "../../kernel/ccb.h"
+
+#line 251
+
+#line 161 "../../kernel/kernel_impl.h"
+
+
+
+ 
+#line 1 "../../target/rh850f1h_pb_gcc/target_config.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+#line 1 "../../target/rh850f1h_pb_gcc/target_ici.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 1 "../../arch/v850_gcc/prc_ici.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+#line 1 "../../arch/v850_gcc/prc_sil.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+#line 253
+
+#line 54 "../../arch/v850_gcc/prc_ici.h"
+
+#line 93
+
+#line 99 "../../target/rh850f1h_pb_gcc/target_ici.h"
+
+#line 65 "../../target/rh850f1h_pb_gcc/target_config.h"
+
+
+
+ 
+
+
+
+
+#line 99
+
+
+
+ 
+#line 1 "../../arch/v850_gcc/prc_config.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+#line 1 "../../arch/v850_gcc/prc_sil.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+#line 66 "../../arch/v850_gcc/prc_config.h"
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+#line 663
+
+#line 104 "../../target/rh850f1h_pb_gcc/target_config.h"
+
+#line 166 "../../kernel/kernel_impl.h"
+
+
+
+ 
+#line 1 "../../kernel/allfunc.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+#line 193
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+#line 172 "../../kernel/kernel_impl.h"
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+#line 280
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+#line 419
+
+#line 62 "../../arch/v850_ghs/v850asm.inc"
+
+
+
+ 
+
+
+	
+
+ 
+
+	.macro	Lea name, destination
+	mov	name, destination
+	.endm
+
+	
+
+
+
+ 
+	.macro	Flabel name
+	.type	name,@function
+name:
+	.endm
+
+
+
+	
+
+ 
+	
+	.macro	Push source
+	add	-4, sp
+	st.w	source, 0[sp]
+	.endm
+	
+	
+
+ 
+	
+	.macro	Pop dest
+	ld.w	0[sp],dest
+	add	4, sp
+	.endm
+
+	
+
+ 
+	.macro	X_LOCK_ALL_INT reg1 reg2
+	ld.w	PMR, reg1
+	ld.w	0xffff, reg2
+	and		reg2,reg1
+	st.w	reg2
+	.endm
+
+
+
+ 
+.macro LOCK_ALL_INT
+    di
+.endm
+
+
+
+ 
+.macro UNLOCK_ALL_INT
+    ei
+.endm
+
+
+
+ 
+.macro GET_PEID reg
+	stsr 0, reg, 2
+	sar  16, reg
+.endm
+
+
+
+ 
+.macro GET_CID reg
+	GET_PEID reg
+	add -1, reg
+.endm
+#line 58 "../../arch/v850_gcc/prc_support.S"
+#line 1 ".\\offset.h"
+
+#line 59 "../../arch/v850_gcc/prc_support.S"
+
+
+
+
+
+#line 88
+
+
+
+
+
+ 
+.macro GET_ISPR reg
+	stsr 10, reg, 2
+.endm
+
+.macro SET_ISPR val, reg 
+	movea val,r0,reg
+	ldsr reg, 10, 2
+.endm
+
+.macro SET_INTCFG val, reg 
+	movea val,r0,reg
+	ldsr reg, 13, 2
+.endm
+
+.macro CLEAR_ISPR reg1, reg2
+	SET_INTCFG 1, reg1  
+	SET_ISPR   0, reg1  
+	SET_INTCFG 0, reg1  
+.endm
+
+.macro GET_PMR reg
+	stsr 11, reg, 2
+.endm
+
+.macro SET_PMR reg_val, reg_tmp
+	stsr psw, reg_tmp
+	di
+	ldsr reg_val, 11, 2
+	ldsr reg_tmp, psw
+.endm
+
+.macro GET_ICSR reg
+	stsr sr12, reg, 2
+.endm
+
+
+
+
+
+ 
+.macro MYCCB reg12, reg13
+    GET_CID reg12
+    Lea     _p_ccb_table, reg13
+    shl     2, reg12
+    add     reg12, reg13
+    ld.w    0[reg13], reg12
+.endm
+
+
+
+
+ 
+.macro OUTER_LOCK_OS_INT  reg12, reg13, reg_myccb
+
+     
+    Lea     _pmr_isr2_mask, reg13
+    ld.h    0[reg13], reg13
+    SET_PMR reg13, reg12
+
+     
+    mov     1, reg13
+    st.b    reg13, 213[reg_myccb]
+.endm
+
+
+
+
+ 
+.macro OUTER_UNLOCK_OS_INT  reg12, reg13, reg_myccb
+
+     
+    st.b    r0, 213[reg_myccb]
+
+     
+    ld.bu   212[reg_myccb], reg12
+    shl     1, reg12
+    Lea     _pmr_setting_tbl, reg13
+    add     reg12, reg13
+    ld.h    0[reg13], reg13
+    SET_PMR reg13, reg12   
+
+.endm
+
+
+
+ 
+.macro MYOSTKPT reg12, reg13
+     GET_CID reg12
+     shl     2, reg12
+     Lea     __ostkpt_table, reg13
+     add     reg12, reg13
+     ld.w    0[reg13], reg12
+.endm
+
+	
+
+ 
+.macro PRE_INT_EXC
+
+	 
+	syncp
+
+.endm
+
+	
+
+ 
+.macro INT_EXC_SAVEREG
+#line 232
+	pushsp  r1-r1
+
+	stsr    fpsr, r1      
+	pushsp  r1-r1
+
+	pushsp  r5-r19
+	pushsp  r30-r31
+	addi    -8, sp , sp
+	mov     sp, ep 
+
+.endm
+
+	
+
+ 
+.macro INT_EXC_RESTOREREG
+#line 277
+	addi    8, sp , sp
+	popsp   r30-r31
+	popsp   r5-r19
+
+	popsp   r1-r1
+	ldsr    r1, fpsr      
+
+	popsp   r1-r1
+
+.endm
+
+
+
+	
+
+
+
+ 
+    .section .reset.text
+    .global __reset
+__reset:
+    jr __start
+    .rept 6
+    nop
+    .endr
+__syserr:  
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__hvtrap:  
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__fetrap:  
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__trap0:   
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__trap1:   
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__rie:     
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__fppfpi:  
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__ucpop:   
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__mip:     
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__pie:     
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__debug:   
+    jr __debug
+    .rept 6
+    nop
+    .endr
+__mae:     
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__rfu:     
+    jr __rfu
+    .rept 6
+    nop
+    .endr
+__fenmi:   
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__feint:   
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__eiintn0:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn1:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn2:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn3:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn4:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn5:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn6:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn7:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn8:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn9:   
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn10:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn11:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn12:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn13:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn14:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+__eiintn15:  
+    jr _default_int_handler
+    .rept 6
+    nop
+    .endr
+    jarl    __reset_pe2, r31   
+
+__terminate:
+     
+    br __terminate
+
+
+
+	
+
+ 
+	.section .text
+	.align 2
+	.global _fe_exception_entry
+Flabel _fe_exception_entry
+	 
+	PRE_INT_EXC
+
+	 
+	INT_EXC_SAVEREG
+
+	 
+	stsr    fepc, r6
+	sst.w   r6, 4[ep]
+	stsr    fepsw, r6
+	sst.w   r6, 0[ep]
+
+	
+
+
+
+
+
+
+
+ 
+
+	
+
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     fe_exception_1
+
+	
+
+ 
+	MYCCB   r16, r12
+	ld.b    213[r16], r13
+	mov     1, r14
+	add     r14, r13
+	st.b    r13, 213[r16]
+	cmp     1, r13
+	bne     fe_exception_1
+
+	
+
+
+ 
+	Lea     _pmr_isr2_mask, r7
+	ld.h    0[r7], r7
+	SET_PMR r7, r6   
+
+Flabel fe_exception_1
+	
+
+ 
+	stsr    feic, r19                    
+	stsr    fepc, r18                    
+
+	
+
+ 
+	stsr    psw, r12
+	mov     ~0x0080, r13
+	and     r12, r13
+	ldsr    r13, psw
+
+Flabel fe_exception_2
+	
+
+ 
+	ld.b  1[r16], r12   
+	cmp   r0, r12
+	be    infinity_loop
+
+	
+
+ 
+	ld.w    208[r16], r13
+	mov     1, r14                       
+	add     r14, r13
+	st.w    r13, 208[r16]
+
+	mov     sp, r9                       
+
+	cmp     1, r13
+	bne     fe_exception_3               
+
+	
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     fe_exception_3
+
+	 
+	MYOSTKPT r12, r17
+	add     -4, r12
+	st.w    sp, 0[r12]                       
+	mov     r12, sp                          
+
+Flabel fe_exception_3
+	UNLOCK_ALL_INT
+
+#line 611
+
+	
+
+
+ 
+	mov     (22), r6
+	jarl    _call_protectionhk_main, r31
+
+#line 647
+
+Flabel fe_ret_exc
+	LOCK_ALL_INT
+
+	
+
+ 
+	MYCCB   r16, r12
+
+	
+
+ 
+	ld.w    208[r16], r13
+	mov     -1, r14
+	add     r14, r13
+	st.w    r13, 208[r16]
+
+	
+
+ 
+	
+
+
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     ret_exc_2
+
+	
+
+
+ 
+	cmp     r0, r13
+	bne     ret_exc_1
+
+	
+
+ 
+	ld.w    0[sp], sp
+
+Flabel ret_exc_1
+	
+
+ 
+	ld.b    213[r16], r13
+	mov     -1, r14
+	add     r14, r13
+	st.b    r13, 213[r16]
+	cmp     r0, r13
+	bne     ret_exc_2
+
+	 
+	 
+	ld.bu   212[r16], r12
+	shl     1, r12
+
+	Lea     _pmr_setting_tbl, r13
+	add     r12, r13
+	ld.h    0[r13], r13
+	SET_PMR r13, r12      
+
+	
+
+ 
+Flabel ret_exc_2
+	
+
+ 
+	mov     sp, ep
+	sld.w    4[ep], r10
+	ldsr    r10, fepc
+	sld.w    0[ep], r10
+	ldsr    r10, fepsw
+
+	 
+	INT_EXC_RESTOREREG
+
+	feret
+
+	
+
+ 
+	.global _ei_exception_entry
+Flabel _ei_exception_entry
+	 
+	PRE_INT_EXC
+
+	 
+	INT_EXC_SAVEREG
+
+	 
+	stsr    eipc, r6
+	sst.w   r6, 4[ep]
+	stsr    eipsw, r6
+	sst.w   r6, 0[ep]
+
+	MYCCB   r16, r12
+
+	
+
+
+
+
+
+
+
+ 
+
+	
+
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     ei_exception_1
+
+	
+
+ 
+	ld.b    213[r16], r13
+	mov     1, r14
+	add     r14, r13
+	st.b    r13, 213[r16]
+	cmp     1, r13
+	bne     ei_exception_1
+
+	
+
+
+ 
+	Lea     _pmr_isr2_mask, r7
+	ld.h    0[r7], r7
+	SET_PMR r7, r6   
+
+Flabel ei_exception_1
+	
+
+ 
+	stsr    eiic, r19                    
+	stsr    eipc, r18                    
+
+
+Flabel ei_exception_2
+	
+
+ 
+	ld.b  1[r16], r12   
+	cmp   r0, r12
+	be    infinity_loop
+
+	
+
+ 
+	ld.w    208[r16], r13
+	mov     1, r14                       
+	add     r14, r13
+	st.w    r13, 208[r16]
+
+	mov     sp, r9                       
+
+	cmp     1, r13
+	bne     ei_exception_3              
+
+	
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     ei_exception_3
+
+	 
+	MYOSTKPT r12, r17
+	add     -4, r12
+	st.w    sp, 0[r12]                       
+	mov     r12, sp                          
+
+Flabel ei_exception_3
+	UNLOCK_ALL_INT
+
+#line 868
+
+	
+
+
+ 
+	mov     (22), r6
+	jarl    _call_protectionhk_main, r31
+
+#line 904
+
+Flabel ei_ret_exc
+	LOCK_ALL_INT
+
+	
+
+ 
+	MYCCB   r16, r12
+
+	
+
+ 
+	ld.w    208[r16], r13
+	mov     -1, r14
+	add     r14, r13
+	st.w    r13, 208[r16]
+
+	
+
+ 
+	
+
+
+
+ 
+	GET_ISPR r6
+	Lea     _pmr_isr1_mask, r7
+	ld.h    0[r7], r7
+	and     r7, r6
+	cmp     r0, r6
+	bne     ei_ret_exc_2
+
+	
+
+
+ 
+	cmp     r0, r13
+	bne     ei_ret_exc_1
+
+	
+
+ 
+	ld.w    0[sp], sp
+
+Flabel ei_ret_exc_1
+	
+
+ 
+	ld.b    213[r16], r13
+	mov     -1, r14
+	add     r14, r13
+	st.b    r13, 213[r16]
+	cmp     r0, r13
+	bne     ei_ret_exc_2
+
+	 
+	 
+	ld.bu   212[r16], r12
+	shl     1, r12
+
+	Lea     _pmr_setting_tbl, r13
+	add     r12, r13
+	ld.h    0[r13], r13
+	SET_PMR r13, r12              
+
+	
+
+ 
+Flabel ei_ret_exc_2
+	
+
+ 
+	mov     sp, ep
+	sld.w    4[ep], r10
+	ldsr    r10, eipc
+	sld.w    0[ep], r10
+	ldsr    r10, eipsw
+
+	 
+	INT_EXC_RESTOREREG
+
+	eiret
+
+	
+
+ 
+Flabel infinity_loop
+	br infinity_loop
+
+	
+
+
+
+
+
+
+
+ 
+	.global _interrupt
+Flabel _interrupt
+	 
+	PRE_INT_EXC
+
+	 
+	INT_EXC_SAVEREG
+
+	 
+	stsr    eipc, r6
+	sst.w   r6, 4[ep]
+	stsr    eipsw, r6
+	sst.w   r6, 0[ep]
+
+
+	 
+	stsr	eiic,   r12
+	 
+	addi   -0x1000, r12, r12
+
+
+	 
+	GET_ISPR r13
+	sch1r    r13, r11   
+	add      -1,r11
+
+	 
+	MYCCB    r16, r19
+
+	
+
+
+ 
+	ld.bu   212[r16], r19
+	st.b    r11,212[r16]
+
+	
+
+ 
+	ld.w    208[r16], r6
+
+	
+
+ 
+	add     1,  r6
+	st.w    r6, 208[r16]
+	cmp     1,  r6
+	bne     interrupt_1      
+
+	
+
+
+ 
+	mov     sp , r13
+	MYOSTKPT sp, r14
+	add     -4, sp
+	st.w    r13, 0[sp]
+
+Flabel interrupt_1
+    
+
+ 
+	add     -4, sp
+	st.w    r19, 0[sp]
+
+	UNLOCK_ALL_INT
+
+
+	
+
+ 
+
+	
+
+ 
+	cmp     1,  r6
+	bne     int_nested
+
+	
+
+ 
+	ld.w    16[r16], r6            
+	ld.w    8[r6], r6              
+	ld.w    8[r6], r6                
+	cmp     r6, r13                          
+	bnh     _stack_monitoring_error_isr
+
+	
+
+ 
+    ld.w    0[r6], r6
+    mov     0x4E434553, r7
+	
+
+
+ 
+	cmp     r7, r6
+	be      stack_monitoring_exit
+	br      _stack_monitoring_error_isr
+
+	
+
+ 
+Flabel int_nested
+	
+
+ 
+
+	
+
+ 
+	GET_CID r11
+	shl     2, r11
+	Lea     _target_ici_intno_table, r6
+	add     r11, r6
+	ld.w    0[r6], r6
+	andi    0xffff, r6, r6   
+	cmp     r12, r6
+	be      ici_nested
+
+	
+
+ 
+	Lea     _isr_p_isrcb_table, r6           
+	add     r11, r6
+	ld.w    0[r6], r7
+
+	mov     r12, r6
+	shl     2, r6                            
+	add     r6, r7
+	ld.w    0[r7],r7                         
+	ld.w    0[r7], r7          
+	ld.w    0[r7], r7        
+	ld.w    16[r7], r7     
+	br      cmp_stksz
+
+Flabel ici_nested
+	
+
+     
+	Lea     _ici_remain_stksz, r6
+	add     r11, r6
+	ld.w    0[r6], r7
+
+Flabel cmp_stksz
+	Lea     __ostk_table, r6                 
+	add     r11, r6
+	ld.w    0[r6], r6
+	add     r6, r7                           
+	cmp     r7, sp                           
+	bnh     _stack_monitoring_error_isr
+
+	
+
+ 
+	ld.w    0[r6], r6                        
+	mov     0x4E434553, r7
+	cmp     r7, r6
+	bne     _stack_monitoring_error_isr
+
+Flabel stack_monitoring_exit
+
+
+	
+
+
+
+
+
+ 
+
+	GET_CID r11
+	shl     2, r11
+	Lea     _target_ici_intno_table, r6
+	add     r11, r6
+	ld.w    0[r6], r6
+	andi    0xffff, r6, r6   
+	cmp     r12, r6
+	bne     not_ici            
+
+	ld.w    192[r16], r6   
+	cmp     r0, r6
+	be      ret_int_ici_dispatch 
+
+Flabel not_ici
+
+
+	
+
+ 
+	ld.h    4[r16], r7
+	Push    r7
+
+	
+
+ 
+	mov     (0x0002), r8
+	or      r8, r7
+	st.h    r7, 4[r16]
+
+	
+
+ 
+	ld.w    204[r16], r7
+	Push    r7
+
+	
+
+ 
+	ld.w    160[r16], r7
+	Push    r7
+
+	
+
+ 
+	GET_CID r11
+	shl     2, r11
+	Lea     _isr_p_isrcb_table, r6           
+	add     r11, r6
+	ld.w    0[r6], r7
+	shl     2, r12                           
+	add     r12, r7
+	ld.w    0[r7], r7
+	st.w    r7, 160[r16]
+
+	
+
+ 
+	Lea     _isr_table, r6
+	add     r11, r6
+	ld.w    0[r6], r6
+	add     r12, r6
+
+	
+
+ 
+	cmp   r0, r7
+	be    int_handler_call            
+	ld.w  0[r7],r7      
+	ld.w  4[r7],r7   
+	st.w  r7, 204[r16]      
+
+	
+
+ 
+Flabel int_handler_call
+	Lea     end_int_handler, r31
+	ld.w    0[r6], r6
+	jmp     [r6]
+
+Flabel end_int_handler
+
+
+	
+
+
+
+ 
+
+	
+
+ 
+	GET_CID r11
+	shl     2, r11
+	Lea     __ostk_table, r6                 
+	add     r11, r6
+	ld.w    0[r6], r6
+	ld.w    0[r6], r6                        
+	mov     0x4E434553, r7
+	cmp     r7, r6
+	bne     _stack_monitoring_error_isr
+
+
+	
+
+ 
+	MYCCB   r16, r7
+	ld.w    160[r16], r7
+	cmp     r0, r7
+	be      end_int_handler_1 
+	jarl    _exit_isr2, r31
+
+Flabel end_int_handler_1
+	MYCCB   r16, r6
+
+	
+
+ 
+	Pop     r6
+	st.w    r6, 160[r16]
+
+	
+
+ 
+	Pop     r6
+	st.w    r6, 204[r16]
+
+	
+
+ 
+	Pop     r6
+	st.h    r6, 4[r16]
+
+
+
+ 
+Flabel ret_int
+	
+
+
+
+
+
+
+ 
+
+	LOCK_ALL_INT
+
+    
+
+ 
+	ld.w    0[sp], r19
+	add     4, sp
+	st.b    r19, 212[r16]               
+
+	
+
+ 
+	ld.w    208[r16], r7
+	add     -1, r7
+	st.w    r7, 208[r16]
+
+	
+
+ 
+	cmp     r0, r7
+	be      ret_int_task
+
+	
+
+
+ 
+	br      ret_int_1
+
+	
+
+ 
+Flabel ret_int_task
+	ld.w    0[sp], sp                        
+
+	 
+
+	
+
+
+
+
+
+ 
+
+	
+
+ 
+	ld.w    16[r16], r6
+	ld.w    20[r16], r7
+	cmp     r6, r7
+	be      ret_int_1       
+
+	
+
+
+
+ 
+
+	
+
+
+
+
+
+
+
+ 
+	CLEAR_ISPR r10, r12
+
+	
+
+
+
+
+
+
+ 
+
+	OUTER_LOCK_OS_INT r12, r13, r16
+	 
+	UNLOCK_ALL_INT
+
+	
+
+ 
+	addi    -40, sp, sp
+	mov     sp, ep
+	sst.w   r20, 36[ep]
+	sst.w   r21, 32[ep]
+	sst.w   r22, 28[ep]
+	sst.w   r23, 24[ep]
+	sst.w   r24, 20[ep]
+	sst.w   r25, 16[ep]
+	sst.w   r26, 12[ep]
+	sst.w   r27, 8[ep]
+	sst.w   r28, 4[ep]
+	sst.w   r29, 0[ep]
+
+	 
+	ld.w    16[r16], ep
+	sst.w   sp, 36[ep]
+	Lea     ret_int_r, r6
+	sst.w   r6, 40[ep]
+	br      dispatcher
+
+	
+
+ 
+Flabel ret_int_r
+	
+
+ 
+	mov     sp, ep
+	sld.w   36[ep], r20
+	sld.w   32[ep], r21
+	sld.w   28[ep], r22
+	sld.w   24[ep], r23
+	sld.w   20[ep], r24
+	sld.w   16[ep], r25
+	sld.w   12[ep], r26
+	sld.w   8[ep], r27
+	sld.w   4[ep], r28
+	sld.w   0[ep], r29
+	addi    40, ep, sp
+
+	LOCK_ALL_INT
+
+	OUTER_UNLOCK_OS_INT r12, r13, r16
+	
+
+ 
+Flabel ret_int_1
+	
+
+ 
+	mov     sp, ep
+
+	 
+
+	
+
+
+
+
+
+
+ 
+	OUTER_UNLOCK_OS_INT  r7, r6, r16
+	sld.w    4[ep], r10
+	ldsr    r10, eipc
+	sld.w    0[ep], r10
+	ldsr    r10, eipsw
+
+	 
+	INT_EXC_RESTOREREG
+
+	eiret
+
+
+
+
+
+
+
+
+     
+
+Flabel ret_int_ici_dispatch
+	Lea   _shutdown_reqflg, r10       
+	ld.w  0[r10], r10
+	cmp   1, r10
+	be    call_shtdown_os
+
+	
+
+ 
+	st.w  r0, 200[r16]  
+	br    ret_int
+
+Flabel call_shtdown_os
+	mov   (33), r6    
+	jarl  _internal_shutdownallcores, r31
+	halt                                  
+
+
+
+
+
+ 
+	.global _dispatch
+Flabel _dispatch
+	
+
+
+
+ 
+#line 1530
+	pushsp  r20-r31
+
+
+	MYCCB   r16, r10
+
+	 
+	ld.w    16[r16], ep
+	sst.w   sp, 36[ep]
+	Lea     dispatch_r, r10
+	sst.w   r10, 40[ep]
+
+	
+
+ 
+	
+
+ 
+	ld.w    16[r16], r6            
+	ld.w    8[r6], r6              
+	ld.w    8[r6], r6                
+	cmp     r6, sp                           
+	bnh      stack_monitoring_error
+	
+
+ 
+	ld.w    0[r6], r6
+	mov     0x4E434553, r7
+	cmp     r7, r6
+	bne     stack_monitoring_error
+
+	br      dispatcher
+
+	
+
+ 
+Flabel dispatch_r
+#line 1582
+	popsp  r20-r31
+
+	jmp     [lp]
+
+
+
+ 
+	.global _start_dispatch
+Flabel _start_dispatch
+	
+
+
+
+
+
+ 
+	MYCCB   r16, r12
+	 
+	OUTER_LOCK_OS_INT r12, r13, r16
+	 
+	UNLOCK_ALL_INT
+	br    dispatcher_0
+
+	
+
+ 
+	.global _exit_and_dispatch
+Flabel _exit_and_dispatch
+
+	
+
+ 
+	MYCCB   r16, r6
+
+	
+
+ 
+	ld.w    16[r16], r6            
+	ld.w    8[r6], r6              
+	ld.w    8[r6], r6                
+	cmp     r6, sp                           
+	bnh      stack_monitoring_error
+	
+
+ 
+	ld.w    0[r6], r6
+	mov     0x4E434553, r7
+	cmp     r7, r6
+	bne     stack_monitoring_error
+
+	 
+
+Flabel dispatcher
+	
+
+ 
+
+
+
+
+
+
+Flabel dispatcher_0
+	
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+	MYCCB   r16, r22
+	ld.h    4[r16], r22
+	mov     (0x1000), r20
+	and     r22, r20
+	be      dispatcher_1
+
+	mov     ~(0x1000), r20
+	and     r22, r20
+	st.h    r20, 4[r16]
+	UNLOCK_ALL_INT                              
+
+	
+
+
+
+ 
+Flabel dispatcher_1
+	ld.w    20[r16], r22
+	st.w    r22, 16[r16]
+	cmp     r22, r0
+	be      dispatcher_3
+
+	mov     r22, ep 
+	sld.w   36[ep], sp
+	st.w    r0, 208[r16]
+
+	ld.w    8[r22], ep
+	ld.w    12[ep], r6
+	st.w    r6, 204[r16]               
+
+
+
+
+
+
+
+
+
+
+
+
+Flabel dispatcher_2
+	MYCCB   r16, r22
+	ld.w    16[r16], r22
+	mov     r22, ep
+	sld.w   40[ep], r31
+	jmp     [r31]
+
+Flabel dispatcher_3
+	st.w    r0, 204[r16]		 
+	
+
+
+
+
+
+
+
+
+ 
+	MYOSTKPT sp, r20			 
+
+	mov     (0x0002), r20		 
+	st.h    r20, 4[r16]
+
+	mov     1, r21
+	st.w    r21, 208[r16]
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	di
+	OUTER_UNLOCK_OS_INT r12, r13, r16
+	halt
+	ei
+
+	
+
+
+
+
+ 
+	OUTER_LOCK_OS_INT r12, r13, r16
+	mov     (0x0001), r20
+	st.h    r20, 4[r16]
+	br      dispatcher_1
+
+	
+
+ 
+
+	
+
+
+ 
+    .global _stack_monitoring_error_isr
+Flabel _stack_monitoring_error_isr
+	MYCCB   r16, r12
+	OUTER_LOCK_OS_INT r12, r13, r16              
+
+Flabel stack_monitoring_error
+	ld.w    208[r16], r13        
+	add     1, r13
+	st.w    r13, 0[r12]
+
+	MYOSTKPT sp, r12                             
+
+	mov     (13), r6                  
+	jarl    _call_protectionhk_main, r31         
+	
+
+ 
+	halt                                         
+
+
+
+
+
+
+
+ 
+	.global _start_r
+Flabel _start_r
+	
+
+
+ 
+	ld.w    16[r16], ep
+	sld.w   8[ep], r22
+	ld.b    20[r22], r21			 
+	sst.b   r21, 12[ep]
+
+	
+
+
+ 
+
+	OUTER_UNLOCK_OS_INT r12, r13, r16
+
+	
+
+
+ 
+	Lea     _exit_task, r31
+
+	ld.w    8[ep], r22
+	ld.w    0[r22], r10
+	jmp     [r10]
+
+	.global _stack_change_and_call_func_1 
+	.global _stack_change_and_call_func_2
+Flabel _stack_change_and_call_func_1
+Flabel _stack_change_and_call_func_2
+
+	push    lp
+
+	MYCCB   r16, r13
+
+	ld.w    208[r16], r13
+	add     1, r13
+	st.w    r13, 208[r16]
+	cmp     1, r13
+	bne     _stack_change_and_call_func_1_1
+
+	 
+	MYOSTKPT r12, r11
+	add     -4, r12
+	st.w    sp, 0[r12]                       
+	mov     r12, sp                          
+    
+Flabel _stack_change_and_call_func_1_1
+	Lea     stack_change_and_call_func_r, lp   
+	mov     r6, r12
+	mov     r7, r6
+	mov     r8, r7
+	jmp     [r12]
+
+Flabel stack_change_and_call_func_r
+	MYCCB   r16, r13
+	ld.w    208[r16], r13
+	add     -1, r13
+	st.w    r13, 208[r16]
+	cmp     r0, r13
+	bne     stack_change_and_call_func_r_1
+
+	ld.w    0[sp], sp                     
+Flabel stack_change_and_call_func_r_1
+	pop     lp
+	jmp     [lp]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+ 
+	.global _call_trusted_hook
+Flabel _call_trusted_hook
+
+	addi    -60, sp, sp
+	st.w    r30,  4[sp]  
+	mov     sp,  ep
+	sst.w   r20, 44[ep]
+	sst.w   r21, 40[ep]
+	sst.w   r22, 36[ep]
+	sst.w   r23, 32[ep]
+	sst.w   r24, 28[ep]
+	sst.w   r25, 24[ep]
+	sst.w   r26, 20[ep]
+	sst.w   r27, 16[ep]
+	sst.w   r28, 12[ep]
+	sst.w   r29, 8[ep]
+	sst.w   r31, 0[ep]
+
+	MYCCB   r16, r20
+
+	ld.h  4[r16], r20
+	sst.h r20, 48[ep]
+	ld.w  208[r16], r20
+	sst.w r20, 52[ep]
+	ld.w  216[r16], r20
+	sst.w r20, 56[ep]
+	st.w  ep,  216[r16]
+
+	Lea   trusted_hook_ret, lp   
+	mov   r6, r12   
+	mov   r7, r6
+	jmp   [r12]
+
+	
+
+ 
+	.global _exit_trusted_shutdown_hook
+Flabel _exit_trusted_shutdown_hook
+	MYCCB   r16, r20
+	ld.w  216[r16], sp
+	ld.h  48[sp], r20
+	st.h  r20, 4[r16]
+	ld.w  52[sp], r20
+	st.w  r20, 208[r16]
+	ld.w  56[sp], r20
+	st.w  r20, 216[r16]
+
+Flabel trusted_hook_ret
+	MYCCB r16, r20
+	st.w  r16, 216[r16]
+	mov     sp, ep
+	sld.w   44[ep], r20
+	sld.w   40[ep], r21
+	sld.w   36[ep], r22
+	sld.w   32[ep], r23
+	sld.w   28[ep], r24
+	sld.w   24[ep], r25
+	sld.w   20[ep], r26
+	sld.w   16[ep], r27
+	sld.w   12[ep], r28
+	sld.w    8[ep], r29
+	sld.w    0[ep], r31
+	addi    60, ep, sp
+	ld.w     4[sp], r30   
+	jmp     [lp]
+
+
+	.section .pe2_reset
+	.align  4
+	.global  __reset_pe2
+ __reset_pe2:
+    jr __start
+    .rept 6
+    nop
+    .endr
+__syserr_pe2:  
+    .rept 8
+    nop
+    .endr
+__hvtrap_pe2:  
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__fetrap_pe2:  
+    jr _fe_exception_entry
+    .rept 6
+    nop
+    .endr
+__trap0_pe2:   
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__trap1_pe2:   
+    jr _ei_exception_entry
+    .rept 6
+    nop
+    .endr
+__rie_pe2:     
+    .rept 8
+    nop
+    .endr
+__fppfpi_pe2:  
+    .rept 8
+    nop
+    .endr
+__ucpop_pe2:   
+    .rept 8
+    nop
+    .endr
+__mip_pe2:     
+    .rept 8
+    nop
+    .endr
+__pie_pe2:     
+    .rept 8
+    nop
+    .endr
+__debug_pe2:   
+    .rept 8
+    nop
+    .endr
+__mae_pe2:     
+    .rept 8
+    nop
+    .endr
+__rfu_pe2:     
+    .rept 8
+    nop
+    .endr
+__fenmi_pe2:   
+    .rept 8
+    nop
+    .endr
+__feint_pe2:   
+    .rept 8
+    nop
+    .endr
+__eiintn0_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn1_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn2_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn3_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn4_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn5_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn6_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn7_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn8_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn9_pe2:   
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn10_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn11_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn12_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn13_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn14_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+__eiintn15_pe2:  
+    jr _interrupt
+    .rept 6
+    nop
+    .endr
+
+

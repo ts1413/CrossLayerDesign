@@ -1,0 +1,3028 @@
+--Driver Command: ccrh850 -c -ansi -preprocess_assembly_files -srec -kanji=euc
+--		-noobj -no_callt -prepare_dispose -registermode=32 -keeptempfiles
+--		--no_commons -dual_debug -G -sda=all -reserve_r2 -large_sda
+--		-cpu=rh850g3m -mhard-float -DTOPPERS_USE_HFLOAT -Ospeed -Omax
+--		-Olink -Ointerproc --prototype_warnings -Wimplicit-int -Wshadow
+--		-Wundef -Wtrigraphs --assembler_warnings -linker_warnings
+--		--diag_suppress 174,188,191,767,177,826 -g -DTOPPERS_LABEL_ASM
+--		-D__v850e3v5__ -I. -I../../include -I../../arch -I../..
+--		-I../../target/rh850f1h_pb_ghs -I../../target/rh850f1h_pb_gcc
+--		-I../../arch/v850_ghs -I../../arch/v850_gcc -I../../arch/ghs
+--		rlin3x.c
+--Source File:   rlin3x.c
+--Directory:     
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
+--Compile Date:  Thu Sep 07 13:33:07 2017
+--Host OS:       Win32
+--Version:       C-RH850 2013.5.5 RELEASE VERSION
+--Release:       MULTI v2013.5.5-P13 v800
+--Custom Stamp:  BTO-1906 compiler interrupt routines did not save FPSR and
+--		FPEPC
+--Revision Date: Tue Mar 04 22:02:14 2014
+--Release Date:  Wed Mar 05 18:09:29 2014
+-- ecom  -g -w -OLM
+	.text
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B13C83..0::
+	.align	2
+..gh.f.f.1.e.0:
+	.type	..gh.f.f.1.e.0,@object
+	.size	..gh.f.f.1.e.0,0
+	.global	_rlin3x_portinit
+_rlin3x_portinit:
+--	    .bf
+.LDW01:
+	ld.hu	4290841128[zero],r17
+	andi	40959,r17,r18
+	st.h	r18,4290841128[zero]
+	ld.hu	4290840104[zero],r16
+	andi	40959,r16,r18
+	st.h	r18,4290840104[zero]
+	ld.hu	4290839848[zero],r14
+	ori	24576,r14,r18
+	st.h	r18,4290839848[zero]
+	ld.hu	4290839592[zero],r13
+	ori	24576,r13,r18
+	st.h	r18,4290839592[zero]
+	ld.hu	4290839336[zero],r12
+	andi	40959,r12,r13
+	ori	8192,r13,r18
+	st.h	r18,4290839336[zero]
+	ld.hu	4290854952[zero],r11
+	andi	40959,r11,r12
+	ori	8192,r12,r18
+	st.h	r18,4290854952[zero]
+--	    .ef
+.LDW11:
+	jmp	[lp]
+	.global	___ghs_eofn_rlin3x_portinit
+___ghs_eofn_rlin3x_portinit:
+	.type	_rlin3x_portinit,@function
+	.size	_rlin3x_portinit,.-_rlin3x_portinit
+	.align	2
+--_wk	r18	local
+
+	.section ".bss","awb"
+.L514:
+	.type	.L514,@object
+	.size	.L514,0
+	.data
+	.text
+	.align	2
+	.align	2
+	.align	2
+..gh.f.f.1.e.1:
+	.type	..gh.f.f.1.e.1,@object
+	.size	..gh.f.f.1.e.1,0
+	.global	_rlin3x_init
+_rlin3x_init:
+--	    .bf
+.LDW21:
+	movea	49,zero,r17
+	mov	-16,r16
+	st.b	r17,4291698824[zero]
+	st.b	r16,4291698817[zero]
+	mov	8,r15
+	mov	13,r14
+	st.h	r15,4291698818[zero]
+	st.b	r14,4291698829[zero]
+	st.b	zero,4291698825[zero]
+	mov	1,r13
+	st.w	zero,sdaoff23(___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	zero,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	zero,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	zero,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	zero,sdaoff23(___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	zero,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	zero,sdaoff23(___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	mov	-3268463,ep
+	st.b	r13,4291698830[zero]
+.L593:
+	sld.bu	0[ep],r18
+	cmp	zero,r18
+	be	.L593
+--line224
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.1::
+.LDWlin1:
+	mov	3,r12
+	st.b	r12,4291698848[zero]
+	st.b	r12,4291698828[zero]
+	jr	_rlin3x_portinit
+--	    .ef
+.LDW31:
+	.global	___ghs_eofn_rlin3x_init
+___ghs_eofn_rlin3x_init:
+	.type	_rlin3x_init,@function
+	.size	_rlin3x_init,.-_rlin3x_init
+	.align	2
+
+	.section ".bss","awb"
+.L713:
+	.type	.L713,@object
+	.size	.L713,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.2:
+	.type	..gh.f.f.1.e.2,@object
+	.size	..gh.f.f.1.e.2,0
+	.global	_rlin3x_get_rxcnt
+_rlin3x_get_rxcnt:
+--	    .bf
+.LDW41:
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r10
+--	    .ef
+.LDW51:
+	jmp	[lp]
+	.global	___ghs_eofn_rlin3x_get_rxcnt
+___ghs_eofn_rlin3x_get_rxcnt:
+	.type	_rlin3x_get_rxcnt,@function
+	.size	_rlin3x_get_rxcnt,.-_rlin3x_get_rxcnt
+	.align	2
+
+	.section ".bss","awb"
+.L823:
+	.type	.L823,@object
+	.size	.L823,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.3:
+	.type	..gh.f.f.1.e.3,@object
+	.size	..gh.f.f.1.e.3,0
+	.global	_rlin3x_receive
+_rlin3x_receive:
+	prepare	{r25,r26,r27,r31},0
+	mov	r6,r26
+	mov	r7,r25
+--	    .bf
+.LDW61:
+	jarl	_SuspendOSInterrupts,lp
+--line254
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.2::
+.LDWlin2:
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r9
+	cmp	r25,r9
+	setfge	r27
+	blt	.L850
+--line257
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.3::
+.LDWlin3:
+	cmp	zero,r25
+	cmovle	0,r25,lp
+	mov	lp,r1
+	shr	3,r1
+	be	.L898
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+.L902:
+	mov	sdaoff23(___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),r17
+	mov	r18,ep
+	add	r17,ep
+	sld.bu	0[ep],r10
+	movea	-256,zero,r16
+	add	-1,r1
+	st.b	r10,0[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r11
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r19
+	addi	1,r11,ep
+	mov	ep,r6
+	sar	31,r6
+	mov	ep,r15
+	zxb	r6
+	add	r6,r15
+	add	-1,r19
+	and	r16,r15
+	sub	r15,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r19,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r19
+	st.b	r19,1[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r10
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r15
+	addi	1,r10,ep
+	mov	ep,r18
+	sar	31,r18
+	mov	ep,r14
+	zxb	r18
+	add	r18,r14
+	add	-1,r15
+	and	r16,r14
+	sub	r14,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r15,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r15
+	st.b	r15,2[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r9
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r12
+	addi	1,r9,ep
+	mov	ep,r14
+	sar	31,r14
+	mov	ep,r13
+	zxb	r14
+	add	r14,r13
+	add	-1,r12
+	and	r16,r13
+	sub	r13,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r13
+	st.w	r12,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	r13,3[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r8
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r10
+	addi	1,r8,ep
+	mov	ep,r11
+	sar	31,r11
+	mov	ep,r12
+	zxb	r11
+	add	r11,r12
+	add	-1,r10
+	and	r16,r12
+	sub	r12,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r10,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r10
+	st.b	r10,4[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r7
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r8
+	addi	1,r7,ep
+	mov	ep,r9
+	sar	31,r9
+	mov	ep,r11
+	zxb	r9
+	add	r9,r11
+	add	-1,r8
+	and	r16,r11
+	sub	r11,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r8,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r8
+	st.b	r8,5[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r19
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r6
+	addi	1,r19,ep
+	mov	ep,r7
+	sar	31,r7
+	mov	ep,r10
+	zxb	r7
+	add	r7,r10
+	add	-1,r6
+	and	r16,r10
+	sub	r10,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r6,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r6
+	st.b	r6,6[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r15
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+	addi	1,r15,ep
+	mov	ep,r19
+	sar	31,r19
+	mov	ep,r9
+	zxb	r19
+	add	r19,r9
+	add	-1,r18
+	and	r16,r9
+	sub	r9,ep
+	st.w	ep,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r18,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r17,ep
+	sld.bu	0[ep],r18
+	st.b	r18,7[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r14
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r15
+	add	8,r26
+	addi	1,r14,r18
+	mov	r18,r17
+	sar	31,r17
+	mov	r18,r8
+	zxb	r17
+	add	r17,r8
+	add	-1,r15
+	and	r16,r8
+	sub	r8,r18
+	cmp	zero,r1
+	st.w	r15,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r18,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	bne	.L902
+.L898:
+	andi	7,lp,r12
+	be	.L850
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+.L899:
+	mov	sdaoff23(___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),ep
+	add	r18,ep
+	movea	-256,zero,r10
+	sld.bu	0[ep],r16
+	add	-1,r12
+	st.b	r16,0[r26]
+	ld.w	sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r11
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r13
+	add	1,r26
+	addi	1,r11,r18
+	mov	r18,r14
+	sar	31,r14
+	mov	r18,r7
+	zxb	r14
+	add	r14,r7
+	add	-1,r13
+	and	r10,r7
+	sub	r7,r18
+	cmp	zero,r12
+	st.w	r13,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r18,sdaoff23(___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	bne	.L899
+.L850:
+--line263
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.4::
+.LDWlin4:
+	jarl	_ResumeOSInterrupts,lp
+--line265
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.5::
+.LDWlin5:
+	mov	r27,r10
+--	    .ef
+.LDW71:
+	dispose	0,{r25,r26,r27,r31},[lp]
+	.global	___ghs_eofn_rlin3x_receive
+___ghs_eofn_rlin3x_receive:
+	.type	_rlin3x_receive,@function
+	.size	_rlin3x_receive,.-_rlin3x_receive
+	.align	2
+--_result	r27	local
+
+--_data	r26	param
+--_len	r25	param
+
+	.section ".bss","awb"
+.L1545:
+	.type	.L1545,@object
+	.size	.L1545,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.4:
+	.type	..gh.f.f.1.e.4,@object
+	.size	..gh.f.f.1.e.4,0
+	.global	_rlin3x_send
+_rlin3x_send:
+	prepare	{r31},0
+	mov	r6,ep
+--	    .bf
+.LDW81:
+	ld.w	sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r17
+	mov	r7,r12
+	add	r17,r12
+	addi	-256,r12,zero
+	cmovgt	0,r10,r10
+	bgt	.L1650
+--line283
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.6::
+.LDWlin6:
+	cmp	zero,r7
+	cmovle	0,r7,lp
+	mov	lp,r1
+	shr	3,r1
+	be	.L1706
+	ld.w	sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+.L1710:
+	sld.bu	0[ep],r12
+	add	1,r17
+	mov	r18,r19
+	add	gp,r19
+	add	1,r18
+	st.b	r12,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r19]
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	mov	r18,r13
+	sar	31,r13
+	movea	-256,zero,r15
+	zxb	r13
+	mov	r18,r14
+	add	r13,r14
+	and	r15,r14
+	sub	r14,r18
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	1[ep],r10
+	mov	r18,r12
+	add	1,r17
+	add	1,r18
+	mov	r18,r11
+	sar	31,r11
+	add	gp,r12
+	zxb	r11
+	st.b	r10,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r12]
+	mov	r18,r13
+	add	r11,r13
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	and	r15,r13
+	sub	r13,r18
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	2[ep],r8
+	mov	r18,r10
+	add	1,r17
+	add	1,r18
+	mov	r18,r9
+	sar	31,r9
+	add	gp,r10
+	zxb	r9
+	st.b	r8,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r10]
+	mov	r18,r12
+	add	r9,r12
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	and	r15,r12
+	sub	r12,r18
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	3[ep],r6
+	mov	r18,r8
+	add	1,r17
+	add	1,r18
+	mov	r18,r7
+	sar	31,r7
+	add	gp,r8
+	zxb	r7
+	st.b	r6,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r8]
+	mov	r18,r11
+	add	r7,r11
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	and	r15,r11
+	sub	r11,r18
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	4[ep],r14
+	mov	r18,r6
+	add	1,r17
+	add	1,r18
+	mov	r18,r19
+	sar	31,r19
+	add	gp,r6
+	zxb	r19
+	st.b	r14,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r6]
+	mov	r18,r10
+	add	r19,r10
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	and	r15,r10
+	sub	r10,r18
+	add	1,r17
+	mov	r18,r14
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	5[ep],r12
+	add	1,r18
+	mov	r18,r13
+	sar	31,r13
+	add	gp,r14
+	zxb	r13
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	r12,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r14]
+	mov	r18,r9
+	add	r13,r9
+	and	r15,r9
+	sub	r9,r18
+	add	1,r17
+	mov	r18,r12
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	6[ep],r10
+	add	1,r18
+	mov	r18,r11
+	sar	31,r11
+	add	gp,r12
+	zxb	r11
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	r10,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r12]
+	mov	r18,r8
+	add	r11,r8
+	and	r15,r8
+	sub	r8,r18
+	add	1,r17
+	mov	r18,r10
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	sld.bu	7[ep],r8
+	add	1,r18
+	mov	r18,r9
+	sar	31,r9
+	add	gp,r10
+	zxb	r9
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	r8,sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[r10]
+	mov	r18,r7
+	add	r9,r7
+	and	r15,r7
+	add	8,ep
+	sub	r7,r18
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	loop	r1,.L1710
+.L1706:
+	andi	7,lp,r19
+	be	.L1655
+	ld.w	sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+.L1707:
+	mov	sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),r8
+	sld.bu	0[ep],r16
+	add	r18,r8
+	add	1,r18
+	movea	-256,zero,r15
+	mov	r18,r7
+	sar	31,r7
+	mov	r18,r6
+	zxb	r7
+	add	r7,r6
+	add	1,r17
+	and	r15,r6
+	add	1,ep
+	st.b	r16,0[r8]
+	sub	r6,r18
+	st.w	r17,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r18,sdaoff23(___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	loop	r19,.L1707
+.L1655:
+--line289
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.7::
+.LDWlin7:
+	ld.bu	sdaoff23(___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r17
+	cmp	zero,r17
+	bne	.L1659
+--line290
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.8::
+.LDWlin8:
+	jarl	_SuspendOSInterrupts,lp
+--line292
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.9::
+.LDWlin9:
+	ld.w	sdaoff23(___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r14
+	mov	sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),ep
+	ld.w	sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r19
+	movea	-256,zero,r17
+	mov	1,r16
+	add	r14,ep
+	sld.b	0[ep],r18
+	add	1,r14
+	mov	r14,r6
+	sar	31,r6
+	mov	r14,r13
+	zxb	r6
+	add	r6,r13
+	add	-1,r19
+	and	r17,r13
+	sub	r13,r14
+	st.b	r16,sdaoff23(___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r19,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.b	r18,4291698852[zero]
+	st.w	r14,sdaoff23(___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	jarl	_ResumeOSInterrupts,lp
+.L1659:
+--line300
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.10::
+.LDWlin10:
+	mov	1,r10
+.L1650:
+--	    .ef
+.LDW91:
+	dispose	0,{r31},[lp]
+	.global	___ghs_eofn_rlin3x_send
+___ghs_eofn_rlin3x_send:
+	.type	_rlin3x_send,@function
+	.size	_rlin3x_send,.-_rlin3x_send
+	.align	2
+--_c	r18	local
+
+--_data	ep	param
+--_len	r7	param
+
+	.section ".bss","awb"
+.L2453:
+	.type	.L2453,@object
+	.size	.L2453,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.5:
+	.type	..gh.f.f.1.e.5,@object
+	.size	..gh.f.f.1.e.5,0
+	.global	_rlin3x_tx_interrupt
+_rlin3x_tx_interrupt:
+--	    .bf
+.LDW02:
+	ld.w	sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r16
+	cmp	zero,r16
+	cmove	r16,r14,r14
+	be	.L2604
+--line314
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.11::
+.LDWlin11:
+	ld.w	sdaoff23(___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+	mov	sdaoff23(___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),ep
+	movea	-256,zero,r12
+	addi	-1,r16,r11
+	mov	1,r14
+	add	r18,ep
+	sld.b	0[ep],r13
+	add	1,r18
+	mov	r18,r15
+	sar	31,r15
+	mov	r18,r17
+	zxb	r15
+	add	r15,r17
+	and	r12,r17
+	sub	r17,r18
+	st.b	r13,4291698852[zero]
+	st.w	r18,sdaoff23(___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	st.w	r11,sdaoff23(___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+.L2604:
+	st.b	r14,sdaoff23(___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+--	    .ef
+.LDW12:
+	jmp	[lp]
+	.global	___ghs_eofn_rlin3x_tx_interrupt
+___ghs_eofn_rlin3x_tx_interrupt:
+	.type	_rlin3x_tx_interrupt,@function
+	.size	_rlin3x_tx_interrupt,.-_rlin3x_tx_interrupt
+	.align	2
+--_c	r13	local
+
+	.section ".bss","awb"
+.L2863:
+	.type	.L2863,@object
+	.size	.L2863,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.6:
+	.type	..gh.f.f.1.e.6,@object
+	.size	..gh.f.f.1.e.6,0
+	.global	_ISRMainRLIN3x_TX_ISR
+_ISRMainRLIN3x_TX_ISR:
+--	    .bf
+.LDW22:
+	jr	_rlin3x_tx_interrupt
+--	    .ef
+.LDW32:
+	.global	___ghs_eofn_ISRMainRLIN3x_TX_ISR
+___ghs_eofn_ISRMainRLIN3x_TX_ISR:
+	.type	_ISRMainRLIN3x_TX_ISR,@function
+	.size	_ISRMainRLIN3x_TX_ISR,.-_ISRMainRLIN3x_TX_ISR
+	.align	2
+
+	.section ".bss","awb"
+.L2935:
+	.type	.L2935,@object
+	.size	.L2935,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.7:
+	.type	..gh.f.f.1.e.7,@object
+	.size	..gh.f.f.1.e.7,0
+	.global	_rlin3x_rx_interrupt
+_rlin3x_rx_interrupt:
+--	    .bf
+.LDW42:
+	ld.w	sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r16
+	ld.b	4291698854[zero],r14
+	addi	-256,r16,zero
+	bge	.L2959
+--line335
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x.12::
+.LDWlin12:
+	ld.w	sdaoff23(___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp],r18
+	mov	sdaoff23(___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf),ep
+	movea	-256,zero,r13
+	addi	1,r16,r12
+	st.w	r12,sdaoff23(___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+	add	r18,ep
+	sst.b	r14,0[ep]
+	add	1,r18
+	mov	r18,r15
+	sar	31,r15
+	mov	r18,r17
+	zxb	r15
+	add	r15,r17
+	and	r13,r17
+	sub	r17,r18
+	st.w	r18,sdaoff23(___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf)[gp]
+.L2959:
+--	    .ef
+.LDW52:
+	jmp	[lp]
+	.global	___ghs_eofn_rlin3x_rx_interrupt
+___ghs_eofn_rlin3x_rx_interrupt:
+	.type	_rlin3x_rx_interrupt,@function
+	.size	_rlin3x_rx_interrupt,.-_rlin3x_rx_interrupt
+	.align	2
+--_c	r14	local
+
+	.section ".bss","awb"
+.L3026:
+	.type	.L3026,@object
+	.size	.L3026,0
+	.data
+	.text
+	.align	2
+	.align	2
+..gh.f.f.1.e.8:
+	.type	..gh.f.f.1.e.8,@object
+	.size	..gh.f.f.1.e.8,0
+	.global	_ISRMainRLIN3x_RX_ISR
+_ISRMainRLIN3x_RX_ISR:
+--	    .bf
+.LDW62:
+	jr	_rlin3x_rx_interrupt
+--	    .ef
+.LDW72:
+	.global	___ghs_eofn_ISRMainRLIN3x_RX_ISR
+___ghs_eofn_ISRMainRLIN3x_RX_ISR:
+	.type	_ISRMainRLIN3x_RX_ISR,@function
+	.size	_ISRMainRLIN3x_RX_ISR,.-_ISRMainRLIN3x_RX_ISR
+	.align	2
+
+	.section ".bss","awb"
+.L3095:
+	.type	.L3095,@object
+	.size	.L3095,0
+	.data
+	.text
+	.align	2
+
+	.data
+	.section ".sbss","awb"
+	.align	4
+	.align	4
+	.global	___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	256
+	.type	___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,256
+	.align	4
+	.global	___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	256
+	.type	___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,256
+	.align	4
+	.global	___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.align	4
+	.global	___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.align	4
+	.global	___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.align	4
+	.global	___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.align	4
+	.global	___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.align	4
+	.global	___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	4
+	.type	___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,4
+	.global	___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf:	.space	1
+	.type	___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,@object
+	.size	___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf,1
+	.data
+	.ghsnote version,14
+	.ghsnote tools,3
+	.ghsnote options,144
+	.text
+	.align	2
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B13C83..0::
+	.section	.debug_info
+.Ldw_begin:
+	.word	.Ldw_end-.Ldw_begin-4
+	.byte	2,0
+	.word	.Ldw_abbr_begin
+	.byte	4
+	.section	.debug_abbrev
+.Ldw_abbr_begin:
+	.section	.debug_info
+	.byte	1
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B13C83..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Crlin3x...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B13C83..0
+	.strz	"rlin3x.c"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"GHS C 2013.5.5 [dual]"
+	.byte	1,0
+	.word	.Ldw_line_begin
+	.word	.Ldw_macinfo_begin
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	1
+	.byte	17
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	3,8
+	.byte	27,8
+	.byte	37,8
+	.byte	19,5
+	.byte	16,6
+	.byte	67,6
+	.byte	66,11
+	.byte	0,0
+
+	.section	.debug_line
+.Ldw_line_begin:
+	.word	.Ldw_line_end-.Ldw_line_begin-4
+	.byte	2,0
+	.word	.Ldw_lpro_end-.Ldw_lpro_begin
+.Ldw_lpro_begin:
+	.byte	1
+	.byte	0
+	.byte	0
+	.byte	4
+	.byte	10
+	.byte	0,1,1
+	.byte	1,1,0
+	.byte	0,0,1
+	.byte	0
+	.strz	"rlin3x.c"
+	.byte	0,0,0
+	.strz	"../../include/Os.h"
+	.byte	0,0,0
+	.strz	"../../include/Std_Types.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/Platform_Types.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\stdint.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler.h"
+	.byte	0,0,0
+	.strz	"../../arch/ghs/Compiler_Cfg.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\ansi\\limits.h"
+	.byte	0,0,0
+	.strz	"../../include/MemMap.h"
+	.byte	0,0,0
+	.strz	"../../include/Rte_Os_Type.h"
+	.byte	0,0,0
+	.strz	".\\Rte_Type.h"
+	.byte	0,0,0
+	.strz	".\\Os_Cfg.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_kernel.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/rh850f1h_pb.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/rh850_f1h.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/v850.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_kernel.h"
+	.byte	0,0,0
+	.strz	".\\Os_Lcfg.h"
+	.byte	0,0,0
+	.strz	"../../include/t_stdlib.h"
+	.byte	0,0,0
+	.strz	"../../target/rh850f1h_pb_gcc/target_sysmod.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_gcc/prc_sil.h"
+	.byte	0,0,0
+	.strz	"../../arch/v850_ghs/prc_insn.h"
+	.byte	0,0,0
+	.strz	"C:\\GHS\\V800.V2013.5.5\\comp_201355\\include\\v800\\v800_ghs.h"
+	.byte	0,0,0
+	.strz	"rlin3x.h"
+	.byte	0,0,0
+	.byte	0
+.Ldw_lpro_end:
+	.section	.debug_macinfo
+.Ldw_macinfo_begin:
+	.section	.debug_frame
+.LDW_36d89f8:
+	.word	.LDW_unq_2-.LDW_unq_1
+.LDW_unq_1:
+	.byte	255,255,255,255
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	31
+	.byte	12
+	.byte	3
+	.byte	0
+	.byte	7
+	.byte	0
+	.byte	7
+	.byte	1
+	.byte	7
+	.byte	2
+	.byte	7
+	.byte	3
+	.byte	7
+	.byte	4
+	.byte	7
+	.byte	5
+	.byte	7
+	.byte	6
+	.byte	7
+	.byte	7
+	.byte	7
+	.byte	8
+	.byte	7
+	.byte	9
+	.byte	7
+	.byte	10
+	.byte	7
+	.byte	11
+	.byte	7
+	.byte	12
+	.byte	7
+	.byte	13
+	.byte	7
+	.byte	14
+	.byte	7
+	.byte	15
+	.byte	7
+	.byte	16
+	.byte	7
+	.byte	17
+	.byte	7
+	.byte	18
+	.byte	7
+	.byte	19
+	.byte	8
+	.byte	20
+	.byte	8
+	.byte	21
+	.byte	8
+	.byte	22
+	.byte	8
+	.byte	23
+	.byte	8
+	.byte	24
+	.byte	8
+	.byte	25
+	.byte	8
+	.byte	26
+	.byte	8
+	.byte	27
+	.byte	8
+	.byte	28
+	.byte	8
+	.byte	29
+	.byte	7
+	.byte	30
+	.byte	8
+	.byte	31
+	.byte	7
+	.byte	32
+	.byte	7
+	.byte	33
+	.byte	7
+	.byte	34
+	.byte	7
+	.byte	35
+	.byte	7
+	.byte	36
+	.byte	7
+	.byte	37
+	.byte	7
+	.byte	38
+	.byte	7
+	.byte	39
+	.byte	7
+	.byte	40
+	.byte	7
+	.byte	41
+	.byte	7
+	.byte	42
+	.byte	7
+	.byte	43
+	.byte	7
+	.byte	44
+	.byte	7
+	.byte	45
+	.byte	7
+	.byte	46
+	.byte	7
+	.byte	47
+	.byte	7
+	.byte	48
+	.byte	7
+	.byte	49
+	.byte	7
+	.byte	50
+	.byte	7
+	.byte	51
+	.byte	7
+	.byte	52
+	.byte	7
+	.byte	53
+	.byte	7
+	.byte	54
+	.byte	7
+	.byte	55
+	.byte	7
+	.byte	56
+	.byte	7
+	.byte	57
+	.byte	7
+	.byte	58
+	.byte	7
+	.byte	59
+	.byte	7
+	.byte	60
+	.byte	7
+	.byte	61
+	.byte	7
+	.byte	62
+	.byte	7
+	.byte	63
+.LDW_unq_2:
+	.section	.debug_info
+.LDW_354a298:
+	.byte	37
+	.strz	"void*"
+	.byte	1
+	.byte	4
+
+	.section	.debug_abbrev
+	.byte	37
+	.byte	36
+	.byte	0
+	.byte	3,8
+	.byte	62,11
+	.byte	11,11
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_354a378:
+	.byte	37
+	.strz	"unsigned int"
+	.byte	7
+	.byte	4
+
+.LDW_354a3b0:
+	.byte	66
+	.word	.LDW_3573b18
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	66
+	.byte	21
+	.byte	1
+	.byte	73,16
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_354a458:
+	.byte	37
+	.strz	"unsigned short"
+	.byte	7
+	.byte	2
+
+.LDW_354a5a8:
+	.byte	37
+	.strz	"unsigned char"
+	.byte	8
+	.byte	1
+
+.LDW_354a6c0:
+	.byte	66
+	.word	.LDW_3608a90
+	.byte	1
+
+.LDW_3500570:
+	.byte	18
+	.word	.LDW_354a298
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	18
+	.byte	5
+	.byte	0
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_354a6f8:
+	.byte	67
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	67
+	.byte	21
+	.byte	1
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35005d0:
+	.byte	18
+	.word	.LDW_354a298
+	.byte	0
+
+.LDW_3500600:
+	.byte	18
+	.word	.LDW_3608a90
+	.byte	0
+
+	.byte	0
+
+.LDW_354a730:
+	.byte	66
+	.word	.LDW_3573d00
+	.byte	1
+
+.LDW_3500660:
+	.byte	18
+	.word	.LDW_354a298
+	.byte	0
+
+	.byte	0
+
+.LDW_354a768:
+	.byte	67
+	.byte	1
+
+.LDW_35006c0:
+	.byte	18
+	.word	.LDW_354a298
+	.byte	0
+
+.LDW_35006f0:
+	.byte	18
+	.word	.LDW_3573d00
+	.byte	0
+
+	.byte	0
+
+.LDW_35de078:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35de0b0:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35de0e8:
+	.byte	37
+	.strz	"int"
+	.byte	5
+	.byte	4
+
+.LDW_35de120:
+	.byte	66
+	.word	.LDW_35de0e8
+	.byte	1
+
+	.byte	0
+
+.LDW_35de190:
+	.byte	45
+	.word	.LDW_354a5a8
+
+	.section	.debug_abbrev
+	.byte	45
+	.byte	15
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35de158:
+	.byte	66
+	.word	.LDW_3608718
+	.byte	1
+
+.LDW_35dd9e8:
+	.byte	18
+	.word	.LDW_35de190
+	.byte	0
+
+.LDW_35dda18:
+	.byte	18
+	.word	.LDW_35de0e8
+	.byte	0
+
+	.byte	0
+
+.LDW_35db7e8:
+	.byte	41
+	.word	.LDW_354a5a8
+
+	.section	.debug_abbrev
+	.byte	41
+	.byte	38
+	.byte	0
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35de200:
+	.byte	45
+	.word	.LDW_35db7e8
+
+.LDW_35de1c8:
+	.byte	66
+	.word	.LDW_3608718
+	.byte	1
+
+.LDW_35dda78:
+	.byte	18
+	.word	.LDW_35de200
+	.byte	0
+
+.LDW_35ddaa8:
+	.byte	18
+	.word	.LDW_35de0e8
+	.byte	0
+
+	.byte	0
+
+.LDW_35de238:
+	.byte	37
+	.strz	"char"
+	.byte	6
+	.byte	1
+
+.LDW_35de270:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35de2a8:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35de2e0:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35de318:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_3630d88:
+	.byte	56
+	.byte	0
+	.byte	128,2
+	.word	.LDW_3608a90
+
+	.section	.debug_abbrev
+	.byte	56
+	.byte	1
+	.byte	1
+	.byte	9,11
+	.byte	11,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	48
+	.word	.LDW_35de0e8
+	.byte	4
+	.byte	0
+	.byte	255,1
+
+	.section	.debug_abbrev
+	.byte	48
+	.byte	33
+	.byte	0
+	.byte	73,16
+	.byte	11,15
+	.byte	34,13
+	.byte	47,13
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3630e10:
+	.byte	56
+	.byte	0
+	.byte	128,2
+	.word	.LDW_3608a90
+
+	.byte	48
+	.word	.LDW_35de0e8
+	.byte	4
+	.byte	0
+	.byte	255,1
+
+	.byte	0
+
+.LDW_35dbf10:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_35dbf48:
+	.byte	67
+	.byte	1
+
+	.byte	0
+
+.LDW_3639f60:
+	.byte	40
+	.strz	"__ghs_c_int__"
+	.byte	0
+	.byte	0
+	.byte	1
+	.word	.LDW_35de0e8
+
+	.section	.debug_abbrev
+	.byte	40
+	.byte	22
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_36395b0:
+	.byte	66
+	.word	.LDW_354a378
+	.byte	1
+
+.LDW_363cfa0:
+	.byte	18
+	.word	.LDW_3639f60
+	.byte	0
+
+.LDW_363cfd0:
+	.byte	18
+	.word	.LDW_3639f60
+	.byte	0
+
+	.byte	0
+
+.LDW_3608718:
+	.byte	40
+	.strz	"boolean"
+	.byte	101
+	.byte	23
+	.byte	4
+	.word	.LDW_354a5a8
+
+.LDW_3608a90:
+	.byte	40
+	.strz	"uint8"
+	.byte	104
+	.byte	24
+	.byte	4
+	.word	.LDW_354a5a8
+
+.LDW_3573d00:
+	.byte	40
+	.strz	"uint16"
+	.byte	106
+	.byte	25
+	.byte	4
+	.word	.LDW_354a458
+
+.LDW_3573b18:
+	.byte	40
+	.strz	"uint32"
+	.byte	108
+	.byte	23
+	.byte	4
+	.word	.LDW_354a378
+
+.LDW_35dd348:
+	.byte	4
+	.strz	"s_rxbuff"
+	.byte	178,1
+	.byte	14
+	.byte	1
+	.word	.LDW_3630d88
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_rxbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+	.section	.debug_abbrev
+	.byte	4
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35dd398:
+	.byte	4
+	.strz	"s_txbuff"
+	.byte	179,1
+	.byte	14
+	.byte	1
+	.word	.LDW_3630e10
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_txbuff_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd3e8:
+	.byte	4
+	.strz	"s_rxbuff_tail"
+	.byte	181,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_rxbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd438:
+	.byte	4
+	.strz	"s_rxbuff_head"
+	.byte	182,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_rxbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd488:
+	.byte	4
+	.strz	"s_rxbuff_cnt"
+	.byte	183,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_rxbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd4d8:
+	.byte	4
+	.strz	"s_txbuff_tail"
+	.byte	184,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_txbuff_tail_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd528:
+	.byte	4
+	.strz	"s_txbuff_head"
+	.byte	185,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_txbuff_head_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd578:
+	.byte	4
+	.strz	"s_txbuff_cnt"
+	.byte	186,1
+	.byte	12
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_txbuff_cnt_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_35dd5c8:
+	.byte	4
+	.strz	"s_do_tx"
+	.byte	187,1
+	.byte	16
+	.byte	1
+	.word	.LDW_3608718
+	.byte	0
+	.byte	0
+	.byte	5,3
+	.word	___s_do_tx_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carrlin3x_inf
+
+.LDW_360a540:
+	.byte	21
+	.strz	"ResumeOSInterrupts"
+	.byte	131,2
+	.byte	13
+	.byte	2
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	21
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_360a5e0:
+	.byte	21
+	.strz	"SuspendOSInterrupts"
+	.byte	132,2
+	.byte	13
+	.byte	2
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.byte	0
+
+.LDW_363b130:
+	.byte	22
+	.strz	"__STSR"
+	.byte	108
+	.byte	14
+	.byte	23
+	.word	.LDW_354a378
+	.byte	1
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	22
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+.LDW_3573b70:
+	.byte	22
+	.strz	"current_psw"
+	.byte	111
+	.byte	1
+	.byte	22
+	.word	.LDW_3573b18
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_3500240:
+	.byte	32
+
+	.section	.debug_abbrev
+	.byte	32
+	.byte	11
+	.byte	1
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+	.byte	0
+
+.LDW_3608ae8:
+	.byte	22
+	.strz	"sil_reb_mem"
+	.byte	82
+	.byte	1
+	.byte	21
+	.word	.LDW_3608a90
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35dc808:
+	.byte	16
+	.strz	"mem"
+	.byte	82
+	.byte	19
+	.byte	21
+	.word	.LDW_354a298
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	16
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35005a0:
+	.byte	32
+
+.LDW_35dc858:
+	.byte	5
+	.strz	"data"
+	.byte	84
+	.byte	8
+	.byte	21
+	.word	.LDW_3608a90
+	.byte	0
+	.byte	0
+
+	.section	.debug_abbrev
+	.byte	5
+	.byte	52
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	63,12
+	.byte	60,12
+	.byte	0,0
+
+	.section	.debug_info
+	.byte	0
+
+	.byte	0
+
+.LDW_3608ba0:
+	.byte	21
+	.strz	"sil_wrb_mem"
+	.byte	91
+	.byte	1
+	.byte	21
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35dc8a8:
+	.byte	16
+	.strz	"mem"
+	.byte	91
+	.byte	19
+	.byte	21
+	.word	.LDW_354a298
+	.byte	0
+
+.LDW_35dc8f8:
+	.byte	16
+	.strz	"data"
+	.byte	91
+	.byte	30
+	.byte	21
+	.word	.LDW_3608a90
+	.byte	0
+
+.LDW_3500630:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3608c40:
+	.byte	22
+	.strz	"sil_reh_mem"
+	.byte	100
+	.byte	1
+	.byte	21
+	.word	.LDW_3573d00
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35dc948:
+	.byte	16
+	.strz	"mem"
+	.byte	100
+	.byte	19
+	.byte	21
+	.word	.LDW_354a298
+	.byte	0
+
+.LDW_3500690:
+	.byte	32
+
+.LDW_35dc998:
+	.byte	5
+	.strz	"data"
+	.byte	102
+	.byte	9
+	.byte	21
+	.word	.LDW_3573d00
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3608ce0:
+	.byte	21
+	.strz	"sil_wrh_mem"
+	.byte	109
+	.byte	1
+	.byte	21
+	.byte	0
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	0
+	.byte	1
+
+.LDW_35dc9e8:
+	.byte	16
+	.strz	"mem"
+	.byte	109
+	.byte	19
+	.byte	21
+	.word	.LDW_354a298
+	.byte	0
+
+.LDW_35dca38:
+	.byte	16
+	.strz	"data"
+	.byte	109
+	.byte	31
+	.byte	21
+	.word	.LDW_3573d00
+	.byte	0
+
+.LDW_3500720:
+	.byte	32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36091e0:
+	.byte	19
+	.strz	"rlin3x_portinit"
+	.byte	118
+	.byte	1
+	.byte	1
+	.word	_rlin3x_portinit
+	.word	___ghs_eofn_rlin3x_portinit
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	19
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	17,1
+	.byte	18,1
+	.byte	64,10
+	.byte	131,65
+	.byte	15
+	.byte	135,65
+	.byte	13
+	.byte	133,65
+	.byte	15
+	.byte	134,65
+	.byte	13
+	.byte	146,65
+	.byte	15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_frame
+.LDW_36aa5e0:
+	.word	.LDW_unq_4-.LDW_unq_3
+.LDW_unq_3:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_portinit
+	.word	___ghs_eofn_rlin3x_portinit-_rlin3x_portinit
+	.byte	1
+	.word	.LDW11
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_4:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_portinit
+	.byte	6
+	.byte	3
+	.byte	253,0
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	53
+	.byte	37
+	.byte	69
+	.byte	37
+	.byte	69
+	.byte	35
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35dd958:
+	.byte	29
+	.word	.LDW01
+	.word	.LDW11
+
+	.section	.debug_abbrev
+	.byte	29
+	.byte	11
+	.byte	1
+	.byte	17,1
+	.byte	18,1
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35dcda8:
+	.byte	4
+	.strz	"wk"
+	.byte	120
+	.byte	9
+	.byte	1
+	.word	.LDW_3573d00
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3609280:
+	.byte	19
+	.strz	"rlin3x_init"
+	.byte	193,1
+	.byte	1
+	.byte	1
+	.word	_rlin3x_init
+	.word	___ghs_eofn_rlin3x_init
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743000:
+	.word	.LDW_unq_6-.LDW_unq_5
+.LDW_unq_5:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_init
+	.word	___ghs_eofn_rlin3x_init-_rlin3x_init
+	.byte	1
+	.word	.LDW31
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_6:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_init
+	.byte	6
+	.byte	3
+	.byte	206,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	122
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	3
+	.byte	10
+	.byte	2
+	.byte	12
+	.byte	1
+	.byte	77
+	.byte	37
+	.byte	3
+	.byte	107
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	35
+	.byte	35
+	.byte	35
+	.byte	35
+	.byte	3
+	.byte	20
+	.byte	2
+	.byte	24
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin1
+	.byte	11
+	.byte	13
+	.byte	45
+	.byte	37
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35dd988:
+	.byte	29
+	.word	.LDW21
+	.word	.LDW31
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3609320:
+	.byte	20
+	.strz	"rlin3x_get_rxcnt"
+	.byte	239,1
+	.byte	1
+	.byte	1
+	.word	.LDW_35de0e8
+	.word	_rlin3x_get_rxcnt
+	.word	___ghs_eofn_rlin3x_get_rxcnt
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_abbrev
+	.byte	20
+	.byte	46
+	.byte	1
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	17,1
+	.byte	18,1
+	.byte	64,10
+	.byte	131,65
+	.byte	15
+	.byte	135,65
+	.byte	13
+	.byte	133,65
+	.byte	15
+	.byte	134,65
+	.byte	13
+	.byte	146,65
+	.byte	15
+	.byte	60,12
+	.byte	32,11
+	.byte	63,12
+	.byte	50,11
+	.byte	76,11
+	.byte	39,12
+	.byte	0,0
+
+	.section	.debug_frame
+.LDW_3743100:
+	.word	.LDW_unq_8-.LDW_unq_7
+.LDW_unq_7:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_get_rxcnt
+	.word	___ghs_eofn_rlin3x_get_rxcnt-_rlin3x_get_rxcnt
+	.byte	1
+	.word	.LDW51
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_8:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_get_rxcnt
+	.byte	6
+	.byte	3
+	.byte	240,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	2
+	.byte	6
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35dd9b8:
+	.byte	29
+	.word	.LDW41
+	.word	.LDW51
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36093c0:
+	.byte	20
+	.strz	"rlin3x_receive"
+	.byte	248,1
+	.byte	1
+	.byte	1
+	.word	.LDW_3608718
+	.word	_rlin3x_receive
+	.word	___ghs_eofn_rlin3x_receive
+	.byte	1,83
+	.byte	130,128,128,240,8
+	.byte	16
+	.byte	3
+	.byte	16
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743200:
+	.word	.LDW_unq_a-.LDW_unq_9
+.LDW_unq_9:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_receive
+	.word	___ghs_eofn_rlin3x_receive-_rlin3x_receive
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	64
+	.byte	155
+	.byte	4
+	.byte	64
+	.byte	154
+	.byte	8
+	.byte	64
+	.byte	153
+	.byte	12
+	.byte	1
+	.word	.LDW71
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_a:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_receive
+	.byte	3
+	.byte	248,1
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	8
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin2
+	.byte	11
+	.byte	2
+	.byte	8
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin3
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin4
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin5
+	.byte	12
+	.byte	6
+	.byte	2
+	.byte	2
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35dcdf8:
+	.byte	15
+	.strz	"data"
+	.byte	248,1
+	.byte	31
+	.byte	1
+	.word	.LDW_35de190
+	.byte	0
+	.byte	1,106
+
+	.section	.debug_abbrev
+	.byte	15
+	.byte	5
+	.byte	0
+	.byte	3,8
+	.byte	59,15
+	.byte	57,15
+	.byte	58,15
+	.byte	73,16
+	.byte	75,12
+	.byte	2,10
+	.byte	0,0
+
+	.section	.debug_info
+.LDW_35dce48:
+	.byte	15
+	.strz	"len"
+	.byte	248,1
+	.byte	41
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	1,105
+
+.LDW_35dda48:
+	.byte	29
+	.word	.LDW61
+	.word	.LDW71
+
+.LDW_35dce98:
+	.byte	4
+	.strz	"result"
+	.byte	250,1
+	.byte	10
+	.byte	1
+	.word	.LDW_3608718
+	.byte	0
+	.byte	0
+	.byte	1,107
+
+.LDW_35dcee8:
+	.byte	5
+	.strz	"loop"
+	.byte	251,1
+	.byte	6
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3609460:
+	.byte	20
+	.strz	"rlin3x_send"
+	.byte	144,2
+	.byte	1
+	.byte	1
+	.word	.LDW_3608718
+	.word	_rlin3x_send
+	.word	___ghs_eofn_rlin3x_send
+	.byte	1,83
+	.byte	130,128,128,128,8
+	.byte	4
+	.byte	3
+	.byte	4
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743300:
+	.word	.LDW_unq_c-.LDW_unq_b
+.LDW_unq_b:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_send
+	.word	___ghs_eofn_rlin3x_send-_rlin3x_send
+	.byte	68
+	.byte	159
+	.byte	0
+	.byte	1
+	.word	.LDW91
+.LDW_unq_c:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_send
+	.byte	3
+	.byte	144,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	6
+	.byte	3
+	.byte	5
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	2
+	.byte	14
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin6
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	13
+	.byte	0,5,2
+	.word	.LDWlin7
+	.byte	3
+	.byte	4
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin8
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	0,5,2
+	.word	.LDWlin9
+	.byte	12
+	.byte	59
+	.byte	36
+	.byte	91
+	.byte	139
+	.byte	0,5,2
+	.word	.LDWlin10
+	.byte	11
+	.byte	2
+	.byte	0
+	.byte	12
+	.byte	6
+	.byte	2
+	.byte	2
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35dcf38:
+	.byte	15
+	.strz	"data"
+	.byte	144,2
+	.byte	34
+	.byte	1
+	.word	.LDW_35de200
+	.byte	0
+	.byte	1,110
+
+.LDW_35dcf88:
+	.byte	15
+	.strz	"len"
+	.byte	144,2
+	.byte	44
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	1,87
+
+.LDW_35ddad8:
+	.byte	29
+	.word	.LDW81
+	.word	.LDW91
+
+.LDW_35dcfd8:
+	.byte	5
+	.strz	"loop"
+	.byte	146,2
+	.byte	6
+	.byte	1
+	.word	.LDW_35de0e8
+	.byte	0
+	.byte	0
+
+.LDW_35dd028:
+	.byte	4
+	.strz	"c"
+	.byte	147,2
+	.byte	7
+	.byte	1
+	.word	.LDW_35de238
+	.byte	0
+	.byte	0
+	.byte	1,98
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3609500:
+	.byte	19
+	.strz	"rlin3x_tx_interrupt"
+	.byte	176,2
+	.byte	1
+	.byte	1
+	.word	_rlin3x_tx_interrupt
+	.word	___ghs_eofn_rlin3x_tx_interrupt
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743400:
+	.word	.LDW_unq_e-.LDW_unq_d
+.LDW_unq_d:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_tx_interrupt
+	.word	___ghs_eofn_rlin3x_tx_interrupt-_rlin3x_tx_interrupt
+	.byte	1
+	.word	.LDW12
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_e:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_tx_interrupt
+	.byte	6
+	.byte	3
+	.byte	176,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	37
+	.byte	2
+	.byte	2
+	.byte	12
+	.byte	0,5,2
+	.word	.LDWlin11
+	.byte	11
+	.byte	11
+	.byte	12
+	.byte	60
+	.byte	107
+	.byte	132
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35ddb08:
+	.byte	29
+	.word	.LDW02
+	.word	.LDW12
+
+.LDW_35dd078:
+	.byte	4
+	.strz	"c"
+	.byte	178,2
+	.byte	7
+	.byte	1
+	.word	.LDW_35de238
+	.byte	0
+	.byte	0
+	.byte	1,93
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36095a0:
+	.byte	19
+	.strz	"ISRMainRLIN3x_TX_ISR"
+	.byte	194,2
+	.byte	1
+	.byte	1
+	.word	_ISRMainRLIN3x_TX_ISR
+	.word	___ghs_eofn_ISRMainRLIN3x_TX_ISR
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743500:
+	.word	.LDW_unq_10-.LDW_unq_f
+.LDW_unq_f:
+	.word	.LDW_36d89f8
+	.word	_ISRMainRLIN3x_TX_ISR
+	.word	___ghs_eofn_ISRMainRLIN3x_TX_ISR-_ISRMainRLIN3x_TX_ISR
+	.byte	1
+	.word	.LDW32
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_10:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_ISRMainRLIN3x_TX_ISR
+	.byte	6
+	.byte	3
+	.byte	195,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35ddb38:
+	.byte	29
+	.word	.LDW22
+	.word	.LDW32
+
+	.byte	0
+
+	.byte	0
+
+.LDW_3609640:
+	.byte	19
+	.strz	"rlin3x_rx_interrupt"
+	.byte	200,2
+	.byte	1
+	.byte	1
+	.word	_rlin3x_rx_interrupt
+	.word	___ghs_eofn_rlin3x_rx_interrupt
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743780:
+	.word	.LDW_unq_12-.LDW_unq_11
+.LDW_unq_11:
+	.word	.LDW_36d89f8
+	.word	_rlin3x_rx_interrupt
+	.word	___ghs_eofn_rlin3x_rx_interrupt-_rlin3x_rx_interrupt
+	.byte	1
+	.word	.LDW52
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_12:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_rlin3x_rx_interrupt
+	.byte	6
+	.byte	3
+	.byte	205,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	126
+	.byte	2
+	.byte	6
+	.byte	1
+	.byte	0,5,2
+	.word	.LDWlin12
+	.byte	12
+	.byte	11
+	.byte	60
+	.byte	171
+	.byte	2
+	.byte	0
+	.byte	11
+	.byte	2
+	.byte	2
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35ddb68:
+	.byte	29
+	.word	.LDW42
+	.word	.LDW52
+
+.LDW_35dd0c8:
+	.byte	4
+	.strz	"c"
+	.byte	202,2
+	.byte	7
+	.byte	1
+	.word	.LDW_35de238
+	.byte	0
+	.byte	0
+	.byte	1,94
+
+	.byte	0
+
+	.byte	0
+
+.LDW_36096e0:
+	.byte	19
+	.strz	"ISRMainRLIN3x_RX_ISR"
+	.byte	213,2
+	.byte	1
+	.byte	1
+	.word	_ISRMainRLIN3x_RX_ISR
+	.word	___ghs_eofn_ISRMainRLIN3x_RX_ISR
+	.byte	1,83
+	.byte	2
+	.byte	0
+	.byte	2
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	1
+	.byte	1
+	.byte	0
+	.byte	1
+
+	.section	.debug_frame
+.LDW_3743880:
+	.word	.LDW_unq_14-.LDW_unq_13
+.LDW_unq_13:
+	.word	.LDW_36d89f8
+	.word	_ISRMainRLIN3x_RX_ISR
+	.word	___ghs_eofn_ISRMainRLIN3x_RX_ISR-_ISRMainRLIN3x_RX_ISR
+	.byte	1
+	.word	.LDW72
+	.byte	0
+	.byte	0
+	.byte	0
+.LDW_unq_14:
+	.section	.debug_line
+	.byte	0,5,2
+	.word	_ISRMainRLIN3x_RX_ISR
+	.byte	6
+	.byte	3
+	.byte	214,2
+	.byte	2
+	.byte	0
+	.byte	1
+	.byte	2
+	.byte	4
+	.byte	0,1,1
+	.section	.debug_info
+.LDW_35ddb98:
+	.byte	29
+	.word	.LDW62
+	.word	.LDW72
+
+	.byte	0
+
+	.byte	0
+
+	.byte	0
+
+	.section	.debug_line
+.Ldw_line_end:
+	.section	.debug_macinfo
+	.byte	1
+	.byte	0
+	.strz	"__GNU_ASM_SUPPORT__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__PROTOTYPES__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ATTRIBUTES 1"
+	.byte	1
+	.byte	0
+	.strz	"__EDG__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__ghs__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CORE_V850E3V5__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2R__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E2V3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__V850E3__ 1"
+	.byte	1
+	.byte	0
+	.strz	"__CHAR_BIT 8"
+	.byte	1
+	.byte	0
+	.strz	"__SHRT_BIT 16"
+	.byte	1
+	.byte	0
+	.strz	"__INT_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LONG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__WCHAR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__PTR_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__LLONG_BIT 64"
+	.byte	1
+	.byte	0
+	.strz	"__REG_BIT 32"
+	.byte	1
+	.byte	0
+	.strz	"__v850e3v5__ 1"
+	.byte	3
+	.byte	0
+	.byte	1
+	.byte	3
+	.byte	48
+	.byte	2
+	.byte	3
+	.byte	78
+	.byte	3
+	.byte	3
+	.byte	75
+	.byte	4
+	.byte	1
+	.byte	75
+	.strz	"TRUE UINT_C(1)"
+	.byte	1
+	.byte	79
+	.strz	"FALSE UINT_C(0)"
+	.byte	3
+	.byte	99
+	.byte	5
+	.byte	1
+	.byte	134,1
+	.strz	"___FAST32 long"
+	.byte	1
+	.byte	135,1
+	.strz	"___FAST32_BIT __REG_BIT"
+	.byte	1
+	.byte	239,1
+	.strz	"___IL48BIT __LLONG_BIT"
+	.byte	1
+	.byte	143,2
+	.strz	"___IL64BIT __LLONG_BIT"
+	.byte	1
+	.byte	242,2
+	.strz	"___IMBIT __LLONG_BIT"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	76
+	.byte	6
+	.byte	3
+	.byte	61
+	.byte	7
+	.byte	1
+	.byte	61
+	.strz	"UINT_C(val) (val ## U)"
+	.byte	4
+	.byte	1
+	.byte	79
+	.strz	"LOCAL_INLINE static __inline__"
+	.byte	1
+	.byte	81
+	.strz	"Asm asm"
+	.byte	3
+	.byte	88
+	.byte	8
+	.byte	1
+	.byte	36
+	.strz	"CHAR_BIT __CHAR_BIT"
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	79
+	.byte	9
+	.byte	4
+	.byte	3
+	.byte	80
+	.byte	10
+	.byte	3
+	.byte	64
+	.byte	11
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	83
+	.byte	12
+	.byte	1
+	.byte	18
+	.strz	"CFG_USE_STARTUPHOOK "
+	.byte	4
+	.byte	3
+	.byte	89
+	.byte	13
+	.byte	3
+	.byte	64
+	.byte	14
+	.byte	3
+	.byte	52
+	.byte	15
+	.byte	1
+	.byte	53
+	.strz	"_RH850G3M_ "
+	.byte	1
+	.byte	151,1
+	.strz	"PORT_BASE UINT_C(0xffc10000)"
+	.byte	1
+	.byte	154,1
+	.strz	"PMC(n) ((PORT_BASE) +0x0400 + (n * 0x04U))"
+	.byte	1
+	.byte	157,1
+	.strz	"PM(n) ((PORT_BASE) +0x0300 + (n * 0x04U))"
+	.byte	1
+	.byte	159,1
+	.strz	"PIBC(n) ((PORT_BASE) +0x4000 + (n * 0x04U))"
+	.byte	1
+	.byte	160,1
+	.strz	"PFC(n) ((PORT_BASE) +0x0500 + (n * 0x04U))"
+	.byte	1
+	.byte	161,1
+	.strz	"PFCE(n) ((PORT_BASE) +0x0600 + (n * 0x04U))"
+	.byte	1
+	.byte	162,1
+	.strz	"PFCAE(n) ((PORT_BASE) +0x0A00 + (n * 0x04U))"
+	.byte	1
+	.byte	172,2
+	.strz	"RLIN32_BASE 0xffce2080"
+	.byte	3
+	.byte	136,3
+	.byte	16
+	.byte	4
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	93
+	.byte	17
+	.byte	4
+	.byte	4
+	.byte	1
+	.byte	163,1
+	.strz	"TASK(TaskName) void TaskMain ## TaskName(void)"
+	.byte	1
+	.byte	164,1
+	.strz	"ISR(ISRName) void ISRMain ## ISRName(void)"
+	.byte	1
+	.byte	169,1
+	.strz	"ALARMCALLBACK(AlarmCallBackName) void AlarmMain ## AlarmCallBackName(void)"
+	.byte	1
+	.byte	176,1
+	.strz	"TOPPERS_STK_T sintptr"
+	.byte	3
+	.byte	252,2
+	.byte	18
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	49
+	.byte	19
+	.byte	4
+	.byte	3
+	.byte	50
+	.byte	20
+	.byte	3
+	.byte	64
+	.byte	21
+	.byte	3
+	.byte	57
+	.byte	22
+	.byte	3
+	.byte	62
+	.byte	23
+	.byte	1
+	.byte	12
+	.strz	"__ATTRIBUTE(x) __attribute__(x)"
+	.byte	1
+	.byte	141,1
+	.strz	"__GETSP_macro() asm (\"mov sp, %0\" : \"=r\" (result));"
+	.byte	4
+	.byte	1
+	.byte	78
+	.strz	"V850_MEMORY_CHANGED v850_memory_changed();"
+	.byte	4
+	.byte	1
+	.byte	62
+	.strz	"PSW_ID_BITPTN (1U << 5)"
+	.byte	4
+	.byte	4
+	.byte	3
+	.byte	51
+	.byte	24
+	.byte	4
+	.byte	1
+	.byte	54
+	.strz	"RLIN3x_BASE RLIN32_BASE"
+	.byte	1
+	.byte	56
+	.strz	"RLIN3xLWBR_B 0x00000001"
+	.byte	1
+	.byte	57
+	.strz	"RLIN3xLBRP01_H 0x00000002"
+	.byte	1
+	.byte	61
+	.strz	"RLIN3xLMD_B 0x00000008"
+	.byte	1
+	.byte	62
+	.strz	"RLIN3xLBFC_B 0x00000009"
+	.byte	1
+	.byte	65
+	.strz	"RLIN3xLIE_B 0x0000000c"
+	.byte	1
+	.byte	66
+	.strz	"RLIN3xLEDE_B 0x0000000d"
+	.byte	1
+	.byte	67
+	.strz	"RLIN3xLCUC_B 0x0000000e"
+	.byte	1
+	.byte	69
+	.strz	"RLIN3xLMST_B 0x00000011"
+	.byte	1
+	.byte	84
+	.strz	"RLIN3xLUOER_B 0x00000020"
+	.byte	1
+	.byte	87
+	.strz	"RLIN3xLUTDRL_B 0x00000024"
+	.byte	1
+	.byte	90
+	.strz	"RLIN3xLURDRL_B 0x00000026"
+	.byte	1
+	.byte	106
+	.strz	"RLIN32_P10_MASK ((uint16) 0x6000)"
+	.byte	1
+	.byte	107
+	.strz	"RLIN32_PMC10_INIT ((uint16) 0x6000)"
+	.byte	1
+	.byte	108
+	.strz	"RLIN32_PFCAE10_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	109
+	.strz	"RLIN32_PFCE10_INIT ((uint16) 0x0000)"
+	.byte	1
+	.byte	110
+	.strz	"RLIN32_PFC10_INIT ((uint16) 0x6000)"
+	.byte	1
+	.byte	111
+	.strz	"RLIN32_PM10_INIT ((uint16) 0x2000)"
+	.byte	1
+	.byte	112
+	.strz	"RLIN32_PIBC10_INIT ((uint16) 0x2000)"
+	.byte	1
+	.byte	171,1
+	.strz	"RLIN3xLWBR_VAL 0xf0"
+	.byte	1
+	.byte	172,1
+	.strz	"RLIN3xLBRP01_VAL 8"
+	.byte	1
+	.byte	175,1
+	.strz	"RxBUFF_SIZE 256"
+	.byte	1
+	.byte	176,1
+	.strz	"TxBUFF_SIZE 256"
+	.byte	4
+	.byte	0
+	.section	.debug_abbrev
+	.byte	0
+	.section	.debug_info
+.Ldw_end:
+.rh850_flags REGMODE32,DATA_ALIGN8,GP_FIX,EP_NONFIX,TP_FIX,REG2_RESERVE,G3M

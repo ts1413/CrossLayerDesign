@@ -1,0 +1,26 @@
+
+#define TCB_p_tinib	8
+#define TCB_curpri	12
+#define TCB_sp	36
+#define TCB_pc	40
+#define TINIB_task	0
+#define TINIB_stk	8
+#define TINIB_exepri	20
+#define TINIB_p_osapinib	12
+#define ISRINIB_p_osapinib	4
+#define ISRCB_p_isrinib	0
+#define CCB_p_runtsk	16
+#define CCB_p_schedtsk	20
+#define CCB_p_runisr	160
+#define CCB_p_runosap	204
+#define CCB_kerflg	1
+#define CCB_ici_request_map	192
+#define CCB_ici_disreqflg	200
+#define CCB_callevel_stat	4
+#define ISRINIB_p_intinib	0
+#define INTINIB_remain_stksz	16
+#define CCB_except_nest_cnt	208
+#define CCB_current_iintpri	212
+#define CCB_nested_lock_os_int_cnt	213
+#define CCB_current_intpri	214
+#define CCB_trusted_hook_savedsp	216

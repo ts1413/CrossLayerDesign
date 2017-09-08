@@ -5,73 +5,64 @@
  *  Copyright (C) 2014-2015 by Center for Embedded Computing Systems
  *              Graduate School of Information Science, Nagoya Univ., JAPAN
  *
- *  上記著作権者は，以下の(1)〜(4)の条件を満たす場合に限り，本ソフトウェ
- *  ア（本ソフトウェアを改変したものを含む．以下同じ）を使用・複製・改
- *  変・再配布（以下，利用と呼ぶ）することを無償で許諾する．
- *  (1) 本ソフトウェアをソースコードの形で利用する場合には，上記の著作
- *      権表示，この利用条件および下記の無保証規定が，そのままの形でソー
- *      スコード中に含まれていること．
- *  (2) 本ソフトウェアを，ライブラリ形式など，他のソフトウェア開発に使
- *      用できる形で再配布する場合には，再配布に伴うドキュメント（利用
- *      者マニュアルなど）に，上記の著作権表示，この利用条件および下記
- *      の無保証規定を掲載すること．
- *  (3) 本ソフトウェアを，機器に組み込むなど，他のソフトウェア開発に使
- *      用できない形で再配布する場合には，次のいずれかの条件を満たすこ
- *      と．
- *    (a) 再配布に伴うドキュメント（利用者マニュアルなど）に，上記の著
- *        作権表示，この利用条件および下記の無保証規定を掲載すること．
- *    (b) 再配布の形態を，別に定める方法によって，TOPPERSプロジェクトに
- *        報告すること．
- *  (4) 本ソフトウェアの利用により直接的または間接的に生じるいかなる損
- *      害からも，上記著作権者およびTOPPERSプロジェクトを免責すること．
- *      また，本ソフトウェアのユーザまたはエンドユーザからのいかなる理
- *      由に基づく請求からも，上記著作権者およびTOPPERSプロジェクトを
- *      免責すること．
+ *  �嵭����Ԥϡ��ʲ���(1)��(4)�ξ������������˸¤ꡤ�ܥ��եȥ���
+ *  �����ܥ��եȥ���������Ѥ�����Τ�ޤࡥ�ʲ�Ʊ���ˤ���ѡ�ʣ������
+ *  �ѡ������ۡʰʲ������ѤȸƤ֡ˤ��뤳�Ȥ�̵���ǵ������롥
+ *  (1) �ܥ��եȥ������򥽡��������ɤη������Ѥ�����ˤϡ��嵭������
+ *      ��ɽ�����������Ѿ�浪��Ӳ�����̵�ݾڵ��꤬�����Τޤޤη��ǥ���
+ *      ����������˴ޤޤ�Ƥ��뤳�ȡ�
+ *  (2) �ܥ��եȥ������򡤥饤�֥������ʤɡ�¾�Υ��եȥ�������ȯ�˻�
+ *      �ѤǤ�����Ǻ����ۤ�����ˤϡ������ۤ�ȼ���ɥ�����ȡ�����
+ *      �ԥޥ˥奢��ʤɡˤˡ��嵭�����ɽ�����������Ѿ�浪��Ӳ���
+ *      ��̵�ݾڵ����Ǻܤ��뤳�ȡ�
+ *  (3) �ܥ��եȥ������򡤵�����Ȥ߹���ʤɡ�¾�Υ��եȥ�������ȯ�˻�
+ *      �ѤǤ��ʤ����Ǻ����ۤ�����ˤϡ����Τ����줫�ξ�����������
+ *      �ȡ�
+ *    (a) �����ۤ�ȼ���ɥ�����ȡ����Ѽԥޥ˥奢��ʤɡˤˡ��嵭����
+ *        �ɽ�����������Ѿ�浪��Ӳ�����̵�ݾڵ����Ǻܤ��뤳�ȡ�
+ *    (b) �����ۤη��֤��̤�������ˡ�ˤ�äơ�TOPPERS�ץ��������Ȥ�
+ *        ��𤹤뤳�ȡ�
+ *  (4) �ܥ��եȥ����������Ѥˤ��ľ��Ū�ޤ��ϴ���Ū�������뤤���ʤ�»
+ *      ������⡤�嵭����Ԥ����TOPPERS�ץ��������Ȥ����դ��뤳�ȡ�
+ *      �ޤ����ܥ��եȥ������Υ桼���ޤ��ϥ���ɥ桼������Τ����ʤ���
+ *      ͳ�˴�Ť����ᤫ��⡤�嵭����Ԥ����TOPPERS�ץ��������Ȥ�
+ *      ���դ��뤳�ȡ�
  *
  *
- *  本ソフトウェアは，AUTOSAR（AUTomotive Open System ARchitecture）仕
- *  様に基づいている．上記の許諾は，AUTOSARの知的財産権を許諾するもので
- *  はない．AUTOSARは，AUTOSAR仕様に基づいたソフトウェアを商用目的で利
- *  用する者に対して，AUTOSARパートナーになることを求めている．
+ *  �ܥ��եȥ������ϡ�AUTOSAR��AUTomotive Open System ARchitecture�˻�
+ *  �ͤ˴�Ť��Ƥ��롥�嵭�ε����ϡ�AUTOSAR����Ū�⻺������������Τ�
+ *  �Ϥʤ���AUTOSAR�ϡ�AUTOSAR���ͤ˴�Ť������եȥ�����������Ū����
+ *  �Ѥ���Ԥ��Ф��ơ�AUTOSAR�ѡ��ȥʡ��ˤʤ뤳�Ȥ���Ƥ��롥
  *
- *  本ソフトウェアは，無保証で提供されているものである．上記著作権者お
- *  よびTOPPERSプロジェクトは，本ソフトウェアに関して，特定の使用目的
- *  に対する適合性も含めて，いかなる保証も行わない．また，本ソフトウェ
- *  アの利用により直接的または間接的に生じたいかなる損害に関しても，そ
- *  の責任を負わない．
+ *  �ܥ��եȥ������ϡ�̵�ݾڤ��󶡤���Ƥ����ΤǤ��롥�嵭����Ԥ�
+ *  ���TOPPERS�ץ��������Ȥϡ��ܥ��եȥ������˴ؤ��ơ�����λ�����Ū
+ *  ���Ф���Ŭ������ޤ�ơ������ʤ��ݾڤ�Ԥ�ʤ����ޤ����ܥ��եȥ���
+ *  �������Ѥˤ��ľ��Ū�ޤ��ϴ���Ū�������������ʤ�»���˴ؤ��Ƥ⡤��
+ *  ����Ǥ�����ʤ���
  *
  *  $Id$
  */
 
 /*
- *		モデルーカー制御プログラムヘッダファイル
+ *		��ǥ롼��������ץ������إå��ե�����
  */
 
 #ifndef TOPPERS_MODEL_CAR_CONTROL_H
 #define TOPPERS_MODEL_CAR_CONTROL_H
 
 /*
- *  共通ヘッダファイル
+ *  ���̥إå��ե�����
  */
 //#include "driver_if.h"
 //#include "can_if.h"
 
 /*
- *  パワトレ関連 : ニュートラル時のステアリング角度の初期値
+ *  �ѥ�ȥ��Ϣ : �˥塼�ȥ����Υ��ƥ���󥰳��٤ν����
  */
 #define STEER_NEUTRAL_INIT	0
 
-#define PWM_CYCLE_US  20000
-
 /*
- *  パワトレ関連 : サーボのパラメータ
- */
-#define SERVO_N_US    1570
-#define SERVO_RMAX_US 1870
-#define SERVO_LMAX_US 1200
-
-/*
- * 車速，ステアリング最大/最小値
+ * ��®�����ƥ���󥰺���/�Ǿ���
  */
 #define DRIVE_SPEED_MAX		64
 #define DRIVE_SPEED_MIN		-63
@@ -79,57 +70,57 @@
 #define STEER_ANGLE_MIN		-63
 
 /*
- *  ステアリングニュートラル調整値の最大/最小値
+ *  ���ƥ���󥰥˥塼�ȥ��Ĵ���ͤκ���/�Ǿ���
  */
 #define STEER_NEUTRAL_MIN	-32
 #define STEER_NEUTRAL_MAX	32
 
 /*
- *  ボディ系の起動周期
+ *  �ܥǥ��Ϥε�ư����
  */
 #define BODY_CYCLE_MS		100U
 
 /*
- *  DriveManagerタスクの起動周期
+ *  DriveManager�������ε�ư����
  */
 #define DRIVEMANAGER_TASK_CYCLE_MS		20
 
 /*
- *  制御系 : 起動時のボディー系の接続テスト用設定
- *           点滅回数，点滅周期
+ *  ����� : ��ư���Υܥǥ����Ϥ���³�ƥ���������
+ *           ���ǲ�������Ǽ���
  */
 #define INIT_BODY_BLINK_COUNT		3
 #define INIT_BODY_BLINK_CYCLE_MS	500
 
 /*
- *  制御系 : CAN送信周期
+ *  ����� : CAN��������
  */
 //#define BODYCMD_CANMSG_SEND_CYCLE_MS	100
 
 /*
- *  ウィンカーの点滅周期
+ *  �����󥫡������Ǽ���
  */
 #define WINKER_INTERVAL_MS	500U
 
 /*
- *  ブザー用アラームコールバックの周期
+ *  �֥����ѥ��顼�ॳ����Хå��μ���
  */
 #define BUZZER_CYCLE_NS		125U
 
 /*
- *  ブザーの周期
+ *  �֥����μ���
  */
 #define BUZZER_INTERVAL_MS	500U
 
 /*
- *  ブザーの操作定義
+ *  �֥�����������
  */
 #define BUZZER_OFF			0U
 #define BUZZER_ON			1U
 #define BUZZER_INTERVAL_ON	2U
 
 /*
- *  ウィンカーの操作定義
+ *  �����󥫡���������
  */
 #define WINKER_OFF		0U
 #define WINKER_L_ON		1U
@@ -140,28 +131,28 @@
 #define WINKER_LR_BLINK	6U
 
 /*
- *  CANに関する定義
+ *  CAN�˴ؤ������
  */
 
 /*
- *  CAN関連 : ボディ系コマンド用CANメッセージID
+ *  CAN��Ϣ : �ܥǥ��ϥ��ޥ����CAN��å�����ID
  */
 //#define BODYCMD_CANMSG_ID		16
 
 /*
- *  CAN関連 : 制御系コマンド用CANメッセージID
+ *  CAN��Ϣ : ����ϥ��ޥ����CAN��å�����ID
  */
 //#define CONTCMD_CANMSG_ID		3
 
 /*
- *  各系の動作状況（同一ECUで動作していればTRUEとなる）
+ *  �ƷϤ�ư�������Ʊ��ECU��ư��Ƥ����TRUE�Ȥʤ��
  */
 //extern boolean IsBodyOnECU;
 //extern boolean IsOperatorOnECU;
 //extern boolean IsControlerOnECU;
 
 /*
- *  ボディー系への状態指示構造体
+ *  �ܥǥ����Ϥؤξ��ֻؼ���¤��
  */
 typedef struct {
 	boolean headlamp;
@@ -173,22 +164,22 @@ typedef struct {
 }BODYCMD;
 
 /*
- *  ボディー系への状態指示用変数
+ *  �ܥǥ����Ϥؤξ��ֻؼ����ѿ�
  */
 extern volatile BODYCMD g_bodycmd;
 
 /*
- *  ボディ系コマンドをCANメッセージとして送信する
+ *  �ܥǥ��ϥ��ޥ�ɤ�CAN��å������Ȥ�����������
  */
 //extern void SendBodyCmdCanMag(void);
 
 /*
- *  ボディ系コマンドのCANメッセージからのアンパック
+ *  �ܥǥ��ϥ��ޥ�ɤ�CAN��å���������Υ���ѥå�
  */
 //extern void UnpackBodyCmdCanMsg(uint8 *p_rx_data);
 
 /*
- *  制御系への指示構造体
+ *  ����Ϥؤλؼ���¤��
  */
 typedef struct {
 	sint8	angle;
@@ -204,72 +195,77 @@ typedef struct {
 }CONTCMD;
 
 /*
- *  制御系へのステアリングニュートラル関連の指示
+ *  ����ϤؤΥ��ƥ���󥰥˥塼�ȥ���Ϣ�λؼ�
  */
 #define CONTCMD_STEERN_I	1U
 #define CONTCMD_STEERN_R	2U
 #define CONTCMD_STEERN_L	3U
 
 /*
- *  制御系へのモータゲイン関連の指示
+ *  ����ϤؤΥ⡼���������Ϣ�λؼ�
  */
-//#define CONTCMD_GAIN_I	1U
-//#define CONTCMD_GAIN_U	2U
-//#define CONTCMD_GAIN_D	3U
+#define CONTCMD_GAIN_I	1U
+#define CONTCMD_GAIN_U	2U
+#define CONTCMD_GAIN_D	3U
 
 /*
- *  制御系へのコマンド更新通知用変数(同一ECU時)
+ *  ����ϤؤΥ��ޥ�ɹ����������ѿ�(Ʊ��ECU��)
  */
 extern volatile boolean UpDateContCmd;
 
 /*
- *  制御系への指示用変数
+ *  ����Ϥؤλؼ����ѿ�
  */
 extern volatile CONTCMD g_contcmd;
 
 /*
- *  制御系コマンドをCANメッセージとして送信
+ *  ����ϥ��ޥ�ɤ�CAN��å������Ȥ�������
  */
 //extern void SendContCmdCanMag(void);
 
 /*
- *  制御系コマンドのCANメッセージからのアンパック
+ *  ����ϥ��ޥ�ɤ�CAN��å���������Υ���ѥå�
  */
 //extern void UnpackContCmdCanMsg(uint8 *p_rx_data);
 
 /*
- * ステアリング値設定用API
+ * ���ƥ������������API
  */
-//extern void SetSteerAngle(sint8 angle);
+extern void SetSteerAngle(sint8 angle);
 
 /*
- *  車速設定用API
+ *  ��®������API
  */
-//extern void SetDriveSpeed(sint8 speed);
+extern void SetDriveSpeed(sint8 speed);
 
 /*
- *  ブレーキ値設定用API
+ *  �֥졼����������API
  */
-//extern void SetBrake(boolean brake);
+extern void SetBrake(boolean brake);
 
 /*
- *  BlinLed用の初期化(blinkled.c)
+ *  BlinLed�Ѥν����(blinkled.c)
  */
 extern void LedBlinkerInit(void);
 
 /*
- *  ボディ系の初期化(BodyControl.c)
+ *  �ܥǥ��Ϥν����(BodyControl.c)
  */
 extern void BodyControlInit(void);
 
+
 /*
- *  操作系の初期化(RcCar.c)
+ *  ����Ϥν����(RcCar.c)
+ */
+extern void RcCarInit(void);
+
+
+/*
+ *  ���Ϥν����(RcCar.c)
  */
 extern void OperationInit(void);
 
-/*
- *  制御系の初期化(DriveManager.c)
- */
-extern void DriveInit(void);
+//tuika
+extern void blsm_motor_init(void);
 
 #endif /* TOPPERS_MODEL_CAR_CONTROL_H */

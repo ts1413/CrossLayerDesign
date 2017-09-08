@@ -11,8 +11,8 @@
 --		../../sysmod/syslog.c
 --Source File:   ../../sysmod/syslog.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:29 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:57 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -31,7 +31,7 @@
 _syslog_initialize:
 --	    .bf
 .LDW01:
-	st.w	zero,sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf)[gp]
+	st.w	zero,sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf)[gp]
 --	    .ef
 .LDW11:
 	jmp	[lp]
@@ -61,26 +61,26 @@ _syslog_wri_log:
 	stsr	5,r17,0 -- PSW
 	ori	32,r17,r18
 	ldsr	r18,5,0 -- PSW
-	ld.w	sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf)[gp],r16
+	ld.w	sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf)[gp],r16
 	mov	r17,r29
 	not	r16,r17
 	shr	r6,r17,r15
 	shr	1,r15
 	bnl	.L265
 --line129
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog.1::
 .LDWlin1:
 	mov	r19,r6
 	mov	_target_fput_log,r7
 	jarl	_syslog_print,lp
 --line130
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog.2::
 .LDWlin2:
 	mov	10,r6
 	jarl	_target_fput_log,lp
 .L265:
 --line136
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog.3::
 .LDWlin3:
 	shr	6,r29
 	bl	.L267
@@ -90,7 +90,7 @@ _syslog_wri_log:
 	ldsr	r18,5,0 -- PSW
 .L267:
 --line140
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog.4::
 .LDWlin4:
 	mov	0,r10
 --	    .ef
@@ -124,7 +124,7 @@ _syslog_msk_log:
 .LDW41:
 	not	r6,r19
 	mov	0,r10
-	st.w	r19,sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf)[gp]
+	st.w	r19,sdaoff23(___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf)[gp]
 --	    .ef
 .LDW51:
 	jmp	[lp]
@@ -148,17 +148,17 @@ ___ghs_eofn_syslog_msk_log:
 	.section ".sbss","awb"
 	.align	4
 	.align	4
-	.global	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf
-___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf:	.space	4
-	.type	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf,@object
-	.size	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf,4
+	.global	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf
+___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf:	.space	4
+	.type	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf,@object
+	.size	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf,4
 	.data
 	.ghsnote version,14
 	.ghsnote tools,3
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -169,10 +169,10 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Csyslog...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0
 	.strz	"../../sysmod/syslog.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -264,7 +264,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_34d3e08:
+.LDW_34f3a20:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -406,7 +406,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_2f466e8:
+.LDW_17666e8:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
@@ -422,9 +422,9 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_352c990:
+.LDW_354c990:
 	.byte	66
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	1
 
 	.section	.debug_abbrev
@@ -438,7 +438,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_info
 	.byte	0
 
-.LDW_352c9c8:
+.LDW_354c9c8:
 	.byte	67
 	.byte	1
 
@@ -450,9 +450,9 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35301e8:
+.LDW_35501e8:
 	.byte	18
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
 	.section	.debug_abbrev
@@ -466,22 +466,22 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_info
 	.byte	0
 
-.LDW_352cb88:
+.LDW_354cb88:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_352cdf0:
+.LDW_354cdf0:
 	.byte	66
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	1
 
 	.byte	0
 
-.LDW_3533308:
+.LDW_3553308:
 	.byte	42
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 
 	.section	.debug_abbrev
 	.byte	42
@@ -491,26 +491,26 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_352ce28:
+.LDW_354ce28:
 	.byte	67
 	.byte	1
 
-.LDW_35307e8:
+.LDW_35507e8:
 	.byte	18
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
 	.byte	0
 
-.LDW_34841f0:
+.LDW_34a41f0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3484bd0:
+.LDW_34a4bd0:
 	.byte	41
-	.word	.LDW_34b0a20
+	.word	.LDW_34d0a20
 
 	.section	.debug_abbrev
 	.byte	41
@@ -520,9 +520,9 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3484260:
+.LDW_34a4260:
 	.byte	45
-	.word	.LDW_3484bd0
+	.word	.LDW_34a4bd0
 
 	.section	.debug_abbrev
 	.byte	45
@@ -532,52 +532,52 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3484228:
+.LDW_34a4228:
 	.byte	66
-	.word	.LDW_3484b78
+	.word	.LDW_34a4b78
 	.byte	1
 
-.LDW_3533498:
+.LDW_3553498:
 	.byte	18
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
-.LDW_35334c8:
+.LDW_35534c8:
 	.byte	18
-	.word	.LDW_3484260
+	.word	.LDW_34a4260
 	.byte	0
 
 	.byte	0
 
-.LDW_3484298:
+.LDW_34a4298:
 	.byte	66
-	.word	.LDW_3484b78
+	.word	.LDW_34a4b78
 	.byte	1
 
-.LDW_3533528:
+.LDW_3553528:
 	.byte	18
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
 	.byte	0
 
-.LDW_3484458:
+.LDW_34a4458:
 	.byte	37
 	.strz	"char"
 	.byte	6
 	.byte	1
 
-.LDW_34846c0:
+.LDW_34a46c0:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_3573f00:
+.LDW_3593f00:
 	.byte	56
 	.byte	0
 	.byte	24
-	.word	.LDW_34b07e0
+	.word	.LDW_34d07e0
 
 	.section	.debug_abbrev
 	.byte	56
@@ -590,7 +590,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_34846c0
+	.word	.LDW_34a46c0
 	.byte	4
 	.byte	0
 	.byte	5
@@ -608,44 +608,44 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_info
 	.byte	0
 
-.LDW_35796d0:
+.LDW_35996d0:
 	.byte	67
 	.byte	1
 
-.LDW_3578bb0:
+.LDW_3598bb0:
 	.byte	18
-	.word	.LDW_34816f8
+	.word	.LDW_34a16f8
 	.byte	0
 
 	.byte	0
 
-.LDW_3579708:
+.LDW_3599708:
 	.byte	45
-	.word	.LDW_35796d0
+	.word	.LDW_35996d0
 
-.LDW_3579698:
+.LDW_3599698:
 	.byte	67
 	.byte	1
 
-.LDW_3578b80:
+.LDW_3598b80:
 	.byte	18
-	.word	.LDW_3484260
+	.word	.LDW_34a4260
 	.byte	0
 
-.LDW_3578be0:
+.LDW_3598be0:
 	.byte	18
-	.word	.LDW_3579708
+	.word	.LDW_3599708
 	.byte	0
 
 	.byte	0
 
-.LDW_35741b0:
+.LDW_35941b0:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_34846c0
+	.word	.LDW_34a46c0
 
 	.section	.debug_abbrev
 	.byte	40
@@ -659,112 +659,112 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_357bed0:
+.LDW_359bed0:
 	.byte	67
 	.byte	1
 
-.LDW_357c6b0:
+.LDW_359c6b0:
 	.byte	18
-	.word	.LDW_35741b0
+	.word	.LDW_35941b0
 	.byte	0
 
-.LDW_357c6e0:
+.LDW_359c6e0:
 	.byte	18
-	.word	.LDW_35741b0
+	.word	.LDW_35941b0
 	.byte	0
 
-.LDW_357c710:
+.LDW_359c710:
 	.byte	18
-	.word	.LDW_2f466e8
+	.word	.LDW_17666e8
 	.byte	0
 
 	.byte	0
 
-.LDW_357bf08:
+.LDW_359bf08:
 	.byte	66
-	.word	.LDW_2f466e8
+	.word	.LDW_17666e8
 	.byte	1
 
-.LDW_357c740:
+.LDW_359c740:
 	.byte	18
-	.word	.LDW_35741b0
+	.word	.LDW_35941b0
 	.byte	0
 
-.LDW_357c770:
+.LDW_359c770:
 	.byte	18
-	.word	.LDW_35741b0
+	.word	.LDW_35941b0
 	.byte	0
 
 	.byte	0
 
-.LDW_357eaa8:
+.LDW_359eaa8:
 	.byte	67
 	.byte	1
 
-.LDW_357f140:
+.LDW_359f140:
 	.byte	18
-	.word	.LDW_34816f8
+	.word	.LDW_34a16f8
 	.byte	0
 
 	.byte	0
 
-.LDW_34816f8:
+.LDW_34a16f8:
 	.byte	40
 	.strz	"char8"
 	.byte	103
 	.byte	17
 	.byte	3
-	.word	.LDW_3484458
+	.word	.LDW_34a4458
 
-.LDW_35332b0:
+.LDW_35532b0:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	3
-	.word	.LDW_352cb88
+	.word	.LDW_354cb88
 
-.LDW_34b0788:
+.LDW_34d0788:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	3
-	.word	.LDW_2f466e8
+	.word	.LDW_17666e8
 
-.LDW_34b07e0:
+.LDW_34d07e0:
 	.byte	40
 	.strz	"uintptr"
 	.byte	123
 	.byte	16
 	.byte	3
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 
-.LDW_3484b78:
+.LDW_34a4b78:
 	.byte	40
 	.strz	"StatusType"
 	.byte	102
 	.byte	23
 	.byte	2
-	.word	.LDW_352cb88
+	.word	.LDW_354cb88
 
-.LDW_3530b18:
+.LDW_3550b18:
 	.byte	40
 	.strz	"SystemTimeMsType"
 	.byte	66
 	.byte	16
 	.byte	18
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 
-.LDW_3531358:
+.LDW_3551358:
 	.byte	40
 	.strz	"CoreIdType"
 	.byte	134,1
 	.byte	15
 	.byte	9
-	.word	.LDW_35332b0
+	.word	.LDW_35532b0
 
-.LDW_34b09c8:
+.LDW_34d09c8:
 	.byte	63
 	.byte	137,1
 	.byte	16
@@ -784,13 +784,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3573668:
+.LDW_3593668:
 	.byte	35
 	.strz	"logtype"
 	.byte	138,1
 	.byte	12
 	.byte	8
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	2,35
 	.byte	0
 	.byte	1
@@ -809,60 +809,60 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35736b0:
+.LDW_35936b0:
 	.byte	35
 	.strz	"logtim"
 	.byte	139,1
 	.byte	19
 	.byte	8
-	.word	.LDW_3530b18
+	.word	.LDW_3550b18
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_35736f8:
+.LDW_35936f8:
 	.byte	35
 	.strz	"coreid"
 	.byte	140,1
 	.byte	15
 	.byte	8
-	.word	.LDW_3531358
+	.word	.LDW_3551358
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_3573740:
+.LDW_3593740:
 	.byte	35
 	.strz	"loginfo"
 	.byte	141,1
 	.byte	13
 	.byte	8
-	.word	.LDW_3573f00
+	.word	.LDW_3593f00
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_34b0a20:
+.LDW_34d0a20:
 	.byte	40
 	.strz	"SYSLOG"
 	.byte	142,1
 	.byte	3
 	.byte	8
-	.word	.LDW_34b09c8
+	.word	.LDW_34d09c8
 
-.LDW_3532300:
+.LDW_3552300:
 	.byte	4
 	.strz	"syslog_lowmask_not"
 	.byte	97
 	.byte	15
 	.byte	1
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carsyslog_inf
+	.word	___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hsyslog_inf
 
 	.section	.debug_abbrev
 	.byte	4
@@ -879,7 +879,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_357a7b0:
+.LDW_359a7b0:
 	.byte	21
 	.strz	"syslog_print"
 	.byte	84
@@ -911,7 +911,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_info
 	.byte	0
 
-.LDW_357cb30:
+.LDW_359cb30:
 	.byte	21
 	.strz	"__LDSR"
 	.byte	107
@@ -926,13 +926,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_357cbd0:
+.LDW_359cbd0:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
 	.byte	14
 	.byte	24
-	.word	.LDW_2f466e8
+	.word	.LDW_17666e8
 	.byte	1
 	.byte	0
 	.byte	1
@@ -960,13 +960,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.section	.debug_info
 	.byte	0
 
-.LDW_3532e40:
+.LDW_3552e40:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	23
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 	.byte	3
 	.byte	0
@@ -974,7 +974,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0
 	.byte	1
 
-.LDW_35301b8:
+.LDW_35501b8:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -988,7 +988,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_3532ee0:
+.LDW_3552ee0:
 	.byte	21
 	.strz	"set_psw"
 	.byte	117
@@ -1001,13 +1001,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0
 	.byte	1
 
-.LDW_352bfe8:
+.LDW_354bfe8:
 	.byte	16
 	.strz	"psw"
 	.byte	117
 	.byte	16
 	.byte	23
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
 	.section	.debug_abbrev
@@ -1023,20 +1023,20 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3530218:
+.LDW_3550218:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_356d5f8:
+.LDW_358d5f8:
 	.byte	22
 	.strz	"TOPPERS_disint"
 	.byte	136,1
 	.byte	1
 	.byte	22
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 	.byte	3
 	.byte	0
@@ -1044,16 +1044,16 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0
 	.byte	1
 
-.LDW_35307b8:
+.LDW_35507b8:
 	.byte	32
 
-.LDW_3531db0:
+.LDW_3551db0:
 	.byte	5
 	.strz	"psw"
 	.byte	139,1
 	.byte	18
 	.byte	22
-	.word	.LDW_3533308
+	.word	.LDW_3553308
 	.byte	0
 	.byte	0
 
@@ -1075,7 +1075,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_356d698:
+.LDW_358d698:
 	.byte	21
 	.strz	"TOPPERS_enaint"
 	.byte	149,1
@@ -1088,23 +1088,23 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0
 	.byte	1
 
-.LDW_3531e00:
+.LDW_3551e00:
 	.byte	16
 	.strz	"TOPPERS_psw"
 	.byte	149,1
 	.byte	23
 	.byte	22
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 
-.LDW_3530818:
+.LDW_3550818:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_357d530:
+.LDW_359d530:
 	.byte	21
 	.strz	"target_fput_log"
 	.byte	82
@@ -1119,7 +1119,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_356d918:
+.LDW_358d918:
 	.byte	19
 	.strz	"syslog_initialize"
 	.byte	103
@@ -1170,10 +1170,10 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_34d55f8:
+.LDW_34f55f8:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_34d3e08
+	.word	.LDW_34f3a20
 	.word	_syslog_initialize
 	.word	___ghs_eofn_syslog_initialize-_syslog_initialize
 	.byte	1
@@ -1196,7 +1196,7 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3533438:
+.LDW_3553438:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -1214,13 +1214,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_356d9b8:
+.LDW_358d9b8:
 	.byte	20
 	.strz	"syslog_wri_log"
 	.byte	114
 	.byte	1
 	.byte	1
-	.word	.LDW_3484b78
+	.word	.LDW_34a4b78
 	.word	_syslog_wri_log
 	.word	___ghs_eofn_syslog_wri_log
 	.byte	1,83
@@ -1267,10 +1267,10 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_34d5c38:
+.LDW_34f5c38:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_34d3e08
+	.word	.LDW_34f3a20
 	.word	_syslog_wri_log
 	.word	___ghs_eofn_syslog_wri_log-_syslog_wri_log
 	.byte	68
@@ -1334,13 +1334,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3531f90:
+.LDW_3551f90:
 	.byte	15
 	.strz	"prio"
 	.byte	114
 	.byte	23
 	.byte	1
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 	.byte	1,86
 
@@ -1358,28 +1358,28 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3531fe0:
+.LDW_3551fe0:
 	.byte	15
 	.strz	"p_syslog"
 	.byte	114
 	.byte	43
 	.byte	1
-	.word	.LDW_3484260
+	.word	.LDW_34a4260
 	.byte	0
 	.byte	1,99
 
-.LDW_35334f8:
+.LDW_35534f8:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
 
-.LDW_3532030:
+.LDW_3552030:
 	.byte	4
 	.strz	"TOPPERS_psw"
 	.byte	116
 	.byte	2
 	.byte	1
-	.word	.LDW_3533308
+	.word	.LDW_3553308
 	.byte	0
 	.byte	0
 	.byte	1,109
@@ -1388,13 +1388,13 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 
 	.byte	0
 
-.LDW_356da58:
+.LDW_358da58:
 	.byte	20
 	.strz	"syslog_msk_log"
 	.byte	147,1
 	.byte	1
 	.byte	1
-	.word	.LDW_3484b78
+	.word	.LDW_34a4b78
 	.word	_syslog_msk_log
 	.word	___ghs_eofn_syslog_msk_log
 	.byte	1,83
@@ -1411,10 +1411,10 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	1
 
 	.section	.debug_frame
-.LDW_34d5d38:
+.LDW_34f5d38:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_34d3e08
+	.word	.LDW_34f3a20
 	.word	_syslog_msk_log
 	.word	___ghs_eofn_syslog_msk_log-_syslog_msk_log
 	.byte	1
@@ -1439,17 +1439,17 @@ ___syslog_lowmask_not_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_at
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3532080:
+.LDW_3552080:
 	.byte	15
 	.strz	"lowmask"
 	.byte	147,1
 	.byte	23
 	.byte	1
-	.word	.LDW_34b0788
+	.word	.LDW_34d0788
 	.byte	0
 	.byte	1,86
 
-.LDW_3533558:
+.LDW_3553558:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW51

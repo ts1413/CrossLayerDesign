@@ -12,8 +12,8 @@
 --		../../target/rh850f1h_pb_gcc/target_hw_counter.c
 --Source File:   ../../target/rh850f1h_pb_gcc/target_hw_counter.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:30 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:58 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -23,7 +23,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -35,7 +35,7 @@ _init_hwcounter_MAIN_HW_COUNTER_CORE0:
 .LDW01:
 	mov	sp,ep
 	sst.w	r6,0[ep]
-	mov	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf),r19
+	mov	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf),r19
 	sst.w	r7,4[ep]
 	mov	0,r6
 	mov	0,r7
@@ -46,7 +46,7 @@ _init_hwcounter_MAIN_HW_COUNTER_CORE0:
 --	    .ef
 .LDW11:
 --line70
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter.1::
 .LDWlin1:
 	dispose	3,{r31},[lp]
 	.global	___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE0
@@ -128,7 +128,7 @@ _set_hwcounter_MAIN_HW_COUNTER_CORE0:
 	prepare	{r31},2
 --	    .bf
 .LDW61:
-	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf)[gp],r17
+	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf)[gp],r17
 	st.w	r6,0[sp]
 	mov	0,r7
 	mov	0,r6
@@ -139,7 +139,7 @@ _set_hwcounter_MAIN_HW_COUNTER_CORE0:
 --	    .ef
 .LDW71:
 --line100
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter.2::
 .LDWlin2:
 	dispose	2,{r31},[lp]
 	.global	___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE0
@@ -165,7 +165,7 @@ ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE0:
 _get_hwcounter_MAIN_HW_COUNTER_CORE0:
 --	    .bf
 .LDW81:
-	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf)[gp],r8
+	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf)[gp],r8
 	mov	0,r6
 	mov	1,r7
 	jr	_get_hwcounter_tauj
@@ -325,7 +325,7 @@ _init_hwcounter_MAIN_HW_COUNTER_CORE1:
 .LDW03:
 	mov	sp,ep
 	sst.w	r6,0[ep]
-	mov	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf),r19
+	mov	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf),r19
 	sst.w	r7,4[ep]
 	mov	1,r6
 	mov	0,r7
@@ -336,7 +336,7 @@ _init_hwcounter_MAIN_HW_COUNTER_CORE1:
 --	    .ef
 .LDW13:
 --line175
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter.3::
 .LDWlin3:
 	dispose	3,{r31},[lp]
 	.global	___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE1
@@ -418,7 +418,7 @@ _set_hwcounter_MAIN_HW_COUNTER_CORE1:
 	prepare	{r31},2
 --	    .bf
 .LDW63:
-	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf)[gp],r17
+	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf)[gp],r17
 	st.w	r6,0[sp]
 	mov	0,r7
 	mov	1,r6
@@ -429,7 +429,7 @@ _set_hwcounter_MAIN_HW_COUNTER_CORE1:
 --	    .ef
 .LDW73:
 --line205
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter.4::
 .LDWlin4:
 	dispose	2,{r31},[lp]
 	.global	___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE1
@@ -455,7 +455,7 @@ ___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE1:
 _get_hwcounter_MAIN_HW_COUNTER_CORE1:
 --	    .bf
 .LDW83:
-	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf)[gp],r8
+	ld.w	sdaoff23(___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf)[gp],r8
 	mov	1,r6
 	mov	1,r7
 	jr	_get_hwcounter_tauj
@@ -609,17 +609,17 @@ ___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE1:
 	.section ".sbss","awb"
 	.align	4
 	.align	4
-	.global	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf
-___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf:	.space	4
-	.type	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf,@object
-	.size	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf,4
+	.global	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf
+___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf:	.space	4
+	.type	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf,@object
+	.size	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf,4
 	.data
 	.ghsnote version,14
 	.ghsnote tools,3
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -630,10 +630,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctarget_hw_counter...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
 	.strz	"../../target/rh850f1h_pb_gcc/target_hw_counter.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -721,7 +721,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_3633068:
+.LDW_36d3088:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -881,7 +881,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.section	.debug_info
 .LDW_173d588:
 	.byte	66
-	.word	.LDW_3590748
+	.word	.LDW_3630748
 	.byte	1
 
 	.section	.debug_abbrev
@@ -901,7 +901,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	1
 
-.LDW_3569a80:
+.LDW_3609a80:
 	.byte	67
 	.byte	1
 
@@ -913,9 +913,9 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_359a8c0:
+.LDW_363a8c0:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
 	.section	.debug_abbrev
@@ -927,152 +927,152 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_359a8f0:
+.LDW_363a8f0:
 	.byte	18
-	.word	.LDW_356a408
+	.word	.LDW_360a408
 	.byte	0
 
 	.byte	0
 
-.LDW_3569ab8:
+.LDW_3609ab8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569af0:
+.LDW_3609af0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569b28:
+.LDW_3609b28:
 	.byte	67
 	.byte	1
 
-.LDW_359a9b0:
+.LDW_363a9b0:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
 	.byte	0
 
-.LDW_3569b60:
+.LDW_3609b60:
 	.byte	66
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	1
 
 	.byte	0
 
-.LDW_3569b98:
+.LDW_3609b98:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569bd0:
+.LDW_3609bd0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569c08:
+.LDW_3609c08:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569c40:
+.LDW_3609c40:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569c78:
+.LDW_3609c78:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569cb0:
+.LDW_3609cb0:
 	.byte	67
 	.byte	1
 
-.LDW_359ab30:
+.LDW_363ab30:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
-.LDW_359ab60:
+.LDW_363ab60:
 	.byte	18
-	.word	.LDW_356a408
+	.word	.LDW_360a408
 	.byte	0
 
 	.byte	0
 
-.LDW_3569ce8:
+.LDW_3609ce8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569d20:
+.LDW_3609d20:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569d58:
+.LDW_3609d58:
 	.byte	67
 	.byte	1
 
-.LDW_34d5028:
+.LDW_3575028:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
 	.byte	0
 
-.LDW_3569d90:
+.LDW_3609d90:
 	.byte	66
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	1
 
 	.byte	0
 
-.LDW_3569dc8:
+.LDW_3609dc8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569e00:
+.LDW_3609e00:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569e38:
+.LDW_3609e38:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569e70:
+.LDW_3609e70:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3569ea8:
+.LDW_3609ea8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_34d5920:
+.LDW_3575920:
 	.byte	45
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 
 	.section	.debug_abbrev
 	.byte	45
@@ -1082,19 +1082,19 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_34d5a38:
+.LDW_3575a38:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_35cb0b0:
+.LDW_366b0b0:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_34d5a38
+	.word	.LDW_3575a38
 
 	.section	.debug_abbrev
 	.byte	40
@@ -1108,245 +1108,245 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35ca608:
+.LDW_366a608:
 	.byte	66
 	.word	.LDW_173d550
 	.byte	1
 
-.LDW_35cac48:
+.LDW_366ac48:
 	.byte	18
-	.word	.LDW_35cb0b0
+	.word	.LDW_366b0b0
 	.byte	0
 
-.LDW_35cac78:
+.LDW_366ac78:
 	.byte	18
-	.word	.LDW_35cb0b0
+	.word	.LDW_366b0b0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce608:
+.LDW_366e608:
 	.byte	67
 	.byte	1
 
-.LDW_35caf48:
+.LDW_366af48:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35caf78:
+.LDW_366af78:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cafa8:
+.LDW_366afa8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cafd8:
+.LDW_366afd8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cb008:
+.LDW_366b008:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
-.LDW_35ce858:
+.LDW_366e858:
 	.byte	18
-	.word	.LDW_356a408
+	.word	.LDW_360a408
 	.byte	0
 
-.LDW_35ce888:
+.LDW_366e888:
 	.byte	18
-	.word	.LDW_35c2860
+	.word	.LDW_3662860
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce640:
+.LDW_366e640:
 	.byte	67
 	.byte	1
 
-.LDW_35ce8b8:
+.LDW_366e8b8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ce8e8:
+.LDW_366e8e8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce678:
+.LDW_366e678:
 	.byte	67
 	.byte	1
 
-.LDW_35ce918:
+.LDW_366e918:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ce948:
+.LDW_366e948:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ce978:
+.LDW_366e978:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ce9a8:
+.LDW_366e9a8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce6b0:
+.LDW_366e6b0:
 	.byte	67
 	.byte	1
 
-.LDW_35ce9d8:
+.LDW_366e9d8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cea08:
+.LDW_366ea08:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cea38:
+.LDW_366ea38:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cea68:
+.LDW_366ea68:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cea98:
+.LDW_366ea98:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
-.LDW_35ceac8:
+.LDW_366eac8:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce6e8:
+.LDW_366e6e8:
 	.byte	66
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	1
 
-.LDW_35ceaf8:
+.LDW_366eaf8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ceb28:
+.LDW_366eb28:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ceb58:
+.LDW_366eb58:
 	.byte	18
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce720:
+.LDW_366e720:
 	.byte	67
 	.byte	1
 
-.LDW_35ceb88:
+.LDW_366eb88:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cebb8:
+.LDW_366ebb8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce758:
+.LDW_366e758:
 	.byte	67
 	.byte	1
 
-.LDW_35cebe8:
+.LDW_366ebe8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cec18:
+.LDW_366ec18:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce790:
+.LDW_366e790:
 	.byte	67
 	.byte	1
 
-.LDW_35cec48:
+.LDW_366ec48:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cec78:
+.LDW_366ec78:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce7c8:
+.LDW_366e7c8:
 	.byte	67
 	.byte	1
 
-.LDW_35ceca8:
+.LDW_366eca8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35cecd8:
+.LDW_366ecd8:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ce800:
+.LDW_366e800:
 	.byte	67
 	.byte	1
 
-.LDW_35ced08:
+.LDW_366ed08:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
-.LDW_35ced38:
+.LDW_366ed38:
 	.byte	18
-	.word	.LDW_35962a0
+	.word	.LDW_36362a0
 	.byte	0
 
 	.byte	0
 
-.LDW_35962a0:
+.LDW_36362a0:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
@@ -1354,7 +1354,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.word	.LDW_173d780
 
-.LDW_3590748:
+.LDW_3630748:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
@@ -1362,41 +1362,41 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.word	.LDW_173d550
 
-.LDW_356a3b0:
+.LDW_360a3b0:
 	.byte	40
 	.strz	"TickType"
 	.byte	102
 	.byte	16
 	.byte	2
-	.word	.LDW_3590748
+	.word	.LDW_3630748
 
-.LDW_356a408:
+.LDW_360a408:
 	.byte	40
 	.strz	"TimeType"
 	.byte	126
 	.byte	16
 	.byte	2
-	.word	.LDW_3590748
+	.word	.LDW_3630748
 
-.LDW_35c2860:
+.LDW_3662860:
 	.byte	40
 	.strz	"TickRefType"
 	.byte	144,1
 	.byte	24
 	.byte	2
-	.word	.LDW_34d5920
+	.word	.LDW_3575920
 
-.LDW_3596168:
+.LDW_3636168:
 	.byte	4
 	.strz	"MAIN_HW_COUNTER_maxval"
 	.byte	55
 	.byte	17
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 	.byte	0
 	.byte	5,3
-	.word	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartarget_hw_counter_inf
+	.word	___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htarget_hw_counter_inf
 
 	.section	.debug_abbrev
 	.byte	4
@@ -1413,7 +1413,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35c9f98:
+.LDW_3669f98:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
@@ -1447,13 +1447,13 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.section	.debug_info
 	.byte	0
 
-.LDW_35907a0:
+.LDW_36307a0:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	20
-	.word	.LDW_3590748
+	.word	.LDW_3630748
 	.byte	0
 	.byte	3
 	.byte	0
@@ -1475,7 +1475,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd598:
+.LDW_366d598:
 	.byte	21
 	.strz	"init_hwcounter_tauj"
 	.byte	63
@@ -1507,7 +1507,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.section	.debug_info
 	.byte	0
 
-.LDW_35cd638:
+.LDW_366d638:
 	.byte	21
 	.strz	"start_hwcounter_tauj"
 	.byte	68
@@ -1522,7 +1522,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd6d8:
+.LDW_366d6d8:
 	.byte	21
 	.strz	"stop_hwcounter_tauj"
 	.byte	73
@@ -1537,7 +1537,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd778:
+.LDW_366d778:
 	.byte	21
 	.strz	"set_hwcounter_tauj"
 	.byte	78
@@ -1552,13 +1552,13 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd818:
+.LDW_366d818:
 	.byte	22
 	.strz	"get_hwcounter_tauj"
 	.byte	83
 	.byte	17
 	.byte	23
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	1
 	.byte	0
 	.byte	1
@@ -1568,7 +1568,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd8b8:
+.LDW_366d8b8:
 	.byte	21
 	.strz	"cancel_hwcounter_tauj"
 	.byte	88
@@ -1583,7 +1583,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd958:
+.LDW_366d958:
 	.byte	21
 	.strz	"trigger_hwcounter_tauj"
 	.byte	93
@@ -1598,7 +1598,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cd9f8:
+.LDW_366d9f8:
 	.byte	21
 	.strz	"int_clear_hwcounter_tauj"
 	.byte	99
@@ -1613,7 +1613,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cda98:
+.LDW_366da98:
 	.byte	21
 	.strz	"int_cancel_hwcounter_tauj"
 	.byte	105
@@ -1628,7 +1628,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35cdb38:
+.LDW_366db38:
 	.byte	21
 	.strz	"increment_hwcounter_tauj"
 	.byte	110
@@ -1643,7 +1643,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3596db0:
+.LDW_3636db0:
 	.byte	19
 	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	65
@@ -1694,10 +1694,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_36316f0:
+.LDW_36d16f0:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_init_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE0-_init_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	68
@@ -1727,13 +1727,13 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3595d58:
+.LDW_3635d58:
 	.byte	15
 	.strz	"maxval"
 	.byte	65
 	.byte	47
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 	.byte	1,86
 
@@ -1751,17 +1751,17 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3595da8:
+.LDW_3635da8:
 	.byte	15
 	.strz	"nspertick"
 	.byte	65
 	.byte	64
 	.byte	1
-	.word	.LDW_356a408
+	.word	.LDW_360a408
 	.byte	0
 	.byte	1,87
 
-.LDW_359a920:
+.LDW_363a920:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -1779,7 +1779,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3596e50:
+.LDW_3636e50:
 	.byte	19
 	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	76
@@ -1801,10 +1801,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3631830:
+.LDW_36d1830:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_start_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE0-_start_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -1826,7 +1826,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359a950:
+.LDW_363a950:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
@@ -1835,7 +1835,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3596ef0:
+.LDW_3636ef0:
 	.byte	19
 	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	85
@@ -1857,10 +1857,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36980b8:
+.LDW_37380b8:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_stop_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE0-_stop_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -1882,7 +1882,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	12
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359a980:
+.LDW_363a980:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW51
@@ -1891,7 +1891,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3596f90:
+.LDW_3636f90:
 	.byte	19
 	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	95
@@ -1913,10 +1913,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36981b8:
+.LDW_37381b8:
 	.word	.LDW_unq_a-.LDW_unq_9
 .LDW_unq_9:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_set_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE0-_set_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	68
@@ -1946,17 +1946,17 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3595df8:
+.LDW_3635df8:
 	.byte	15
 	.strz	"exprtick"
 	.byte	95
 	.byte	46
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 	.byte	1,96
 
-.LDW_359a9e0:
+.LDW_363a9e0:
 	.byte	29
 	.word	.LDW61
 	.word	.LDW71
@@ -1965,13 +1965,13 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597030:
+.LDW_3637030:
 	.byte	20
 	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	106
 	.byte	1
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.word	_get_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1,83
@@ -2018,10 +2018,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_36982b8:
+.LDW_37382b8:
 	.word	.LDW_unq_c-.LDW_unq_b
 .LDW_unq_b:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_get_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE0-_get_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2043,7 +2043,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	14
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359aa10:
+.LDW_363aa10:
 	.byte	29
 	.word	.LDW81
 	.word	.LDW91
@@ -2052,7 +2052,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35970d0:
+.LDW_36370d0:
 	.byte	19
 	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	116
@@ -2074,10 +2074,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36983f8:
+.LDW_37383f8:
 	.word	.LDW_unq_e-.LDW_unq_d
 .LDW_unq_d:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE0-_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2099,7 +2099,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359aa40:
+.LDW_363aa40:
 	.byte	29
 	.word	.LDW02
 	.word	.LDW12
@@ -2108,7 +2108,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597170:
+.LDW_3637170:
 	.byte	19
 	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	125
@@ -2130,10 +2130,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698538:
+.LDW_3738538:
 	.word	.LDW_unq_10-.LDW_unq_f
 .LDW_unq_f:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_trigger_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE0-_trigger_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2155,7 +2155,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359aa70:
+.LDW_363aa70:
 	.byte	29
 	.word	.LDW22
 	.word	.LDW32
@@ -2164,7 +2164,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597210:
+.LDW_3637210:
 	.byte	19
 	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	134,1
@@ -2186,10 +2186,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698678:
+.LDW_3738678:
 	.word	.LDW_unq_12-.LDW_unq_11
 .LDW_unq_11:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE0-_int_clear_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2211,7 +2211,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359aaa0:
+.LDW_363aaa0:
 	.byte	29
 	.word	.LDW42
 	.word	.LDW52
@@ -2220,7 +2220,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35972b0:
+.LDW_36372b0:
 	.byte	19
 	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	143,1
@@ -2242,10 +2242,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36987b8:
+.LDW_37387b8:
 	.word	.LDW_unq_14-.LDW_unq_13
 .LDW_unq_13:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0-_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2267,7 +2267,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359aad0:
+.LDW_363aad0:
 	.byte	29
 	.word	.LDW62
 	.word	.LDW72
@@ -2276,7 +2276,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597350:
+.LDW_3637350:
 	.byte	19
 	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE0"
 	.byte	152,1
@@ -2298,10 +2298,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36988f8:
+.LDW_37388f8:
 	.word	.LDW_unq_16-.LDW_unq_15
 .LDW_unq_15:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_increment_hwcounter_MAIN_HW_COUNTER_CORE0
 	.word	___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE0-_increment_hwcounter_MAIN_HW_COUNTER_CORE0
 	.byte	1
@@ -2323,7 +2323,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359ab00:
+.LDW_363ab00:
 	.byte	29
 	.word	.LDW82
 	.word	.LDW92
@@ -2332,7 +2332,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35973f0:
+.LDW_36373f0:
 	.byte	19
 	.strz	"init_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	170,1
@@ -2354,10 +2354,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36989f8:
+.LDW_37389f8:
 	.word	.LDW_unq_18-.LDW_unq_17
 .LDW_unq_17:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_init_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_init_hwcounter_MAIN_HW_COUNTER_CORE1-_init_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	68
@@ -2387,27 +2387,27 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3595e48:
+.LDW_3635e48:
 	.byte	15
 	.strz	"maxval"
 	.byte	170,1
 	.byte	47
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 	.byte	1,86
 
-.LDW_3595e98:
+.LDW_3635e98:
 	.byte	15
 	.strz	"nspertick"
 	.byte	170,1
 	.byte	64
 	.byte	1
-	.word	.LDW_356a408
+	.word	.LDW_360a408
 	.byte	0
 	.byte	1,87
 
-.LDW_34d4f98:
+.LDW_3574f98:
 	.byte	29
 	.word	.LDW03
 	.word	.LDW13
@@ -2416,7 +2416,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597490:
+.LDW_3637490:
 	.byte	19
 	.strz	"start_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	181,1
@@ -2438,10 +2438,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698b38:
+.LDW_3738b38:
 	.word	.LDW_unq_1a-.LDW_unq_19
 .LDW_unq_19:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_start_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_start_hwcounter_MAIN_HW_COUNTER_CORE1-_start_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2463,7 +2463,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d4fc8:
+.LDW_3574fc8:
 	.byte	29
 	.word	.LDW23
 	.word	.LDW33
@@ -2472,7 +2472,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597530:
+.LDW_3637530:
 	.byte	19
 	.strz	"stop_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	190,1
@@ -2494,10 +2494,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698c38:
+.LDW_3738c38:
 	.word	.LDW_unq_1c-.LDW_unq_1b
 .LDW_unq_1b:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_stop_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_stop_hwcounter_MAIN_HW_COUNTER_CORE1-_stop_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2519,7 +2519,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	12
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d4ff8:
+.LDW_3574ff8:
 	.byte	29
 	.word	.LDW43
 	.word	.LDW53
@@ -2528,7 +2528,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35975d0:
+.LDW_36375d0:
 	.byte	19
 	.strz	"set_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	200,1
@@ -2550,10 +2550,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698d38:
+.LDW_3738d38:
 	.word	.LDW_unq_1e-.LDW_unq_1d
 .LDW_unq_1d:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_set_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_set_hwcounter_MAIN_HW_COUNTER_CORE1-_set_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	68
@@ -2583,17 +2583,17 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3595ee8:
+.LDW_3635ee8:
 	.byte	15
 	.strz	"exprtick"
 	.byte	200,1
 	.byte	46
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.byte	0
 	.byte	1,96
 
-.LDW_34d5058:
+.LDW_3575058:
 	.byte	29
 	.word	.LDW63
 	.word	.LDW73
@@ -2602,13 +2602,13 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597670:
+.LDW_3637670:
 	.byte	20
 	.strz	"get_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	211,1
 	.byte	1
 	.byte	1
-	.word	.LDW_356a3b0
+	.word	.LDW_360a3b0
 	.word	_get_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1,83
@@ -2625,10 +2625,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698e38:
+.LDW_3738e38:
 	.word	.LDW_unq_20-.LDW_unq_1f
 .LDW_unq_1f:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_get_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_get_hwcounter_MAIN_HW_COUNTER_CORE1-_get_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2650,7 +2650,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	14
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d5088:
+.LDW_3575088:
 	.byte	29
 	.word	.LDW83
 	.word	.LDW93
@@ -2659,7 +2659,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597710:
+.LDW_3637710:
 	.byte	19
 	.strz	"cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	221,1
@@ -2681,10 +2681,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3698f78:
+.LDW_3738f78:
 	.word	.LDW_unq_22-.LDW_unq_21
 .LDW_unq_21:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_cancel_hwcounter_MAIN_HW_COUNTER_CORE1-_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2706,7 +2706,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d50b8:
+.LDW_35750b8:
 	.byte	29
 	.word	.LDW04
 	.word	.LDW14
@@ -2715,7 +2715,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35977b0:
+.LDW_36377b0:
 	.byte	19
 	.strz	"trigger_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	230,1
@@ -2737,10 +2737,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36c2948:
+.LDW_3762948:
 	.word	.LDW_unq_24-.LDW_unq_23
 .LDW_unq_23:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_trigger_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_trigger_hwcounter_MAIN_HW_COUNTER_CORE1-_trigger_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2762,7 +2762,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d50e8:
+.LDW_35750e8:
 	.byte	29
 	.word	.LDW24
 	.word	.LDW34
@@ -2771,7 +2771,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597850:
+.LDW_3637850:
 	.byte	19
 	.strz	"int_clear_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	239,1
@@ -2793,10 +2793,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36c2a88:
+.LDW_3762a88:
 	.word	.LDW_unq_26-.LDW_unq_25
 .LDW_unq_25:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_int_clear_hwcounter_MAIN_HW_COUNTER_CORE1-_int_clear_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2818,7 +2818,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d5118:
+.LDW_3575118:
 	.byte	29
 	.word	.LDW44
 	.word	.LDW54
@@ -2827,7 +2827,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_35978f0:
+.LDW_36378f0:
 	.byte	19
 	.strz	"int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	248,1
@@ -2849,10 +2849,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36c2bc8:
+.LDW_3762bc8:
 	.word	.LDW_unq_28-.LDW_unq_27
 .LDW_unq_27:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1-_int_cancel_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2874,7 +2874,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d5148:
+.LDW_3575148:
 	.byte	29
 	.word	.LDW64
 	.word	.LDW74
@@ -2883,7 +2883,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 
 	.byte	0
 
-.LDW_3597990:
+.LDW_3637990:
 	.byte	19
 	.strz	"increment_hwcounter_MAIN_HW_COUNTER_CORE1"
 	.byte	129,2
@@ -2905,10 +2905,10 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	1
 
 	.section	.debug_frame
-.LDW_36c2d08:
+.LDW_3762d08:
 	.word	.LDW_unq_2a-.LDW_unq_29
 .LDW_unq_29:
-	.word	.LDW_3633068
+	.word	.LDW_36d3088
 	.word	_increment_hwcounter_MAIN_HW_COUNTER_CORE1
 	.word	___ghs_eofn_increment_hwcounter_MAIN_HW_COUNTER_CORE1-_increment_hwcounter_MAIN_HW_COUNTER_CORE1
 	.byte	1
@@ -2930,7 +2930,7 @@ ___MAIN_HW_COUNTER_maxval_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLS
 	.byte	8
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_34d5178:
+.LDW_3575178:
 	.byte	29
 	.word	.LDW84
 	.word	.LDW94

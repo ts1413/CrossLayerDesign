@@ -117,7 +117,7 @@ OMIT_HW_COUNTER =
 #
 #  コンフィギュレーションファイルに関する定義
 #
-CFGNAME = f1h_rc_car testout-BlsmControl rlin3x
+CFGNAME = main testout-a_controller rlin3x
 ifeq ($(CFGNAME),sample1)
   CFGNAME := $(CFGNAME) target_serial
 endif
@@ -189,7 +189,7 @@ CFLAGS = $(COPTS) $(CDEFS) $(INCLUDES)
 #
 #  アプリケーションプログラムに関する定義
 #
-APPLNAME = f1h_rc_car
+APPLNAME = main
 APPLDIR =
 APPL_CFG_INPUT := $(foreach file,$(CFGNAME),$(file).arxml)
 
@@ -199,7 +199,7 @@ ifdef USE_CXX
   APPL_CXXOBJS = $(APPLNAME).o
   APPL_COBJS =
 else
-  APPL_COBJS = $(APPLNAME).o testout-BlsmControl.o rcb3.o rlin3x.o pwm_diag.o OperationManager.o DriveManager.o BodyControl.o
+  APPL_COBJS = $(APPLNAME).o testout-a_controller.o blsm.o rcb3.o rlin3x.o pwm_diag.o OperationManager.o DriveManager.o BodyControl.o
 endif
 APPL_CFLAGS =
 APPL_LIBS =

@@ -15,14 +15,6 @@ void OperationControl(void);
 void rcb3_ErrorCb(uint8 sum, uint8 c, uint8 * g_rcb3_rmsg);
 
 extern sint16 blsm_speed;
-/*
- *  操作系の初期化
-*/
-void
-OperationInit(void)
-{
-  rlin3x_init();
-}
 
 /*
  *  PS3のコンローラからのコマンドを受けるタスク
@@ -36,6 +28,7 @@ TASK(OperationManagerTask)
   if (executed == FALSE) {
     syslog(LOG_INFO, "OperationManagerTask : Start!");
     executed = TRUE;
+    rlin3x_init();
   }
 
   while(rlin3x_receive(&c, 1)) {
@@ -56,8 +49,8 @@ OperationControl(void){
   sint8   speed;
   sint8   steern;
   boolean   brake    = FALSE;
-  boolean   headlamp = FALSE;
-  boolean   foglamp  = FALSE;
+  boolean   headlamp = FALSE; //ヘッドランプとフォグランプ
+  boolean   foglamp  = FALSE; //使わない
   boolean   winker_l = FALSE;
   boolean   winker_r = FALSE;
   boolean   hazard   = FALSE;
@@ -70,9 +63,9 @@ OperationControl(void){
   if ((rcb3_bstate & RCB3_MSG_BUTTON_NOUGHT) != 0U) {
     headlamp = TRUE;
   }
-  if ((rcb3_bstate & RCB3_MSG_BUTTON_SQUARE) != 0U) {
-    foglamp = TRUE;
-  }
+  //if ((rcb3_bstate & RCB3_MSG_BUTTON_SQUARE) != 0U) {
+  //  foglamp = TRUE;
+  //}
   if ((rcb3_bstate & RCB3_MSG_BUTTON_TRIANGLE) != 0U) {
     hazard = TRUE;
   }

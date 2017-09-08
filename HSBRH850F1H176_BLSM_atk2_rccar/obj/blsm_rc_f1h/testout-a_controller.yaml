@@ -1,0 +1,136 @@
+Ecuc:
+  Os:
+    OsInclude:
+      OsIncludeFileName: a_controller-app.h
+    OsOS:
+      OsNumberOfCores: 2
+    a_controller_AppMode:
+      DefinitionRef: OsAppMode
+    a_controller_WakeupEvent:
+      DefinitionRef: OsEvent
+    a_controller_InputEvent:
+      DefinitionRef: OsEvent
+    a_controller_OutputEvent:
+      DefinitionRef: OsEvent
+    a_controller_CompleteEvent:
+      DefinitionRef: OsEvent
+    a_controller_Core0_1_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: a_controller_Core0_1_0_Task_Priority
+      OsTaskStackSize: a_controller_Core0_1_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/a_controller_WakeupEvent
+        - /Ecuc/Os/a_controller_InputEvent
+        - /Ecuc/Os/a_controller_OutputEvent
+        - /Ecuc/Os/a_controller_CompleteEvent
+    a_controller_Core1_1_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: a_controller_Core1_1_0_Task_Priority
+      OsTaskStackSize: a_controller_Core1_1_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/a_controller_WakeupEvent
+        - /Ecuc/Os/a_controller_InputEvent
+        - /Ecuc/Os/a_controller_OutputEvent
+        - /Ecuc/Os/a_controller_CompleteEvent
+    a_controller_Core0_100_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: a_controller_Core0_100_0_Task_Priority
+      OsTaskStackSize: a_controller_Core0_100_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/a_controller_WakeupEvent
+        - /Ecuc/Os/a_controller_InputEvent
+        - /Ecuc/Os/a_controller_OutputEvent
+        - /Ecuc/Os/a_controller_CompleteEvent
+    a_controller_Core1_100_0_Task:
+      DefinitionRef: OsTask
+      OsTaskActivation: 1
+      OsTaskPriority: a_controller_Core1_100_0_Task_Priority
+      OsTaskStackSize: a_controller_Core1_100_0_Task_Stack
+      OsTaskSchedule: FULL
+      OsTaskAutostart:
+        OsTaskAppModeRef:
+          - /Ecuc/Os/a_controller_AppMode
+          - /Ecuc/Os/debug_AppMode
+      OsTaskEventRef:
+        - /Ecuc/Os/a_controller_WakeupEvent
+        - /Ecuc/Os/a_controller_InputEvent
+        - /Ecuc/Os/a_controller_OutputEvent
+        - /Ecuc/Os/a_controller_CompleteEvent
+    a_controller_Core0_1_0_Alarm:
+      DefinitionRef: OsAlarm
+      #OsAlarmCounterRef: /Ecuc/Os/SwCnt0
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/a_controller_Core0_1_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/a_controller_WakeupEvent
+    a_controller_Core1_1_0_Alarm:
+      DefinitionRef: OsAlarm
+      #OsAlarmCounterRef: /Ecuc/Os/SwCnt0
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/a_controller_Core1_1_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/a_controller_WakeupEvent
+    a_controller_Core0_100_0_Alarm:
+      DefinitionRef: OsAlarm
+      #OsAlarmCounterRef: /Ecuc/Os/SwCnt0
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/a_controller_Core0_100_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/a_controller_WakeupEvent
+    a_controller_Core1_100_0_Alarm:
+      DefinitionRef: OsAlarm
+      #OsAlarmCounterRef: /Ecuc/Os/SwCnt0
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAlarmAction:
+        OsAlarmSetEvent:
+          OsAlarmSetEventTaskRef: /Ecuc/Os/a_controller_Core1_100_0_Task
+          OsAlarmSetEventRef: /Ecuc/Os/a_controller_WakeupEvent
+    a_controller_OSAP_CORE0:
+      DefinitionRef: OsApplication
+      OsApplicationCoreAssignment: 0
+      OsAppTaskRef:
+        - /Ecuc/Os/a_controller_Core0_1_0_Task
+        - /Ecuc/Os/a_controller_Core0_100_0_Task
+      #OsAppIsrRef: /Ecuc/Os/SwCntTimerHdr
+      #OsAppCounterRef: /Ecuc/Os/SwCnt0
+      OsAlarmCounterRef: /Ecuc/Os/MAIN_HW_COUNTER_CORE0
+      OsAppAlarmRef:
+        - /Ecuc/Os/a_controller_Core0_1_0_Alarm
+        - /Ecuc/Os/a_controller_Core0_100_0_Alarm
+        - /Ecuc/Os/a_controller_Core1_1_0_Alarm
+        - /Ecuc/Os/a_controller_Core1_100_0_Alarm
+      OsApplicationHooks:
+        OsAppErrorHook: false
+        OsAppShutdownHook: false
+        OsAppStartupHook: false
+    a_controller_OSAP_CORE1:
+      DefinitionRef: OsApplication
+      OsApplicationCoreAssignment: 1
+      OsAppTaskRef:
+        - /Ecuc/Os/a_controller_Core1_1_0_Task
+        - /Ecuc/Os/a_controller_Core1_100_0_Task
+      OsApplicationHooks:
+        OsAppErrorHook: false
+        OsAppShutdownHook: false
+        OsAppStartupHook: false

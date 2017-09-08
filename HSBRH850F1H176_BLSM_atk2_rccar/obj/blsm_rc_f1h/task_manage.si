@@ -11,8 +11,8 @@
 --		-DALLFUNC -I../../kernel ../../kernel/task_manage.c
 --Source File:   ../../kernel/task_manage.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
---Compile Date:  Thu Sep 07 16:15:31 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
+--Compile Date:  Thu Sep 07 10:14:59 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16293..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E13..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -47,7 +47,7 @@ _ActivateTask:
 	cmovne	12,zero,r29
 	bne	.L844
 --line139
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.1::
 .LDWlin1:
 	stsr	0,r14,2
 	shr	16,r14
@@ -63,14 +63,14 @@ _ActivateTask:
 	cmovne	2,r29,r29
 	bne	.L844
 --line140
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.2::
 .LDWlin2:
 	ld.w	rosdaoff23(_tnum_task)[r5],r14
 	cmp	r14,r6
 	cmovnl	3,r29,r29
 	bnl	.L844
 --line141
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.3::
 .LDWlin3:
 	shl	2,r6
 	add	r5,r6
@@ -79,13 +79,13 @@ _ActivateTask:
 	cmp	zero,ep
 	bne	.L870
 --line142
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.4::
 .LDWlin4:
 	movea	29,zero,r10
 	dispose	0,{r22,r23,r24,r25,r26,r29,r31},[lp]
 .L870:
 --line143
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.5::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.5::
 .LDWlin5:
 	sld.w	32[ep],r22
 	stsr	0,r12,2
@@ -109,25 +109,25 @@ _ActivateTask:
 	st.b	r10,213[r13]
 	jarl	_v850_memory_changed,lp
 --line146
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.6::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.6::
 .LDWlin6:
 	mov	r22,r6
 	jarl	_acquire_tsk_lock,lp
 --line148
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.7::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.7::
 .LDWlin7:
 	ld.bu	16[r23],r9
 	cmp	zero,r9
 	bne	.L917
 --line149
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.8::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.8::
 .LDWlin8:
 	mov	r23,r6
 	jarl	_make_active,lp
 	cmp	zero,r10
 	be	.L914
 --line154
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.9::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.9::
 .LDWlin9:
 	mov	r22,r6
 	jarl	_dispatch_request,lp
@@ -136,13 +136,13 @@ _ActivateTask:
 	ld.hu	4[r22],r8
 	cmp	1,r8
 --line155
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.10::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.10::
 .LDWlin10:
 	cmovne	0,r8,r24
 	br	.L914
 .L917:
 --line160
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.11::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.11::
 .LDWlin11:
 	ld.w	8[r23],r7
 	ld.bu	17[r23],r9
@@ -150,7 +150,7 @@ _ActivateTask:
 	cmp	r7,r9
 	bnl	.L920
 --line162
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.12::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.12::
 .LDWlin12:
 	addi	1,r9,r6
 	st.b	r6,17[r23]
@@ -159,7 +159,7 @@ _ActivateTask:
 	mov	r24,r7
 	jarl	_release_tsk_lock_and_dispatch,lp
 --line166
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.13::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.13::
 .LDWlin13:
 	stsr	0,r11,2
 	shr	16,r11
@@ -173,7 +173,7 @@ _ActivateTask:
 	ld.bu	213[r26],r17
 	cmp	zero,r17
 	bne	.L927
-	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf),r18
+	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf),r18
 	movea	202,zero,r17
 	movea	27,zero,r6
 	st.w	r17,sdaoff23(_fatal_line_num)[gp]
@@ -198,7 +198,7 @@ _ActivateTask:
 .L844:
 .LDW11:
 --line170
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.14::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.14::
 .LDWlin14:
 	mov	r29,r10
 --	    .ef
@@ -207,13 +207,13 @@ _ActivateTask:
 .L920:
 .LDW31:
 --line186
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.15::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.15::
 .LDWlin15:
 	mov	4,r29
 	mov	r22,r6
 	jarl	_release_tsk_lock,lp
 --line188
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.16::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.16::
 .LDWlin16:
 	stsr	0,r10,2
 	shr	16,r10
@@ -227,7 +227,7 @@ _ActivateTask:
 	ld.bu	213[r25],r18
 	cmp	zero,r18
 	bne	.L961
-	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf),r13
+	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf),r13
 	movea	202,zero,r12
 	movea	27,zero,r6
 	st.w	r12,sdaoff23(_fatal_line_num)[gp]
@@ -315,7 +315,7 @@ _TerminateTask:
 	cmovne	12,r10,r10
 	bne	.L2673
 --line207
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.17::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.17::
 .LDWlin17:
 	stsr	0,r6,2
 	shr	16,r6
@@ -331,7 +331,7 @@ _TerminateTask:
 	cmovne	2,r10,r10
 	bne	.L2673
 --line208
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.18::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.18::
 .LDWlin18:
 	ld.w	16[r28],ep
 	sld.w	28[ep],r19
@@ -339,19 +339,19 @@ _TerminateTask:
 	cmovne	6,r10,r10
 	bne	.L2673
 --line209
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.19::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.19::
 .LDWlin19:
 	sld.w	32[ep],r18
 	cmp	zero,r18
 	be	.L2721
 --line209
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.20::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.20::
 .LDWlin20:
 	movea	30,zero,r10
 	dispose	0,{r28,r31},[lp]
 .L2721:
 --line211
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.21::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.21::
 .LDWlin21:
 	stsr	0,r18,2
 	shr	16,r18
@@ -374,22 +374,22 @@ _TerminateTask:
 	st.b	r16,213[r19]
 	jarl	_v850_memory_changed,lp
 --line212
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.22::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.22::
 .LDWlin22:
 	mov	r28,r6
 	jarl	_acquire_tsk_lock,lp
 --line218
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.23::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.23::
 .LDWlin23:
 	mov	r28,r6
 	jarl	_suspend,lp
 --line220
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.24::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.24::
 .LDWlin24:
 	mov	r28,r6
 	jarl	_release_tsk_lock,lp
 --line222
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.25::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.25::
 .LDWlin25:
 	jarl	_exit_and_dispatch,lp
 .L2673:
@@ -397,7 +397,7 @@ _TerminateTask:
 --	    .ef
 .LDW61:
 --line234
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.26::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.26::
 .LDWlin26:
 	dispose	0,{r28,r31},[lp]
 	.global	___ghs_eofn_TerminateTask
@@ -453,7 +453,7 @@ _ChainTask:
 	cmovne	12,r27,r27
 	bne	.L3084
 --line261
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.27::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.27::
 .LDWlin27:
 	stsr	0,r11,2
 	shr	16,r11
@@ -470,7 +470,7 @@ _ChainTask:
 	cmovne	2,r27,r27
 	bne	.L3084
 --line262
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.28::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.28::
 .LDWlin28:
 	ld.w	16[r24],ep
 	sld.w	28[ep],r7
@@ -478,26 +478,26 @@ _ChainTask:
 	cmovne	6,r27,r27
 	bne	.L3084
 --line263
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.29::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.29::
 .LDWlin29:
 	sld.w	32[ep],r19
 	cmp	zero,r19
 	be	.L3118
 --line263
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.30::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.30::
 .LDWlin30:
 	movea	30,zero,r10
 	dispose	0,{r24,r25,r26,r27,r31},[lp]
 .L3118:
 --line264
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.31::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.31::
 .LDWlin31:
 	ld.w	rosdaoff23(_tnum_task)[r5],r18
 	cmp	r18,r6
 	cmovnl	3,r27,r27
 	bnl	.L3084
 --line265
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.32::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.32::
 .LDWlin32:
 	shl	2,r6
 	add	r5,r6
@@ -506,19 +506,19 @@ _ChainTask:
 	cmp	zero,ep
 	bne	.L3122
 --line266
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.33::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.33::
 .LDWlin33:
 	movea	29,zero,r10
 	dispose	0,{r24,r25,r26,r27,r31},[lp]
 .L3122:
 --line269
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.34::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.34::
 .LDWlin34:
 	sld.w	32[ep],r26
 	cmp	r26,r24
 	bne	.L3128
 --line273
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.35::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.35::
 .LDWlin35:
 	mov	r24,r26
 	stsr	0,r9,2
@@ -542,23 +542,23 @@ _ChainTask:
 	st.b	r16,213[r10]
 	jarl	_v850_memory_changed,lp
 --line275
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.36::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.36::
 .LDWlin36:
 	mov	r24,r6
 	jarl	_acquire_tsk_lock,lp
 --line277
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.37::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.37::
 .LDWlin37:
 	ld.w	16[r24],r15
 	cmp	r15,r25
 	bne	.L3166
 --line278
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.38::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.38::
 .LDWlin38:
 	mov	r24,r6
 	jarl	_make_non_runnable,lp
 --line279
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.39::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.39::
 .LDWlin39:
 	ld.w	16[r24],r6
 	jarl	_make_active,lp
@@ -567,7 +567,7 @@ _ChainTask:
 	jarl	_exit_and_dispatch,lp
 .L3166:
 --line286
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.40::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.40::
 .LDWlin40:
 	ld.bu	16[r25],r14
 	cmp	zero,r14
@@ -579,18 +579,18 @@ _ChainTask:
 	bnl	.L3211
 .L3164:
 --line289
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.41::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.41::
 .LDWlin41:
 	mov	r24,r6
 	jarl	_suspend,lp
 --line291
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.42::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.42::
 .LDWlin42:
 	ld.bu	16[r25],r10
 	cmp	zero,r10
 	bne	.L3172
 --line292
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.43::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.43::
 .LDWlin43:
 	mov	r25,r6
 	jarl	_make_active,lp
@@ -599,7 +599,7 @@ _ChainTask:
 	jarl	_exit_and_dispatch,lp
 .L3172:
 --line295
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.44::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.44::
 .LDWlin44:
 	ld.bu	17[r25],r15
 	mov	r24,r6
@@ -609,21 +609,21 @@ _ChainTask:
 	jarl	_exit_and_dispatch,lp
 .L3215:
 --line314
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.45::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.45::
 .LDWlin45:
 	mov	r25,r6
 	jarl	_make_active,lp
 	cmp	zero,r10
 	be	.L3218
 --line316
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.46::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.46::
 .LDWlin46:
 	mov	r26,r6
 	jarl	_dispatch_request,lp
 	br	.L3218
 .L3214:
 --line320
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.47::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.47::
 .LDWlin47:
 	addi	1,r16,r9
 	st.b	r9,17[r25]
@@ -631,7 +631,7 @@ _ChainTask:
 	mov	r26,r6
 	jarl	_release_tsk_lock,lp
 --line323
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.48::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.48::
 .LDWlin48:
 	stsr	0,r6,2
 	shr	16,r6
@@ -645,7 +645,7 @@ _ChainTask:
 	ld.bu	213[r25],r18
 	cmp	zero,r18
 	bne	.L3224
-	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf),r7
+	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf),r7
 	movea	202,zero,r19
 	movea	27,zero,r6
 	st.w	r19,sdaoff23(_fatal_line_num)[gp]
@@ -669,7 +669,7 @@ _ChainTask:
 	ldsr	r18,5,0 -- PSW
 .L3268:
 --line326
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.49::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.49::
 .LDWlin49:
 	stsr	0,r18,2
 	shr	16,r18
@@ -692,27 +692,27 @@ _ChainTask:
 	st.b	r16,213[r19]
 	jarl	_v850_memory_changed,lp
 --line327
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.50::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.50::
 .LDWlin50:
 	mov	r24,r6
 	jarl	_acquire_tsk_lock,lp
 --line328
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.51::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.51::
 .LDWlin51:
 	mov	r24,r6
 	jarl	_suspend,lp
 --line331
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.52::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.52::
 .LDWlin52:
 	mov	r24,r6
 	jarl	_release_tsk_lock,lp
 --line333
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.53::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.53::
 .LDWlin53:
 	jarl	_exit_and_dispatch,lp
 .L3128:
 --line304
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.54::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.54::
 .LDWlin54:
 	stsr	0,r7,2
 	shr	16,r7
@@ -735,12 +735,12 @@ _ChainTask:
 	st.b	r9,213[r8]
 	jarl	_v850_memory_changed,lp
 --line305
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.55::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.55::
 .LDWlin55:
 	mov	r26,r6
 	jarl	_acquire_tsk_lock,lp
 --line311
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.56::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.56::
 .LDWlin56:
 	ld.bu	16[r25],r8
 	cmp	zero,r8
@@ -753,13 +753,13 @@ _ChainTask:
 .L3211:
 .LDW81:
 --line350
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.57::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.57::
 .LDWlin57:
 	mov	4,r27
 	mov	r26,r6
 	jarl	_release_tsk_lock,lp
 --line352
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.58::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.58::
 .LDWlin58:
 	stsr	0,r17,2
 	shr	16,r17
@@ -773,7 +773,7 @@ _ChainTask:
 	ld.bu	213[r24],r17
 	cmp	zero,r17
 	bne	.L3291
-	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf),r14
+	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf),r14
 	movea	202,zero,r13
 	movea	27,zero,r6
 	st.w	r13,sdaoff23(_fatal_line_num)[gp]
@@ -798,7 +798,7 @@ _ChainTask:
 .L3084:
 .LDW91:
 --line355
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.59::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.59::
 .LDWlin59:
 	mov	r27,r10
 --	    .ef
@@ -878,7 +878,7 @@ _Schedule:
 	cmovne	12,zero,r28
 	bne	.L4484
 --line378
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.60::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.60::
 .LDWlin60:
 	stsr	0,r14,2
 	shr	16,r14
@@ -895,7 +895,7 @@ _Schedule:
 	cmovne	2,r28,r28
 	bne	.L4484
 --line379
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.61::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.61::
 .LDWlin61:
 	ld.w	16[r26],ep
 	sld.w	28[ep],r8
@@ -903,19 +903,19 @@ _Schedule:
 	cmovne	6,r28,r28
 	bne	.L4484
 --line380
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.62::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.62::
 .LDWlin62:
 	sld.w	32[ep],r7
 	cmp	zero,r7
 	be	.L4532
 --line380
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.63::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.63::
 .LDWlin63:
 	movea	30,zero,r10
 	dispose	0,{r26,r27,r28,r31},[lp]
 .L4532:
 --line382
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.64::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.64::
 .LDWlin64:
 	stsr	0,r12,2
 	shr	16,r12
@@ -939,12 +939,12 @@ _Schedule:
 	st.b	r19,213[r13]
 	jarl	_v850_memory_changed,lp
 --line383
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.65::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.65::
 .LDWlin65:
 	mov	r26,r6
 	jarl	_acquire_tsk_lock,lp
 --line384
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.66::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.66::
 .LDWlin66:
 	ld.w	16[r26],ep
 	mov	r26,r6
@@ -954,22 +954,22 @@ _Schedule:
 	cmp	r17,r10
 	ble	.L4547
 --line385
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.67::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.67::
 .LDWlin67:
 	sld.w	12[ep],r7
 	sst.w	r10,12[ep]
 	jarl	_preempt,lp
 --line388
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.68::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.68::
 .LDWlin68:
 	mov	r26,r6
 	jarl	_release_tsk_lock,lp
 --line389
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.69::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.69::
 .LDWlin69:
 	jarl	_dispatch,lp
 --line390
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.70::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.70::
 .LDWlin70:
 	ld.w	16[r26],ep
 	sld.w	8[ep],r15
@@ -978,13 +978,13 @@ _Schedule:
 	br	.L4569
 .L4547:
 --line393
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.71::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.71::
 .LDWlin71:
 	jarl	_release_tsk_lock,lp
 .L4569:
 .LDW22:
 --line397
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.72::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.72::
 .LDWlin72:
 	stsr	0,r11,2
 	shr	16,r11
@@ -998,7 +998,7 @@ _Schedule:
 	ld.bu	213[r27],r18
 	cmp	zero,r18
 	bne	.L4556
-	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf),r13
+	mov	rosdaoff23(_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf),r13
 	movea	202,zero,r12
 	movea	27,zero,r6
 	st.w	r12,sdaoff23(_fatal_line_num)[gp]
@@ -1023,7 +1023,7 @@ _Schedule:
 .L4484:
 .LDW32:
 --line400
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.73::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.73::
 .LDWlin73:
 	mov	r28,r10
 --	    .ef
@@ -1086,18 +1086,18 @@ _GetTaskID:
 	cmovne	2,zero,r10
 	bne	.L5032
 --line425
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.74::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.74::
 .LDWlin74:
 	cmp	zero,r6
 	bne	.L5034
 --line425
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.75::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.75::
 .LDWlin75:
 	movea	26,zero,r10
 	jmp	[lp]
 .L5034:
 --line426
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.76::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.76::
 .LDWlin76:
 	ld.w	16[r15],ep
 	mov	-1,r18
@@ -1112,14 +1112,14 @@ _GetTaskID:
 	st.w	r18,0[r6]
 .LDW62:
 --line428
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.77::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.77::
 .LDWlin77:
 	jmp	[lp]
 .L5032:
 --	    .ef
 .LDW72:
 --line430
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.78::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.78::
 .LDWlin78:
 	jmp	[lp]
 	.global	___ghs_eofn_GetTaskID
@@ -1164,25 +1164,25 @@ _GetTaskState:
 	cmovne	2,zero,r10
 	bne	.L5262
 --line460
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.79::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.79::
 .LDWlin79:
 	ld.w	rosdaoff23(_tnum_task)[r5],r14
 	cmp	r14,r6
 	cmovnl	3,r10,r10
 	bnl	.L5262
 --line461
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.80::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.80::
 .LDWlin80:
 	cmp	zero,r7
 	bne	.L5270
 --line461
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.81::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.81::
 .LDWlin81:
 	movea	26,zero,r10
 	jmp	[lp]
 .L5270:
 --line462
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.82::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.82::
 .LDWlin82:
 	shl	2,r6
 	add	r5,r6
@@ -1191,13 +1191,13 @@ _GetTaskState:
 	cmp	zero,ep
 	bne	.L5276
 --line463
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.83::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.83::
 .LDWlin83:
 	movea	29,zero,r10
 	jmp	[lp]
 .L5276:
 --line464
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.84::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.84::
 .LDWlin84:
 	sld.w	32[ep],ep
 	mov	1,r7
@@ -1209,14 +1209,14 @@ _GetTaskState:
 	st.b	r7,0[r19]
 .LDW92:
 --line468
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.85::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.85::
 .LDWlin85:
 	jmp	[lp]
 .L5262:
 --	    .ef
 .LDW03:
 --line470
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.86::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.86::
 .LDWlin86:
 	jmp	[lp]
 	.global	___ghs_eofn_GetTaskState
@@ -1255,33 +1255,33 @@ _activate_task_action:
 	cmp	zero,ep
 	bne	.L5555
 --line503
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.87::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.87::
 .LDWlin87:
 	movea	29,zero,r10
 	dispose	0,{r25,r26,r28,r31},[lp]
 .L5555:
 --line504
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.88::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.88::
 .LDWlin88:
 	sld.w	32[ep],r25
 	mov	0,r28
 	mov	r25,r6
 	jarl	_acquire_tsk_lock,lp
 --line508
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.89::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.89::
 .LDWlin89:
 	ld.bu	16[r26],r18
 	cmp	zero,r18
 	bne	.L5569
 --line509
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.90::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.90::
 .LDWlin90:
 	mov	r26,r6
 	jarl	_make_active,lp
 	cmp	zero,r10
 	be	.L5572
 --line510
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.91::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.91::
 .LDWlin91:
 	mov	r25,r6
 	jarl	_dispatch_request,lp
@@ -1291,7 +1291,7 @@ _activate_task_action:
 	dispose	0,{r25,r26,r28,r31},[lp]
 .L5569:
 --line514
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.92::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.92::
 .LDWlin92:
 	ld.w	8[r26],r8
 	ld.bu	17[r26],r18
@@ -1300,7 +1300,7 @@ _activate_task_action:
 	cmovnl	4,zero,r28
 	bnl	.L5572
 --line516
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.93::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.93::
 .LDWlin93:
 	addi	1,r18,r7
 	st.b	r7,17[r26]
@@ -1310,7 +1310,7 @@ _activate_task_action:
 	jarl	_release_tsk_lock,lp
 .LDW33:
 --line523
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage.94::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage.94::
 .LDWlin94:
 	mov	r28,r10
 --	    .ef
@@ -1345,8 +1345,8 @@ ___ghs_eofn_activate_task_action:
 
 	.section ".rosdata","a"
 	.align	4
-	.global	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf
-_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf:--	"../../arch/v850_gcc/prc_config.h"
+	.global	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf
+_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf:--	"../../arch/v850_gcc/prc_config.h"
 	.byte	46,46,47,46
 	.byte	46,47,97,114
 	.byte	99,104,47,118
@@ -1357,15 +1357,15 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	105,103,46,104
 	.byte	0
 	.space	3
-	.type	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf,@object
-	.size	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_cartask_manage_inf,36
+	.type	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf,@object
+	.size	_____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1htask_manage_inf,36
 	.data
 	.ghsnote version,14
 	.ghsnote tools,3
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16293..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E13..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -1376,10 +1376,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16293..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16293..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E13..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Ctask_manage...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E13..0
 	.strz	"../../kernel/task_manage.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -1493,7 +1493,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_34bda80:
+.LDW_36dda38:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -1635,7 +1635,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_2ecf588:
+.LDW_314f588:
 	.byte	37
 	.strz	"void*"
 	.byte	1
@@ -1651,7 +1651,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2ecf5f8:
+.LDW_314f5f8:
 	.byte	67
 	.byte	1
 
@@ -1665,15 +1665,15 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_2ecf668:
+.LDW_314f668:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
 	.byte	4
 
-.LDW_2ecf6a0:
+.LDW_314f6a0:
 	.byte	66
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	1
 
 	.section	.debug_abbrev
@@ -1687,13 +1687,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_2ecf6d8:
+.LDW_314f6d8:
 	.byte	67
 	.byte	1
 
-.LDW_2eb2bf8:
+.LDW_3132bf8:
 	.byte	18
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 
 	.section	.debug_abbrev
@@ -1707,46 +1707,46 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_2ecf748:
+.LDW_314f748:
 	.byte	37
 	.strz	"unsigned short"
 	.byte	7
 	.byte	2
 
-.LDW_2ecf710:
+.LDW_314f710:
 	.byte	67
 	.byte	1
 
-.LDW_2eb2c58:
+.LDW_3132c58:
 	.byte	18
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 	.byte	0
 
 	.byte	0
 
-.LDW_2ecf828:
+.LDW_314f828:
 	.byte	66
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	1
 
 	.byte	0
 
-.LDW_2ecf898:
+.LDW_314f898:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_2ecf9b0:
+.LDW_314f9b0:
 	.byte	66
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	1
 
 	.byte	0
 
-.LDW_353e330:
+.LDW_375e238:
 	.byte	45
-	.word	.LDW_35737e0
+	.word	.LDW_375e948
 
 	.section	.debug_abbrev
 	.byte	45
@@ -1756,40 +1756,40 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_353e368:
+.LDW_375e270:
 	.byte	66
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	1
 
 	.byte	0
 
-.LDW_353e7c8:
+.LDW_375e6d0:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_353e800:
+.LDW_375e708:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_353e8e0:
+.LDW_375e7e8:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_359cfc0:
+.LDW_37bcf58:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_3573a08:
+.LDW_37939c0:
 	.byte	41
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
 	.section	.debug_abbrev
 	.byte	41
@@ -1799,177 +1799,177 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_359cff8:
+.LDW_37bcf90:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
-.LDW_3575080:
+.LDW_3795038:
 	.byte	18
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 
 	.byte	0
 
-.LDW_359d030:
+.LDW_37bcfc8:
 	.byte	45
-	.word	.LDW_3573b68
+	.word	.LDW_3793b20
 
-.LDW_359d068:
+.LDW_37bd000:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
 	.byte	0
 
-.LDW_359d0a0:
+.LDW_37bd038:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
-.LDW_3575110:
+.LDW_37950c8:
 	.byte	18
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 
 	.byte	0
 
-.LDW_359d0d8:
+.LDW_37bd070:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
 	.byte	0
 
-.LDW_359d148:
+.LDW_37bd0e0:
 	.byte	45
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 
-.LDW_359d110:
+.LDW_37bd0a8:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
-.LDW_34aa980:
+.LDW_36ca938:
 	.byte	18
-	.word	.LDW_3573bc0
+	.word	.LDW_3793b78
 	.byte	0
 
 	.byte	0
 
-.LDW_359d1b8:
+.LDW_37bd150:
 	.byte	45
-	.word	.LDW_3573c18
+	.word	.LDW_3793bd0
 
-.LDW_359d180:
+.LDW_37bd118:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
-.LDW_34aa9e0:
+.LDW_36ca998:
 	.byte	18
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 
-.LDW_34aaa10:
+.LDW_36ca9c8:
 	.byte	18
-	.word	.LDW_3573c70
+	.word	.LDW_3793c28
 	.byte	0
 
 	.byte	0
 
-.LDW_359d1f0:
+.LDW_37bd188:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
-.LDW_34aaa70:
+.LDW_36caa28:
 	.byte	18
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 
 	.byte	0
 
-.LDW_359d378:
+.LDW_37bd310:
 	.byte	37
 	.strz	"char"
 	.byte	6
 	.byte	1
 
-.LDW_35f3460:
+.LDW_38133f8:
 	.byte	45
-	.word	.LDW_34a7340
+	.word	.LDW_36c7340
 
-.LDW_35f3498:
+.LDW_3813430:
 	.byte	45
-	.word	.LDW_34a6fd0
+	.word	.LDW_36c6fd0
 
-.LDW_35f34d0:
+.LDW_3813468:
 	.byte	45
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 
-.LDW_35f3508:
+.LDW_38134a0:
 	.byte	45
-	.word	.LDW_34a7130
+	.word	.LDW_36c7130
 
-.LDW_35f3540:
+.LDW_38134d8:
 	.byte	45
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 
-.LDW_35f3578:
+.LDW_3813510:
 	.byte	45
-	.word	.LDW_34a7398
+	.word	.LDW_36c7398
 
-.LDW_35f35b0:
+.LDW_3813548:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35f35e8:
+.LDW_3813580:
 	.byte	45
-	.word	.LDW_35f35b0
+	.word	.LDW_3813548
 
-.LDW_35f3620:
+.LDW_38135b8:
 	.byte	45
-	.word	.LDW_353e118
+	.word	.LDW_375dfe8
 
-.LDW_35f3658:
+.LDW_38135f0:
 	.byte	66
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	1
 
 	.byte	0
 
-.LDW_35f3690:
+.LDW_3813628:
 	.byte	45
-	.word	.LDW_35f3658
+	.word	.LDW_38135f0
 
-.LDW_35f4048:
+.LDW_3813fa8:
 	.byte	41
-	.word	.LDW_35f3ff0
+	.word	.LDW_3813f50
 
-.LDW_35f36c8:
+.LDW_3813660:
 	.byte	45
-	.word	.LDW_35f4048
+	.word	.LDW_3813fa8
 
-.LDW_35f4150:
+.LDW_38140b0:
 	.byte	41
-	.word	.LDW_35f40a0
+	.word	.LDW_3814000
 
-.LDW_35f3700:
+.LDW_3813698:
 	.byte	45
-	.word	.LDW_35f4150
+	.word	.LDW_38140b0
 
-.LDW_35f3738:
+.LDW_38136d0:
 	.byte	45
-	.word	.LDW_35f40f8
+	.word	.LDW_3814058
 
-.LDW_359c8b0:
+.LDW_37bc810:
 	.byte	56
 	.byte	0
 	.byte	128,1
-	.word	.LDW_353e170
+	.word	.LDW_375e040
 
 	.section	.debug_abbrev
 	.byte	56
@@ -1982,7 +1982,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 	.byte	4
 	.byte	0
 	.byte	15
@@ -2000,62 +2000,62 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_35f3770:
+.LDW_3813708:
 	.byte	45
-	.word	.LDW_35f4258
+	.word	.LDW_38141b8
 
-.LDW_35f4360:
+.LDW_38142c0:
 	.byte	41
-	.word	.LDW_35f4308
+	.word	.LDW_3814268
 
-.LDW_35f37a8:
+.LDW_3813740:
 	.byte	45
-	.word	.LDW_35f4360
+	.word	.LDW_38142c0
 
-.LDW_35f37e0:
+.LDW_3813778:
 	.byte	45
-	.word	.LDW_35f41a8
+	.word	.LDW_3814108
 
-.LDW_35f4570:
+.LDW_38144d0:
 	.byte	41
-	.word	.LDW_35f44c0
+	.word	.LDW_3814420
 
-.LDW_35f3818:
+.LDW_38137b0:
 	.byte	45
-	.word	.LDW_35f4570
+	.word	.LDW_38144d0
 
-.LDW_35f3850:
+.LDW_38137e8:
 	.byte	45
-	.word	.LDW_35f4518
+	.word	.LDW_3814478
 
-.LDW_35f46d0:
+.LDW_3814630:
 	.byte	41
-	.word	.LDW_35f4678
+	.word	.LDW_38145d8
 
-.LDW_35f3888:
+.LDW_3813820:
 	.byte	45
-	.word	.LDW_35f46d0
+	.word	.LDW_3814630
 
-.LDW_35f38c0:
+.LDW_3813858:
 	.byte	45
-	.word	.LDW_35f45c8
+	.word	.LDW_3814528
 
-.LDW_35f4728:
+.LDW_3814688:
 	.byte	41
-	.word	.LDW_34a6898
+	.word	.LDW_36c6898
 
-.LDW_35f38f8:
+.LDW_3813890:
 	.byte	45
-	.word	.LDW_35f4728
+	.word	.LDW_3814688
 
-.LDW_35f4830:
+.LDW_3814790:
 	.byte	41
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 
-.LDW_35f6c10:
+.LDW_3816b70:
 	.byte	57
 	.byte	0
-	.word	.LDW_35f4830
+	.word	.LDW_3814790
 
 	.section	.debug_abbrev
 	.byte	57
@@ -2067,92 +2067,92 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.section	.debug_info
 	.byte	48
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 	.byte	4
 	.byte	0
 	.byte	127
 
 	.byte	0
 
-.LDW_35f48e0:
+.LDW_3814840:
 	.byte	41
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 
-.LDW_35f4938:
+.LDW_3814898:
 	.byte	41
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 
-.LDW_35f6da8:
+.LDW_3816d08:
 	.byte	57
 	.byte	0
-	.word	.LDW_35f4938
+	.word	.LDW_3814898
 
 	.byte	48
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 	.byte	4
 	.byte	0
 	.byte	127
 
 	.byte	0
 
-.LDW_35f8e48:
+.LDW_3818da8:
 	.byte	41
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 
-.LDW_35f7200:
+.LDW_3817160:
 	.byte	57
 	.byte	0
-	.word	.LDW_35f46d0
+	.word	.LDW_3814630
 
 	.byte	48
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 	.byte	4
 	.byte	0
 	.byte	127
 
 	.byte	0
 
-.LDW_35f8ea0:
+.LDW_3818e00:
 	.byte	41
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 
-.LDW_35f7288:
+.LDW_38171e8:
 	.byte	57
 	.byte	0
-	.word	.LDW_35f8ea0
+	.word	.LDW_3818e00
 
 	.byte	48
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 	.byte	4
 	.byte	0
 	.byte	127
 
 	.byte	0
 
-.LDW_35f3968:
+.LDW_3813900:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_35fb158:
+.LDW_381b0f0:
 	.byte	67
 	.byte	1
 
-.LDW_35fad08:
+.LDW_381ac68:
 	.byte	18
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 
 	.byte	0
 
-.LDW_35f9058:
+.LDW_3818fb8:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_359cfc0
+	.word	.LDW_37bcf58
 
 	.section	.debug_abbrev
 	.byte	40
@@ -2166,283 +2166,283 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35fe120:
+.LDW_381e0b8:
 	.byte	67
 	.byte	1
 
-.LDW_35fe7f8:
+.LDW_381e758:
 	.byte	18
-	.word	.LDW_35f9058
+	.word	.LDW_3818fb8
 	.byte	0
 
-.LDW_35fe828:
+.LDW_381e788:
 	.byte	18
-	.word	.LDW_35f9058
+	.word	.LDW_3818fb8
 	.byte	0
 
-.LDW_35fe858:
+.LDW_381e7b8:
 	.byte	18
-	.word	.LDW_2ecf668
+	.word	.LDW_314f668
 	.byte	0
 
 	.byte	0
 
-.LDW_35fe158:
+.LDW_381e0f0:
 	.byte	66
-	.word	.LDW_2ecf668
+	.word	.LDW_314f668
 	.byte	1
 
-.LDW_35fe888:
+.LDW_381e7e8:
 	.byte	18
-	.word	.LDW_35f9058
+	.word	.LDW_3818fb8
 	.byte	0
 
-.LDW_35fe8b8:
+.LDW_381e818:
 	.byte	18
-	.word	.LDW_35f9058
+	.word	.LDW_3818fb8
 	.byte	0
 
 	.byte	0
 
-.LDW_35fe4a0:
+.LDW_381e438:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_36010b0:
+.LDW_3821048:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3601120:
+.LDW_38210b8:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_3601e80:
+.LDW_3821e18:
 	.byte	66
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	1
 
-.LDW_36016d8:
+.LDW_3821638:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
 	.byte	0
 
-.LDW_3601eb8:
+.LDW_3821e50:
 	.byte	67
 	.byte	1
 
-.LDW_3601708:
+.LDW_3821668:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
 	.byte	0
 
-.LDW_3601f28:
+.LDW_3821ec0:
 	.byte	67
 	.byte	1
 
-.LDW_3601768:
+.LDW_38216c8:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
 	.byte	0
 
-.LDW_3601f60:
+.LDW_3821ef8:
 	.byte	67
 	.byte	1
 
-.LDW_3601798:
+.LDW_38216f8:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
-.LDW_36017c8:
+.LDW_3821728:
 	.byte	18
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	0
 
 	.byte	0
 
-.LDW_3602120:
+.LDW_38220b8:
 	.byte	66
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	1
 
-.LDW_3601918:
+.LDW_3821878:
 	.byte	18
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	0
 
 	.byte	0
 
-.LDW_3602190:
+.LDW_3822128:
 	.byte	67
 	.byte	1
 
-.LDW_3601978:
+.LDW_38218d8:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
 	.byte	0
 
-.LDW_3602200:
+.LDW_3822198:
 	.byte	67
 	.byte	1
 
-.LDW_36019d8:
+.LDW_3821938:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
-.LDW_3601a08:
+.LDW_3821968:
 	.byte	18
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	0
 
 	.byte	0
 
-.LDW_3602238:
+.LDW_38221d0:
 	.byte	67
 	.byte	1
 
-.LDW_3601a38:
+.LDW_3821998:
 	.byte	18
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 
 	.byte	0
 
-.LDW_353dca0:
+.LDW_375db70:
 	.byte	40
 	.strz	"boolean"
 	.byte	101
 	.byte	23
 	.byte	5
-	.word	.LDW_2ecf898
+	.word	.LDW_314f898
 
-.LDW_34a6898:
+.LDW_36c6898:
 	.byte	40
 	.strz	"char8"
 	.byte	103
 	.byte	17
 	.byte	5
-	.word	.LDW_359d378
+	.word	.LDW_37bd310
 
-.LDW_353dfc8:
+.LDW_375de98:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	5
-	.word	.LDW_2ecf898
+	.word	.LDW_314f898
 
-.LDW_3556b70:
+.LDW_3776ae0:
 	.byte	40
 	.strz	"uint16"
 	.byte	106
 	.byte	25
 	.byte	5
-	.word	.LDW_2ecf748
+	.word	.LDW_314f748
 
-.LDW_3556988:
+.LDW_37768f8:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	5
-	.word	.LDW_2ecf668
+	.word	.LDW_314f668
 
-.LDW_3573850:
+.LDW_3793808:
 	.byte	40
 	.strz	"sint32"
 	.byte	109
 	.byte	22
 	.byte	5
-	.word	.LDW_353e8e0
+	.word	.LDW_375e7e8
 
-.LDW_34a6d10:
+.LDW_36c6d10:
 	.byte	40
 	.strz	"uintptr"
 	.byte	123
 	.byte	16
 	.byte	5
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_3573a60:
+.LDW_3793a18:
 	.byte	40
 	.strz	"StatusType"
 	.byte	102
 	.byte	23
 	.byte	4
-	.word	.LDW_2ecf898
+	.word	.LDW_314f898
 
-.LDW_3573c18:
+.LDW_3793bd0:
 	.byte	40
 	.strz	"TaskStateType"
 	.byte	100
 	.byte	15
 	.byte	3
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
-.LDW_34a6fd0:
+.LDW_36c6fd0:
 	.byte	40
 	.strz	"EventMaskType"
 	.byte	101
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a7028:
+.LDW_36c7028:
 	.byte	40
 	.strz	"TickType"
 	.byte	102
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a7080:
+.LDW_36c7080:
 	.byte	40
 	.strz	"AppModeType"
 	.byte	103
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a70d8:
+.LDW_36c70d8:
 	.byte	40
 	.strz	"OSServiceIdType"
 	.byte	104
 	.byte	15
 	.byte	3
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
-.LDW_34a7130:
+.LDW_36c7130:
 	.byte	40
 	.strz	"ScheduleTableStatusType"
 	.byte	105
 	.byte	15
 	.byte	3
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
-.LDW_34a71e0:
+.LDW_36c71e0:
 	.byte	40
 	.strz	"MemorySizeType"
 	.byte	107
 	.byte	17
 	.byte	3
-	.word	.LDW_34a6d10
+	.word	.LDW_36c6d10
 
-.LDW_34a72e8:
+.LDW_36c72e8:
 	.byte	63
 	.byte	111
 	.byte	16
@@ -2462,13 +2462,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_34ab538:
+.LDW_36cb538:
 	.byte	35
 	.strz	"maxallowedvalue"
 	.byte	112
 	.byte	11
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	0
 	.byte	1
@@ -2487,39 +2487,39 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_34ab580:
+.LDW_36cb580:
 	.byte	35
 	.strz	"ticksperbase"
 	.byte	113
 	.byte	11
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_34ab5c8:
+.LDW_36cb5c8:
 	.byte	35
 	.strz	"mincycle"
 	.byte	114
 	.byte	11
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_34a7340:
+.LDW_36c7340:
 	.byte	40
 	.strz	"AlarmBaseType"
 	.byte	115
 	.byte	3
 	.byte	3
-	.word	.LDW_34a72e8
+	.word	.LDW_36c72e8
 
-.LDW_35a0178:
+.LDW_37c00d8:
 	.byte	44
 	.byte	0
 	.byte	117
@@ -2541,7 +2541,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_353ea78:
+.LDW_375e9f8:
 	.byte	43
 	.strz	"TRYTOGETSPINLOCK_SUCCESS"
 	.byte	118
@@ -2561,7 +2561,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35757d0:
+.LDW_3795788:
 	.byte	43
 	.strz	"TRYTOGETSPINLOCK_NOSUCCESS"
 	.byte	119
@@ -2571,143 +2571,143 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_34a7398:
+.LDW_36c7398:
 	.byte	40
 	.strz	"TryToGetSpinlockType"
 	.byte	120
 	.byte	3
 	.byte	3
-	.word	.LDW_35a0178
+	.word	.LDW_37c00d8
 
-.LDW_34a7448:
+.LDW_36c7448:
 	.byte	40
 	.strz	"AlarmType"
 	.byte	127
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a74a0:
+.LDW_36c74a0:
 	.byte	40
 	.strz	"ResourceType"
 	.byte	128,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_3573ab8:
+.LDW_3793a70:
 	.byte	40
 	.strz	"TaskType"
 	.byte	129,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a74f8:
+.LDW_36c74f8:
 	.byte	40
 	.strz	"ISRType"
 	.byte	130,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a7550:
+.LDW_36c7550:
 	.byte	40
 	.strz	"CounterType"
 	.byte	131,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a75a8:
+.LDW_36c75a8:
 	.byte	40
 	.strz	"ScheduleTableType"
 	.byte	132,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_353e020:
+.LDW_375def0:
 	.byte	40
 	.strz	"CoreIdType"
 	.byte	134,1
 	.byte	15
 	.byte	3
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
-.LDW_35739b0:
+.LDW_3793968:
 	.byte	40
 	.strz	"SpinlockIdType"
 	.byte	135,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a7658:
+.LDW_36c7658:
 	.byte	40
 	.strz	"IocType"
 	.byte	136,1
 	.byte	16
 	.byte	3
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_34a76b0:
+.LDW_36c76b0:
 	.byte	40
 	.strz	"SenderIdType"
 	.byte	137,1
 	.byte	15
 	.byte	3
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 
-.LDW_34a7708:
+.LDW_36c7708:
 	.byte	40
 	.strz	"AlarmBaseRefType"
 	.byte	140,1
 	.byte	28
 	.byte	3
-	.word	.LDW_35f3460
+	.word	.LDW_38133f8
 
-.LDW_3573bc0:
+.LDW_3793b78:
 	.byte	40
 	.strz	"TaskRefType"
 	.byte	141,1
 	.byte	24
 	.byte	3
-	.word	.LDW_359d148
+	.word	.LDW_37bd0e0
 
-.LDW_3573c70:
+.LDW_3793c28:
 	.byte	40
 	.strz	"TaskStateRefType"
 	.byte	142,1
 	.byte	28
 	.byte	3
-	.word	.LDW_359d1b8
+	.word	.LDW_37bd150
 
-.LDW_35f3c28:
+.LDW_3813b88:
 	.byte	40
 	.strz	"EventMaskRefType"
 	.byte	143,1
 	.byte	28
 	.byte	3
-	.word	.LDW_35f3498
+	.word	.LDW_3813430
 
-.LDW_35f3c80:
+.LDW_3813be0:
 	.byte	40
 	.strz	"TickRefType"
 	.byte	144,1
 	.byte	24
 	.byte	3
-	.word	.LDW_35f34d0
+	.word	.LDW_3813468
 
-.LDW_35f3cd8:
+.LDW_3813c38:
 	.byte	40
 	.strz	"ScheduleTableStatusRefType"
 	.byte	145,1
 	.byte	35
 	.byte	3
-	.word	.LDW_35f3508
+	.word	.LDW_38134a0
 
-.LDW_35f3de0:
+.LDW_3813d40:
 	.byte	65
 	.byte	183,1
 	.byte	15
@@ -2727,357 +2727,357 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_34ab610:
+.LDW_36cb610:
 	.byte	35
 	.strz	"tskid"
 	.byte	184,1
 	.byte	15
 	.byte	3
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab658:
+.LDW_36cb658:
 	.byte	35
 	.strz	"p_tskid"
 	.byte	185,1
 	.byte	18
 	.byte	3
-	.word	.LDW_3573bc0
+	.word	.LDW_3793b78
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab6a0:
+.LDW_36cb6a0:
 	.byte	35
 	.strz	"p_stat"
 	.byte	186,1
 	.byte	21
 	.byte	3
-	.word	.LDW_3573c70
+	.word	.LDW_3793c28
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab6e8:
+.LDW_36cb6e8:
 	.byte	35
 	.strz	"resid"
 	.byte	187,1
 	.byte	18
 	.byte	3
-	.word	.LDW_34a74a0
+	.word	.LDW_36c74a0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab730:
+.LDW_36cb730:
 	.byte	35
 	.strz	"mask"
 	.byte	188,1
 	.byte	19
 	.byte	3
-	.word	.LDW_34a6fd0
+	.word	.LDW_36c6fd0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab778:
+.LDW_36cb778:
 	.byte	35
 	.strz	"p_mask"
 	.byte	189,1
 	.byte	21
 	.byte	3
-	.word	.LDW_35f3c28
+	.word	.LDW_3813b88
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab7c0:
+.LDW_36cb7c0:
 	.byte	35
 	.strz	"almid"
 	.byte	190,1
 	.byte	16
 	.byte	3
-	.word	.LDW_34a7448
+	.word	.LDW_36c7448
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab808:
+.LDW_36cb808:
 	.byte	35
 	.strz	"p_info"
 	.byte	191,1
 	.byte	21
 	.byte	3
-	.word	.LDW_34a7708
+	.word	.LDW_36c7708
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab850:
+.LDW_36cb850:
 	.byte	35
 	.strz	"p_tick"
 	.byte	192,1
 	.byte	18
 	.byte	3
-	.word	.LDW_35f3c80
+	.word	.LDW_3813be0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab898:
+.LDW_36cb898:
 	.byte	35
 	.strz	"p_val"
 	.byte	193,1
 	.byte	18
 	.byte	3
-	.word	.LDW_35f3c80
+	.word	.LDW_3813be0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab8e0:
+.LDW_36cb8e0:
 	.byte	35
 	.strz	"p_eval"
 	.byte	194,1
 	.byte	18
 	.byte	3
-	.word	.LDW_35f3c80
+	.word	.LDW_3813be0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab928:
+.LDW_36cb928:
 	.byte	35
 	.strz	"incr"
 	.byte	195,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab970:
+.LDW_36cb970:
 	.byte	35
 	.strz	"cycle"
 	.byte	196,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ab9b8:
+.LDW_36cb9b8:
 	.byte	35
 	.strz	"start"
 	.byte	197,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34aba00:
+.LDW_36cba00:
 	.byte	35
 	.strz	"mode"
 	.byte	198,1
 	.byte	18
 	.byte	3
-	.word	.LDW_34a7080
+	.word	.LDW_36c7080
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34aba48:
+.LDW_36cba48:
 	.byte	35
 	.strz	"cntid"
 	.byte	199,1
 	.byte	18
 	.byte	3
-	.word	.LDW_34a7550
+	.word	.LDW_36c7550
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34aba90:
+.LDW_36cba90:
 	.byte	35
 	.strz	"schtblid"
 	.byte	200,1
 	.byte	22
 	.byte	3
-	.word	.LDW_34a75a8
+	.word	.LDW_36c75a8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abad8:
+.LDW_36cbad8:
 	.byte	35
 	.strz	"offset"
 	.byte	201,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a7028
+	.word	.LDW_36c7028
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abb20:
+.LDW_36cbb20:
 	.byte	35
 	.strz	"schtblid_from"
 	.byte	202,1
 	.byte	22
 	.byte	3
-	.word	.LDW_34a75a8
+	.word	.LDW_36c75a8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abb68:
+.LDW_36cbb68:
 	.byte	35
 	.strz	"schtblid_to"
 	.byte	203,1
 	.byte	22
 	.byte	3
-	.word	.LDW_34a75a8
+	.word	.LDW_36c75a8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abbb0:
+.LDW_36cbbb0:
 	.byte	35
 	.strz	"p_schtblstate"
 	.byte	204,1
 	.byte	29
 	.byte	3
-	.word	.LDW_35f3cd8
+	.word	.LDW_3813c38
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abbf8:
+.LDW_36cbbf8:
 	.byte	35
 	.strz	"isrid"
 	.byte	205,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a74f8
+	.word	.LDW_36c74f8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abc40:
+.LDW_36cbc40:
 	.byte	35
 	.strz	"coreid"
 	.byte	206,1
 	.byte	17
 	.byte	3
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abc88:
+.LDW_36cbc88:
 	.byte	35
 	.strz	"status"
 	.byte	207,1
 	.byte	18
 	.byte	3
-	.word	.LDW_35f3540
+	.word	.LDW_38134d8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abcd0:
+.LDW_36cbcd0:
 	.byte	35
 	.strz	"spnid"
 	.byte	208,1
 	.byte	20
 	.byte	3
-	.word	.LDW_35739b0
+	.word	.LDW_3793968
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abd18:
+.LDW_36cbd18:
 	.byte	35
 	.strz	"tryspntype"
 	.byte	209,1
 	.byte	25
 	.byte	3
-	.word	.LDW_35f3578
+	.word	.LDW_3813510
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abd60:
+.LDW_36cbd60:
 	.byte	35
 	.strz	"iocid"
 	.byte	210,1
 	.byte	15
 	.byte	3
-	.word	.LDW_34a7658
+	.word	.LDW_36c7658
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abda8:
+.LDW_36cbda8:
 	.byte	35
 	.strz	"senderid"
 	.byte	211,1
 	.byte	18
 	.byte	3
-	.word	.LDW_34a76b0
+	.word	.LDW_36c76b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_35f3e38:
+.LDW_3813d98:
 	.byte	40
 	.strz	"_ErrorHook_Par"
 	.byte	212,1
 	.byte	3
 	.byte	3
-	.word	.LDW_35f3de0
+	.word	.LDW_3813d40
 
-.LDW_35738a8:
+.LDW_3793860:
 	.byte	40
 	.strz	"PriorityType"
 	.byte	112
 	.byte	16
 	.byte	2
-	.word	.LDW_3573850
+	.word	.LDW_3793808
 
-.LDW_35f3ee8:
+.LDW_3813e48:
 	.byte	40
 	.strz	"FunctionRefType"
 	.byte	115
 	.byte	16
 	.byte	2
-	.word	.LDW_35f35e8
+	.word	.LDW_3813580
 
-.LDW_3573958:
+.LDW_3793910:
 	.byte	40
 	.strz	"LockType"
 	.byte	71
 	.byte	16
 	.byte	21
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 
-.LDW_35737e0:
+.LDW_375e948:
 	.byte	40
 	.strz	"CCB"
 	.byte	76
 	.byte	35
 	.byte	21
-	.word	.LDW_353ea20
+	.word	.LDW_375e8f0
 
-.LDW_35f3f40:
+.LDW_3813ea0:
 	.byte	62
 	.strz	"target_core_control_block"
 	.byte	81
@@ -3099,72 +3099,72 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_34abdf0:
+.LDW_36cbdf0:
 	.byte	35
 	.strz	"except_nest_cnt"
 	.byte	86
 	.byte	9
 	.byte	21
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abe38:
+.LDW_36cbe38:
 	.byte	35
 	.strz	"current_iintpri"
 	.byte	91
 	.byte	8
 	.byte	21
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_34abe80:
+.LDW_36cbe80:
 	.byte	35
 	.strz	"nested_lock_os_int_cnt"
 	.byte	96
 	.byte	8
 	.byte	21
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	5
 	.byte	1
 
-.LDW_34abec8:
+.LDW_36cbec8:
 	.byte	35
 	.strz	"current_intpri"
 	.byte	101
 	.byte	9
 	.byte	21
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 	.byte	2,35
 	.byte	6
 	.byte	1
 
-.LDW_34abf10:
+.LDW_36cbf10:
 	.byte	35
 	.strz	"trusted_hook_savedsp"
 	.byte	103
 	.byte	9
 	.byte	21
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_35f3f98:
+.LDW_3813ef8:
 	.byte	40
 	.strz	"TCCB"
 	.byte	104
 	.byte	3
 	.byte	21
-	.word	.LDW_35f3f40
+	.word	.LDW_3813ea0
 
-.LDW_353e118:
+.LDW_375dfe8:
 	.byte	62
 	.strz	"queue"
 	.byte	77
@@ -3173,39 +3173,39 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	8
 	.byte	1
 
-.LDW_34abf58:
+.LDW_36cbf58:
 	.byte	35
 	.strz	"p_next"
 	.byte	78
 	.byte	16
 	.byte	24
-	.word	.LDW_35f3620
+	.word	.LDW_38135b8
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34abfa0:
+.LDW_36cbfa0:
 	.byte	35
 	.strz	"p_prev"
 	.byte	79
 	.byte	16
 	.byte	24
-	.word	.LDW_35f3620
+	.word	.LDW_38135b8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_353e170:
+.LDW_375e040:
 	.byte	40
 	.strz	"QUEUE"
 	.byte	80
 	.byte	3
 	.byte	24
-	.word	.LDW_353e118
+	.word	.LDW_375dfe8
 
-.LDW_35f3ff0:
+.LDW_3813f50:
 	.byte	62
 	.strz	"spinlock_initialization_block"
 	.byte	80
@@ -3214,50 +3214,50 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	12
 	.byte	1
 
-.LDW_34abfe8:
+.LDW_36cbfe8:
 	.byte	35
 	.strz	"susint"
 	.byte	81
 	.byte	15
 	.byte	25
-	.word	.LDW_35f3690
+	.word	.LDW_3813628
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ac030:
+.LDW_36cc030:
 	.byte	35
 	.strz	"resint"
 	.byte	82
 	.byte	25
 	.byte	25
-	.word	.LDW_35f3ee8
+	.word	.LDW_3813e48
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_34ac078:
+.LDW_36cc078:
 	.byte	35
 	.strz	"p_nextspn"
 	.byte	83
 	.byte	46
 	.byte	25
-	.word	.LDW_35f36c8
+	.word	.LDW_3813660
 	.byte	2,35
 	.byte	8
 	.byte	1
 
 	.byte	0
 
-.LDW_35f40a0:
+.LDW_3814000:
 	.byte	40
 	.strz	"SPNINIB"
 	.byte	84
 	.byte	3
 	.byte	25
-	.word	.LDW_35f3ff0
+	.word	.LDW_3813f50
 
-.LDW_35f40f8:
+.LDW_3814058:
 	.byte	62
 	.strz	"spinlock_control_block"
 	.byte	89
@@ -3266,80 +3266,80 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	20
 	.byte	1
 
-.LDW_34ac0c0:
+.LDW_36cc0c0:
 	.byte	35
 	.strz	"p_spninib"
 	.byte	90
 	.byte	21
 	.byte	25
-	.word	.LDW_35f3700
+	.word	.LDW_3813698
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ac108:
+.LDW_36cc108:
 	.byte	35
 	.strz	"p_ccb"
 	.byte	91
 	.byte	14
 	.byte	25
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_34ac150:
+.LDW_36cc150:
 	.byte	35
 	.strz	"p_holdcb"
 	.byte	92
 	.byte	14
 	.byte	25
-	.word	.LDW_2ecf588
+	.word	.LDW_314f588
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_34ac198:
+.LDW_36cc198:
 	.byte	35
 	.strz	"p_prevspncb"
 	.byte	93
 	.byte	33
 	.byte	25
-	.word	.LDW_35f3738
+	.word	.LDW_38136d0
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_34ac1e0:
+.LDW_36cc1e0:
 	.byte	35
 	.strz	"spn_lock"
 	.byte	98
 	.byte	11
 	.byte	25
-	.word	.LDW_3573958
+	.word	.LDW_3793910
 	.byte	2,35
 	.byte	16
 	.byte	1
 
 	.byte	0
 
-.LDW_35f41a8:
+.LDW_3814108:
 	.byte	40
 	.strz	"SPNCB"
 	.byte	100
 	.byte	3
 	.byte	25
-	.word	.LDW_35f40f8
+	.word	.LDW_3814058
 
-.LDW_3573b68:
+.LDW_3793b20:
 	.byte	40
 	.strz	"TCB"
 	.byte	74
 	.byte	39
 	.byte	19
-	.word	.LDW_3573b10
+	.word	.LDW_3793ac8
 
-.LDW_35f4200:
+.LDW_3814160:
 	.byte	62
 	.strz	"isr_control_block"
 	.byte	75
@@ -3350,23 +3350,23 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35f4258:
+.LDW_38141b8:
 	.byte	40
 	.strz	"ISRCB"
 	.byte	75
 	.byte	38
 	.byte	19
-	.word	.LDW_35f4200
+	.word	.LDW_3814160
 
-.LDW_35f4308:
+.LDW_3814268:
 	.byte	40
 	.strz	"OSAPINIB"
 	.byte	76
 	.byte	52
 	.byte	19
-	.word	.LDW_35f42b0
+	.word	.LDW_3814210
 
-.LDW_353ea20:
+.LDW_375e8f0:
 	.byte	62
 	.strz	"core_control_block"
 	.byte	81
@@ -3375,317 +3375,317 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	224,1
 	.byte	1
 
-.LDW_34ac228:
+.LDW_36cc228:
 	.byte	35
 	.strz	"coreid"
 	.byte	83
 	.byte	13
 	.byte	19
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_34ac270:
+.LDW_3814b88:
 	.byte	35
 	.strz	"kerflg"
 	.byte	88
 	.byte	10
 	.byte	19
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	2,35
 	.byte	1
 	.byte	1
 
-.LDW_35f4c28:
+.LDW_3814bd0:
 	.byte	35
 	.strz	"sus_all_cnt"
 	.byte	93
 	.byte	8
 	.byte	19
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	2
 	.byte	1
 
-.LDW_35f4c70:
+.LDW_3814c18:
 	.byte	35
 	.strz	"sus_os_cnt"
 	.byte	98
 	.byte	8
 	.byte	19
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	3
 	.byte	1
 
-.LDW_35f4cb8:
+.LDW_3814c60:
 	.byte	35
 	.strz	"callevel_stat"
 	.byte	103
 	.byte	9
 	.byte	19
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_35f4d00:
+.LDW_3814ca8:
 	.byte	35
 	.strz	"tsk_lock"
 	.byte	109
 	.byte	11
 	.byte	19
-	.word	.LDW_3573958
+	.word	.LDW_3793910
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_35f4d48:
+.LDW_3814cf0:
 	.byte	35
 	.strz	"cnt_lock"
 	.byte	110
 	.byte	11
 	.byte	19
-	.word	.LDW_3573958
+	.word	.LDW_3793910
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_35f4d90:
+.LDW_3814d38:
 	.byte	35
 	.strz	"p_runtsk"
 	.byte	127
 	.byte	7
 	.byte	19
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_35f4dd8:
+.LDW_3814d80:
 	.byte	35
 	.strz	"p_schedtsk"
 	.byte	136,1
 	.byte	7
 	.byte	19
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_35f4e20:
+.LDW_3814dc8:
 	.byte	35
 	.strz	"nextpri"
 	.byte	144,1
 	.byte	15
 	.byte	19
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_35f4e68:
+.LDW_3814e10:
 	.byte	35
 	.strz	"ready_queue"
 	.byte	157,1
 	.byte	8
 	.byte	19
-	.word	.LDW_359c8b0
+	.word	.LDW_37bc810
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_35f4eb0:
+.LDW_3814e58:
 	.byte	35
 	.strz	"ready_primap"
 	.byte	169,1
 	.byte	9
 	.byte	19
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 	.byte	3,35
 	.byte	156,1
 	.byte	1
 
-.LDW_35f4ef8:
+.LDW_3814ea0:
 	.byte	35
 	.strz	"p_runisr"
 	.byte	179,1
 	.byte	9
 	.byte	19
-	.word	.LDW_35f3770
+	.word	.LDW_3813708
 	.byte	3,35
 	.byte	160,1
 	.byte	1
 
-.LDW_35f4f40:
+.LDW_3814ee8:
 	.byte	35
 	.strz	"wrap_sus_all_cnt"
 	.byte	184,1
 	.byte	8
 	.byte	19
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	3,35
 	.byte	164,1
 	.byte	1
 
-.LDW_35f4f88:
+.LDW_3814f30:
 	.byte	35
 	.strz	"wrap_sus_os_cnt"
 	.byte	189,1
 	.byte	8
 	.byte	19
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	3,35
 	.byte	165,1
 	.byte	1
 
-.LDW_35f4fd0:
+.LDW_3814f78:
 	.byte	35
 	.strz	"_errorhook_svcid"
 	.byte	194,1
 	.byte	18
 	.byte	19
-	.word	.LDW_34a70d8
+	.word	.LDW_36c70d8
 	.byte	3,35
 	.byte	166,1
 	.byte	1
 
-.LDW_35f5018:
+.LDW_3814fc0:
 	.byte	35
 	.strz	"_errorhook_par1"
 	.byte	195,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	168,1
 	.byte	1
 
-.LDW_35f5060:
+.LDW_3815008:
 	.byte	35
 	.strz	"_errorhook_par2"
 	.byte	196,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	172,1
 	.byte	1
 
-.LDW_35f50a8:
+.LDW_3815050:
 	.byte	35
 	.strz	"_errorhook_par3"
 	.byte	197,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	176,1
 	.byte	1
 
-.LDW_35f50f0:
+.LDW_3815098:
 	.byte	35
 	.strz	"errorhook_par1"
 	.byte	198,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	180,1
 	.byte	1
 
-.LDW_35f5138:
+.LDW_38150e0:
 	.byte	35
 	.strz	"errorhook_par2"
 	.byte	199,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	184,1
 	.byte	1
 
-.LDW_35f5180:
+.LDW_3815128:
 	.byte	35
 	.strz	"errorhook_par3"
 	.byte	200,1
 	.byte	17
 	.byte	19
-	.word	.LDW_35f3e38
+	.word	.LDW_3813d98
 	.byte	3,35
 	.byte	188,1
 	.byte	1
 
-.LDW_35f51c8:
+.LDW_3815170:
 	.byte	35
 	.strz	"ici_request_map"
 	.byte	205,1
 	.byte	9
 	.byte	19
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	3,35
 	.byte	192,1
 	.byte	1
 
-.LDW_35f5210:
+.LDW_38151b8:
 	.byte	35
 	.strz	"ici_bit_mask"
 	.byte	210,1
 	.byte	9
 	.byte	19
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	3,35
 	.byte	196,1
 	.byte	1
 
-.LDW_35f5258:
+.LDW_3815200:
 	.byte	35
 	.strz	"ici_disreqflg"
 	.byte	215,1
 	.byte	10
 	.byte	19
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	3,35
 	.byte	200,1
 	.byte	1
 
-.LDW_35f52a0:
+.LDW_3815248:
 	.byte	35
 	.strz	"p_runosap"
 	.byte	220,1
 	.byte	18
 	.byte	19
-	.word	.LDW_35f37a8
+	.word	.LDW_3813740
 	.byte	3,35
 	.byte	204,1
 	.byte	1
 
-.LDW_35f52e8:
+.LDW_3815290:
 	.byte	35
 	.strz	"target_ccb"
 	.byte	225,1
 	.byte	7
 	.byte	19
-	.word	.LDW_35f3f98
+	.word	.LDW_3813ef8
 	.byte	3,35
 	.byte	208,1
 	.byte	1
 
-.LDW_35f5330:
+.LDW_38152d8:
 	.byte	35
 	.strz	"p_protectspncb"
 	.byte	230,1
 	.byte	9
 	.byte	19
-	.word	.LDW_35f37e0
+	.word	.LDW_3813778
 	.byte	3,35
 	.byte	220,1
 	.byte	1
 
 	.byte	0
 
-.LDW_35f43b8:
+.LDW_3814318:
 	.byte	62
 	.strz	"task_context_block"
 	.byte	197,3
@@ -3694,39 +3694,39 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	8
 	.byte	1
 
-.LDW_35f5378:
+.LDW_3815320:
 	.byte	35
 	.strz	"sp"
 	.byte	198,3
 	.byte	10
 	.byte	30
-	.word	.LDW_2ecf588
+	.word	.LDW_314f588
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_35f53c0:
+.LDW_3815368:
 	.byte	35
 	.strz	"pc"
 	.byte	199,3
 	.byte	18
 	.byte	30
-	.word	.LDW_35f3ee8
+	.word	.LDW_3813e48
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_35f4410:
+.LDW_3814370:
 	.byte	40
 	.strz	"TSKCTXB"
 	.byte	200,3
 	.byte	3
 	.byte	30
-	.word	.LDW_35f43b8
+	.word	.LDW_3814318
 
-.LDW_35f4468:
+.LDW_38143c8:
 	.byte	62
 	.strz	"resource_initialization_block"
 	.byte	70
@@ -3735,39 +3735,39 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	8
 	.byte	1
 
-.LDW_35f5408:
+.LDW_38153b0:
 	.byte	35
 	.strz	"ceilpri"
 	.byte	71
 	.byte	15
 	.byte	34
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_35f5450:
+.LDW_38153f8:
 	.byte	35
 	.strz	"coreid"
 	.byte	72
 	.byte	14
 	.byte	34
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_35f44c0:
+.LDW_3814420:
 	.byte	40
 	.strz	"RESINIB"
 	.byte	73
 	.byte	3
 	.byte	34
-	.word	.LDW_35f4468
+	.word	.LDW_38143c8
 
-.LDW_35f4518:
+.LDW_3814478:
 	.byte	62
 	.strz	"resource_control_block"
 	.byte	78
@@ -3776,61 +3776,61 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	16
 	.byte	1
 
-.LDW_35f5498:
+.LDW_3815440:
 	.byte	35
 	.strz	"p_resinib"
 	.byte	79
 	.byte	21
 	.byte	34
-	.word	.LDW_35f3818
+	.word	.LDW_38137b0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_35f54e0:
+.LDW_3815488:
 	.byte	35
 	.strz	"prevpri"
 	.byte	80
 	.byte	19
 	.byte	34
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_35f5528:
+.LDW_38154d0:
 	.byte	35
 	.strz	"p_prevrescb"
 	.byte	81
 	.byte	33
 	.byte	34
-	.word	.LDW_35f3850
+	.word	.LDW_38137e8
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_35f5570:
+.LDW_3815518:
 	.byte	35
 	.strz	"lockflg"
 	.byte	82
 	.byte	16
 	.byte	34
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	2,35
 	.byte	12
 	.byte	1
 
 	.byte	0
 
-.LDW_35f45c8:
+.LDW_3814528:
 	.byte	40
 	.strz	"RESCB"
 	.byte	83
 	.byte	3
 	.byte	34
-	.word	.LDW_35f4518
+	.word	.LDW_3814478
 
-.LDW_35f42b0:
+.LDW_3814210:
 	.byte	62
 	.strz	"os_application_initialization_block"
 	.byte	86
@@ -3839,20 +3839,20 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 	.byte	1
 
-.LDW_35f55b8:
+.LDW_3815560:
 	.byte	35
 	.strz	"coreid"
 	.byte	87
 	.byte	13
 	.byte	36
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	2,35
 	.byte	0
 	.byte	1
 
 	.byte	0
 
-.LDW_35f4620:
+.LDW_3814580:
 	.byte	62
 	.strz	"task_initialization_block"
 	.byte	114
@@ -3861,116 +3861,116 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	36
 	.byte	1
 
-.LDW_35f5600:
+.LDW_38155a8:
 	.byte	35
 	.strz	"task"
 	.byte	115
 	.byte	18
 	.byte	33
-	.word	.LDW_35f3ee8
+	.word	.LDW_3813e48
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_35f5648:
+.LDW_38155f0:
 	.byte	35
 	.strz	"stksz"
 	.byte	120
 	.byte	17
 	.byte	33
-	.word	.LDW_34a71e0
+	.word	.LDW_36c71e0
 	.byte	2,35
 	.byte	4
 	.byte	1
 
-.LDW_35f5690:
+.LDW_3815638:
 	.byte	35
 	.strz	"stk"
 	.byte	121
 	.byte	10
 	.byte	33
-	.word	.LDW_2ecf588
+	.word	.LDW_314f588
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_35f56d8:
+.LDW_3815680:
 	.byte	35
 	.strz	"p_osapinib"
 	.byte	123
 	.byte	18
 	.byte	33
-	.word	.LDW_35f37a8
+	.word	.LDW_3813740
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_35f5720:
+.LDW_38156c8:
 	.byte	35
 	.strz	"inipri"
 	.byte	124
 	.byte	15
 	.byte	33
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_35f5768:
+.LDW_3815710:
 	.byte	35
 	.strz	"exepri"
 	.byte	125
 	.byte	15
 	.byte	33
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_35f57b0:
+.LDW_3815758:
 	.byte	35
 	.strz	"maxact"
 	.byte	126
 	.byte	10
 	.byte	33
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_35f57f8:
+.LDW_38157a0:
 	.byte	35
 	.strz	"autoact"
 	.byte	127
 	.byte	15
 	.byte	33
-	.word	.LDW_34a7080
+	.word	.LDW_36c7080
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_35f5840:
+.LDW_38157e8:
 	.byte	35
 	.strz	"p_ccb"
 	.byte	128,1
 	.byte	10
 	.byte	33
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	2,35
 	.byte	32
 	.byte	1
 
 	.byte	0
 
-.LDW_35f4678:
+.LDW_38145d8:
 	.byte	40
 	.strz	"TINIB"
 	.byte	129,1
 	.byte	3
 	.byte	33
-	.word	.LDW_35f4620
+	.word	.LDW_3814580
 
-.LDW_3573b10:
+.LDW_3793ac8:
 	.byte	62
 	.strz	"task_control_block"
 	.byte	134,1
@@ -3979,125 +3979,125 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	44
 	.byte	1
 
-.LDW_35f5888:
+.LDW_3815830:
 	.byte	35
 	.strz	"task_queue"
 	.byte	135,1
 	.byte	10
 	.byte	33
-	.word	.LDW_353e170
+	.word	.LDW_375e040
 	.byte	2,35
 	.byte	0
 	.byte	1
 
-.LDW_35f58d0:
+.LDW_3815878:
 	.byte	35
 	.strz	"p_tinib"
 	.byte	136,1
 	.byte	16
 	.byte	33
-	.word	.LDW_35f3888
+	.word	.LDW_3813820
 	.byte	2,35
 	.byte	8
 	.byte	1
 
-.LDW_35f5918:
+.LDW_38158c0:
 	.byte	35
 	.strz	"curpri"
 	.byte	137,1
 	.byte	15
 	.byte	33
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	2,35
 	.byte	12
 	.byte	1
 
-.LDW_35f5960:
+.LDW_3815908:
 	.byte	35
 	.strz	"tstat"
 	.byte	138,1
 	.byte	16
 	.byte	33
-	.word	.LDW_3573c18
+	.word	.LDW_3793bd0
 	.byte	2,35
 	.byte	16
 	.byte	1
 
-.LDW_35f59a8:
+.LDW_3815950:
 	.byte	35
 	.strz	"actcnt"
 	.byte	139,1
 	.byte	10
 	.byte	33
-	.word	.LDW_353dfc8
+	.word	.LDW_375de98
 	.byte	2,35
 	.byte	17
 	.byte	1
 
-.LDW_35f59f0:
+.LDW_3815998:
 	.byte	35
 	.strz	"curevt"
 	.byte	140,1
 	.byte	16
 	.byte	33
-	.word	.LDW_34a6fd0
+	.word	.LDW_36c6fd0
 	.byte	2,35
 	.byte	20
 	.byte	1
 
-.LDW_35f5a38:
+.LDW_38159e0:
 	.byte	35
 	.strz	"waievt"
 	.byte	141,1
 	.byte	16
 	.byte	33
-	.word	.LDW_34a6fd0
+	.word	.LDW_36c6fd0
 	.byte	2,35
 	.byte	24
 	.byte	1
 
-.LDW_35f5a80:
+.LDW_3815a28:
 	.byte	35
 	.strz	"p_lastrescb"
 	.byte	142,1
 	.byte	11
 	.byte	33
-	.word	.LDW_35f38c0
+	.word	.LDW_3813858
 	.byte	2,35
 	.byte	28
 	.byte	1
 
-.LDW_35f5ac8:
+.LDW_3815a70:
 	.byte	35
 	.strz	"p_lastspncb"
 	.byte	143,1
 	.byte	11
 	.byte	33
-	.word	.LDW_35f37e0
+	.word	.LDW_3813778
 	.byte	2,35
 	.byte	32
 	.byte	1
 
-.LDW_35f5b10:
+.LDW_3815ab8:
 	.byte	35
 	.strz	"tskctxb"
 	.byte	144,1
 	.byte	12
 	.byte	33
-	.word	.LDW_35f4410
+	.word	.LDW_3814370
 	.byte	2,35
 	.byte	36
 	.byte	1
 
 	.byte	0
 
-.LDW_35a01c8:
+.LDW_37c0128:
 	.byte	5
 	.strz	"fatal_file_name"
 	.byte	246,2
 	.byte	21
 	.byte	3
-	.word	.LDW_35f38f8
+	.word	.LDW_3813890
 	.byte	1
 	.byte	1
 
@@ -4115,77 +4115,77 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35a0218:
+.LDW_37c0178:
 	.byte	5
 	.strz	"fatal_line_num"
 	.byte	247,2
 	.byte	16
 	.byte	3
-	.word	.LDW_3573850
+	.word	.LDW_3793808
 	.byte	1
 	.byte	1
 
-.LDW_35f5cc8:
+.LDW_3815c28:
 	.byte	5
 	.strz	"p_ccb_table"
 	.byte	236,1
 	.byte	20
 	.byte	19
-	.word	.LDW_35f6c10
+	.word	.LDW_3816b70
 	.byte	1
 	.byte	1
 
-.LDW_35f5e08:
+.LDW_3815d68:
 	.byte	5
 	.strz	"pmr_isr2_mask"
 	.byte	122
 	.byte	21
 	.byte	30
-	.word	.LDW_35f4938
+	.word	.LDW_3814898
 	.byte	1
 	.byte	1
 
-.LDW_35f5ea8:
+.LDW_3815e08:
 	.byte	5
 	.strz	"pmr_setting_tbl"
 	.byte	132,1
 	.byte	21
 	.byte	30
-	.word	.LDW_35f6da8
+	.word	.LDW_3816d08
 	.byte	1
 	.byte	1
 
-.LDW_35f6358:
+.LDW_38162b8:
 	.byte	5
 	.strz	"tnum_task"
 	.byte	98
 	.byte	23
 	.byte	33
-	.word	.LDW_35f8e48
+	.word	.LDW_3818da8
 	.byte	1
 	.byte	1
 
-.LDW_35f63f8:
+.LDW_3816358:
 	.byte	5
 	.strz	"tinib_table"
 	.byte	150,1
 	.byte	20
 	.byte	33
-	.word	.LDW_35f7200
+	.word	.LDW_3817160
 	.byte	1
 	.byte	1
 
-.LDW_35f6448:
+.LDW_38163a8:
 	.byte	5
 	.strz	"p_tcb_table"
 	.byte	155,1
 	.byte	20
 	.byte	33
-	.word	.LDW_35f7288
+	.word	.LDW_38171e8
 	.byte	1
 	.byte	1
 
-.LDW_35f1608:
+.LDW_3811568:
 	.byte	21
 	.strz	"__DI"
 	.byte	22
@@ -4217,7 +4217,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_35fbe68:
+.LDW_381bdc8:
 	.byte	21
 	.strz	"internal_shutdownallcores"
 	.byte	120
@@ -4232,7 +4232,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35fd1c8:
+.LDW_381d128:
 	.byte	21
 	.strz	"__LDSR"
 	.byte	107
@@ -4247,13 +4247,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35fd268:
+.LDW_381d1c8:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
 	.byte	14
 	.byte	23
-	.word	.LDW_2ecf668
+	.word	.LDW_314f668
 	.byte	1
 	.byte	0
 	.byte	1
@@ -4281,7 +4281,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.section	.debug_info
 	.byte	0
 
-.LDW_35ff348:
+.LDW_381f2a8:
 	.byte	21
 	.strz	"v850_memory_changed"
 	.byte	73
@@ -4296,7 +4296,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3556848:
+.LDW_37767b8:
 	.byte	21
 	.strz	"disable_int"
 	.byte	81
@@ -4309,7 +4309,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_2eb2b68:
+.LDW_3132b68:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -4323,13 +4323,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35569e0:
+.LDW_3776950:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	22
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 	.byte	3
 	.byte	0
@@ -4337,14 +4337,14 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_2eb2bc8:
+.LDW_3132bc8:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_3556a80:
+.LDW_37769f0:
 	.byte	21
 	.strz	"set_psw"
 	.byte	117
@@ -4357,13 +4357,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_3556b20:
+.LDW_3776a90:
 	.byte	16
 	.strz	"psw"
 	.byte	117
 	.byte	16
 	.byte	22
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 
 	.section	.debug_abbrev
@@ -4379,14 +4379,14 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2eb2c28:
+.LDW_3132c28:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_3556bc8:
+.LDW_3776b38:
 	.byte	21
 	.strz	"set_pmr"
 	.byte	126
@@ -4399,25 +4399,25 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_3556c68:
+.LDW_3776bd8:
 	.byte	16
 	.strz	"pmr"
 	.byte	126
 	.byte	16
 	.byte	22
-	.word	.LDW_3556b70
+	.word	.LDW_3776ae0
 	.byte	0
 
-.LDW_2eb2c88:
+.LDW_3132c88:
 	.byte	32
 
-.LDW_3556cb8:
+.LDW_3776c28:
 	.byte	5
 	.strz	"psw"
 	.byte	128,1
 	.byte	9
 	.byte	22
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 	.byte	0
 
@@ -4425,13 +4425,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353dac0:
+.LDW_3778f48:
 	.byte	22
 	.strz	"current_peid"
 	.byte	177,1
 	.byte	1
 	.byte	22
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 	.byte	3
 	.byte	0
@@ -4439,16 +4439,16 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_2eb2d78:
+.LDW_3132d78:
 	.byte	32
 
-.LDW_353db60:
+.LDW_375da30:
 	.byte	5
 	.strz	"htcfg0_val"
 	.byte	179,1
 	.byte	9
 	.byte	22
-	.word	.LDW_3556988
+	.word	.LDW_37768f8
 	.byte	0
 	.byte	0
 
@@ -4456,13 +4456,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353e078:
+.LDW_375df48:
 	.byte	22
 	.strz	"x_core_id"
 	.byte	112
 	.byte	1
 	.byte	21
-	.word	.LDW_353e020
+	.word	.LDW_375def0
 	.byte	0
 	.byte	3
 	.byte	0
@@ -4470,20 +4470,20 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_2eb2ef8:
+.LDW_3132ef8:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_353aa80:
+.LDW_375a9f0:
 	.byte	22
 	.strz	"get_my_p_ccb"
 	.byte	244,1
 	.byte	1
 	.byte	19
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	3
 	.byte	0
@@ -4491,14 +4491,14 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_356e058:
+.LDW_378e068:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_353b520:
+.LDW_375b490:
 	.byte	21
 	.strz	"x_nested_lock_os_int"
 	.byte	175,1
@@ -4511,16 +4511,16 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_356e628:
+.LDW_378e638:
 	.byte	32
 
-.LDW_3559950:
+.LDW_3779960:
 	.byte	5
 	.strz	"p_ccb"
 	.byte	177,1
 	.byte	7
 	.byte	30
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 
@@ -4528,7 +4528,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353b5c0:
+.LDW_375b530:
 	.byte	21
 	.strz	"x_nested_unlock_os_int"
 	.byte	197,1
@@ -4541,16 +4541,16 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0
 	.byte	1
 
-.LDW_356e658:
+.LDW_378e668:
 	.byte	32
 
-.LDW_35599a0:
+.LDW_37799b0:
 	.byte	5
 	.strz	"p_ccb"
 	.byte	199,1
 	.byte	7
 	.byte	30
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 
@@ -4558,7 +4558,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35ffe88:
+.LDW_381fde8:
 	.byte	21
 	.strz	"dispatch"
 	.byte	176,3
@@ -4573,7 +4573,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35fffc8:
+.LDW_381ff28:
 	.byte	21
 	.strz	"exit_and_dispatch"
 	.byte	192,3
@@ -4588,13 +4588,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3600c48:
+.LDW_3820ba8:
 	.byte	22
 	.strz	"dispatch_request"
 	.byte	113
 	.byte	16
 	.byte	35
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	1
 	.byte	0
 	.byte	1
@@ -4604,7 +4604,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3600ce8:
+.LDW_3820c48:
 	.byte	21
 	.strz	"acquire_tsk_lock"
 	.byte	254,1
@@ -4619,7 +4619,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3602648:
+.LDW_38225a8:
 	.byte	21
 	.strz	"release_tsk_lock"
 	.byte	136,2
@@ -4634,7 +4634,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_36026e8:
+.LDW_3822648:
 	.byte	21
 	.strz	"release_tsk_lock_and_dispatch"
 	.byte	141,2
@@ -4649,13 +4649,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3602be8:
+.LDW_3822b48:
 	.byte	22
 	.strz	"make_active"
 	.byte	169,1
 	.byte	16
 	.byte	33
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	1
 	.byte	0
 	.byte	1
@@ -4665,7 +4665,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3602d28:
+.LDW_3822c88:
 	.byte	21
 	.strz	"make_non_runnable"
 	.byte	186,1
@@ -4680,7 +4680,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3602e68:
+.LDW_3822dc8:
 	.byte	21
 	.strz	"preempt"
 	.byte	203,1
@@ -4695,7 +4695,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_3602f08:
+.LDW_3822e68:
 	.byte	21
 	.strz	"suspend"
 	.byte	208,1
@@ -4710,13 +4710,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353c420:
+.LDW_375c390:
 	.byte	20
 	.strz	"ActivateTask"
 	.byte	130,1
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_ActivateTask
 	.word	___ghs_eofn_ActivateTask
 	.byte	1,83
@@ -4763,10 +4763,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_3708758:
+.LDW_39286d8:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_ActivateTask
 	.word	___ghs_eofn_ActivateTask-_ActivateTask
 	.byte	68
@@ -4948,13 +4948,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	122
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359f8b8:
+.LDW_37bf818:
 	.byte	15
 	.strz	"TaskID"
 	.byte	130,1
 	.byte	23
 	.byte	1
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 	.byte	1,86
 
@@ -4972,7 +4972,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35750b0:
+.LDW_3795068:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW21
@@ -4986,13 +4986,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_359f908:
+.LDW_37bf868:
 	.byte	4
 	.strz	"ercd"
 	.byte	132,1
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,109
@@ -5012,40 +5012,40 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_359f958:
+.LDW_37bf8b8:
 	.byte	4
 	.strz	"p_tcb"
 	.byte	133,1
 	.byte	9
 	.byte	1
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	0
 	.byte	0
 	.byte	1,103
 
-.LDW_359f9a8:
+.LDW_37bf908:
 	.byte	4
 	.strz	"dspreq"
 	.byte	134,1
 	.byte	11
 	.byte	1
-	.word	.LDW_353dca0
+	.word	.LDW_375db70
 	.byte	0
 	.byte	0
 	.byte	1,104
 
-.LDW_359f9f8:
+.LDW_37bf958:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	135,1
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,102
 
-.LDW_2eb1328:
+.LDW_3131328:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW11
@@ -5059,7 +5059,7 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_2eb1350:
+.LDW_3131350:
 	.byte	27
 	.strz	"d_exit_no_errorhook"
 	.word	.LDW31
@@ -5068,13 +5068,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353c4c0:
+.LDW_375c430:
 	.byte	20
 	.strz	"TerminateTask"
 	.byte	200,1
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_TerminateTask
 	.word	___ghs_eofn_TerminateTask
 	.byte	1,83
@@ -5091,10 +5091,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3710508:
+.LDW_3a2f6a8:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_TerminateTask
 	.word	___ghs_eofn_TerminateTask-_TerminateTask
 	.byte	68
@@ -5200,34 +5200,34 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35750e0:
+.LDW_3795098:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW61
 
-.LDW_359fa48:
+.LDW_37bf9a8:
 	.byte	4
 	.strz	"ercd"
 	.byte	202,1
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,90
 
-.LDW_359fa98:
+.LDW_37bf9f8:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	203,1
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,108
 
-.LDW_2eb1378:
+.LDW_3131378:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW51
@@ -5236,13 +5236,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353c560:
+.LDW_375c4d0:
 	.byte	20
 	.strz	"ChainTask"
 	.byte	245,1
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_ChainTask
 	.word	___ghs_eofn_ChainTask
 	.byte	1,83
@@ -5259,10 +5259,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3784788:
+.LDW_39a4708:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_ChainTask
 	.word	___ghs_eofn_ChainTask-_ChainTask
 	.byte	68
@@ -5559,82 +5559,82 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359fae8:
+.LDW_37bfa48:
 	.byte	15
 	.strz	"TaskID"
 	.byte	245,1
 	.byte	20
 	.byte	1
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 	.byte	1,86
 
-.LDW_3575140:
+.LDW_37950f8:
 	.byte	29
 	.word	.LDW71
 	.word	.LDW02
 
-.LDW_359fb38:
+.LDW_37bfa98:
 	.byte	4
 	.strz	"ercd"
 	.byte	251,1
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,107
 
-.LDW_359fb88:
+.LDW_37bfae8:
 	.byte	4
 	.strz	"p_tcb"
 	.byte	252,1
 	.byte	9
 	.byte	1
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	0
 	.byte	0
 	.byte	1,105
 
-.LDW_359fbd8:
+.LDW_37bfb38:
 	.byte	4
 	.strz	"my_p_ccb"
 	.byte	253,1
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,104
 
-.LDW_359fc28:
+.LDW_37bfb88:
 	.byte	4
 	.strz	"t_p_ccb"
 	.byte	254,1
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,106
 
-.LDW_359fc78:
+.LDW_37bfbd8:
 	.byte	4
 	.strz	"lock_p_ccb"
 	.byte	255,1
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,106
 
-.LDW_2eb13a0:
+.LDW_31313a0:
 	.byte	27
 	.strz	"d_exit_no_errorhook"
 	.word	.LDW81
 
-.LDW_2eb13c8:
+.LDW_31313c8:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW91
@@ -5643,13 +5643,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_353c600:
+.LDW_375c570:
 	.byte	20
 	.strz	"Schedule"
 	.byte	238,2
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_Schedule
 	.word	___ghs_eofn_Schedule
 	.byte	1,83
@@ -5666,10 +5666,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3773988:
+.LDW_3993908:
 	.word	.LDW_unq_a-.LDW_unq_9
 .LDW_unq_9:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_Schedule
 	.word	___ghs_eofn_Schedule-_Schedule
 	.byte	68
@@ -5806,49 +5806,49 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3575170:
+.LDW_3795128:
 	.byte	29
 	.word	.LDW12
 	.word	.LDW42
 
-.LDW_359fcc8:
+.LDW_37bfc28:
 	.byte	4
 	.strz	"ercd"
 	.byte	244,2
 	.byte	14
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,108
 
-.LDW_359fd18:
+.LDW_37bfc78:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	245,2
 	.byte	10
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,106
 
-.LDW_359fd68:
+.LDW_37bfcc8:
 	.byte	5
 	.strz	"pre_pri"
 	.byte	246,2
 	.byte	15
 	.byte	1
-	.word	.LDW_35738a8
+	.word	.LDW_3793860
 	.byte	0
 	.byte	0
 
-.LDW_2eb13f0:
+.LDW_31313f0:
 	.byte	27
 	.strz	"d_exit_no_errorhook"
 	.word	.LDW22
 
-.LDW_2eb1418:
+.LDW_3131418:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW32
@@ -5857,13 +5857,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35f1428:
+.LDW_3811388:
 	.byte	20
 	.strz	"GetTaskID"
 	.byte	162,3
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_GetTaskID
 	.word	___ghs_eofn_GetTaskID
 	.byte	1,83
@@ -5880,10 +5880,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3773fc8:
+.LDW_3993f48:
 	.word	.LDW_unq_c-.LDW_unq_b
 .LDW_unq_b:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_GetTaskID
 	.word	___ghs_eofn_GetTaskID-_GetTaskID
 	.byte	1
@@ -5940,44 +5940,44 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359fdb8:
+.LDW_37bfd18:
 	.byte	15
 	.strz	"TaskID"
 	.byte	162,3
 	.byte	23
 	.byte	1
-	.word	.LDW_3573bc0
+	.word	.LDW_3793b78
 	.byte	0
 	.byte	1,86
 
-.LDW_34aa9b0:
+.LDW_36ca968:
 	.byte	29
 	.word	.LDW52
 	.word	.LDW72
 
-.LDW_359fe08:
+.LDW_37bfd68:
 	.byte	4
 	.strz	"ercd"
 	.byte	164,3
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,90
 
-.LDW_359fe58:
+.LDW_37bfdb8:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	165,3
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,95
 
-.LDW_2eb1440:
+.LDW_3131440:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW62
@@ -5986,13 +5986,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35f14c8:
+.LDW_3811428:
 	.byte	20
 	.strz	"GetTaskState"
 	.byte	196,3
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_GetTaskState
 	.word	___ghs_eofn_GetTaskState
 	.byte	1,83
@@ -6009,10 +6009,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_37743c8:
+.LDW_3994348:
 	.word	.LDW_unq_e-.LDW_unq_d
 .LDW_unq_d:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_GetTaskState
 	.word	___ghs_eofn_GetTaskState-_GetTaskState
 	.byte	1
@@ -6103,65 +6103,65 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_359fea8:
+.LDW_37bfe08:
 	.byte	15
 	.strz	"TaskID"
 	.byte	196,3
 	.byte	23
 	.byte	1
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 	.byte	1,86
 
-.LDW_359fef8:
+.LDW_37bfe58:
 	.byte	15
 	.strz	"State"
 	.byte	196,3
 	.byte	48
 	.byte	1
-	.word	.LDW_3573c70
+	.word	.LDW_3793c28
 	.byte	0
 	.byte	1,99
 
-.LDW_34aaa40:
+.LDW_36ca9f8:
 	.byte	29
 	.word	.LDW82
 	.word	.LDW03
 
-.LDW_359ff48:
+.LDW_37bfea8:
 	.byte	4
 	.strz	"ercd"
 	.byte	198,3
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,90
 
-.LDW_359ff98:
+.LDW_37bfef8:
 	.byte	4
 	.strz	"p_tcb"
 	.byte	199,3
 	.byte	9
 	.byte	1
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	0
 	.byte	0
 	.byte	1,89
 
-.LDW_359ffe8:
+.LDW_37bff48:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	200,3
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,110
 
-.LDW_2eb1468:
+.LDW_3131468:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW92
@@ -6170,13 +6170,13 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 
 	.byte	0
 
-.LDW_35f1568:
+.LDW_38114c8:
 	.byte	20
 	.strz	"activate_task_action"
 	.byte	239,3
 	.byte	1
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.word	_activate_task_action
 	.word	___ghs_eofn_activate_task_action
 	.byte	1,83
@@ -6193,10 +6193,10 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	1
 
 	.section	.debug_frame
-.LDW_37744c8:
+.LDW_3994448:
 	.word	.LDW_unq_10-.LDW_unq_f
 .LDW_unq_f:
-	.word	.LDW_34bda80
+	.word	.LDW_36dda38
 	.word	_activate_task_action
 	.word	___ghs_eofn_activate_task_action-_activate_task_action
 	.byte	68
@@ -6296,60 +6296,60 @@ _____UNNAMED_1_static_in___x_nested_unlock_os_int_static_in_CUsersts1413Document
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_35a0038:
+.LDW_37bff98:
 	.byte	15
 	.strz	"TaskID"
 	.byte	239,3
 	.byte	31
 	.byte	1
-	.word	.LDW_3573ab8
+	.word	.LDW_3793a70
 	.byte	0
 	.byte	1,86
 
-.LDW_34aaaa0:
+.LDW_36caa58:
 	.byte	29
 	.word	.LDW13
 	.word	.LDW43
 
-.LDW_35a0088:
+.LDW_37bffe8:
 	.byte	4
 	.strz	"ercd"
 	.byte	241,3
 	.byte	13
 	.byte	1
-	.word	.LDW_3573a60
+	.word	.LDW_3793a18
 	.byte	0
 	.byte	0
 	.byte	1,108
 
-.LDW_35a00d8:
+.LDW_37c0038:
 	.byte	4
 	.strz	"p_tcb"
 	.byte	242,3
 	.byte	9
 	.byte	1
-	.word	.LDW_359d030
+	.word	.LDW_37bcfc8
 	.byte	0
 	.byte	0
 	.byte	1,106
 
-.LDW_35a0128:
+.LDW_37c0088:
 	.byte	4
 	.strz	"p_ccb"
 	.byte	243,3
 	.byte	9
 	.byte	1
-	.word	.LDW_353e330
+	.word	.LDW_375e238
 	.byte	0
 	.byte	0
 	.byte	1,105
 
-.LDW_2eb1490:
+.LDW_3131490:
 	.byte	27
 	.strz	"d_exit_no_errorhook"
 	.word	.LDW23
 
-.LDW_2eb14b8:
+.LDW_31314b8:
 	.byte	27
 	.strz	"exit_no_errorhook"
 	.word	.LDW33
