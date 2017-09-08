@@ -11,8 +11,8 @@
 --		../../sysmod/chkobj.c
 --Source File:   ../../sysmod/chkobj.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
---Compile Date:  Thu Sep 07 10:14:58 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
+--Compile Date:  Thu Sep 07 16:15:30 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,7 +22,7 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
@@ -50,7 +50,7 @@ _CheckObjectOwnership:
 	be	.L53
 .L57:
 --line113
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.1::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.1::
 .LDWlin1:
 	movea	255,zero,r10
 --	    .ef
@@ -66,60 +66,60 @@ _CheckObjectOwnership:
 	cmp	6,r6
 	bne	.L57
 --line109
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.2::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.2::
 .LDWlin2:
 	mov	r19,r6
 	jarl	_CheckScheduleTableOwnership,lp
 --line110
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.3::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.3::
 .LDWlin3:
 	ld.w	0[sp],lp
 	addi	20,sp,sp
 	jmp	[lp]
 .L52:
 --line93
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.4::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.4::
 .LDWlin4:
 	mov	r19,r6
 	jarl	_CheckTaskOwnership,lp
 --line94
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.5::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.5::
 .LDWlin5:
 	ld.w	0[sp],lp
 	addi	20,sp,sp
 	jmp	[lp]
 .L53:
 --line97
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.6::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.6::
 .LDWlin6:
 	mov	r19,r6
 	jarl	_CheckISROwnership,lp
 --line98
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.7::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.7::
 .LDWlin7:
 	ld.w	0[sp],lp
 	addi	20,sp,sp
 	jmp	[lp]
 .L54:
 --line101
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.8::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.8::
 .LDWlin8:
 	mov	r19,r6
 	jarl	_CheckAlarmOwnership,lp
 --line102
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.9::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.9::
 .LDWlin9:
 	ld.w	0[sp],lp
 	addi	20,sp,sp
 	jmp	[lp]
 .L55:
 --line105
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.10::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.10::
 .LDWlin10:
 	mov	r19,r6
 	jarl	_CheckCounterOwnership,lp
 --line106
-..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj.11::
+..lin.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj.11::
 .LDWlin11:
 	ld.w	0[sp],lp
 	addi	20,sp,sp
@@ -150,7 +150,7 @@ ___ghs_eofn_CheckObjectOwnership:
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -161,10 +161,10 @@ ___ghs_eofn_CheckObjectOwnership:
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E12..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cchkobj...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16292..0
 	.strz	"../../sysmod/chkobj.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -246,7 +246,7 @@ ___ghs_eofn_CheckObjectOwnership:
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_3572620:
+.LDW_34c2600:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -388,7 +388,7 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_1626480:
+.LDW_2e96480:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
@@ -404,9 +404,9 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_16264b8:
+.LDW_2e964b8:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
 	.section	.debug_abbrev
@@ -418,9 +418,9 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_1638fc8:
+.LDW_2ea8fc8:
 	.byte	18
-	.word	.LDW_3502d98
+	.word	.LDW_3452d98
 	.byte	0
 
 	.section	.debug_abbrev
@@ -443,21 +443,21 @@ ___ghs_eofn_CheckObjectOwnership:
 	.section	.debug_info
 	.byte	0
 
-.LDW_16264f0:
+.LDW_2e964f0:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
 	.byte	4
 
-.LDW_16266e8:
+.LDW_2e966e8:
 	.byte	37
 	.strz	"char"
 	.byte	6
 	.byte	1
 
-.LDW_35aa980:
+.LDW_34fa980:
 	.byte	45
-	.word	.LDW_16266e8
+	.word	.LDW_2e966e8
 
 	.section	.debug_abbrev
 	.byte	45
@@ -467,79 +467,79 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35aa9b8:
+.LDW_34fa9b8:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_35ae8b8:
+.LDW_34fe8b8:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
-.LDW_35aef80:
+.LDW_34fef80:
 	.byte	18
-	.word	.LDW_35aa000
+	.word	.LDW_34fa000
 	.byte	0
 
 	.byte	0
 
-.LDW_35ae8f0:
+.LDW_34fe8f0:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
-.LDW_35aefb0:
+.LDW_34fefb0:
 	.byte	18
-	.word	.LDW_35aa058
+	.word	.LDW_34fa058
 	.byte	0
 
 	.byte	0
 
-.LDW_35ae928:
+.LDW_34fe928:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
-.LDW_35aefe0:
+.LDW_34fefe0:
 	.byte	18
-	.word	.LDW_35a9f50
+	.word	.LDW_34f9f50
 	.byte	0
 
 	.byte	0
 
-.LDW_35ae960:
+.LDW_34fe960:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
-.LDW_35af010:
+.LDW_34ff010:
 	.byte	18
-	.word	.LDW_35aa0b0
+	.word	.LDW_34fa0b0
 	.byte	0
 
 	.byte	0
 
-.LDW_35ae998:
+.LDW_34fe998:
 	.byte	66
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 
-.LDW_35af040:
+.LDW_34ff040:
 	.byte	18
-	.word	.LDW_35aa108
+	.word	.LDW_34fa108
 	.byte	0
 
 	.byte	0
 
-.LDW_35071a0:
+.LDW_34571a0:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	4
-	.word	.LDW_1626480
+	.word	.LDW_2e96480
 
 	.section	.debug_abbrev
 	.byte	40
@@ -553,71 +553,71 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3503088:
+.LDW_3453088:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	4
-	.word	.LDW_16264f0
+	.word	.LDW_2e964f0
 
-.LDW_3502d40:
+.LDW_3452d40:
 	.byte	40
 	.strz	"ApplicationType"
 	.byte	108
 	.byte	15
 	.byte	2
-	.word	.LDW_35071a0
+	.word	.LDW_34571a0
 
-.LDW_3502d98:
+.LDW_3452d98:
 	.byte	40
 	.strz	"ObjectTypeType"
 	.byte	109
 	.byte	15
 	.byte	2
-	.word	.LDW_35071a0
+	.word	.LDW_34571a0
 
-.LDW_35a9f50:
+.LDW_34f9f50:
 	.byte	40
 	.strz	"AlarmType"
 	.byte	127
 	.byte	16
 	.byte	2
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 
-.LDW_35aa000:
+.LDW_34fa000:
 	.byte	40
 	.strz	"TaskType"
 	.byte	129,1
 	.byte	16
 	.byte	2
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 
-.LDW_35aa058:
+.LDW_34fa058:
 	.byte	40
 	.strz	"ISRType"
 	.byte	130,1
 	.byte	16
 	.byte	2
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 
-.LDW_35aa0b0:
+.LDW_34fa0b0:
 	.byte	40
 	.strz	"CounterType"
 	.byte	131,1
 	.byte	16
 	.byte	2
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 
-.LDW_35aa108:
+.LDW_34fa108:
 	.byte	40
 	.strz	"ScheduleTableType"
 	.byte	132,1
 	.byte	16
 	.byte	2
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 
-.LDW_3502f30:
+.LDW_3452f30:
 	.byte	62
 	.strz	"_va_struct"
 	.byte	83
@@ -639,13 +639,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35ab5a8:
+.LDW_34fb5a8:
 	.byte	35
 	.strz	"_va_list"
 	.byte	83
 	.byte	34
 	.byte	20
-	.word	.LDW_35aa980
+	.word	.LDW_34fa980
 	.byte	2,35
 	.byte	0
 	.byte	1
@@ -664,42 +664,42 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35ab5f0:
+.LDW_34fb5f0:
 	.byte	35
 	.strz	"_va_stkmod7"
 	.byte	83
 	.byte	48
 	.byte	20
-	.word	.LDW_35aa9b8
+	.word	.LDW_34fa9b8
 	.byte	2,35
 	.byte	4
 	.byte	1
 
 	.byte	0
 
-.LDW_3502f88:
+.LDW_3452f88:
 	.byte	40
 	.strz	"__gh_va_list"
 	.byte	83
 	.byte	62
 	.byte	20
-	.word	.LDW_3502f30
+	.word	.LDW_3452f30
 
-.LDW_3502fe0:
+.LDW_3452fe0:
 	.byte	40
 	.strz	"va_list"
 	.byte	39
 	.byte	25
 	.byte	19
-	.word	.LDW_3502f88
+	.word	.LDW_3452f88
 
-.LDW_35ad640:
+.LDW_34fd640:
 	.byte	22
 	.strz	"CheckTaskOwnership"
 	.byte	184,2
 	.byte	24
 	.byte	2
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 	.byte	0
 	.byte	1
@@ -727,13 +727,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.section	.debug_info
 	.byte	0
 
-.LDW_35ad6e0:
+.LDW_34fd6e0:
 	.byte	22
 	.strz	"CheckISROwnership"
 	.byte	185,2
 	.byte	24
 	.byte	2
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 	.byte	0
 	.byte	1
@@ -743,13 +743,13 @@ ___ghs_eofn_CheckObjectOwnership:
 
 	.byte	0
 
-.LDW_35ad780:
+.LDW_34fd780:
 	.byte	22
 	.strz	"CheckAlarmOwnership"
 	.byte	186,2
 	.byte	24
 	.byte	2
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 	.byte	0
 	.byte	1
@@ -759,13 +759,13 @@ ___ghs_eofn_CheckObjectOwnership:
 
 	.byte	0
 
-.LDW_35ad820:
+.LDW_34fd820:
 	.byte	22
 	.strz	"CheckCounterOwnership"
 	.byte	187,2
 	.byte	24
 	.byte	2
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 	.byte	0
 	.byte	1
@@ -775,13 +775,13 @@ ___ghs_eofn_CheckObjectOwnership:
 
 	.byte	0
 
-.LDW_35ad8c0:
+.LDW_34fd8c0:
 	.byte	22
 	.strz	"CheckScheduleTableOwnership"
 	.byte	188,2
 	.byte	24
 	.byte	2
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	1
 	.byte	0
 	.byte	1
@@ -791,13 +791,13 @@ ___ghs_eofn_CheckObjectOwnership:
 
 	.byte	0
 
-.LDW_3502df0:
+.LDW_3452df0:
 	.byte	20
 	.strz	"CheckObjectOwnership"
 	.byte	81
 	.byte	1
 	.byte	1
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.word	_CheckObjectOwnership
 	.word	___ghs_eofn_CheckObjectOwnership
 	.byte	1,83
@@ -844,10 +844,10 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_36083b0:
+.LDW_35583b0:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_3572620
+	.word	.LDW_34c2600
 	.word	_CheckObjectOwnership
 	.word	___ghs_eofn_CheckObjectOwnership-_CheckObjectOwnership
 	.byte	78
@@ -928,13 +928,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	10
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_3502e90:
+.LDW_3452e90:
 	.byte	15
 	.strz	"ObjectType"
 	.byte	81
 	.byte	37
 	.byte	1
-	.word	.LDW_3502d98
+	.word	.LDW_3452d98
 	.byte	0
 	.byte	1,86
 
@@ -954,7 +954,7 @@ ___ghs_eofn_CheckObjectOwnership:
 	.section	.debug_info
 	.byte	68
 
-.LDW_1638ff8:
+.LDW_2ea8ff8:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -968,13 +968,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3502ee0:
+.LDW_3452ee0:
 	.byte	4
 	.strz	"owner"
 	.byte	83
 	.byte	18
 	.byte	1
-	.word	.LDW_3502d40
+	.word	.LDW_3452d40
 	.byte	0
 	.byte	0
 	.byte	1,90
@@ -994,13 +994,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_3503038:
+.LDW_3453038:
 	.byte	5
 	.strz	"ap"
 	.byte	84
 	.byte	12
 	.byte	1
-	.word	.LDW_3502fe0
+	.word	.LDW_3452fe0
 	.byte	0
 	.byte	0
 
@@ -1018,13 +1018,13 @@ ___ghs_eofn_CheckObjectOwnership:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_35030e0:
+.LDW_34530e0:
 	.byte	4
 	.strz	"object_id"
 	.byte	85
 	.byte	11
 	.byte	1
-	.word	.LDW_3503088
+	.word	.LDW_3453088
 	.byte	0
 	.byte	0
 	.byte	1,99

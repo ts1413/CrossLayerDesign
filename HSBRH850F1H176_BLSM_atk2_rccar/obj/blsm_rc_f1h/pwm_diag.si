@@ -11,8 +11,8 @@
 --		pwm_diag.c
 --Source File:   pwm_diag.c
 --Directory:     
---		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\blsm_rc_f1h
---Compile Date:  Thu Sep 07 10:14:57 2017
+--		C:\Users\ts1413\Documents\RH850\HSBRH850F1H176_BLSM_atk2_rccar\obj\f1h_rc_car
+--Compile Date:  Thu Sep 07 16:15:29 2017
 --Host OS:       Win32
 --Version:       C-RH850 2013.5.5 RELEASE VERSION
 --Release:       MULTI v2013.5.5-P13 v800
@@ -22,13 +22,13 @@
 --Release Date:  Wed Mar 05 18:09:29 2014
 -- ecom  -g -w -OLM
 	.text
-..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0::
+..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
 	.align	2
 ..gh.f.f.1.e.0:
 	.type	..gh.f.f.1.e.0,@object
 	.size	..gh.f.f.1.e.0,0
-	.global	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
-___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf:
+	.global	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
+___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf:
 --	    .bf
 .LDW01:
 	ld.hu	4290855460[zero],r17
@@ -52,9 +52,9 @@ ___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rc
 --	    .ef
 .LDW11:
 	jmp	[lp]
-___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf:
-	.type	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf,@function
-	.size	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf,.-___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf:
+	.type	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf,@function
+	.size	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf,.-___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
 	.align	2
 --_wk	r18	local
 
@@ -88,7 +88,7 @@ _pwm_diag_init:
 	st.b	zero,4293334368[zero]
 	st.h	r17,4293339156[zero]
 	st.w	r16,4293341184[zero]
-	jr	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+	jr	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
 --	    .ef
 .LDW31:
 	.global	___ghs_eofn_pwm_diag_init
@@ -147,7 +147,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.ghsnote options,144
 	.text
 	.align	2
-..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0::
+..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0::
 	.section	.debug_info
 .Ldw_begin:
 	.word	.Ldw_end-.Ldw_begin-4
@@ -158,10 +158,10 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 .Ldw_abbr_begin:
 	.section	.debug_info
 	.byte	1
-	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0
-	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cblsm_rc_f1h..59B10E11..0
+	.word	..bof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
+	.word	..eof.C.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car.5Cpwm_diag...43.3A.5CUsers.5Cts1413.5CDocuments.5CRH850.5CHSBRH850F1H176_BLSM_atk2_rccar.5Cobj.5Cf1h_rc_car..59B16291..0
 	.strz	"pwm_diag.c"
-	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\blsm_rc_f1h"
+	.strz	"C:\\Users\\ts1413\\Documents\\RH850\\HSBRH850F1H176_BLSM_atk2_rccar\\obj\\f1h_rc_car"
 	.strz	"GHS C 2013.5.5 [dual]"
 	.byte	1,0
 	.word	.Ldw_line_begin
@@ -249,7 +249,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.section	.debug_macinfo
 .Ldw_macinfo_begin:
 	.section	.debug_frame
-.LDW_3781a30:
+.LDW_37019d0:
 	.word	.LDW_unq_2-.LDW_unq_1
 .LDW_unq_1:
 	.byte	255,255,255,255
@@ -391,7 +391,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	63
 .LDW_unq_2:
 	.section	.debug_info
-.LDW_36c24a0:
+.LDW_36424e8:
 	.byte	37
 	.strz	"void*"
 	.byte	1
@@ -407,15 +407,15 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c2580:
+.LDW_36425c8:
 	.byte	37
 	.strz	"unsigned int"
 	.byte	7
 	.byte	4
 
-.LDW_36c25b8:
+.LDW_3642600:
 	.byte	66
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	1
 
 	.section	.debug_abbrev
@@ -429,19 +429,19 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.section	.debug_info
 	.byte	0
 
-.LDW_36c2660:
+.LDW_36426a8:
 	.byte	37
 	.strz	"unsigned short"
 	.byte	7
 	.byte	2
 
-.LDW_36c27b0:
+.LDW_36427f8:
 	.byte	37
 	.strz	"unsigned char"
 	.byte	8
 	.byte	1
 
-.LDW_36c2900:
+.LDW_3642948:
 	.byte	67
 	.byte	1
 
@@ -453,9 +453,9 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_301ef00:
+.LDW_163ef00:
 	.byte	18
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
 	.section	.debug_abbrev
@@ -467,60 +467,60 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_301ef30:
+.LDW_163ef30:
 	.byte	18
-	.word	.LDW_369c300
+	.word	.LDW_361c398
 	.byte	0
 
 	.byte	0
 
-.LDW_36c2938:
+.LDW_3642980:
 	.byte	66
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	1
 
-.LDW_301ef90:
+.LDW_163ef90:
 	.byte	18
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
 	.byte	0
 
-.LDW_36c2970:
+.LDW_36429b8:
 	.byte	67
 	.byte	1
 
-.LDW_301eff0:
+.LDW_163eff0:
 	.byte	18
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
-.LDW_301f020:
+.LDW_163f020:
 	.byte	18
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 
 	.byte	0
 
-.LDW_36c29a8:
+.LDW_36429f0:
 	.byte	67
 	.byte	1
 
-.LDW_301f080:
+.LDW_163f080:
 	.byte	18
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
-.LDW_301f0b0:
+.LDW_163f0b0:
 	.byte	18
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
 	.byte	0
 
-.LDW_369c3f8:
+.LDW_361c490:
 	.byte	42
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 
 	.section	.debug_abbrev
 	.byte	42
@@ -530,57 +530,57 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c2b30:
+.LDW_3642b78:
 	.byte	67
 	.byte	1
 
 	.byte	0
 
-.LDW_36c2b68:
+.LDW_3642bb0:
 	.byte	67
 	.byte	1
 
-.LDW_369a9e0:
+.LDW_361aa28:
 	.byte	18
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
-.LDW_369aa10:
+.LDW_361aa58:
 	.byte	18
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
-.LDW_369aa40:
+.LDW_361aa88:
 	.byte	18
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
 	.byte	0
 
-.LDW_36c2ba0:
+.LDW_3642be8:
 	.byte	67
 	.byte	1
 
-.LDW_369aaa0:
+.LDW_361aae8:
 	.byte	18
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
 	.byte	0
 
-.LDW_369b418:
+.LDW_361b460:
 	.byte	37
 	.strz	"int"
 	.byte	5
 	.byte	4
 
-.LDW_36e3cc8:
+.LDW_3663d48:
 	.byte	40
 	.strz	"__ghs_c_int__"
 	.byte	0
 	.byte	0
 	.byte	1
-	.word	.LDW_369b418
+	.word	.LDW_361b460
 
 	.section	.debug_abbrev
 	.byte	40
@@ -594,54 +594,54 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36e37b8:
+.LDW_3663838:
 	.byte	66
-	.word	.LDW_36c2580
+	.word	.LDW_36425c8
 	.byte	1
 
-.LDW_36e31e0:
+.LDW_3663260:
 	.byte	18
-	.word	.LDW_36e3cc8
+	.word	.LDW_3663d48
 	.byte	0
 
-.LDW_36e3210:
+.LDW_3663290:
 	.byte	18
-	.word	.LDW_36e3cc8
+	.word	.LDW_3663d48
 	.byte	0
 
 	.byte	0
 
-.LDW_369c300:
+.LDW_361c398:
 	.byte	40
 	.strz	"uint8"
 	.byte	104
 	.byte	24
 	.byte	4
-	.word	.LDW_36c27b0
+	.word	.LDW_36427f8
 
-.LDW_369b990:
+.LDW_361ba28:
 	.byte	40
 	.strz	"uint16"
 	.byte	106
 	.byte	25
 	.byte	4
-	.word	.LDW_36c2660
+	.word	.LDW_36426a8
 
-.LDW_36c2f20:
+.LDW_3642f68:
 	.byte	40
 	.strz	"uint32"
 	.byte	108
 	.byte	23
 	.byte	4
-	.word	.LDW_36c2580
+	.word	.LDW_36425c8
 
-.LDW_36e25d0:
+.LDW_3662650:
 	.byte	22
 	.strz	"__STSR"
 	.byte	108
 	.byte	14
 	.byte	23
-	.word	.LDW_36c2580
+	.word	.LDW_36425c8
 	.byte	1
 	.byte	0
 	.byte	1
@@ -669,13 +669,13 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.section	.debug_info
 	.byte	0
 
-.LDW_369b850:
+.LDW_361b898:
 	.byte	22
 	.strz	"current_psw"
 	.byte	111
 	.byte	1
 	.byte	22
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 	.byte	3
 	.byte	0
@@ -683,7 +683,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0
 	.byte	1
 
-.LDW_301eb70:
+.LDW_163eb70:
 	.byte	32
 
 	.section	.debug_abbrev
@@ -697,7 +697,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 
 	.byte	0
 
-.LDW_36c7fe0:
+.LDW_3647fd8:
 	.byte	21
 	.strz	"sil_wrb_mem"
 	.byte	91
@@ -727,13 +727,13 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c70d0:
+.LDW_36470c8:
 	.byte	16
 	.strz	"mem"
 	.byte	91
 	.byte	19
 	.byte	21
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
 	.section	.debug_abbrev
@@ -749,29 +749,29 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c7120:
+.LDW_3647118:
 	.byte	16
 	.strz	"data"
 	.byte	91
 	.byte	30
 	.byte	21
-	.word	.LDW_369c300
+	.word	.LDW_361c398
 	.byte	0
 
-.LDW_301ef60:
+.LDW_163ef60:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_36c8080:
+.LDW_3648078:
 	.byte	22
 	.strz	"sil_reh_mem"
 	.byte	100
 	.byte	1
 	.byte	21
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 	.byte	3
 	.byte	0
@@ -779,25 +779,25 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0
 	.byte	1
 
-.LDW_36c7170:
+.LDW_3647168:
 	.byte	16
 	.strz	"mem"
 	.byte	100
 	.byte	19
 	.byte	21
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
-.LDW_301efc0:
+.LDW_163efc0:
 	.byte	32
 
-.LDW_36c71c0:
+.LDW_36471b8:
 	.byte	5
 	.strz	"data"
 	.byte	102
 	.byte	9
 	.byte	21
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 	.byte	0
 
@@ -819,7 +819,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 
 	.byte	0
 
-.LDW_36c8120:
+.LDW_3648118:
 	.byte	21
 	.strz	"sil_wrh_mem"
 	.byte	109
@@ -832,32 +832,32 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0
 	.byte	1
 
-.LDW_36c7210:
+.LDW_3647208:
 	.byte	16
 	.strz	"mem"
 	.byte	109
 	.byte	19
 	.byte	21
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
-.LDW_36c7260:
+.LDW_3647258:
 	.byte	16
 	.strz	"data"
 	.byte	109
 	.byte	31
 	.byte	21
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 
-.LDW_301f050:
+.LDW_163f050:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_36c81c0:
+.LDW_36481b8:
 	.byte	21
 	.strz	"sil_wrw_mem"
 	.byte	118
@@ -870,39 +870,39 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0
 	.byte	1
 
-.LDW_36c72b0:
+.LDW_36472a8:
 	.byte	16
 	.strz	"mem"
 	.byte	118
 	.byte	19
 	.byte	21
-	.word	.LDW_36c24a0
+	.word	.LDW_36424e8
 	.byte	0
 
-.LDW_36c7300:
+.LDW_36472f8:
 	.byte	16
 	.strz	"data"
 	.byte	118
 	.byte	31
 	.byte	21
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 
-.LDW_301f0e0:
+.LDW_163f0e0:
 	.byte	32
 
 	.byte	0
 
 	.byte	0
 
-.LDW_36c8620:
+.LDW_3648618:
 	.byte	19
 	.strz	"init_pwm_port"
 	.byte	74
 	.byte	1
 	.byte	1
-	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
-	.word	___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
+	.word	___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
 	.byte	1,83
 	.byte	2
 	.byte	0
@@ -946,12 +946,12 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_frame
-.LDW_3612910:
+.LDW_3592950:
 	.word	.LDW_unq_4-.LDW_unq_3
 .LDW_unq_3:
-	.word	.LDW_3781a30
-	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
-	.word	___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf-___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+	.word	.LDW_37019d0
+	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
+	.word	___ghs_eofn___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf-___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
 	.byte	1
 	.word	.LDW11
 	.byte	0
@@ -960,7 +960,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 .LDW_unq_4:
 	.section	.debug_line
 	.byte	0,5,2
-	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjblsm_rc_f1hpwm_diag_inf
+	.word	___init_pwm_port_static_in_CUsersts1413DocumentsRH850HSBRH850F1H176_BLSM_atk2_rccarobjf1h_rc_carpwm_diag_inf
 	.byte	6
 	.byte	3
 	.byte	209,0
@@ -983,7 +983,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_369a9b0:
+.LDW_361a9f8:
 	.byte	29
 	.word	.LDW01
 	.word	.LDW11
@@ -997,13 +997,13 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c75d0:
+.LDW_36475c8:
 	.byte	4
 	.strz	"wk"
 	.byte	76
 	.byte	9
 	.byte	1
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 	.byte	0
 	.byte	1,98
@@ -1027,7 +1027,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 
 	.byte	0
 
-.LDW_36c86c0:
+.LDW_36486b8:
 	.byte	19
 	.strz	"pwm_diag_init"
 	.byte	158,1
@@ -1049,10 +1049,10 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3612a10:
+.LDW_3592a50:
 	.word	.LDW_unq_6-.LDW_unq_5
 .LDW_unq_5:
-	.word	.LDW_3781a30
+	.word	.LDW_37019d0
 	.word	_pwm_diag_init
 	.word	___ghs_eofn_pwm_diag_init-_pwm_diag_init
 	.byte	1
@@ -1100,13 +1100,13 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	4
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_36c7620:
+.LDW_3647618:
 	.byte	15
 	.strz	"cycle_us"
 	.byte	158,1
 	.byte	22
 	.byte	1
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 	.byte	1,86
 
@@ -1124,38 +1124,38 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	0,0
 
 	.section	.debug_info
-.LDW_36c7670:
+.LDW_3647668:
 	.byte	15
 	.strz	"servo_duty_us"
 	.byte	158,1
 	.byte	39
 	.byte	1
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 	.byte	1,87
 
-.LDW_36c76c0:
+.LDW_36476b8:
 	.byte	15
 	.strz	"esc_duty_us"
 	.byte	158,1
 	.byte	61
 	.byte	1
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 	.byte	1,88
 
-.LDW_369aa70:
+.LDW_361aab8:
 	.byte	29
 	.word	.LDW21
 	.word	.LDW31
 
-.LDW_36c7710:
+.LDW_3647708:
 	.byte	5
 	.strz	"wk"
 	.byte	160,1
 	.byte	9
 	.byte	1
-	.word	.LDW_369b990
+	.word	.LDW_361ba28
 	.byte	0
 	.byte	0
 
@@ -1163,7 +1163,7 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 
 	.byte	0
 
-.LDW_36c8760:
+.LDW_3648758:
 	.byte	19
 	.strz	"pwm_diag_change_servo_duty"
 	.byte	193,1
@@ -1185,10 +1185,10 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	1
 
 	.section	.debug_frame
-.LDW_3612b10:
+.LDW_3592b50:
 	.word	.LDW_unq_8-.LDW_unq_7
 .LDW_unq_7:
-	.word	.LDW_3781a30
+	.word	.LDW_37019d0
 	.word	_pwm_diag_change_servo_duty
 	.word	___ghs_eofn_pwm_diag_change_servo_duty-_pwm_diag_change_servo_duty
 	.byte	1
@@ -1212,17 +1212,17 @@ ___ghs_eofn_pwm_diag_change_servo_duty:
 	.byte	2
 	.byte	0,1,1
 	.section	.debug_info
-.LDW_36c7760:
+.LDW_3647758:
 	.byte	15
 	.strz	"usec"
 	.byte	193,1
 	.byte	35
 	.byte	1
-	.word	.LDW_36c2f20
+	.word	.LDW_3642f68
 	.byte	0
 	.byte	1,86
 
-.LDW_369aad0:
+.LDW_361ab18:
 	.byte	29
 	.word	.LDW41
 	.word	.LDW51

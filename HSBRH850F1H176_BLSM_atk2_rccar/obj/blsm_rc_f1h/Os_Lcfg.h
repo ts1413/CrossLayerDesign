@@ -10,7 +10,7 @@
 #define TNUM_STD_RESOURCE		UINT_C(0)
 #define TNUM_TASK				UINT_C(7)
 #define TNUM_EXTTASK			UINT_C(4)
-#define TNUM_APP_MODE			UINT_C(2)
+#define TNUM_APP_MODE			UINT_C(1)
 #define TNUM_SCHEDULETABLE		UINT_C(0)
 #define TNUM_IMPLSCHEDULETABLE	UINT_C(0)
 #define TNUM_OSAP				UINT_C(5)
@@ -28,10 +28,10 @@
 
 /****** Object TASK ******/
 
-#define a_controller_Core0_1_0_Task	UINT_C(0)
-#define a_controller_Core1_1_0_Task	UINT_C(1)
-#define a_controller_Core0_100_0_Task	UINT_C(2)
-#define a_controller_Core1_100_0_Task	UINT_C(3)
+#define BlsmControl_Core0_1_0_Task	UINT_C(0)
+#define BlsmControl_Core1_1_0_Task	UINT_C(1)
+#define BlsmControl_Core0_100_0_Task	UINT_C(2)
+#define BlsmControl_Core1_100_0_Task	UINT_C(3)
 #define OperationManagerTask	UINT_C(4)
 #define DriveManagerTask	UINT_C(5)
 #define BodyControlTask	UINT_C(6)
@@ -64,10 +64,10 @@
 #define DriveManagerCycAlarm	UINT_C(1)
 #define BodyControlCycAlarm	UINT_C(2)
 #define BuzzerControlCycAlarm	UINT_C(3)
-#define a_controller_Core0_1_0_Alarm	UINT_C(4)
-#define a_controller_Core1_1_0_Alarm	UINT_C(5)
-#define a_controller_Core0_100_0_Alarm	UINT_C(6)
-#define a_controller_Core1_100_0_Alarm	UINT_C(7)
+#define BlsmControl_Core0_1_0_Alarm	UINT_C(4)
+#define BlsmControl_Core1_1_0_Alarm	UINT_C(5)
+#define BlsmControl_Core0_100_0_Alarm	UINT_C(6)
+#define BlsmControl_Core1_100_0_Alarm	UINT_C(7)
 
 /****** Object SCHEDULETABLE ******/
 
@@ -85,19 +85,18 @@
 
 /****** Object APPMODE ******/
 
-#define a_controller_AppMode	UINT_C(0)
-#define debug_AppMode	UINT_C(1)
+#define BlsmControl_AppMode	UINT_C(0)
 
 /****** Object EVENT ******/
-#define a_controller_WakeupEvent	UINT_C(0x00000001)
-#define a_controller_InputEvent	UINT_C(0x00000002)
-#define a_controller_OutputEvent	UINT_C(0x00000004)
-#define a_controller_CompleteEvent	UINT_C(0x00000008)
+#define BlsmControl_WakeupEvent	UINT_C(0x00000001)
+#define BlsmControl_InputEvent	UINT_C(0x00000002)
+#define BlsmControl_OutputEvent	UINT_C(0x00000004)
+#define BlsmControl_CompleteEvent	UINT_C(0x00000008)
 
 /****** Object OSApplication ******/
 #define blsm_OSAP_CORE0	UINT_C(0)
-#define a_controller_OSAP_CORE0	UINT_C(1)
-#define a_controller_OSAP_CORE1	UINT_C(2)
+#define BlsmControl_OSAP_CORE0	UINT_C(1)
+#define BlsmControl_OSAP_CORE1	UINT_C(2)
 #define OSAP_for_MAIN_HW_COUNTER_CORE0	UINT_C(3)
 #define OSAP_for_MAIN_HW_COUNTER_CORE1	UINT_C(4)
 
@@ -110,10 +109,10 @@
 #define TNUM_IOC_WRAPPER	UINT_C(0)
 
 #ifndef TOPPERS_MACRO_ONLY
-extern TASK(a_controller_Core0_1_0_Task);
-extern TASK(a_controller_Core1_1_0_Task);
-extern TASK(a_controller_Core0_100_0_Task);
-extern TASK(a_controller_Core1_100_0_Task);
+extern TASK(BlsmControl_Core0_1_0_Task);
+extern TASK(BlsmControl_Core1_1_0_Task);
+extern TASK(BlsmControl_Core0_100_0_Task);
+extern TASK(BlsmControl_Core1_100_0_Task);
 extern TASK(OperationManagerTask);
 extern TASK(DriveManagerTask);
 extern TASK(BodyControlTask);

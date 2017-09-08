@@ -50,12 +50,6 @@
       <IsStructuredNaming>True</IsStructuredNaming>
     </Instance>
   </Class>
-  <Class Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
-    <Instance Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
-      <ProjectDeviceChangedCounter>0</ProjectDeviceChangedCounter>
-      <ProjectInitialDeviceName>R7F701503</ProjectInitialDeviceName>
-    </Instance>
-  </Class>
   <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
     <Instance Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
       <BuildToolManager>b367b32a-23d8-4305-b5ba-1b16a7a36b94</BuildToolManager>
@@ -373,7 +367,7 @@
       <DebuggerProperty-EssentialProperty-TargetConnect-ChangeLpdWhenConnect>Yes</DebuggerProperty-EssentialProperty-TargetConnect-ChangeLpdWhenConnect>
       <DebuggerProperty-EssentialProperty-TargetConnect-ChangeJtagWhenDisconnect>No</DebuggerProperty-EssentialProperty-TargetConnect-ChangeJtagWhenDisconnect>
       <DebuggerProperty-EssentialProperty-TargetConnect-InitRamWhenConnecting>True</DebuggerProperty-EssentialProperty-TargetConnect-InitRamWhenConnecting>
-      <DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>Yes</DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>
+      <DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>No</DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>
       <DebuggerProperty-EssentialProperty-Flash-ChangeClockFlashWrite>Yes</DebuggerProperty-EssentialProperty-Flash-ChangeClockFlashWrite>
       <DebuggerProperty-EssentialProperty-CPUVirtualization-UseVirtualMachineAndThread>No</DebuggerProperty-EssentialProperty-CPUVirtualization-UseVirtualMachineAndThread>
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>1</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>
@@ -471,11 +465,6 @@
     <Instance Guid="bd16e4b5-bf8f-47ba-813b-c8ddd962bded">
       <UseApplyAddress>False</UseApplyAddress>
       <ApplyAddress />
-    </Instance>
-  </Class>
-  <Class Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
-    <Instance Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
-      <ProductVersion>6.00.00.00</ProductVersion>
     </Instance>
   </Class>
 </CubeSuiteProject>

@@ -262,7 +262,6 @@ TASK(BodyControlTask)
 	/* 初回起動時のみ実行 */
 	if (executed == FALSE) {
 		syslog(LOG_NOTICE, "BodyControlTask : Start!");
-		BodyControlInit();
 		executed = TRUE;
 	}
 

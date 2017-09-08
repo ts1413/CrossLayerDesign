@@ -1,1 +1,0 @@
-/* IOC is not used */

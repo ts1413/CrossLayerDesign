@@ -1,7 +1,7 @@
 /* cfg1_out.c */
 #define TOPPERS_CFG1_OUT  1
 #include "kernel/kernel_int.h"
-#include "a_controller-app.h"
+#include "BlsmControl-app.h"
 #include "rlin3x.h"
 #include "target_hw_counter.h"
 
@@ -162,7 +162,7 @@ const unsigned_t TOPPERS_cfg_offsetof_CCB_current_iintpri = ( unsigned_t )offset
 const unsigned_t TOPPERS_cfg_offsetof_CCB_nested_lock_os_int_cnt = ( unsigned_t )offsetof(CCB,target_ccb.nested_lock_os_int_cnt);
 const unsigned_t TOPPERS_cfg_offsetof_CCB_current_intpri = ( unsigned_t )offsetof(CCB,target_ccb.current_intpri);
 const unsigned_t TOPPERS_cfg_offsetof_CCB_trusted_hook_savedsp = ( unsigned_t )offsetof(CCB,target_ccb.trusted_hook_savedsp);
-/* #include "a_controller-app.h" */
+/* #include "BlsmControl-app.h" */
 /* #include "rlin3x.h" */
 /* #include "target_hw_counter.h" */
 const unsigned_t TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_OperationManagerCycAlarm = ( TICK_FOR_10MS ); 
@@ -173,14 +173,14 @@ const unsigned_t TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_Bo
 const unsigned_t TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_BodyControlCycAlarm = ( TICK_FOR_10MS*10 ); 
 const unsigned_t TOPPERS_cfg_valueof_ALM_AUTOSTART_ALARMTIME_OsAlarmAutostart_BuzzerControlCycAlarm = ( TICK_FOR_10MS/80 ); 
 const unsigned_t TOPPERS_cfg_valueof_ALM_AUTOSTART_CYCLETIME_OsAlarmAutostart_BuzzerControlCycAlarm = ( TICK_FOR_10MS/80 ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_1_0_Task_Os = ( a_controller_Core0_1_0_Task_Priority ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_1_0_Task_Os = ( a_controller_Core0_1_0_Task_Stack ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_1_0_Task_Os = ( a_controller_Core1_1_0_Task_Priority ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_1_0_Task_Os = ( a_controller_Core1_1_0_Task_Stack ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core0_100_0_Task_Os = ( a_controller_Core0_100_0_Task_Priority ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core0_100_0_Task_Os = ( a_controller_Core0_100_0_Task_Stack ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_a_controller_Core1_100_0_Task_Os = ( a_controller_Core1_100_0_Task_Priority ); 
-const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_a_controller_Core1_100_0_Task_Os = ( a_controller_Core1_100_0_Task_Stack ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core0_1_0_Task_Os = ( BlsmControl_Core0_1_0_Task_Priority ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core0_1_0_Task_Os = ( BlsmControl_Core0_1_0_Task_Stack ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core1_1_0_Task_Os = ( BlsmControl_Core1_1_0_Task_Priority ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core1_1_0_Task_Os = ( BlsmControl_Core1_1_0_Task_Stack ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core0_100_0_Task_Os = ( BlsmControl_Core0_100_0_Task_Priority ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core0_100_0_Task_Os = ( BlsmControl_Core0_100_0_Task_Stack ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_PRIORITY_BlsmControl_Core1_100_0_Task_Os = ( BlsmControl_Core1_100_0_Task_Priority ); 
+const unsigned_t TOPPERS_cfg_valueof_TSK_STKSZ_BlsmControl_Core1_100_0_Task_Os = ( BlsmControl_Core1_100_0_Task_Stack ); 
 const unsigned_t TOPPERS_cfg_valueof_ISR_INTNO_RLIN3x_TX_ISR_Os = ( INTNO_RLIN3x_TX ); 
 const unsigned_t TOPPERS_cfg_valueof_ISR_INTPRI_RLIN3x_TX_ISR_Os = ( INTPRI_RLIN3x_TX ); 
 const unsigned_t TOPPERS_cfg_valueof_ISR_INTNO_RLIN3x_RX_ISR_Os = ( INTNO_RLIN3x_RX ); 

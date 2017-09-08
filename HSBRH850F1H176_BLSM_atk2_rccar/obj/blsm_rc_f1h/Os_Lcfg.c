@@ -22,7 +22,7 @@
  *  Include Directives (#include)
  */
 
-#include "a_controller-app.h"
+#include "BlsmControl-app.h"
 #include "rlin3x.h"
 #include "target_hw_counter.h"
 
@@ -55,56 +55,56 @@ CCB * const p_ccb_table[TotalNumberOfCores] = {
 
 /****** Object TASK ******/
 
-static StackType _kernel_stack_a_controller_Core0_1_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe1_lram")));
-static StackType _kernel_stack_a_controller_Core1_1_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe2_lram")));
-static StackType _kernel_stack_a_controller_Core0_100_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe1_lram")));
-static StackType _kernel_stack_a_controller_Core1_100_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe2_lram")));
+static StackType _kernel_stack_BlsmControl_Core0_1_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe1_lram")));
+static StackType _kernel_stack_BlsmControl_Core1_1_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe2_lram")));
+static StackType _kernel_stack_BlsmControl_Core0_100_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe1_lram")));
+static StackType _kernel_stack_BlsmControl_Core1_100_0_Task[COUNT_STK_T(5000U)] __attribute__((section(".pe2_lram")));
 static StackType _kernel_shared_stack_2[COUNT_STK_T(2048U)] __attribute__((section(".pe1_lram")));
 static StackType _kernel_shared_stack_3[COUNT_STK_T(2048U)] __attribute__((section(".pe1_lram")));
 
 const TINIB tinib_table[TNUM_TASK] = {
 	{
-		&TASKNAME(a_controller_Core0_1_0_Task),
+		&TASKNAME(BlsmControl_Core0_1_0_Task),
 		ROUND_STK_T(5000U),
-		_kernel_stack_a_controller_Core0_1_0_Task,
-		&(osapinib_table[a_controller_OSAP_CORE0]),
+		_kernel_stack_BlsmControl_Core0_1_0_Task,
+		&(osapinib_table[BlsmControl_OSAP_CORE0]),
 		0,
 		0,
 		(1U) - 1U,
-		0x00000003U,
+		0x00000001U,
 		&_kernel_core0_ccb
 	},
 	{
-		&TASKNAME(a_controller_Core1_1_0_Task),
+		&TASKNAME(BlsmControl_Core1_1_0_Task),
 		ROUND_STK_T(5000U),
-		_kernel_stack_a_controller_Core1_1_0_Task,
-		&(osapinib_table[a_controller_OSAP_CORE1]),
+		_kernel_stack_BlsmControl_Core1_1_0_Task,
+		&(osapinib_table[BlsmControl_OSAP_CORE1]),
 		0,
 		0,
 		(1U) - 1U,
-		0x00000003U,
+		0x00000001U,
 		&_kernel_core1_ccb
 	},
 	{
-		&TASKNAME(a_controller_Core0_100_0_Task),
+		&TASKNAME(BlsmControl_Core0_100_0_Task),
 		ROUND_STK_T(5000U),
-		_kernel_stack_a_controller_Core0_100_0_Task,
-		&(osapinib_table[a_controller_OSAP_CORE0]),
+		_kernel_stack_BlsmControl_Core0_100_0_Task,
+		&(osapinib_table[BlsmControl_OSAP_CORE0]),
 		1,
 		1,
 		(1U) - 1U,
-		0x00000003U,
+		0x00000001U,
 		&_kernel_core0_ccb
 	},
 	{
-		&TASKNAME(a_controller_Core1_100_0_Task),
+		&TASKNAME(BlsmControl_Core1_100_0_Task),
 		ROUND_STK_T(5000U),
-		_kernel_stack_a_controller_Core1_100_0_Task,
-		&(osapinib_table[a_controller_OSAP_CORE1]),
+		_kernel_stack_BlsmControl_Core1_100_0_Task,
+		&(osapinib_table[BlsmControl_OSAP_CORE1]),
 		1,
 		1,
 		(1U) - 1U,
-		0x00000003U,
+		0x00000001U,
 		&_kernel_core1_ccb
 	},
 	{
@@ -142,19 +142,19 @@ const TINIB tinib_table[TNUM_TASK] = {
 	}
 };
 
-TCB _kernel_tcb_a_controller_Core0_1_0_Task;
-TCB _kernel_tcb_a_controller_Core1_1_0_Task;
-TCB _kernel_tcb_a_controller_Core0_100_0_Task;
-TCB _kernel_tcb_a_controller_Core1_100_0_Task;
+TCB _kernel_tcb_BlsmControl_Core0_1_0_Task;
+TCB _kernel_tcb_BlsmControl_Core1_1_0_Task;
+TCB _kernel_tcb_BlsmControl_Core0_100_0_Task;
+TCB _kernel_tcb_BlsmControl_Core1_100_0_Task;
 TCB _kernel_tcb_OperationManagerTask;
 TCB _kernel_tcb_DriveManagerTask;
 TCB _kernel_tcb_BodyControlTask;
 
 TCB * const p_tcb_table[TNUM_TASK] ={
-	&_kernel_tcb_a_controller_Core0_1_0_Task,
-	&_kernel_tcb_a_controller_Core1_1_0_Task,
-	&_kernel_tcb_a_controller_Core0_100_0_Task,
-	&_kernel_tcb_a_controller_Core1_100_0_Task,
+	&_kernel_tcb_BlsmControl_Core0_1_0_Task,
+	&_kernel_tcb_BlsmControl_Core1_1_0_Task,
+	&_kernel_tcb_BlsmControl_Core0_100_0_Task,
+	&_kernel_tcb_BlsmControl_Core1_100_0_Task,
 	&_kernel_tcb_OperationManagerTask,
 	&_kernel_tcb_DriveManagerTask,
 	&_kernel_tcb_BodyControlTask
@@ -239,7 +239,7 @@ _setevent_alarm_5(void);
 static void
 _setevent_alarm_5(void)
 {
-	(void) set_event_action(a_controller_Core0_1_0_Task, a_controller_WakeupEvent);
+	(void) set_event_action(BlsmControl_Core0_1_0_Task, BlsmControl_WakeupEvent);
 }
 
 static void
@@ -247,7 +247,7 @@ _setevent_alarm_6(void);
 static void
 _setevent_alarm_6(void)
 {
-	(void) set_event_action(a_controller_Core1_1_0_Task, a_controller_WakeupEvent);
+	(void) set_event_action(BlsmControl_Core1_1_0_Task, BlsmControl_WakeupEvent);
 }
 
 static void
@@ -255,7 +255,7 @@ _setevent_alarm_7(void);
 static void
 _setevent_alarm_7(void)
 {
-	(void) set_event_action(a_controller_Core0_100_0_Task, a_controller_WakeupEvent);
+	(void) set_event_action(BlsmControl_Core0_100_0_Task, BlsmControl_WakeupEvent);
 }
 
 static void
@@ -263,38 +263,38 @@ _setevent_alarm_8(void);
 static void
 _setevent_alarm_8(void)
 {
-	(void) set_event_action(a_controller_Core1_100_0_Task, a_controller_WakeupEvent);
+	(void) set_event_action(BlsmControl_Core1_100_0_Task, BlsmControl_WakeupEvent);
 }
 
 const ALMINIB alminib_table[TNUM_ALARM] = {
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_activate_alarm_1, 0x00000003U, 80000U, 80000U, (ACTIVATETASK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_activate_alarm_2, 0x00000003U, 160000U, 160000U, (ACTIVATETASK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_activate_alarm_1, 0x00000001U, 80000U, 80000U, (ACTIVATETASK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_activate_alarm_2, 0x00000001U, 160000U, 160000U, (ACTIVATETASK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
 	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_activate_alarm_3, 0x00000001U, 800000U, 800000U, (ACTIVATETASK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
 	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, ALARMCALLBACKNAME(BuzzerControlCycAlarmCb), 0x00000001U, 1000U, 1000U, (CALLBACK & CALLBACK) | ABSOLUTE, &(osapinib_table[blsm_OSAP_CORE0]) },
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_5, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[a_controller_OSAP_CORE0]) },
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_6, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[a_controller_OSAP_CORE0]) },
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_7, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[a_controller_OSAP_CORE0]) },
-	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_8, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[a_controller_OSAP_CORE0]) }
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_5, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[BlsmControl_OSAP_CORE0]) },
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_6, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[BlsmControl_OSAP_CORE0]) },
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_7, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[BlsmControl_OSAP_CORE0]) },
+	{ &_kernel_cntcb_MAIN_HW_COUNTER_CORE0, &_setevent_alarm_8, 0x00000000U, 0U, 0U, SETEVENT & CALLBACK, &(osapinib_table[BlsmControl_OSAP_CORE0]) }
 };
 
 ALMCB _kernel_almcb_OperationManagerCycAlarm;
 ALMCB _kernel_almcb_DriveManagerCycAlarm;
 ALMCB _kernel_almcb_BodyControlCycAlarm;
 ALMCB _kernel_almcb_BuzzerControlCycAlarm;
-ALMCB _kernel_almcb_a_controller_Core0_1_0_Alarm;
-ALMCB _kernel_almcb_a_controller_Core1_1_0_Alarm;
-ALMCB _kernel_almcb_a_controller_Core0_100_0_Alarm;
-ALMCB _kernel_almcb_a_controller_Core1_100_0_Alarm;
+ALMCB _kernel_almcb_BlsmControl_Core0_1_0_Alarm;
+ALMCB _kernel_almcb_BlsmControl_Core1_1_0_Alarm;
+ALMCB _kernel_almcb_BlsmControl_Core0_100_0_Alarm;
+ALMCB _kernel_almcb_BlsmControl_Core1_100_0_Alarm;
 
 ALMCB * const p_almcb_table[TNUM_ALARM] = {
 	&_kernel_almcb_OperationManagerCycAlarm,
 	&_kernel_almcb_DriveManagerCycAlarm,
 	&_kernel_almcb_BodyControlCycAlarm,
 	&_kernel_almcb_BuzzerControlCycAlarm,
-	&_kernel_almcb_a_controller_Core0_1_0_Alarm,
-	&_kernel_almcb_a_controller_Core1_1_0_Alarm,
-	&_kernel_almcb_a_controller_Core0_100_0_Alarm,
-	&_kernel_almcb_a_controller_Core1_100_0_Alarm
+	&_kernel_almcb_BlsmControl_Core0_1_0_Alarm,
+	&_kernel_almcb_BlsmControl_Core1_1_0_Alarm,
+	&_kernel_almcb_BlsmControl_Core0_100_0_Alarm,
+	&_kernel_almcb_BlsmControl_Core1_100_0_Alarm
 };
 
 /****** Object SCHEDULETABLE ******/
@@ -500,11 +500,8 @@ atk2_appid_str(AppModeType id)
 {
 	const char8	*appid_str;
 	switch (id) {
-	case a_controller_AppMode:
-		appid_str = "a_controller_AppMode";
-		break;
-	case debug_AppMode:
-		appid_str = "debug_AppMode";
+	case BlsmControl_AppMode:
+		appid_str = "BlsmControl_AppMode";
 		break;
 	default:
 		appid_str = "";
@@ -517,17 +514,17 @@ atk2_tskid_str(TaskType id)
 {
 	const char8	*tskid_str;
 	switch (id) {
-	case a_controller_Core0_1_0_Task:
-		tskid_str = "a_controller_Core0_1_0_Task";
+	case BlsmControl_Core0_1_0_Task:
+		tskid_str = "BlsmControl_Core0_1_0_Task";
 		break;
-	case a_controller_Core1_1_0_Task:
-		tskid_str = "a_controller_Core1_1_0_Task";
+	case BlsmControl_Core1_1_0_Task:
+		tskid_str = "BlsmControl_Core1_1_0_Task";
 		break;
-	case a_controller_Core0_100_0_Task:
-		tskid_str = "a_controller_Core0_100_0_Task";
+	case BlsmControl_Core0_100_0_Task:
+		tskid_str = "BlsmControl_Core0_100_0_Task";
 		break;
-	case a_controller_Core1_100_0_Task:
-		tskid_str = "a_controller_Core1_100_0_Task";
+	case BlsmControl_Core1_100_0_Task:
+		tskid_str = "BlsmControl_Core1_100_0_Task";
 		break;
 	case OperationManagerTask:
 		tskid_str = "OperationManagerTask";
@@ -610,17 +607,17 @@ atk2_almid_str(AlarmType id)
 	case BuzzerControlCycAlarm:
 		almid_str = "BuzzerControlCycAlarm";
 		break;
-	case a_controller_Core0_1_0_Alarm:
-		almid_str = "a_controller_Core0_1_0_Alarm";
+	case BlsmControl_Core0_1_0_Alarm:
+		almid_str = "BlsmControl_Core0_1_0_Alarm";
 		break;
-	case a_controller_Core1_1_0_Alarm:
-		almid_str = "a_controller_Core1_1_0_Alarm";
+	case BlsmControl_Core1_1_0_Alarm:
+		almid_str = "BlsmControl_Core1_1_0_Alarm";
 		break;
-	case a_controller_Core0_100_0_Alarm:
-		almid_str = "a_controller_Core0_100_0_Alarm";
+	case BlsmControl_Core0_100_0_Alarm:
+		almid_str = "BlsmControl_Core0_100_0_Alarm";
 		break;
-	case a_controller_Core1_100_0_Alarm:
-		almid_str = "a_controller_Core1_100_0_Alarm";
+	case BlsmControl_Core1_100_0_Alarm:
+		almid_str = "BlsmControl_Core1_100_0_Alarm";
 		break;
 	default:
 		almid_str = "";
@@ -646,76 +643,76 @@ atk2_evtid_str(TaskType task, EventMaskType event)
 {
 	const char8	*evtid_str;
 	switch (task) {
-	case a_controller_Core0_1_0_Task:
+	case BlsmControl_Core0_1_0_Task:
 		switch (event) {
-		case a_controller_WakeupEvent:
-			evtid_str = "a_controller_WakeupEvent";
+		case BlsmControl_WakeupEvent:
+			evtid_str = "BlsmControl_WakeupEvent";
 			break;
-		case a_controller_InputEvent:
-			evtid_str = "a_controller_InputEvent";
+		case BlsmControl_InputEvent:
+			evtid_str = "BlsmControl_InputEvent";
 			break;
-		case a_controller_OutputEvent:
-			evtid_str = "a_controller_OutputEvent";
+		case BlsmControl_OutputEvent:
+			evtid_str = "BlsmControl_OutputEvent";
 			break;
-		case a_controller_CompleteEvent:
-			evtid_str = "a_controller_CompleteEvent";
+		case BlsmControl_CompleteEvent:
+			evtid_str = "BlsmControl_CompleteEvent";
 			break;
 		default:
 			evtid_str = NULL;
 			break;
 		}
 		break;
-	case a_controller_Core1_1_0_Task:
+	case BlsmControl_Core1_1_0_Task:
 		switch (event) {
-		case a_controller_WakeupEvent:
-			evtid_str = "a_controller_WakeupEvent";
+		case BlsmControl_WakeupEvent:
+			evtid_str = "BlsmControl_WakeupEvent";
 			break;
-		case a_controller_InputEvent:
-			evtid_str = "a_controller_InputEvent";
+		case BlsmControl_InputEvent:
+			evtid_str = "BlsmControl_InputEvent";
 			break;
-		case a_controller_OutputEvent:
-			evtid_str = "a_controller_OutputEvent";
+		case BlsmControl_OutputEvent:
+			evtid_str = "BlsmControl_OutputEvent";
 			break;
-		case a_controller_CompleteEvent:
-			evtid_str = "a_controller_CompleteEvent";
+		case BlsmControl_CompleteEvent:
+			evtid_str = "BlsmControl_CompleteEvent";
 			break;
 		default:
 			evtid_str = NULL;
 			break;
 		}
 		break;
-	case a_controller_Core0_100_0_Task:
+	case BlsmControl_Core0_100_0_Task:
 		switch (event) {
-		case a_controller_WakeupEvent:
-			evtid_str = "a_controller_WakeupEvent";
+		case BlsmControl_WakeupEvent:
+			evtid_str = "BlsmControl_WakeupEvent";
 			break;
-		case a_controller_InputEvent:
-			evtid_str = "a_controller_InputEvent";
+		case BlsmControl_InputEvent:
+			evtid_str = "BlsmControl_InputEvent";
 			break;
-		case a_controller_OutputEvent:
-			evtid_str = "a_controller_OutputEvent";
+		case BlsmControl_OutputEvent:
+			evtid_str = "BlsmControl_OutputEvent";
 			break;
-		case a_controller_CompleteEvent:
-			evtid_str = "a_controller_CompleteEvent";
+		case BlsmControl_CompleteEvent:
+			evtid_str = "BlsmControl_CompleteEvent";
 			break;
 		default:
 			evtid_str = NULL;
 			break;
 		}
 		break;
-	case a_controller_Core1_100_0_Task:
+	case BlsmControl_Core1_100_0_Task:
 		switch (event) {
-		case a_controller_WakeupEvent:
-			evtid_str = "a_controller_WakeupEvent";
+		case BlsmControl_WakeupEvent:
+			evtid_str = "BlsmControl_WakeupEvent";
 			break;
-		case a_controller_InputEvent:
-			evtid_str = "a_controller_InputEvent";
+		case BlsmControl_InputEvent:
+			evtid_str = "BlsmControl_InputEvent";
 			break;
-		case a_controller_OutputEvent:
-			evtid_str = "a_controller_OutputEvent";
+		case BlsmControl_OutputEvent:
+			evtid_str = "BlsmControl_OutputEvent";
 			break;
-		case a_controller_CompleteEvent:
-			evtid_str = "a_controller_CompleteEvent";
+		case BlsmControl_CompleteEvent:
+			evtid_str = "BlsmControl_CompleteEvent";
 			break;
 		default:
 			evtid_str = NULL;
@@ -736,17 +733,17 @@ atk2_evtid_str(TaskType task, EventMaskType event)
 		break;
 	}
 	if (evtid_str == NULL) {
-		if (event == a_controller_WakeupEvent) {
-			evtid_str = "a_controller_WakeupEvent";
+		if (event == BlsmControl_WakeupEvent) {
+			evtid_str = "BlsmControl_WakeupEvent";
 		}
-		if (event == a_controller_InputEvent) {
-			evtid_str = "a_controller_InputEvent";
+		if (event == BlsmControl_InputEvent) {
+			evtid_str = "BlsmControl_InputEvent";
 		}
-		if (event == a_controller_OutputEvent) {
-			evtid_str = "a_controller_OutputEvent";
+		if (event == BlsmControl_OutputEvent) {
+			evtid_str = "BlsmControl_OutputEvent";
 		}
-		if (event == a_controller_CompleteEvent) {
-			evtid_str = "a_controller_CompleteEvent";
+		if (event == BlsmControl_CompleteEvent) {
+			evtid_str = "BlsmControl_CompleteEvent";
 		}
 	}
 	return(evtid_str);
@@ -760,11 +757,11 @@ atk2_osapid_str(ApplicationType id)
 	case blsm_OSAP_CORE0:
 		osapid_str = "blsm_OSAP_CORE0";
 		break;
-	case a_controller_OSAP_CORE0:
-		osapid_str = "a_controller_OSAP_CORE0";
+	case BlsmControl_OSAP_CORE0:
+		osapid_str = "BlsmControl_OSAP_CORE0";
 		break;
-	case a_controller_OSAP_CORE1:
-		osapid_str = "a_controller_OSAP_CORE1";
+	case BlsmControl_OSAP_CORE1:
+		osapid_str = "BlsmControl_OSAP_CORE1";
 		break;
 	case OSAP_for_MAIN_HW_COUNTER_CORE0:
 		osapid_str = "OSAP_for_MAIN_HW_COUNTER_CORE0";
